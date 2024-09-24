@@ -60,7 +60,7 @@
                 style="margin-right: 18px"
                 alt="Emoji"
             />
-            <p>Hey! Nice to see you.</p>
+            Hey! Nice to see you.
         </h1>
     </ul>
 </div>

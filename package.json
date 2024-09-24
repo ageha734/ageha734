@@ -33,12 +33,15 @@
         "@commitlint/cli": "19.5.0",
         "@commitlint/config-conventional": "19.5.0",
         "commitizen": "4.3.0",
-        "cz-conventional-changelog": "3.3.0",
+        "cz-conventional-changelog-ja": "0.0.2",
         "lefthook": "1.7.16"
+    },
+    "commitlint": {
+        "extends": ["@commitlint/config-conventional"]
     },
     "config": {
         "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog"
+            "path": "./node_modules/cz-conventional-changelog-ja"
         }
     }
 }
