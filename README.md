@@ -1,3 +1,6 @@
+<meta name="description" content="GitHub profile in blue color">
+<meta name="keywords" content="Full Stack Developer, GitHub Stats, GitHub Profile, JavaScript, TypeScript, React, Nodejs, HTML5, CSS3, PHP, MySQL, MongoDB"/>
+
 <div align="center">
     <a href="https://app.daily.dev/ageha734">
         <img
@@ -6,6 +9,16 @@
             alt="KEITA HIBI's Dev Card"
         />
     </a>
+</div>
+
+<div align="center">
+    <img 
+        src="https://capsule-render.vercel.app/api?type=waving&color=04e4e6&height=120&section=header"
+        width=100%
+    />
+    <img 
+        src="https://readme-typing-svg.herokuapp.com/?color=1BF7B3&size=35&center=true&weight=700&size=40&pause=1500&&vCenter=true&width=1000&lines=Hi,+I'm+Ageha;Welcome+to+my+page!;I'm+a+Full+Stack+Engineer;With+a+primary+focus+on+Cloud+Infrastructure+from;Be+Welcome!+😁"
+    />
 </div>
 
 <div align="center">
@@ -51,52 +64,61 @@
     </a>
 </div>
 
-<div align="center" id="toc">
-    <ul style="list-style: none">
-        <h1>
-            <img
-                src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430"
-                width="28"
-                style="margin-right: 18px"
-                alt="Emoji"
-            />
-            Hey! Nice to see you.
-        </h1>
-    </ul>
-</div>
-
-<div align="left">
-    <p>Welcome to my page! </br>I'm Ageha, Full Stack Engineer with a primary focus on Cloud Infrastructure from <b>Osaka, Japan</b>.</p>
-</div>
-
-<h3 align="left"><b>My areas of expertise include:</b></h3>
-<div align="left">
-    <ul>
-        <li>
-            <p>🏗️ Architecture Design (especially Microservices Architecture)</p>
-        </li>
-        <li>
-            <p>☁️ Cloud Infrastructure</p>
-        </li>
-        <li>
-            <p>🐳 Kubernetes</p>
-        </li>
-        <li>
-            <p>🔄 DevOps</p>
-        </li>
-        <li>
-            <p>🧠 MLOps</p>
-        </li>
-    </ul>
-</div>
-
 <h3 align="left"><b>Things I code with:</b></h3>
 <div align="left">
     <img src="https://img.shields.io/badge/Vim-019733?logo=vim&logoColor=white" height="32" style="margin-right: 18px" alt="Vim"> <img src="https://img.shields.io/badge/Shell-4EAA25?logo=gnu-bash&logoColor=white" height="32" style="margin-right: 18px" alt="Shell"> <img src="https://img.shields.io/badge/Rust-B7410E?logo=rust&logoColor=white" height="32" alt="Rust" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white" height="32" alt="Lua" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" height="32" alt="Go" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="32" alt="Go" style="margin-right: 18px"> <img src="https://cdn.simpleicons.org/go/00ADD8" height="32" alt="Go" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white" height="32" alt="Terraform" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="32" alt="GCP" style="margin-right: 18px"> <img src="https://cdn.simpleicons.org/firebase/FFCA28" height="32" alt="Firebase" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="32" alt="AWS" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original-wordmark.svg" height="32" alt="Kubernetes" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" height="32" alt="Docker" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" height="32" alt="GitHub" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg" height="32" alt="Azure" style="margin-right: 18px"> <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" height="32" alt="TypeScript" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg" height="32" alt="Next.js" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" height="32" alt="React" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original-wordmark.svg" height="32" alt="NuxtJs" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" height="32" alt="Vue.js" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" height="32" alt="Tailwind CSS" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Node.js-8CC84B?logo=node.js&logoColor=white" height="32" alt="Node.js" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original-wordmark.svg" height="32" alt="NestJs" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Drizzle-4F5D95?logo=drizzle&logoColor=white" height="32" alt="Drizzle" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" height="32" alt="PostgreSQL" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" height="32" alt="MySQL" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" height="32" alt="MongoDB" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original-wordmark.svg" height="32" alt="Redis" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cassandra/cassandra-original-wordmark.svg" height="32" alt="Cassandra" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="32" alt="Oracle" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg" height="32" alt="Microsoft SQL Server" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg" height="32" alt="SQLite" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white" height="32" alt="Swift" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" height="32" alt="iOS" style="margin-right: 18px"> <img src="https://cdn.simpleicons.org/android/3DDC84" height="32" alt="Android" style="margin-right: 18px"> <img src="https://img.shields.io/badge/C%2B%2B-F34B7F?logo=c%2B%2B&logoColor=white" height="32" alt="C++" style="margin-right: 18px"> <img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white" height="32" alt="C" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original-wordmark.svg" height="32" alt="Unreal Engine" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original-wordmark.svg" height="32" alt="Unity" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original-wordmark.svg" height="32" alt="Blender" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Python-306998?logo=python&logoColor=white" height="32" alt="Python" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original-wordmark.svg" height="32" alt="FastAPI" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" height="32" alt="Django" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original-wordmark.svg" height="32" alt="TensorFlow" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original-wordmark.svg" height="32" alt="PyTorch" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original-wordmark.svg" height="32" alt="Keras" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original-wordmark.svg" height="32" alt="Opencv" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" height="32" alt="Pandas" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Adobe_Premiere_Pro-9999FF?logo=adobe-premiere-pro&logoColor=white" height="32" alt="Adobe Premiere Pro" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white" height="32" alt="Figma" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white" height="32" alt="Postman" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Adobe_Photoshop-31A8FF?logo=adobe-photoshop&logoColor=white" height="32" alt="Adobe Photoshop" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Adobe_Illustrator-FF9A00?logo=adobe-illustrator&logoColor=white" height="32" alt="Adobe Illustrator" style="margin-right: 18px">
 </div>
 
-<h3 align="left"><b>Open source projects:</b></h3>
+<h3 align="left"><b>GitHub Stats:</b></h3>
 <div align="left">
+   <img height="190rem" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ageha734&show_icons=true&title_color=ce540a&icon_color=83e6b0&text_color=5be2ff&bg_color=00000000&border_radius=15&border_color=00000000&count_private=true&hide=contribs&hide_rank=true"/>
+   <img height="190rem" alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ageha734&langs_count=6&layout=compact&title_color=ce540a&icon_color=83e6b0&text_color=5be2ff&bg_color=00000000&border_radius=15&border_color=00000000&hide=css,html,hack,Dockerfile,scss"/>
+</div>
+<div align="left">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ageha734&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_color=ff4500&text_color=ff4500&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook" height="200px" width="360px" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ageha734&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook" height="200px" width="500px" />
+</div>
+
+<h3 align="left"><b>Rapid Fire:</b></h3>
+<div align="left">
+    <ul>
+        <li>
+            <p>💼 I'm currently working on: </br>Designing large-scale systems using microservices architecture and optimizing Kubernetes clusters</p>
+        </li>
+        <li>
+            <p>🌱 I'm currently learning: </br>Serverless architecture, AI containerization, and FinOps practices</p>
+        </li>
+        <li>
+            <p>💬 Ask me about: </br>Cloud architecture, microservices design, Kubernetes optimization, building MLOps pipelines</p>
+        </li>
+        <li>
+            <p>🎢 Fun fact: </br>Whenever I'm solving complex infrastructure problems, I always draw diagrams on a whiteboard. There's an erasable whiteboard permanently stationed at my desk!</p>
+        </li>
+    </ul>
+</div>
+
+<h3 align="left"><b>Support Me:</b></h3>
+<div align="left">
+    <a href="https://paypal.me/ageha734" target="_blank">
+        <img
+            src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"
+            height="48"
+            style="margin-right: 18px"
+        />
+    </a>
+</div>
+
+<div align="center">
+    <a href="#">
+        <img 
+            src="https://capsule-render.vercel.app/api?type=waving&color=04e4e6&height=120&section=footer"
+            width=100%
+        />
+    </a>
+</div>
+
+<h2 align="center"><b>Open source projects 📙</b></h2>
+<div align="center">
     <table>
         <thead align="center">
             <tr border: none;>
@@ -233,7 +255,7 @@
     </table>
 </div>
 
-<h3 align="left"><b>My latest posts:</b></h3>
+<h2 align="center"><b>My latest posts 📙</b></h2>
 <div align="left">
     <ul>
         <li>
@@ -242,89 +264,33 @@
     </ul>
 </div>
 
-<h3 align="left"><b>Development metrics:</b></h3>
-<div align="left">
-    <!--START_SECTION:waka-->
-    <!--END_SECTION:waka-->
+<h2 align="center"><b>My activity 🧑🏼‍💻</b></h2>
+<div align="center">
+    <img src="https://github.com/ageha734/ageha734/blob/output/github-contribution-grid-snake-dark.svg">
 </div>
 
-<h3 align="left"><b>Resume with me:</b></h3>
-<div align="left">
-    <!--START_SECTION:lapras-card-->
-    <!--END_SECTION:lapras-card-->
+<h2 align="center"><b>Weekly Coding Stats 🖥️</b></h2>
+<div align="center">
+<!--START_SECTION:waka-->
+
+```JavaScript, Svelte
+From: 15 September 2024 - To: 22 September 2024
+
+Total Time: 20 hrs 19 mins
+
+Svelte       16 hrs 41 mins  🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧🟧⬜⬜⬜⬜   82.08 %
+JavaScript   3 hrs 9 mins    🟧🟧🟧🟧⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   15.50 %
+Vue.js       12 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.05 %
+JSON         6 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.55 %
+```
+    
+<!--END_SECTION:waka-->
 </div>
 
-<h3 align="left"><b>Rapid Fire:</b></h3>
+<h2 align="left"><b>Resume with me 📊</b></h2>
 <div align="left">
-    <ul>
-        <li>
-            <p>💼 I'm currently working on: </br>Designing large-scale systems using microservices architecture and optimizing Kubernetes clusters</p>
-        </li>
-        <li>
-            <p>🌱 I'm currently learning: </br>Serverless architecture, AI containerization, and FinOps practices</p>
-        </li>
-        <li>
-            <p>💬 Ask me about: </br>Cloud architecture, microservices design, Kubernetes optimization, building MLOps pipelines</p>
-        </li>
-        <li>
-            <p>🎢 Fun fact: </br>Whenever I'm solving complex infrastructure problems, I always draw diagrams on a whiteboard. There's an erasable whiteboard permanently stationed at my desk!</p>
-        </li>
-        <li>
-            <p>📂 Portfolio: </br><a href="https://ageha734.jp" target="_blank">ageha734.jp</a></p>
-        </li>
-    </ul>
-</div>
-
-<h3 align="left"><b>GitHub Stats:</b></h3>
-<div align="left">
-    <img
-        src="https://github-readme-stats.vercel.app/api?username=ageha734&theme=default&cache_seconds=1800&border_radius=4&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&line_height=25"
-        width="48%"
-        alt="GitHub stats Card"
-    />
-    <img
-        src="https://streak-stats.demolab.com/?user=ageha734&theme=default&hide_border=false&border_radius=4.5&date_format=M+j%5B%2C+Y%5D&mode=daily&disable_animations=false&hide_total_contributions=false&hide_current_streak=false&hide_longest_streak=false&exclude_days=Mon%2CTue%2CWed%2CThu%2CFri&locale=en&card_height=200"
-        width="48%"
-        alt="GitHub streak Card"
-    />
-</div>
-<div align="left">
-    <img
-        src="https://github-readme-stats.vercel.app/api/top-langs?username=ageha734&theme=default&cache_seconds=1800&border_radius=4&hide_title=false&layout=compact&langs_count=5&card_width=400&hide_progress=false"
-        width="48%"
-        alt="GitHub top-langs Card"
-    />
-    <img
-        src="https://github-readme-stats.vercel.app/api/pin/?username=ageha734&repo=&theme=default&cache_seconds=1800&border_radius=4&show_owner=false"
-        width="48%"
-        alt="GitHub repo-card Card"
-    />
-</div>
-
-<h3 align="left"><b>Support Me:</b></h3>
-<div align="left">
-    <a href="https://paypal.me/ageha734" target="_blank">
-        <img
-            src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"
-            height="48"
-            style="margin-right: 18px"
-        />
-    </a>
-</div>
-
-<h3 align="left"><b>Respect:</b></h3>
-<div align="left">
-    <ul>
-        <li>
-            <p>This profile is a fork of <a href="https://github.com/thmsgbrt">thmsgbrt/thmsgbrt</a>. Thanks.</p>
-        </li>
-        <li>
-            <p>This profile is a fork of <a href="https://github.com/kawamataryo">kawamataryo/kawamataryo</a>. Thanks.</p>
-        </li>
-        <li>
-            <p>This profile is a fork of <a href="https://github.com/sushilmagare10/github-profile-genarator">sushilmagare10/github-profile-genarator</a>. Thanks.</p>
-        </li>
-    </ul>
+<!--START_SECTION:lapras-card-->    
+<!--END_SECTION:lapras-card-->
 </div>
 
 ---
@@ -354,4 +320,21 @@
         style="margin-right: 18px"
         alt="Profile Views"
     />
+    <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f">
+        <img 
+            src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" 
+            height="28"
+            style="margin-right: 18px"
+            alt="Total time coded since Sep 9 2024" 
+        />
+    </a>
 </dev>
+
+<div align="center">
+ <!-- START_AGENDA_SECTION -->
+<h3>Agenda du Mardi 24 septembre
+ 🗓️</h3><div align="center">9h - 12h30 : Développement backend : Routes pour la modification des données utilisateur (Node.js).
+</div><div align="center">13h30 - 17h : Développement frontend : Formulaire de modification des données utilisateur (Svelte).
+</div>
+<!-- END_AGENDA_SECTION -->
+</div>
