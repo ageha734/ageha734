@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "name": "ageha734",
+  "description": "A dynamic README.md for your GitHub Profile, using Actions, Javascript and Mustache.",
+  "version": "1.0.0",
+  "keywords": [
+    "readme.md",
+    "github",
+    "actions",
+    "dynamic",
+    "javascript"
+  ],
+  "engines": {
+    "node": "20"
+  },
+  "license": "ISC",
+  "author": "ageha734 <info@ageha734.jp>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ageha734/ageha734.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ageha734/ageha734/issues"
+  },
+  "homepage": "https://github.com/ageha734/ageha734#readme",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "lefthook install",
+    "check": "biome check --write"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mustache": "^4.0.1",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^5.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.2",
+    "lefthook": "1.7.16"
+  }
+}
