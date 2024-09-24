@@ -2,7 +2,7 @@
   <a href="https://app.daily.dev/ageha734">
     <img 
       src="https://api.daily.dev/devcards/v2/NwRyAmMOgWntGfpuKVfsX.png?r=yp9&type=wide" 
-      width="652" 
+      width="1652" 
       alt="KEITA HIBI's Dev Card"
       />
   </a>
