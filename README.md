@@ -287,8 +287,8 @@ JSON         6 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <!--END_SECTION:waka-->
 </div>
 
-<h2 align="left"><b>Resume with me 📊</b></h2>
-<div align="left">
+<h2 align="center"><b>Resume with me 📊</b></h2>
+<div align="center">
 <!--START_SECTION:lapras-card-->    
 <!--END_SECTION:lapras-card-->
 </div>
