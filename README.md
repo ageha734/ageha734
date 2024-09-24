@@ -336,5 +336,10 @@ JSON         6 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
  🗓️</h3><div align="center">9h - 12h30 : Développement backend : Routes pour la modification des données utilisateur (Node.js).
 </div><div align="center">13h30 - 17h : Développement frontend : Formulaire de modification des données utilisateur (Svelte).
 </div>
+
 <!-- END_AGENDA_SECTION -->
 </div>
+
+<!-- START_LIBRARY_SECTION -->
+ **[Filepond](https://pqina.nl/filepond/)**: Bibliothèque pour télécharger et traiter des fichiers de manière fluide
+<!-- END_LIBRARY_SECTION -->
