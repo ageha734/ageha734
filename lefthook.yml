@@ -1,0 +1,19 @@
+pre-commit:
+  piped: true
+  commands:
+    check:
+      glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
+      run: npm biome check --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
+      stage_fixed: true
+
+commit-msg:
+  commands:
+    commitlint:
+      run: |
+        npm commitlint --edit {1}
+
+post-merge:
+  commands:
+    pnpm:
+      glob: "{package.json,package-lock.json}"
+      run: npm install
