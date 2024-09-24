@@ -1,8 +1,4 @@
-![👋 Hi, my name is Ageha](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/79731568097599.5b50bca477735.jpg)
-
-<a href="https://app.daily.dev/ageha734">
-  <img src="https://api.daily.dev/devcards/3e66b89cddbb43f0bd84a5d724f6892e.png?r=4lh" alt="KEITA HIBI's Dev Card" width="80%">
-</a>
+<div align="center"><a href="https://app.daily.dev/ageha734"><img src="https://api.daily.dev/devcards/v2/NwRyAmMOgWntGfpuKVfsX.png?r=yp9&type=wide" width="652" alt="KEITA HIBI's Dev Card"/></a></div>
 
 <div id="toc">
   <ul align="center" style="list-style: none">
