@@ -35,6 +35,8 @@
     "puppeteer": "^5.1.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "19.5.0",
+    "@commitlint/config-conventional": "19.5.0",
     "@biomejs/biome": "1.9.2",
     "lefthook": "1.7.16"
   }
