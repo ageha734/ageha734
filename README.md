@@ -10,11 +10,26 @@
   </ul>
 </div>
 
-**<h3 align="center">Connect with me:</h3>** 
-<p align="center"><a href="https://twitter.com/ageha734" target="_blank"><img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=X&logoColor=white" height="28" style="margin-right: 18px"></a> <a href="https://www.linkedin.com/in/ageha734" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" style="margin-right: 18px"></a> <a href="https://www.facebook.com/ageha734" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="28" style="margin-right: 18px"></a> <a href="https://www.youtube.com/@ageha734" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="28" style="margin-right: 18px"></a></p>
+**<h3 align="left">Connect with me:</h3>** 
+<p align="left"><a href="https://twitter.com/ageha734" target="_blank"><img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=X&logoColor=white" height="28" style="margin-right: 18px"></a> <a href="https://www.linkedin.com/in/ageha734" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" style="margin-right: 18px"></a> <a href="https://www.facebook.com/ageha734" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="28" style="margin-right: 18px"></a> <a href="https://www.youtube.com/@ageha734" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="28" style="margin-right: 18px"></a></p>
 
-<p align="center"><a href="https://lapras.com/public/ZGCCIAL"><img src="https://scontent.foko1-1.fna.fbcdn.net/v/t39.30808-1/304744565_556365902948440_8961876251851510232_n.png?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KrMrM2vsLwYAX8swI5d&_nc_ht=scontent.foko1-1.fna&oh=00_AfAThf27pnVUP05-jqI7iUVBNAX2lX4sZuzq6AGwnh9VDA&oe=65561E33" width="40px;" /></a> <a href="https://www.wantedly.com/id/ageha734"><img src="https://scontent.foko1-1.fna.fbcdn.net/v/t39.30808-1/218219709_6005392702834746_7930841579021990151_n.jpg?stp=dst-jpg_p480x480&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ikS6YZX8ZfcAX8weIrp&_nc_ht=scontent.foko1-1.fna&oh=00_AfDoMt8v-fDiSZ23MBdtYyCwx5H7v4JD554NwomsNcfgfA&oe=6556CDEE" width="40px;"/></div></a></p>
+**<h3 align="left">Resume with me:</h3>** 
+<div align="left">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <!--START_SECTION:lapras-card-->
+        <!--END_SECTION:lapras-card-->
+      </td>
+      <td align="center" width="50%">
+        <!--START_SECTION:wantedly-card-->
+        <!--END_SECTION:wantedly-card-->
+      </td>
+    </tr>
+  </table>
+</div>
 
+<p align="center"><a href="https://lapras.com/public/ZGCCIAL"><img src="https://scontent.foko1-1.fna.fbcdn.net/v/t39.30808-1/304744565_556365902948440_8961876251851510232_n.png?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=KrMrM2vsLwYAX8swI5d&_nc_ht=scontent.foko1-1.fna&oh=00_AfAThf27pnVUP05-jqI7iUVBNAX2lX4sZuzq6AGwnh9VDA&oe=65561E33" width="40px;" /></a> <a href="https://www.wantedly.com/id/ageha734"><img src="https://scontent.foko1-1.fna.fbcdn.net/v/t39.30808-1/218219709_6005392702834746_7930841579021990151_n.jpg?stp=dst-jpg_p480x480&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ikS6YZX8ZfcAX8weIrp&_nc_ht=scontent.foko1-1.fna&oh=00_AfDoMt8v-fDiSZ23MBdtYyCwx5H7v4JD554NwomsNcfgfA&oe=6556CDEE" width="40px;"/></div></a>
 
  **<h3 align="left">🚀 I'm a Full Stack Engineer with a primary focus on Cloud Infrastructure. My areas of expertise include:</h3>**
 
