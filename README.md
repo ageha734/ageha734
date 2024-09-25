@@ -71,13 +71,34 @@
 
 <h3 align="left"><b>GitHub Stats:</b></h3>
 <div align="left">
-   <img height="190rem" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ageha734&show_icons=true&title_color=ce540a&icon_color=83e6b0&text_color=5be2ff&bg_color=00000000&border_radius=15&border_color=00000000&count_private=true&hide=contribs&hide_rank=true"/>
-   <img height="190rem" alt="Most Used Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ageha734&langs_count=6&layout=compact&title_color=ce540a&icon_color=83e6b0&text_color=5be2ff&bg_color=00000000&border_radius=15&border_color=00000000&hide=css,html,hack,Dockerfile,scss"/>
+  <img 
+      src="https://github-readme-stats.vercel.app/api?username=ageha734&cache_seconds=400&hide_title=true&hide_rank=true&show_icons=true&line_height=40&border_radius=15&include_all_commits=true&icon_color=83e6b0&text_color=5be2ff&bg_color=00000000&border_color=00000000&count_private=true&hide=contribs" 
+      width="48%"
+      alt="GitHub stats Card" 
+  />
+  <img 
+      src="https://github-readme-stats.vercel.app/api/top-langs?username=ageha734&cache_seconds=400&hide_title=true&layout=compact&langs_count=10&icon_color=83e6b0&text_color=5be2ff&bg_color=00000000&border_radius=15&border_color=00000000&card_width=400&hide_progress=false&hide=css,html,hack,Dockerfile,scss" 
+      width="48%" 
+      alt="GitHub top-langs Card" 
+  />    
 </div>
 <div align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ageha734&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_color=ff4500&text_color=ff4500&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook" height="200px" width="360px" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ageha734&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook" height="200px" width="500px" />
+  <img 
+      src="https://streak-stats.demolab.com/?user=ageha734&theme=default&hide_border=false&border_radius=4.5&date_format=M+j%5B%2C+Y%5D&mode=daily&disable_animations=false&hide_total_contributions=false&hide_current_streak=false&hide_longest_streak=false&exclude_days=Mon%2CTue%2CWed%2CThu%2CFri&locale=en&card_height=200" 
+      width="48%" 
+      alt="GitHub streak Card" 
+  />
+  <img 
+      src="https://github-readme-stats.vercel.app/api/pin/?username=ageha734&repo=&theme=default&cache_seconds=1800&border_radius=4&show_owner=false" 
+      width="48%"
+      alt="GitHub repo-card Card" 
+  />
 </div>
+
+user=ageha734&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_color=ff4500&text_color=ff4500&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ageha734&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook" height="200px" width="500px" />
+
 
 <h3 align="left"><b>Rapid Fire:</b></h3>
 <div align="left">
