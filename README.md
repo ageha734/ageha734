@@ -77,7 +77,14 @@
     </a>
 </div>
 
-<h3 align="left"><b>Things I code with:</b></h3>
+<h3 align="left"><b>🔭 Work</b></h3>
+<div align="left">
+    <p>
+        Look at my <a href="./about/work_experience.md">work experience</a>.
+    </p>
+</div>
+
+<h3 align="left"><b>👨‍💻 Things I code with</b></h3>
 <div align="left">
     <h4>Like Tools: </h4>
     <div>
@@ -95,26 +102,26 @@
     <div>
         <img src="https://img.shields.io/badge/C%2B%2B-F34B7F?logo=c%2B%2B&logoColor=white" height="18" alt="C++" style="margin-right: 18px"> <img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white" height="18" alt="C" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original-wordmark.svg" height="18" alt="Unreal Engine" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original-wordmark.svg" height="18" alt="Unity" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original-wordmark.svg" height="18" alt="Blender" style="margin-right: 18px">
     </div>
-    <h4>GitHub PG Stats: </h4>
+    <h4>PG Stats: </h4>
     <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
         <img 
-            src="https://raw.githubusercontent.com/ageha734/ageha734/output/profile-summary-card-output/nord_dark/1-repos-per-language.svg" 
-            width="35%" height="auto" 
+            src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ageha734&theme=react" 
+            width="48%" height="auto" 
             alt="GitHub top-langs Card" 
         />
         <img 
-            src="https://raw.githubusercontent.com/ageha734/ageha734/output/profile-summary-card-output/nord_dark/2-most-commit-language.svg" 
-            width="35%" height="auto" 
+            src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ageha734&theme=react" 
+            width="48%" height="auto" 
             alt="GitHub top-langs Card" 
         />
     </div>    
 </div>
 
-<h3 align="left"><b>GitHub Stats:</b></h3>
+<h3 align="left"><b>✨ GitHub Stats</b></h3>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <img
-        src="https://github-profile-trophy.vercel.app/?username=ageha734&theme=onedark"
-        width="90%" height="auto" 
+        src="https://github-profile-trophy.vercel.app/?username=ageha734&theme=onedark&column=-1"
+        width="120%" height="auto" 
         alt="GitHub trophy" 
     />
 </div>
@@ -131,13 +138,14 @@
 />
 </div>
 
-<h3 align="left"><b>Support Me:</b></h3>
+<h3 align="left"><b>🫶 Support Me</b></h3>
 <div align="left">
     <a href="https://paypal.me/ageha734" target="_blank">
         <img
             src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"
             height="48"
             style="margin-right: 18px"
+            alt="paypal.me"
         />
     </a>
     <a href="https://github.com/impostor-syndromes/README.pet" target="_blank">
@@ -145,6 +153,7 @@
             src="https://readme.pet/api?username=ageha734"
             height="48%"
             style="margin-right: 18px"
+            alt="README.pet"
         />
     </a>
 </div>
@@ -446,12 +455,12 @@
     </table>
 </div>
 
-<h2 align="center"><b>My activity 🧑🏼‍💻</b></h2>
+<h2 align="center"><b>🧑🏼‍💻 My activity 🧑🏼‍💻</b></h2>
 <div align="center">
     <img src="https://github.com/ageha734/ageha734/blob/output/github-contribution-grid-snake-dark.svg">
 </div>
 
-<h2 align="center"><b>Weekly Coding Stats 🖥️</b></h2>
+<h2 align="center"><b>🖥️ Weekly Coding Stats 🖥️</b></h2>
 <div align="center">
 <!--START_SECTION:waka-->
 
@@ -469,7 +478,7 @@ JSON         6 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <!--END_SECTION:waka-->
 </div>
 
-<h2 align="center"><b>Resume with me 📊</b></h2>
+<h2 align="center"><b>📊 Resume with me 📊</b></h2>
 <div align="center">
 <!--START_SECTION:lapras-card-->
 <p ><a href="https://lapras.com/public/ZGCCIAL" target="_blank" rel="noopener noreferrer"><img alt="ZGCCIAL's scores on LAPRAS are as follows: Engineering: 3.3 out of 5.0, Business: 2.85 out of 5.0, Influence: 3.2 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.3&b=2.85&i=3.2&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>  
