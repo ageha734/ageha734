@@ -2,16 +2,6 @@
 <meta name="keywords" content="Full Stack Developer, GitHub Stats, GitHub Profile, JavaScript, TypeScript, React, Nodejs, HTML5, CSS3, PHP, MySQL, MongoDB"/>
 
 <div align="center">
-    <a href="https://app.daily.dev/ageha734">
-        <img
-            src="https://api.daily.dev/devcards/v2/NwRyAmMOgWntGfpuKVfsX.png?r=yp9&type=wide"
-            width="1652"
-            alt="KEITA HIBI's Dev Card"
-        />
-    </a>
-</div>
-
-<div align="center">
     <img 
         src="https://capsule-render.vercel.app/api?type=waving&color=04e4e6&height=120&section=header"
         width=100%
@@ -21,6 +11,29 @@
     />
 </div>
 
+<p align="right"> 
+    English | <a href="./README.ja.md">日本語</a>
+</p>
+
+<h2 align="left"><b>$ whoami</b></h2>
+<div align="left">
+    <ul>
+        <li>
+            <p>💼 I'm currently working on: </br>Designing large-scale systems using microservices architecture and optimizing Kubernetes clusters</p>
+        </li>
+        <li>
+            <p>🌱 I'm currently learning: </br>Serverless architecture, AI containerization, and FinOps practices</p>
+        </li>
+        <li>
+            <p>💬 Ask me about: </br>Cloud architecture, microservices design, Kubernetes optimization, building MLOps pipelines</p>
+        </li>
+        <li>
+            <p>🎢 Fun fact: </br>Whenever I'm solving complex infrastructure problems, I always draw diagrams on a whiteboard. There's an erasable whiteboard permanently stationed at my desk!</p>
+        </li>
+    </ul>
+</div>
+
+<h3 align="left"><b>🔍 Where to find me</b></h3>
 <div align="center">
     <a href="https://x.com/ageha734" target="_blank">
         <img
@@ -66,56 +79,56 @@
 
 <h3 align="left"><b>Things I code with:</b></h3>
 <div align="left">
-    <img src="https://img.shields.io/badge/Vim-019733?logo=vim&logoColor=white" height="32" style="margin-right: 18px" alt="Vim"> <img src="https://img.shields.io/badge/Shell-4EAA25?logo=gnu-bash&logoColor=white" height="32" style="margin-right: 18px" alt="Shell"> <img src="https://img.shields.io/badge/Rust-B7410E?logo=rust&logoColor=white" height="32" alt="Rust" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white" height="32" alt="Lua" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" height="32" alt="Go" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="32" alt="Go" style="margin-right: 18px"> <img src="https://cdn.simpleicons.org/go/00ADD8" height="32" alt="Go" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white" height="32" alt="Terraform" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="32" alt="GCP" style="margin-right: 18px"> <img src="https://cdn.simpleicons.org/firebase/FFCA28" height="32" alt="Firebase" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="32" alt="AWS" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original-wordmark.svg" height="32" alt="Kubernetes" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" height="32" alt="Docker" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" height="32" alt="GitHub" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg" height="32" alt="Azure" style="margin-right: 18px"> <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" height="32" alt="TypeScript" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg" height="32" alt="Next.js" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" height="32" alt="React" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original-wordmark.svg" height="32" alt="NuxtJs" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" height="32" alt="Vue.js" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" height="32" alt="Tailwind CSS" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Node.js-8CC84B?logo=node.js&logoColor=white" height="32" alt="Node.js" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original-wordmark.svg" height="32" alt="NestJs" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Drizzle-4F5D95?logo=drizzle&logoColor=white" height="32" alt="Drizzle" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" height="32" alt="PostgreSQL" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" height="32" alt="MySQL" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" height="32" alt="MongoDB" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original-wordmark.svg" height="32" alt="Redis" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cassandra/cassandra-original-wordmark.svg" height="32" alt="Cassandra" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="32" alt="Oracle" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg" height="32" alt="Microsoft SQL Server" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg" height="32" alt="SQLite" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white" height="32" alt="Swift" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" height="32" alt="iOS" style="margin-right: 18px"> <img src="https://cdn.simpleicons.org/android/3DDC84" height="32" alt="Android" style="margin-right: 18px"> <img src="https://img.shields.io/badge/C%2B%2B-F34B7F?logo=c%2B%2B&logoColor=white" height="32" alt="C++" style="margin-right: 18px"> <img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white" height="32" alt="C" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original-wordmark.svg" height="32" alt="Unreal Engine" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original-wordmark.svg" height="32" alt="Unity" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original-wordmark.svg" height="32" alt="Blender" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Python-306998?logo=python&logoColor=white" height="32" alt="Python" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original-wordmark.svg" height="32" alt="FastAPI" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" height="32" alt="Django" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original-wordmark.svg" height="32" alt="TensorFlow" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original-wordmark.svg" height="32" alt="PyTorch" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original-wordmark.svg" height="32" alt="Keras" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original-wordmark.svg" height="32" alt="Opencv" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" height="32" alt="Pandas" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Adobe_Premiere_Pro-9999FF?logo=adobe-premiere-pro&logoColor=white" height="32" alt="Adobe Premiere Pro" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white" height="32" alt="Figma" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white" height="32" alt="Postman" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Adobe_Photoshop-31A8FF?logo=adobe-photoshop&logoColor=white" height="32" alt="Adobe Photoshop" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Adobe_Illustrator-FF9A00?logo=adobe-illustrator&logoColor=white" height="32" alt="Adobe Illustrator" style="margin-right: 18px">
+    <h4>Like Tools: </h4>
+    <div>
+        <img src="https://img.shields.io/badge/Vim-019733?logo=vim&logoColor=white" height="18" style="margin-right: 18px" alt="Vim"> <img src="https://img.shields.io/badge/Shell-4EAA25?logo=gnu-bash&logoColor=white" height="18" style="margin-right: 18px" alt="Shell">
+    </div>
+    <h4>Advanced: </h4>
+    <div>
+        <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" height="18" alt="Go" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white" height="18" alt="Terraform" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="18" alt="GCP" style="margin-right: 18px"> <img src="https://cdn.simpleicons.org/firebase/FFCA28" height="18" alt="Firebase" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="18" alt="AWS" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original-wordmark.svg" height="18" alt="Kubernetes" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" height="18" alt="Docker" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" height="18" alt="GitHub" style="margin-right: 18px">
+    </div>
+    <h4>Intermediate: </h4>
+    <div>
+        <img src="https://img.shields.io/badge/Rust-B7410E?logo=rust&logoColor=white" height="18" alt="Rust" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Lua-2C2D72?logo=lua&logoColor=white" height="18" alt="Lua" style="margin-right: 18px"> <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" height="18" alt="TypeScript" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg" height="18" alt="Next.js" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" height="18" alt="React" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original-wordmark.svg" height="18" alt="NuxtJs" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" height="18" alt="Vue.js" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" height="18" alt="Tailwind CSS" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Node.js-8CC84B?logo=node.js&logoColor=white" height="18" alt="Node.js" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original-wordmark.svg" height="18" alt="NestJs" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Drizzle-4F5D95?logo=drizzle&logoColor=white" height="18" alt="Drizzle" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" height="18" alt="PostgreSQL" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" height="18" alt="MySQL" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" height="18" alt="MongoDB" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original-wordmark.svg" height="18" alt="Redis" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cassandra/cassandra-original-wordmark.svg" height="18" alt="Cassandra" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="18" alt="Oracle" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg" height="18" alt="Microsoft SQL Server" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg" height="18" alt="SQLite" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white" height="18" alt="Swift" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" height="18" alt="iOS" style="margin-right: 18px"> <img src="https://cdn.simpleicons.org/android/3DDC84" height="18" alt="Android" style="margin-right: 18px"> <img src="https://img.shields.io/badge/Python-306998?logo=python&logoColor=white" height="18" alt="Python" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original-wordmark.svg" height="18" alt="FastAPI" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" height="18" alt="Django" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original-wordmark.svg" height="32" alt="TensorFlow" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original-wordmark.svg" height="18" alt="PyTorch" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original-wordmark.svg" height="18" alt="Keras" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original-wordmark.svg" height="18" alt="Opencv" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" height="18" alt="Pandas" style="margin-right: 18px">
+    </div>
+    <h4>Beginner: </h4>
+    <div>
+        <img src="https://img.shields.io/badge/C%2B%2B-F34B7F?logo=c%2B%2B&logoColor=white" height="18" alt="C++" style="margin-right: 18px"> <img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white" height="18" alt="C" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original-wordmark.svg" height="18" alt="Unreal Engine" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original-wordmark.svg" height="18" alt="Unity" style="margin-right: 18px"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original-wordmark.svg" height="18" alt="Blender" style="margin-right: 18px">
+    </div>
+    <h4>GitHub PG Stats: </h4>
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <img 
+            src="https://raw.githubusercontent.com/ageha734/ageha734/output/profile-summary-card-output/nord_dark/1-repos-per-language.svg" 
+            width="35%" height="auto" 
+            alt="GitHub top-langs Card" 
+        />
+        <img 
+            src="https://raw.githubusercontent.com/ageha734/ageha734/output/profile-summary-card-output/nord_dark/2-most-commit-language.svg" 
+            width="35%" height="auto" 
+            alt="GitHub top-langs Card" 
+        />
+    </div>    
 </div>
 
 <h3 align="left"><b>GitHub Stats:</b></h3>
-<div align="left">
-  <img 
-      src="https://github-readme-stats.vercel.app/api?username=ageha734&cache_seconds=400&hide_title=true&hide_rank=true&show_icons=true&line_height=40&border_radius=15&include_all_commits=true&icon_color=83e6b0&text_color=5be2ff&bg_color=00000000&border_color=00000000&count_private=true&hide=contribs" 
-      width="48%"
-      alt="GitHub stats Card" 
-  />
-  <img 
-      src="https://github-readme-stats.vercel.app/api/top-langs?username=ageha734&cache_seconds=400&hide_title=true&layout=compact&langs_count=10&icon_color=83e6b0&text_color=5be2ff&bg_color=00000000&border_radius=15&border_color=00000000&card_width=400&hide_progress=false&hide=css,html,hack,Dockerfile,scss" 
-      width="48%" 
-      alt="GitHub top-langs Card" 
-  />    
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+    <img
+        src="https://github-profile-trophy.vercel.app/?username=ageha734&theme=onedark"
+        width="90%" height="auto" 
+        alt="GitHub trophy" 
+    />
 </div>
-<div align="left">
-  <img 
-      src="https://streak-stats.demolab.com/?user=ageha734&theme=default&hide_border=false&border_radius=4.5&date_format=M+j%5B%2C+Y%5D&mode=daily&disable_animations=false&hide_total_contributions=false&hide_current_streak=false&hide_longest_streak=false&exclude_days=Mon%2CTue%2CWed%2CThu%2CFri&locale=en&card_height=200" 
-      width="48%" 
-      alt="GitHub streak Card" 
-  />
-  <img 
-      src="https://github-readme-stats.vercel.app/api/pin/?username=ageha734&repo=&theme=default&cache_seconds=1800&border_radius=4&show_owner=false" 
-      width="48%"
-      alt="GitHub repo-card Card" 
-  />
-</div>
-
-user=ageha734&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_color=ff4500&text_color=ff4500&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ageha734&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook" height="200px" width="500px" />
-
-
-<h3 align="left"><b>Rapid Fire:</b></h3>
-<div align="left">
-    <ul>
-        <li>
-            <p>💼 I'm currently working on: </br>Designing large-scale systems using microservices architecture and optimizing Kubernetes clusters</p>
-        </li>
-        <li>
-            <p>🌱 I'm currently learning: </br>Serverless architecture, AI containerization, and FinOps practices</p>
-        </li>
-        <li>
-            <p>💬 Ask me about: </br>Cloud architecture, microservices design, Kubernetes optimization, building MLOps pipelines</p>
-        </li>
-        <li>
-            <p>🎢 Fun fact: </br>Whenever I'm solving complex infrastructure problems, I always draw diagrams on a whiteboard. There's an erasable whiteboard permanently stationed at my desk!</p>
-        </li>
-    </ul>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 20px;">
+<img 
+    src="https://streak-stats.demolab.com/?user=ageha734&theme=react&langs_count=10&layout=compact&title_color=007acc&icon_color=ff4500&text_color=ff4500&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook&hide_border=true&border_radius=15&date_format=M+j%5B%2C+Y%5D&mode=daily&disable_animations=false&hide_total_contributions=false&hide_current_streak=false&hide_longest_streak=false&locale=en"
+    width="40%" height="auto" 
+    alt="GitHub streak Card" 
+/>
+<img 
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ageha734&theme=react&langs_count=10&layout=compact&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook"
+    width="55%" height="auto"
+    alt="GitHub profile-summary Card" 
+/>
 </div>
 
 <h3 align="left"><b>Support Me:</b></h3>
@@ -124,6 +137,13 @@ user=ageha734&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_c
         <img
             src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"
             height="48"
+            style="margin-right: 18px"
+        />
+    </a>
+    <a href="https://github.com/impostor-syndromes/README.pet" target="_blank">
+        <img
+            src="https://readme.pet/api?username=ageha734"
+            height="48%"
             style="margin-right: 18px"
         />
     </a>
@@ -138,13 +158,59 @@ user=ageha734&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_c
     </a>
 </div>
 
-<h2 align="center"><b>Open source projects 📙</b></h2>
+<h2 align="center"><b>💚 Community 💚</b></h2>
+<div align="center">
+    <table>
+        <thead align="center">
+            <tr border: none;>
+                <td>
+                    <p>🖼️ Logo</p>
+                </td>
+                <td>
+                    <p>🎁 Projects</p>
+                </td>
+                <td>
+                    <p>🌱 Abstract</p>
+                </td>
+                <td>
+                    <p>📗 Note</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img 
+                        src="https://media.connpass.com/thumbs/6b/ba/6bba049fdfcf1d7f1f00a9061e2eca2c.png"
+                        width="120"
+                        height="120"
+                        alt="E - Ripple Logo"
+                    />
+                </td>
+                <td>
+                    <p>E - Ripple</p>
+                </td>
+                <td>
+                    <p>関西の学生エンジニアが集まれる場所を創る。</p>
+                </td>
+                <td>
+                    <p>show <a href="https://kansai-eng-net.connpass.com/" >HomePage</a></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2 align="center"><b>🌱 Open source projects 🌱</b></h2>
 <div align="center">
     <table>
         <thead align="center">
             <tr border: none;>
                 <td>
                     <p>🎁 Projects</p>
+                </td>
+                <td>
+                    <p>🌱 Abstract</p>
                 </td>
                 <td>
                     <p>⭐ Stars</p>
@@ -164,6 +230,9 @@ user=ageha734&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_c
             <tr>
                 <td>
                     <a href="https://github.com/impostor-syndromes/README.pet"><b>README.pet</b></a>
+                </td>
+                <td>
+                    <p>Githubのプロフィール画面でペットを育ててみよう！！今日のコミットがペットのご飯になります！</p>
                 </td>
                 <td>
                     <img
@@ -203,6 +272,9 @@ user=ageha734&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_c
                     <a href="https://gitea.com/takenoko/PresenterPro"><b>PresenterPro</b></a>
                 </td>
                 <td>
+                    <p>Githubのプロフィール画面でペットを育ててみよう！！今日のコミットがペットのご飯になります！</p>
+                </td>
+                <td>
                     <img
                         src="https://img.shields.io/gitea/stars/takenoko/PresenterPro?style=flat-square&labelColor=343b41"
                         height="28"
@@ -238,6 +310,9 @@ user=ageha734&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_c
             <tr>
                 <td>
                     <a href="https://github.com/hizuki-mimuro/EchoSleep"><b>EchoSleep</b></a>
+                </td>
+                <td>
+                    <p>Githubのプロフィール画面でペットを育ててみよう！！今日のコミットがペットのご飯になります！</p>
                 </td>
                 <td>
                     <img
@@ -276,13 +351,99 @@ user=ageha734&theme=react&langs_count=6&layout=compact&title_color=007acc&icon_c
     </table>
 </div>
 
-<h2 align="center"><b>My latest posts 📙</b></h2>
-<div align="left">
-    <ul>
-        <li>
-            <a href="https://medium.com/better-programming/8-new-features-shipping-with-es2020-7a2721f710fb"><b>7 New Features Shipping With ES2020</b></a><br/><i>GlobalThis, optional chaining, private fields in classes, the nullish coalescing operator, and more</i>
-        </li>
-    </ul>
+<h2 align="center"><b>✍ Authored article ✍</b></h2>
+<div align="center">
+    <table>
+        <thead align="center">
+            <tr border: none;>
+                <td>
+                    <p>📝 Personal</p>
+                </td>
+                <td>
+                    <p>💡 Topics</p>
+                </td>
+                <td>
+                    <p>🌎 Lang (default: `In Japanese`)</p>
+                </td>
+                <td>
+                    <p>📗 Note</p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <a href="http://qiita.com/ageha734">
+                        <img 
+                            src="https://qiita-badge.apiapi.app/s/ageha734/posts.svg"
+                            height="20"
+                            alt="Qiita Posts"
+                        />
+                    </a>
+                    <a href="http://qiita.com/ageha734">
+                        <img 
+                            src="https://qiita-badge.apiapi.app/s/ageha734/contributions.svg"
+                            height="20"
+                            alt="Qiita Posts"
+                        />
+                    </a>
+                </td>
+                <td>
+                    <p>Go, Terraform, Kubernetes, Google Cloud, GitHub Action, DevOps, etc.</p>
+                </td>
+                <td>
+                </td>
+                <td>
+                    <p>Please give me thumbs up 💚 → </p><a href="http://qiita.com/ageha734"><img src="https://qiita-badge.apiapi.app/s/ageha734/followers.svg" height="20" alt="Qiita followers" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://zenn.dev/ageha734/articles">
+                        <img 
+                            src="https://zenn.badge.nikaera.com/s/ageha734/articles?style=plastic" 
+                            height="20"
+                            alt="Zenn articles" 
+                        />
+                    </a>
+                    <a href="https://zenn.dev/ageha734/books">
+                        <img 
+                            src="https://zenn.badge.nikaera.com/s/ageha734/books?style=plastic" 
+                            height="20"
+                            alt="Zenn books" 
+                        />
+                    </a>
+                </td>
+                <td>
+                    <p>Next.js, React, Yamada UI, Panda CSS, Swift, Swift Ui, Skip, etc.</p>
+                </td>
+                <td>
+                </td>
+                <td>
+                    <p>Please give me thumbs up 💚 → </p><a href="https://zenn.dev/ageha734"><img src="https://zenn.badge.nikaera.com/s/ageha734/likes?style=plastic" height="20" alt="Zenn likes" /></a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://ageha734.hatenadiary.jp/">
+                        <img 
+                            src="https://img.shields.io/badge/Personal_Tech_Blog-0-f19db5.svg?&style=flat" 
+                            height="20"
+                            alt="Zenn articles" 
+                        />
+                    </a>
+                </td>
+                <td>
+                    <p>Go, Python, Docker, IoT, Raspberry Pi, Deep Learning, etc.</p>
+                </td>
+                <td>
+                </td>
+                <td>
+                    <p>Written on hatenablog.</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
 <h2 align="center"><b>My activity 🧑🏼‍💻</b></h2>
