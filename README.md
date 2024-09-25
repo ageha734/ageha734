@@ -332,14 +332,15 @@ JSON         6 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Mardi 24 septembre
- 🗓️</h3><div align="center">9h - 12h30 : Développement backend : Routes pour la modification des données utilisateur (Node.js).
-</div><div align="center">13h30 - 17h : Développement frontend : Formulaire de modification des données utilisateur (Svelte).
+<h3>Agenda du Mercredi 25 septembre
+ 🗓️</h3><div align="center">9h - 11h : Recherche de stage : Suivi des candidatures et ajustement des documents.
+</div><div align="center">11h - 12h30 : Liaison frontend/backend : Connexion des routes API pour suppression et modification (Node.js, Svelte).
+</div><div align="center">13h30 - 17h : Optimisations frontend : Améliorations UI et liaison avec le backend (Svelte).
 </div>
 
 <!-- END_AGENDA_SECTION -->
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Filepond](https://pqina.nl/filepond/)**: Bibliothèque pour télécharger et traiter des fichiers de manière fluide
+ **[html-sanitizer](https://github.com/google/html-sanitizer)**: Sanitisation des contenus HTML
 <!-- END_LIBRARY_SECTION -->
