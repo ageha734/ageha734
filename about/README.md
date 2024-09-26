@@ -1,4 +1,4 @@
-<p align="right"> 
+<p align="right">
     English | <a href="./README.ja.md">日本語</a>
 </p>
 
@@ -9,32 +9,32 @@
 
 ### Skills To Develop
 
-- English skills
+* English skills
 
 ## Technical Interests
 
-- Architecture
-- Jetpack Compose (Android)
-- Cross-platform development (like KMM)
-- Go and its related technologies
-  - Microservice architecture
+* Architecture
+* Jetpack Compose (Android)
+* Cross-platform development (like KMM)
+* Go and its related technologies
+  * Microservice architecture
 
 ### Want to Try Someday
 
-- Understanding Low-level concepts
-  - Building an operating system from scratch
-- Specializing in a specific field
-- Understanding database management system
+* Understanding Low-level concepts
+  * Building an operating system from scratch
+* Specializing in a specific field
+* Understanding database management system
 
 ## Thoughts
 
-- I wanna keep trying new things
+* I wanna keep trying new things
 
 ### Motto
 
-- All art is quite useless.
-- Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
-- Done is better than perfect.
+* All art is quite useless.
+* Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+* Done is better than perfect.
 
 ## Personality and Traits
 

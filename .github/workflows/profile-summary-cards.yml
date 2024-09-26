@@ -5,7 +5,7 @@ on:
     - cron: "* */24 * * *"
   workflow_dispatch:
 
-permissions: 
+permissions:
   contents: write
 
 jobs:
@@ -15,11 +15,11 @@ jobs:
     steps:
       - name: Clone repo
         uses: actions/checkout@v4
-        
+
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: "output"
-          UTC_OFFSET: 9 
+          UTC_OFFSET: 9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

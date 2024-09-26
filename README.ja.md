@@ -2,16 +2,16 @@
 <meta name="keywords" content="Full Stack Developer, GitHub Stats, GitHub Profile, JavaScript, TypeScript, React, Nodejs, HTML5, CSS3, PHP, MySQL, MongoDB"/>
 
 <div align="center">
-    <img 
+    <img
         src="https://capsule-render.vercel.app/api?type=waving&color=04e4e6&height=120&section=header"
         width=100%
     />
-    <img 
+    <img
         src="https://readme-typing-svg.herokuapp.com/?color=1BF7B3&size=35&center=true&weight=700&size=40&pause=1500&&vCenter=true&width=1000&lines=Hi,+I'm+Ageha;Welcome+to+my+page!;I'm+a+Full+Stack+Engineer;With+a+primary+focus+on+Cloud+Infrastructure+from;Be+Welcome!+😁"
     />
 </div>
 
-<p align="right"> 
+<p align="right">
     <a href="./README.md">English</a> | 日本語
 </p>
 
@@ -104,37 +104,37 @@
     </div>
     <h4>PG Stats: </h4>
     <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-        <img 
-            src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ageha734&theme=react" 
-            width="48%" height="auto" 
-            alt="GitHub top-langs Card" 
+        <img
+            src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ageha734&theme=react"
+            width="48%" height="auto"
+            alt="GitHub top-langs Card"
         />
-        <img 
-            src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ageha734&theme=react" 
-            width="48%" height="auto" 
-            alt="GitHub top-langs Card" 
+        <img
+            src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ageha734&theme=react"
+            width="48%" height="auto"
+            alt="GitHub top-langs Card"
         />
-    </div>    
+    </div>
 </div>
 
 <h3 align="left"><b>✨ GitHub Stats</b></h3>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <img
         src="https://github-profile-trophy.vercel.app/?username=ageha734&theme=onedark&column=-1"
-        width="120%" height="auto" 
-        alt="GitHub trophy" 
+        width="120%" height="auto"
+        alt="GitHub trophy"
     />
 </div>
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 20px;">
-<img 
+<img
     src="https://streak-stats.demolab.com/?user=ageha734&theme=react&langs_count=10&layout=compact&title_color=007acc&icon_color=ff4500&text_color=ff4500&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook&hide_border=true&border_radius=15&date_format=M+j%5B%2C+Y%5D&mode=daily&disable_animations=false&hide_total_contributions=false&hide_current_streak=false&hide_longest_streak=false&locale=en"
-    width="40%" height="auto" 
-    alt="GitHub streak Card" 
+    width="40%" height="auto"
+    alt="GitHub streak Card"
 />
-<img 
+<img
     src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ageha734&theme=react&langs_count=10&layout=compact&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook"
     width="55%" height="auto"
-    alt="GitHub profile-summary Card" 
+    alt="GitHub profile-summary Card"
 />
 </div>
 
@@ -160,7 +160,7 @@
 
 <div align="center">
     <a href="#">
-        <img 
+        <img
             src="https://capsule-render.vercel.app/api?type=waving&color=04e4e6&height=120&section=footer"
             width=100%
         />
@@ -189,7 +189,7 @@
         <tbody>
             <tr>
                 <td>
-                    <img 
+                    <img
                         src="https://media.connpass.com/thumbs/6b/ba/6bba049fdfcf1d7f1f00a9061e2eca2c.png"
                         width="120"
                         height="120"
@@ -383,14 +383,14 @@
             <tr>
                 <td>
                     <a href="http://qiita.com/ageha734">
-                        <img 
+                        <img
                             src="https://qiita-badge.apiapi.app/s/ageha734/posts.svg"
                             height="20"
                             alt="Qiita Posts"
                         />
                     </a>
                     <a href="http://qiita.com/ageha734">
-                        <img 
+                        <img
                             src="https://qiita-badge.apiapi.app/s/ageha734/contributions.svg"
                             height="20"
                             alt="Qiita Posts"
@@ -409,17 +409,17 @@
             <tr>
                 <td>
                     <a href="https://zenn.dev/ageha734/articles">
-                        <img 
-                            src="https://zenn.badge.nikaera.com/s/ageha734/articles?style=plastic" 
+                        <img
+                            src="https://zenn.badge.nikaera.com/s/ageha734/articles?style=plastic"
                             height="20"
-                            alt="Zenn articles" 
+                            alt="Zenn articles"
                         />
                     </a>
                     <a href="https://zenn.dev/ageha734/books">
-                        <img 
-                            src="https://zenn.badge.nikaera.com/s/ageha734/books?style=plastic" 
+                        <img
+                            src="https://zenn.badge.nikaera.com/s/ageha734/books?style=plastic"
                             height="20"
-                            alt="Zenn books" 
+                            alt="Zenn books"
                         />
                     </a>
                 </td>
@@ -435,10 +435,10 @@
             <tr>
                 <td>
                     <a href="https://ageha734.hatenadiary.jp/">
-                        <img 
-                            src="https://img.shields.io/badge/Personal_Tech_Blog-0-f19db5.svg?&style=flat" 
+                        <img
+                            src="https://img.shields.io/badge/Personal_Tech_Blog-0-f19db5.svg?&style=flat"
                             height="20"
-                            alt="Zenn articles" 
+                            alt="Zenn articles"
                         />
                     </a>
                 </td>
@@ -474,14 +474,14 @@ JavaScript   3 hrs 9 mins    🟧🟧🟧🟧⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 Vue.js       12 mins         ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.05 %
 JSON         6 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.55 %
 ```
-    
+
 <!--END_SECTION:waka-->
 </div>
 
 <h2 align="center"><b>📊 Resume with me 📊</b></h2>
 <div align="center">
 <!--START_SECTION:lapras-card-->
-<p ><a href="https://lapras.com/public/ZGCCIAL" target="_blank" rel="noopener noreferrer"><img alt="ZGCCIAL's scores on LAPRAS are as follows: Engineering: 3.3 out of 5.0, Business: 2.85 out of 5.0, Influence: 3.2 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.3&b=2.85&i=3.2&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>  
+<p ><a href="https://lapras.com/public/ZGCCIAL" target="_blank" rel="noopener noreferrer"><img alt="ZGCCIAL's scores on LAPRAS are as follows: Engineering: 3.3 out of 5.0, Business: 2.85 out of 5.0, Influence: 3.2 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.3&b=2.85&i=3.2&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>
 Last Updated on 9/25/2024, 6:20:18 PM</p>
 <!--END_SECTION:lapras-card-->
 </div>
@@ -514,11 +514,11 @@ Last Updated on 9/25/2024, 6:20:18 PM</p>
         alt="Profile Views"
     />
     <a href="https://wakatime.com/@e81d490c-17bb-4b85-8611-87004287614f">
-        <img 
-            src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic" 
+        <img
+            src="https://wakatime.com/badge/user/e81d490c-17bb-4b85-8611-87004287614f.svg?style=plastic"
             height="28"
             style="margin-right: 18px"
-            alt="Total time coded since Sep 9 2024" 
+            alt="Total time coded since Sep 9 2024"
         />
     </a>
 </dev>

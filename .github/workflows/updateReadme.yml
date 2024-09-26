@@ -2,7 +2,7 @@ name: Update README with Random Library
 
 on:
   schedule:
-    - cron: '0 6 * * *'  
+    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -13,20 +13,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
-    - name: Run update-readme script
-      run: node update-readme.js
+      - name: Run update-readme script
+        run: node update-readme.js
 
-    - name: Commit and push changes
-      uses: EndBug/add-and-commit@v9
-      with:
-        author_name: GitHub Actions
-        author_email: 41898282+github-actions[bot]@users.noreply.github.com
-        message: 'Update README with a random JavaScript library'
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: GitHub Actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: "Update README with a random JavaScript library"

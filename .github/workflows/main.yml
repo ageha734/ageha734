@@ -8,7 +8,7 @@ on:
     branches:
       - master
 
-permissions: 
+permissions:
   contents: write
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: Clone repo
         uses: actions/checkout@v4
-    
+
       - name: Generate the snake files in './dist/'
         uses: Platane/snk@v3
         id: snake-gif

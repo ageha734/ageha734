@@ -1,28 +1,28 @@
 pre-commit:
-    piped: true
-    commands:
-        check:
-            glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
-            run: |
-                npx biome check --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
-            stage_fixed: true
+  piped: true
+  commands:
+    check:
+      glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
+      run: |
+        npx biome check --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
+      stage_fixed: true
 
 prepare-commit-msg:
-    commands:
-        commitizen:
-            interactive: true
-            run: |
-                exec < /dev/tty && npx cz --hook || true
+  commands:
+    commitizen:
+      interactive: true
+      run: |
+        exec < /dev/tty && npx cz --hook || true
 
 commit-msg:
-    commands:
-        commitlint:
-            run: |
-                npx commitlint --edit {1}
+  commands:
+    commitlint:
+      run: |
+        npx commitlint --edit {1}
 
 post-merge:
-    commands:
-        pnpm:
-            glob: "{package.json,package-lock.json}"
-            run: |
-                npm install
+  commands:
+    pnpm:
+      glob: "{package.json,package-lock.json}"
+      run: |
+        npm install

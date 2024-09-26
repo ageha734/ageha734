@@ -1,6 +1,6 @@
 ## My Name
 
-Email address: xxx@example.com
+Email address: <xxx@example.com>
 Phone number: xxx-xxx-xxx
 
 ## Resume summary

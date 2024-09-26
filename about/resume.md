@@ -27,7 +27,7 @@
 
 ### E-mail
 
-chotto.himitu@gmail.com
+<chotto.himitu@gmail.com>
 
 ## 経歴
 
