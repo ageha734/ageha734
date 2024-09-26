@@ -525,15 +525,14 @@ Last Updated on 9/26/2024, 1:38:20 AM</p>
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Mercredi 25 septembre
- 🗓️</h3><div align="center">9h - 11h : Recherche de stage : Suivi des candidatures et ajustement des documents.
-</div><div align="center">11h - 12h30 : Liaison frontend/backend : Connexion des routes API pour suppression et modification (Node.js, Svelte).
-</div><div align="center">13h30 - 17h : Optimisations frontend : Améliorations UI et liaison avec le backend (Svelte).
+<h3>Agenda du Jeudi 26 septembre
+ 🗓️</h3><div align="center">9h - 12h30 : Optimisation backend : Amélioration des performances des routes API (Node.js).
+</div><div align="center">13h30 - 17h : Améliorations UI frontend : Optimisation de l'interface utilisateur (Svelte).
 </div>
 
 <!-- END_AGENDA_SECTION -->
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[html-sanitizer](https://github.com/google/html-sanitizer)**: Sanitisation des contenus HTML
+ **[Select2](https://select2.org/)**: Une bibliothèque pour améliorer les menus déroulants HTML.
 <!-- END_LIBRARY_SECTION -->
