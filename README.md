@@ -525,14 +525,14 @@ Last Updated on 9/27/2024, 1:39:11 AM</p>
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Jeudi 26 septembre
- 🗓️</h3><div align="center">9h - 12h30 : Optimisation backend : Amélioration des performances des routes API (Node.js).
-</div><div align="center">13h30 - 17h : Améliorations UI frontend : Optimisation de l'interface utilisateur (Svelte).
+<h3>Agenda du Vendredi 27 septembre
+ 🗓️</h3><div align="center">9h - 12h30 : Finalisation backend : Ajustements finaux sur les routes API (Node.js).
+</div><div align="center">13h30 - 17h : Finalisation frontend : Ajustements d'interface utilisateur et liaison avec le backend (Svelte).
 </div>
 
 <!-- END_AGENDA_SECTION -->
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Select2](https://select2.org/)**: Une bibliothèque pour améliorer les menus déroulants HTML.
+ **[Idb-keyval](https://github.com/jakearchibald/idb-keyval)**: Promesses simplifiées pour stocker des paires clé-valeur dans IndexedDB
 <!-- END_LIBRARY_SECTION -->
