@@ -525,14 +525,13 @@ Last Updated on 9/28/2024, 1:38:23 AM</p>
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Vendredi 27 septembre
- 🗓️</h3><div align="center">9h - 12h30 : Finalisation backend : Ajustements finaux sur les routes API (Node.js).
-</div><div align="center">13h30 - 17h : Finalisation frontend : Ajustements d'interface utilisateur et liaison avec le backend (Svelte).
+<h3>Agenda du Samedi 28 septembre
+ 🗓️</h3><div align="center">13h30 - 15h30 : Corrections mineures backend et frontend (Node.js, Svelte).
 </div>
 
 <!-- END_AGENDA_SECTION -->
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Idb-keyval](https://github.com/jakearchibald/idb-keyval)**: Promesses simplifiées pour stocker des paires clé-valeur dans IndexedDB
+ **[Svelte Material UI](https://sveltematerialui.com/)**: Composants UI basés sur Material Design
 <!-- END_LIBRARY_SECTION -->
