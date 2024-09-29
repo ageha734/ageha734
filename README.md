@@ -525,13 +525,13 @@ Last Updated on 9/29/2024, 1:45:36 AM</p>
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Samedi 28 septembre
- 🗓️</h3><div align="center">13h30 - 15h30 : Corrections mineures backend et frontend (Node.js, Svelte).
+<h3>Agenda du Dimanche 29 septembre
+ 🗓️</h3><div align="center">13h30 - 15h30 : Veille technologique et réflexion sur les projets futurs.
 </div>
 
 <!-- END_AGENDA_SECTION -->
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Material UI](https://sveltematerialui.com/)**: Composants UI basés sur Material Design
+ **[Svelte Motion](https://github.com/Popmotion/svelte-pose)**: Gestion des animations
 <!-- END_LIBRARY_SECTION -->
