@@ -525,8 +525,9 @@ Last Updated on 9/30/2024, 1:42:07 AM</p>
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Dimanche 29 septembre
- 🗓️</h3><div align="center">13h30 - 15h30 : Veille technologique et réflexion sur les projets futurs.
+<h3>Agenda du Lundi 30 septembre
+ 🗓️</h3><div align="center">9h - 12h30 : Révision de React : Concepts de base et hooks.
+</div><div align="center">13h30 - 17h : Révision de TypeScript : Typage et interfaces.
 </div>
 
 <!-- END_AGENDA_SECTION -->
