@@ -525,14 +525,14 @@ Last Updated on 10/1/2024, 1:47:37 AM</p>
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Lundi 30 septembre
- 🗓️</h3><div align="center">9h - 12h30 : Révision de React : Concepts de base et hooks.
-</div><div align="center">13h30 - 17h : Révision de TypeScript : Typage et interfaces.
+<h3>Agenda du Mardi 1 octobre
+ 🗓️</h3><div align="center">9h - 12h30 : Révision de Redux : Gestion d'état et middleware.
+</div><div align="center">13h30 - 17h : Mise en pratique de Redux avec un projet simple.
 </div>
 
 <!-- END_AGENDA_SECTION -->
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Motion](https://github.com/Popmotion/svelte-pose)**: Gestion des animations
+ **[Vue.Draggable.Next](https://github.com/SortableJS/Vue.Draggable.Next)**: Drag and drop pour Vue 3
 <!-- END_LIBRARY_SECTION -->
