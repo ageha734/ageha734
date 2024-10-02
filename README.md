@@ -525,14 +525,15 @@ Last Updated on 10/2/2024, 1:38:53 AM</p>
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Mardi 1 octobre
- 🗓️</h3><div align="center">9h - 12h30 : Révision de Redux : Gestion d'état et middleware.
-</div><div align="center">13h30 - 17h : Mise en pratique de Redux avec un projet simple.
+<h3>Agenda du Mercredi 2 octobre
+ 🗓️</h3><div align="center">9h - 11h : Recherche de stage : Suivi des candidatures et ajustement des documents.
+</div><div align="center">11h - 12h30 : Révision de React : Projets et intégration avec TypeScript.
+</div><div align="center">13h30 - 17h : Révision de Redux : Projets avancés et meilleures pratiques.
 </div>
 
 <!-- END_AGENDA_SECTION -->
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vue.Draggable.Next](https://github.com/SortableJS/Vue.Draggable.Next)**: Drag and drop pour Vue 3
+ **[Ionic](https://ionicframework.com/)**: Framework pour le développement mobile
 <!-- END_LIBRARY_SECTION -->
