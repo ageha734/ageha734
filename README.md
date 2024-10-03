@@ -525,15 +525,14 @@ Last Updated on 10/3/2024, 1:39:11 AM</p>
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Mercredi 2 octobre
- 🗓️</h3><div align="center">9h - 11h : Recherche de stage : Suivi des candidatures et ajustement des documents.
-</div><div align="center">11h - 12h30 : Révision de React : Projets et intégration avec TypeScript.
-</div><div align="center">13h30 - 17h : Révision de Redux : Projets avancés et meilleures pratiques.
+<h3>Agenda du Jeudi 3 octobre
+ 🗓️</h3><div align="center">9h - 12h30 : Pratique de React : Développement d'une petite application.
+</div><div align="center">13h30 - 17h : Pratique de TypeScript : Application des concepts dans un projet.
 </div>
 
 <!-- END_AGENDA_SECTION -->
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ionic](https://ionicframework.com/)**: Framework pour le développement mobile
+ **[Just-Validate](https://github.com/DevDreams/Just-Validate)**: Bibliothèque légère pour la validation des formulaires
 <!-- END_LIBRARY_SECTION -->
