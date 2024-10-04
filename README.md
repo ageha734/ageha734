@@ -525,14 +525,14 @@ Last Updated on 10/4/2024, 1:39:21 AM</p>
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Jeudi 3 octobre
- 🗓️</h3><div align="center">9h - 12h30 : Pratique de React : Développement d'une petite application.
-</div><div align="center">13h30 - 17h : Pratique de TypeScript : Application des concepts dans un projet.
+<h3>Agenda du Vendredi 4 octobre
+ 🗓️</h3><div align="center">9h - 12h30 : Pratique de Redux : Intégration avec l'application React.
+</div><div align="center">13h30 - 17h : Finalisation du projet : Intégration de toutes les compétences.
 </div>
 
 <!-- END_AGENDA_SECTION -->
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Just-Validate](https://github.com/DevDreams/Just-Validate)**: Bibliothèque légère pour la validation des formulaires
+ **[Styled-components](https://styled-components.com/)**: Une bibliothèque pour le CSS-in-JS dans React.
 <!-- END_LIBRARY_SECTION -->
