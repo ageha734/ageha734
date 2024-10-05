@@ -525,14 +525,13 @@ Last Updated on 10/5/2024, 1:37:37 AM</p>
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Vendredi 4 octobre
- 🗓️</h3><div align="center">9h - 12h30 : Pratique de Redux : Intégration avec l'application React.
-</div><div align="center">13h30 - 17h : Finalisation du projet : Intégration de toutes les compétences.
+<h3>Agenda du Samedi 5 octobre
+ 🗓️</h3><div align="center">13h30 - 15h30 : Réflexion sur les projets futurs et mise à jour du code existant.
 </div>
 
 <!-- END_AGENDA_SECTION -->
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Styled-components](https://styled-components.com/)**: Une bibliothèque pour le CSS-in-JS dans React.
+ **[Angular Flex Layout](https://github.com/angular/flex-layout)**: Système de disposition flexible
 <!-- END_LIBRARY_SECTION -->
