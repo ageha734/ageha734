@@ -525,13 +525,13 @@ Last Updated on 10/6/2024, 1:45:10 AM</p>
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Samedi 5 octobre
- 🗓️</h3><div align="center">13h30 - 15h30 : Réflexion sur les projets futurs et mise à jour du code existant.
+<h3>Agenda du Dimanche 6 octobre
+ 🗓️</h3><div align="center">13h30 - 15h30 : Veille technologique et recherche de nouvelles ressources.
 </div>
 
 <!-- END_AGENDA_SECTION -->
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Flex Layout](https://github.com/angular/flex-layout)**: Système de disposition flexible
+ **[Chart.js](https://www.chartjs.org/)**: Une bibliothèque pour créer des graphiques animés et interactifs.
 <!-- END_LIBRARY_SECTION -->
