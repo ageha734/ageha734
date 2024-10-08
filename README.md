@@ -481,8 +481,8 @@ JSON         6 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <h2 align="center"><b>📊 Resume with me 📊</b></h2>
 <div align="center">
 <!--START_SECTION:lapras-card-->
-<p ><a href="https://lapras.com/public/ZGCCIAL" target="_blank" rel="noopener noreferrer"><img alt="ZGCCIAL's scores on LAPRAS are as follows: Engineering: 3.31 out of 5.0, Business: 2.85 out of 5.0, Influence: 3.32 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.31&b=2.85&i=3.32&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>  
-Last Updated on 10/7/2024, 1:42:10 AM</p>
+<p ><a href="https://lapras.com/public/ZGCCIAL" target="_blank" rel="noopener noreferrer"><img alt="ZGCCIAL's scores on LAPRAS are as follows: Engineering: 3.34 out of 5.0, Business: 2.85 out of 5.0, Influence: 3.22 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.34&b=2.85&i=3.22&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>  
+Last Updated on 10/8/2024, 1:39:23 AM</p>
 <!--END_SECTION:lapras-card-->
 </div>
 
