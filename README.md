@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PrimeNG](https://www.primefaces.org/primeng/)**: Suite de composants UI
+ **[Sapper](https://sapper.svelte.dev/)**: Framework de développement web basé sur Svelte
 <!-- END_LIBRARY_SECTION -->
