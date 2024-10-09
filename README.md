@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Sapper](https://sapper.svelte.dev/)**: Framework de développement web basé sur Svelte
+ **[Pikaday](https://pikaday.com/)**: Calendrier léger
 <!-- END_LIBRARY_SECTION -->
