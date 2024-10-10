@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Pikaday](https://pikaday.com/)**: Calendrier léger
+ **[SVG.js](https://svgjs.dev/)**: Manipulation d'éléments SVG
 <!-- END_LIBRARY_SECTION -->
