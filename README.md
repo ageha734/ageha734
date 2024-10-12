@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Just-Validate](https://github.com/DevDreams/Just-Validate)**: Bibliothèque légère pour la validation des formulaires
+ **[Sapper](https://sapper.svelte.dev/)**: Un framework pour construire des applications web avec Svelte.
 <!-- END_LIBRARY_SECTION -->
