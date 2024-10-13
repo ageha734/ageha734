@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Sapper](https://sapper.svelte.dev/)**: Un framework pour construire des applications web avec Svelte.
+ **[Mark.js](https://markjs.io/)**: Une bibliothèque pour mettre en surbrillance des mots dans un texte.
 <!-- END_LIBRARY_SECTION -->
