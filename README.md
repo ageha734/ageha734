@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Mark.js](https://markjs.io/)**: Une bibliothèque pour mettre en surbrillance des mots dans un texte.
+ **[Cleave.js](https://nosir.github.io/cleave.js/)**: Bibliothèque pour formater les champs de formulaire
 <!-- END_LIBRARY_SECTION -->
