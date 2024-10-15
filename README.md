@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cleave.js](https://nosir.github.io/cleave.js/)**: Bibliothèque pour formater les champs de formulaire
+ **[Fine Uploader](https://fineuploader.com/)**: Bibliothèque de téléchargement de fichiers
 <!-- END_LIBRARY_SECTION -->
