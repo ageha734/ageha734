@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Fine Uploader](https://fineuploader.com/)**: Bibliothèque de téléchargement de fichiers
+ **[date-fns](https://date-fns.org/)**: Outils pour travailler avec les dates
 <!-- END_LIBRARY_SECTION -->
