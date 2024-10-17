@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[date-fns](https://date-fns.org/)**: Outils pour travailler avec les dates
+ **[SVG.js](https://svgjs.dev/)**: Manipulation d'éléments SVG
 <!-- END_LIBRARY_SECTION -->
