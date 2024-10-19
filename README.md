@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Fastify](https://www.fastify.io/)**: Un framework web rapide et performant pour Node.js.
+ **[GSAP](https://greensock.com/gsap/)**: Une bibliothèque puissante pour créer des animations.
 <!-- END_LIBRARY_SECTION -->
