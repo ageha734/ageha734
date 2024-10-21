@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Underscore](https://underscorejs.org/)**: Une bibliothèque utilitaire qui fournit des fonctions de programmation fonctionnelle.
+ **[Svelte Chart](https://github.com/vitejs/svelte-chart)**: Graphiques pour Svelte
 <!-- END_LIBRARY_SECTION -->
