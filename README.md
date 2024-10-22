@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Chart](https://github.com/vitejs/svelte-chart)**: Graphiques pour Svelte
+ **[SortableJS](https://sortablejs.github.io/Sortable/)**: Bibliothèque pour créer des listes drag-and-drop triables
 <!-- END_LIBRARY_SECTION -->
