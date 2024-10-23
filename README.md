@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[SortableJS](https://sortablejs.github.io/Sortable/)**: Bibliothèque pour créer des listes drag-and-drop triables
+ **[Cleave.js](https://nosir.github.io/cleave.js/)**: Bibliothèque pour formater les champs de formulaire
 <!-- END_LIBRARY_SECTION -->
