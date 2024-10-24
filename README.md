@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cleave.js](https://nosir.github.io/cleave.js/)**: Bibliothèque pour formater les champs de formulaire
+ **[Browsersync](https://browsersync.io/)**: Un outil pour synchroniser le développement entre plusieurs navigateurs.
 <!-- END_LIBRARY_SECTION -->
