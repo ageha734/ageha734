@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Testing Library](https://testing-library.com/docs/angular-testing-library/intro/)**: Outils de test pour Angular
+ **[Voca](https://vocajs.com/)**: Bibliothèque pour la manipulation et l'analyse des chaînes de caractères
 <!-- END_LIBRARY_SECTION -->
