@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Voca](https://vocajs.com/)**: Bibliothèque pour la manipulation et l'analyse des chaînes de caractères
+ **[Isotope](https://isotope.metafizzy.co/)**: Filtrage et mise en page dynamique
 <!-- END_LIBRARY_SECTION -->
