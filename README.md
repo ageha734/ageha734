@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Isotope](https://isotope.metafizzy.co/)**: Filtrage et mise en page dynamique
+ **[Konva](https://konvajs.org/)**: Une bibliothèque pour manipuler des éléments graphiques sur des canevas HTML5.
 <!-- END_LIBRARY_SECTION -->
