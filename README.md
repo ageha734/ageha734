@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Konva](https://konvajs.org/)**: Une bibliothèque pour manipuler des éléments graphiques sur des canevas HTML5.
+ **[Rough.js](https://roughjs.com/)**: Bibliothèque pour dessiner des graphiques et des illustrations à la main
 <!-- END_LIBRARY_SECTION -->
