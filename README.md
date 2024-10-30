@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Rough.js](https://roughjs.com/)**: Bibliothèque pour dessiner des graphiques et des illustrations à la main
+ **[Fastify](https://www.fastify.io/)**: Un framework web rapide et performant pour Node.js.
 <!-- END_LIBRARY_SECTION -->
