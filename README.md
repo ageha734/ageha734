@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Fastify](https://www.fastify.io/)**: Un framework web rapide et performant pour Node.js.
+ **[Gumshoe](https://github.com/aggro/Gumshoe.js)**: Bibliothèque pour le suivi des défilements et des sections de page
 <!-- END_LIBRARY_SECTION -->
