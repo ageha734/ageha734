@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[xss-filters](https://github.com/yahoo/xss-filters)**: Filtres XSS pour JavaScript
+ **[Angular Calendar](https://github.com/mattlewis92/angular-calendar)**: Calendrier pour Angular
 <!-- END_LIBRARY_SECTION -->
