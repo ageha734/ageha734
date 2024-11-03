@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Calendar](https://github.com/mattlewis92/angular-calendar)**: Calendrier pour Angular
+ **[SortableJS](https://sortablejs.github.io/Sortable/)**: Une bibliothèque pour trier et réorganiser les éléments de liste.
 <!-- END_LIBRARY_SECTION -->
