@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[SortableJS](https://sortablejs.github.io/Sortable/)**: Une bibliothèque pour trier et réorganiser les éléments de liste.
+ **[Angular Material](https://material.angular.io/)**: Composants basés sur Material Design
 <!-- END_LIBRARY_SECTION -->
