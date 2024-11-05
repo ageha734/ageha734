@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Material](https://material.angular.io/)**: Composants basés sur Material Design
+ **[CodeMirror](https://codemirror.net/)**: Un éditeur de code dans le navigateur avec support pour diverses langages.
 <!-- END_LIBRARY_SECTION -->
