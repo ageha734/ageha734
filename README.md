@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[CodeMirror](https://codemirror.net/)**: Un éditeur de code dans le navigateur avec support pour diverses langages.
+ **[Nebular](https://akveo.github.io/nebular/)**: Framework UI basé sur Angular
 <!-- END_LIBRARY_SECTION -->
