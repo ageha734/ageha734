@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Isotope](https://isotope.metafizzy.co/)**: Filtrage et mise en page dynamique
+ **[Nx](https://nx.dev/)**: Un outil pour la gestion des monorepos JavaScript et TypeScript.
 <!-- END_LIBRARY_SECTION -->
