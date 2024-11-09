@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Nx](https://nx.dev/)**: Un outil pour la gestion des monorepos JavaScript et TypeScript.
+ **[Blotter.js](https://blotterjs.com/)**: Bibliothèque pour des animations de texte créatives
 <!-- END_LIBRARY_SECTION -->
