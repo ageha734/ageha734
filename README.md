@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Blotter.js](https://blotterjs.com/)**: Bibliothèque pour des animations de texte créatives
+ **[Tippy.js](https://atomiks.github.io/tippyjs/)**: Bibliothèque de tooltips légers et flexibles
 <!-- END_LIBRARY_SECTION -->
