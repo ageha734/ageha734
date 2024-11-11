@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tippy.js](https://atomiks.github.io/tippyjs/)**: Bibliothèque de tooltips légers et flexibles
+ **[Angular Testing Library](https://testing-library.com/docs/angular-testing-library/intro/)**: Outils de test pour Angular
 <!-- END_LIBRARY_SECTION -->
