@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Testing Library](https://testing-library.com/docs/angular-testing-library/intro/)**: Outils de test pour Angular
+ **[Svelte](https://svelte.dev/)**: Un framework pour construire des interfaces utilisateur réactives sans le coût de la bibliothèque virtuelle DOM.
 <!-- END_LIBRARY_SECTION -->
