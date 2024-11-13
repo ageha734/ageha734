@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte](https://svelte.dev/)**: Un framework pour construire des interfaces utilisateur réactives sans le coût de la bibliothèque virtuelle DOM.
+ **[GroundOverlay](https://github.com/openlayers/openlayers)**: Overlay d'images sur les cartes
 <!-- END_LIBRARY_SECTION -->
