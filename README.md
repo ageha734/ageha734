@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[GroundOverlay](https://github.com/openlayers/openlayers)**: Overlay d'images sur les cartes
+ **[Chance.js](https://chancejs.com/)**: Bibliothèque pour générer des données aléatoires (noms, adresses, etc.)
 <!-- END_LIBRARY_SECTION -->
