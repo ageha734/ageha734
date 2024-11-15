@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chance.js](https://chancejs.com/)**: Bibliothèque pour générer des données aléatoires (noms, adresses, etc.)
+ **[Tippy.js](https://atomiks.github.io/tippyjs/)**: Une bibliothèque pour créer des tooltips dynamiques.
 <!-- END_LIBRARY_SECTION -->
