@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tippy.js](https://atomiks.github.io/tippyjs/)**: Une bibliothèque pour créer des tooltips dynamiques.
+ **[Receptor](https://github.com/adamrenklint/receptor)**: Gestionnaire d'événements de type middleware
 <!-- END_LIBRARY_SECTION -->
