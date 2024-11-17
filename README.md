@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Receptor](https://github.com/adamrenklint/receptor)**: Gestionnaire d'événements de type middleware
+ **[Micromodal](https://micromodal.vercel.app/)**: Bibliothèque légère pour la gestion des modales
 <!-- END_LIBRARY_SECTION -->
