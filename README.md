@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Micromodal](https://micromodal.vercel.app/)**: Bibliothèque légère pour la gestion des modales
+ **[Anime.js](https://animejs.com/)**: Bibliothèque d'animation légère et flexible
 <!-- END_LIBRARY_SECTION -->
