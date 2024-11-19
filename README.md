@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Anime.js](https://animejs.com/)**: Bibliothèque d'animation légère et flexible
+ **[html-sanitizer](https://github.com/google/html-sanitizer)**: Sanitisation des contenus HTML
 <!-- END_LIBRARY_SECTION -->
