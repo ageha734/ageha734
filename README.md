@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[html-sanitizer](https://github.com/google/html-sanitizer)**: Sanitisation des contenus HTML
+ **[Yarn](https://yarnpkg.com/)**: Un gestionnaire de paquets rapide, fiable et sécurisé pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
