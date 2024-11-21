@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Yarn](https://yarnpkg.com/)**: Un gestionnaire de paquets rapide, fiable et sécurisé pour JavaScript.
+ **[DOMPurify](https://github.com/cure53/DOMPurify)**: Sanitisation pour les applications web
 <!-- END_LIBRARY_SECTION -->
