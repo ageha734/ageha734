@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[DOMPurify](https://github.com/cure53/DOMPurify)**: Sanitisation pour les applications web
+ **[Gumshoe](https://github.com/aggro/Gumshoe.js)**: Bibliothèque pour le suivi des défilements et des sections de page
 <!-- END_LIBRARY_SECTION -->
