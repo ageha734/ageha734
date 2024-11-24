@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Gumshoe](https://github.com/aggro/Gumshoe.js)**: Bibliothèque pour le suivi des défilements et des sections de page
+ **[Cloudinary](https://cloudinary.com/)**: Gestion d'images et de vidéos
 <!-- END_LIBRARY_SECTION -->
