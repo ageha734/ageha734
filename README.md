@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cloudinary](https://cloudinary.com/)**: Gestion d'images et de vidéos
+ **[Parcel](https://parceljs.org/)**: Un bundler d'applications web sans configuration.
 <!-- END_LIBRARY_SECTION -->
