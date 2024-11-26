@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Parcel](https://parceljs.org/)**: Un bundler d'applications web sans configuration.
+ **[React Native](https://reactnative.dev/)**: Un framework pour construire des applications mobiles natives avec React.
 <!-- END_LIBRARY_SECTION -->
