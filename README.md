@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[React Native](https://reactnative.dev/)**: Un framework pour construire des applications mobiles natives avec React.
+ **[Konva](https://konvajs.org/)**: Une bibliothèque pour manipuler des éléments graphiques sur des canevas HTML5.
 <!-- END_LIBRARY_SECTION -->
