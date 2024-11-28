@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Konva](https://konvajs.org/)**: Une bibliothèque pour manipuler des éléments graphiques sur des canevas HTML5.
+ **[Angular](https://angular.io/)**: Un framework pour construire des applications web dynamiques.
 <!-- END_LIBRARY_SECTION -->
