@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular](https://angular.io/)**: Un framework pour construire des applications web dynamiques.
+ **[date-fns](https://date-fns.org/)**: Utilitaires de manipulation de dates fonctionnels et légers
 <!-- END_LIBRARY_SECTION -->
