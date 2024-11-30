@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[date-fns](https://date-fns.org/)**: Utilitaires de manipulation de dates fonctionnels et légers
+ **[Zdog](https://zzz.dog/)**: Une bibliothèque pour créer des graphiques 3D simples et animés avec SVG et Canvas.
 <!-- END_LIBRARY_SECTION -->
