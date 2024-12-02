@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Express](https://expressjs.com/)**: Un framework minimaliste pour construire des applications web en Node.js.
+ **[Vite](https://vitejs.dev/)**: Un outil de développement front-end rapide avec un hot module replacement performant.
 <!-- END_LIBRARY_SECTION -->
