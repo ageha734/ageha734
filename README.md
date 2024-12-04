@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[bgfx](https://bkaradzic.github.io/bgfx/bgfx.html)**: Bibliothèque de rendu graphique multiplateforme
+ **[AG Grid](https://www.ag-grid.com/angular-data-grid/)**: Composant de grille avancé
 <!-- END_LIBRARY_SECTION -->
