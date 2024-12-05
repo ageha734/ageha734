@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[AG Grid](https://www.ag-grid.com/angular-data-grid/)**: Composant de grille avancé
+ **[Pico.js](https://github.com/tehnokv/picojs)**: Bibliothèque JavaScript pour la détection de visages
 <!-- END_LIBRARY_SECTION -->
