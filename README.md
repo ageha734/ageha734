@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Pico.js](https://github.com/tehnokv/picojs)**: Bibliothèque JavaScript pour la détection de visages
+ **[Jasmine](https://jasmine.github.io/)**: Un framework de test comportemental pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
