@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Jasmine](https://jasmine.github.io/)**: Un framework de test comportemental pour JavaScript.
+ **[Chance.js](https://chancejs.com/)**: Une bibliothèque pour générer des données aléatoires.
 <!-- END_LIBRARY_SECTION -->
