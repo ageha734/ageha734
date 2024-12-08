@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chance.js](https://chancejs.com/)**: Une bibliothèque pour générer des données aléatoires.
+ **[xss-clean](https://github.com/nfriedly/xss-clean)**: Middleware pour nettoyer les entrées
 <!-- END_LIBRARY_SECTION -->
