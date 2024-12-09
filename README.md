@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[xss-clean](https://github.com/nfriedly/xss-clean)**: Middleware pour nettoyer les entrées
+ **[Pikaday](https://pikaday.com/)**: Calendrier léger
 <!-- END_LIBRARY_SECTION -->
