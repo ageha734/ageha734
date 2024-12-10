@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Pikaday](https://pikaday.com/)**: Calendrier léger
+ **[npm](https://www.npmjs.com/)**: Le gestionnaire de paquets par défaut pour Node.js.
 <!-- END_LIBRARY_SECTION -->
