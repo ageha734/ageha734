@@ -530,5 +530,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[npm](https://www.npmjs.com/)**: Le gestionnaire de paquets par défaut pour Node.js.
+ **[Waves.js](https://haghish.github.io/waves.js/)**: Effets de vagues en arrière-plan
 <!-- END_LIBRARY_SECTION -->
