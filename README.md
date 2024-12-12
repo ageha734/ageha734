@@ -75,6 +75,13 @@
             alt="Medium"
         />
     </a>
+    <a href="https://github.com/devxb/gitanimals">
+        <img
+          src="https://render.gitanimals.org/farms/ageha734"
+          width="600"
+          height="300"
+        />
+    </a>
 </div>
 
 <h3 align="left"><b>🔭 Work</b></h3>
