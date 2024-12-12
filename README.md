@@ -79,9 +79,17 @@
 
 <h3 align="left"><b>🔭 Work</b></h3>
 <div align="left">
-    <p>
-        Look at my <a href="./about/work_experience.md">work experience</a>.
-    </p>
+    <ul>
+        <li>
+            Look at my work experience.　<a href="./about/work_experience_en.md">[en]</a> / <a href="./about/work_experience.md">[ja]</a>
+        </li>
+        <li>
+            Look at my resume. <a href="./about/resume_en.md">[en]</a> / <a href="./about/resume.md">[ja]</a>
+        </li>
+        <li>
+             <a href="./about">About me.</a>
+        </li>
+    </ul>
 </div>
 
 <h3 align="left"><b>👨‍💻 Things I code with</b></h3>
@@ -142,18 +150,18 @@
 <div align="left">
     <a href="https://paypal.me/ageha734" target="_blank">
         <img
-            src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"
-            height="48"
+            src="https://img.shields.io/badge/PayPal-00457C?style=badge&logo=paypal&logoColor=white"
+            height=60"
             style="margin-right: 18px"
-            alt="paypal.me"
+            alt="PayPal"
         />
     </a>
-    <a href="https://github.com/impostor-syndromes/README.pet" target="_blank">
+    <a href="https://github.com/sponsors/ageha734" target="_blank">
         <img
-            src="https://readme.pet/api?username=ageha734"
-            height="48%"
+            src="https://ageha734.github.io/badges/badge_sponsors.svg"
+            height="60"
             style="margin-right: 18px"
-            alt="README.pet"
+            alt="Sponsors"
         />
     </a>
 </div>
@@ -200,7 +208,7 @@
                     <p>E - Ripple</p>
                 </td>
                 <td>
-                    <p>関西の学生エンジニアが集まれる場所を創る。</p>
+                    <p>Create a place where student engineers in the Kansai region can meet.</p>
                 </td>
                 <td>
                     <p>show <a href="https://kansai-eng-net.connpass.com/" >HomePage</a></p>
@@ -241,7 +249,7 @@
                     <a href="https://github.com/impostor-syndromes/README.pet"><b>README.pet</b></a>
                 </td>
                 <td>
-                    <p>Githubのプロフィール画面でペットを育ててみよう！！今日のコミットがペットのご飯になります！</p>
+                    <p>Raise a pet on your Github profile screen!Today's commit will be your pet's food!</p>
                 </td>
                 <td>
                     <img
@@ -281,7 +289,7 @@
                     <a href="https://gitea.com/takenoko/PresenterPro"><b>PresenterPro</b></a>
                 </td>
                 <td>
-                    <p>Githubのプロフィール画面でペットを育ててみよう！！今日のコミットがペットのご飯になります！</p>
+                    <p>PresenterPro supports presenters in the offline presentation of material created with existing presentation tools.</p>
                 </td>
                 <td>
                     <img
@@ -321,7 +329,7 @@
                     <a href="https://github.com/hizuki-mimuro/EchoSleep"><b>EchoSleep</b></a>
                 </td>
                 <td>
-                    <p>Githubのプロフィール画面でペットを育ててみよう！！今日のコミットがペットのご飯になります！</p>
+                    <p>It supports all during sleep, waking and before sleep, and aims to improve quality of life and character through sleep.</p>
                 </td>
                 <td>
                     <img
@@ -478,7 +486,7 @@ JSON         6 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <!--END_SECTION:waka-->
 </div>
 
-<h2 align="center"><b>📊 Resume with me 📊</b></h2>
+<h2 align="center"><b>📊 Development metrics 📊</b></h2>
 <div align="center">
 <!--START_SECTION:lapras-card-->
 <p ><a href="https://lapras.com/public/ZGCCIAL" target="_blank" rel="noopener noreferrer"><img alt="ZGCCIAL's scores on LAPRAS are as follows: Engineering: 3.3 out of 5.0, Business: 2.85 out of 5.0, Influence: 3.2 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.3&b=2.85&i=3.2&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>

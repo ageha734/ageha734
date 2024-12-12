@@ -1,0 +1,26 @@
+name: LAPRAS Card JP
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-card:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: kawamataryo/lapras-card-readme@main
+        with:
+          SHARE_ID: "ZGCCIAL"
+          ICON_FIRST: "#030E21"
+          ICON_SECOND: "#1688BF"
+          BACKGROUND_FIRST: "#020E27"
+          BACKGROUND_SECOND: "#0E5593"
+          LANG: "ja"
+          CARD_WIDTH: "400"
+          UPDATE_TIME: "true"
+          README_FILE: "README.ja.md"

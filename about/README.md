@@ -1,43 +1,78 @@
+<div align="center">
+    <a href="https://app.daily.dev/ageha734">
+        <img
+            src="https://api.daily.dev/devcards/v2/NwRyAmMOgWntGfpuKVfsX.png?r=yp9&type=wide"
+            width="1652"
+            alt="KEITA HIBI's Dev Card"
+        />
+    </a>
+</div>
+
 <p align="right">
     English | <a href="./README.ja.md">日本語</a>
 </p>
 
-## About Me
+<h2>About Me</h2>
 
-* [Link to Github](https://github.com/ageha734)
-* [Work experience](./work_experience_en.md)
+<ul>
+    <li>
+            <a href="https://github.com/ageha734">Link to Github</a>
+    </li>
+    <li>
+        <a href="./work_experience_en.md">Work experience</a>
+    </li>
+    <li>
+        <a href="./resume_en.md">Resume</a>
+    </li>
+</ul>
 
-### Skills To Develop
+<h3>Skills To Develop</h3>
 
-* English skills
+<ul>
+    <li>English skills</li>
+</ul>
 
-## Technical Interests
+<h2>Technical Interests</h2>
 
-* Architecture
-* Jetpack Compose (Android)
-* Cross-platform development (like KMM)
-* Go and its related technologies
-  * Microservice architecture
+<ul>
+    <li>Architecture</li>
+    <li>Jetpack Compose (Android)</li>
+    <li>Cross-platform development (like KMM)</li>
+    <li>Go and its related technologies
+        <ul>
+            <li>Microservice architecture</li>
+        </ul>
+    </li>
+</ul>
 
-### Want to Try Someday
+<h3>Want to Try Someday</h3>
 
-* Understanding Low-level concepts
-  * Building an operating system from scratch
-* Specializing in a specific field
-* Understanding database management system
+<ul>
+    <li>Understanding Low-level concepts
+        <ul>
+            <li>Building an operating system from scratch</li>
+        </ul>
+    </li>
+    <li>Specializing in a specific field</li>
+    <li>Understanding database management system</li>
+</ul>
 
-## Thoughts
+<h2>Thoughts</h2>
 
-* I wanna keep trying new things
+<ul>
+    <li>I wanna keep trying new things</li>
+</ul>
 
-### Motto
+<h3>Motto</h3>
 
-* All art is quite useless.
-* Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
-* Done is better than perfect.
+<ul>
+    <li>All art is quite useless.</li>
+    <li>Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.</li>
+    <li>Done is better than perfect.</li>
+</ul>
 
-## Personality and Traits
+<h2>Personality and Traits</h2>
 
-### CliftonStrengths 34
+<h3>CliftonStrengths 34</h3>
 
-![](./clifton-strengths.png)
+<img src="./clifton-strengths.png" alt="CliftonStrengths 34">
