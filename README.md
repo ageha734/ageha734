@@ -489,8 +489,16 @@ JSON         6 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <h2 align="center"><b>📊 Development metrics 📊</b></h2>
 <div align="center">
 <!--START_SECTION:lapras-card-->
+<<<<<<< HEAD
 <p ><a href="https://lapras.com/public/ZGCCIAL" target="_blank" rel="noopener noreferrer"><img alt="ZGCCIAL's scores on LAPRAS are as follows: Engineering: 3.3 out of 5.0, Business: 2.85 out of 5.0, Influence: 3.2 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.3&b=2.85&i=3.2&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>
 Last Updated on 9/26/2024, 1:38:20 AM</p>
+||||||| e4eeafd
+<p ><a href="https://lapras.com/public/ZGCCIAL" target="_blank" rel="noopener noreferrer"><img alt="ZGCCIAL's scores on LAPRAS are as follows: Engineering: 3.3 out of 5.0, Business: 2.85 out of 5.0, Influence: 3.2 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.3&b=2.85&i=3.2&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>  
+Last Updated on 9/26/2024, 1:38:20 AM</p>
+=======
+<p ><a href="https://lapras.com/public/ZGCCIAL" target="_blank" rel="noopener noreferrer"><img alt="ZGCCIAL's scores on LAPRAS are as follows: Engineering: 3.38 out of 5.0, Business: 2.85 out of 5.0, Influence: 3.24 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.38&b=2.85&i=3.24&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>  
+Last Updated on 12/12/2024, 1:48:21 AM</p>
+>>>>>>> origin/master
 <!--END_SECTION:lapras-card-->
 </div>
 
@@ -533,14 +541,10 @@ Last Updated on 9/26/2024, 1:38:20 AM</p>
 
 <div align="center">
  <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Jeudi 26 septembre
- 🗓️</h3><div align="center">9h - 12h30 : Optimisation backend : Amélioration des performances des routes API (Node.js).
-</div><div align="center">13h30 - 17h : Améliorations UI frontend : Optimisation de l'interface utilisateur (Svelte).
-</div>
-
+Aucun agenda disponible pour ce jour.
 <!-- END_AGENDA_SECTION -->
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Select2](https://select2.org/)**: Une bibliothèque pour améliorer les menus déroulants HTML.
+ **[Chance.js](https://chancejs.com/)**: Une bibliothèque pour générer des données aléatoires.
 <!-- END_LIBRARY_SECTION -->
