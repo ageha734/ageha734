@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chance.js](https://chancejs.com/)**: Une bibliothèque pour générer des données aléatoires.
+ **[Lint-staged](https://github.com/okonet/lint-staged)**: Un outil pour exécuter des linters sur les fichiers git staged.
 <!-- END_LIBRARY_SECTION -->
