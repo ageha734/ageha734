@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Lint-staged](https://github.com/okonet/lint-staged)**: Un outil pour exécuter des linters sur les fichiers git staged.
+ **[Ngx-translate](https://github.com/ngx-translate/core)**: Internationalisation pour Angular
 <!-- END_LIBRARY_SECTION -->
