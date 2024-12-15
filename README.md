@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ngx-translate](https://github.com/ngx-translate/core)**: Internationalisation pour Angular
+ **[FilePond](https://pqina.nl/filepond/)**: Bibliothèque d'upload de fichiers
 <!-- END_LIBRARY_SECTION -->
