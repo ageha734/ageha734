@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cash](https://github.com/fabiospampinato/cash)**: Une alternative légère à jQuery
+ **[Angular File Upload](https://github.com/valor-software/ng2-file-upload)**: Uploader de fichiers pour Angular
 <!-- END_LIBRARY_SECTION -->
