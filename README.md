@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular File Upload](https://github.com/valor-software/ng2-file-upload)**: Uploader de fichiers pour Angular
+ **[PM2](https://pm2.keymetrics.io/)**: Un gestionnaire de processus pour les applications Node.js.
 <!-- END_LIBRARY_SECTION -->
