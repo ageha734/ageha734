@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PM2](https://pm2.keymetrics.io/)**: Un gestionnaire de processus pour les applications Node.js.
+ **[Dropzone.js](https://www.dropzonejs.com/)**: Zone de dépôt de fichiers pour les uploads
 <!-- END_LIBRARY_SECTION -->
