@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Dropzone.js](https://www.dropzonejs.com/)**: Zone de dépôt de fichiers pour les uploads
+ **[Vite](https://vitejs.dev/)**: Un outil de développement front-end rapide avec un hot module replacement performant.
 <!-- END_LIBRARY_SECTION -->
