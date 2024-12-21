@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vite](https://vitejs.dev/)**: Un outil de développement front-end rapide avec un hot module replacement performant.
+ **[Angular](https://angular.io/)**: Un framework pour construire des applications web dynamiques.
 <!-- END_LIBRARY_SECTION -->
