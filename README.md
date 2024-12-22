@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular](https://angular.io/)**: Un framework pour construire des applications web dynamiques.
+ **[Three.js](https://threejs.org/)**: Une bibliothèque pour créer des graphiques 3D sur le web.
 <!-- END_LIBRARY_SECTION -->
