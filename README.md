@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Three.js](https://threejs.org/)**: Une bibliothèque pour créer des graphiques 3D sur le web.
+ **[Calendar.js](https://github.com/kciter/calendar.js)**: Générateur de calendriers simples
 <!-- END_LIBRARY_SECTION -->
