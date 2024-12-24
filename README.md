@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Calendar.js](https://github.com/kciter/calendar.js)**: Générateur de calendriers simples
+ **[Lerna](https://lerna.js.org/)**: Un outil pour gérer les monorepos JavaScript.
 <!-- END_LIBRARY_SECTION -->
