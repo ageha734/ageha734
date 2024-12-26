@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Grunt](https://gruntjs.com/)**: Un gestionnaire de tâches pour automatiser les processus de développement.
+ **[Angular Fire](https://github.com/angular/angularfire)**: Intégration Firebase pour Angular
 <!-- END_LIBRARY_SECTION -->
