@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Fire](https://github.com/angular/angularfire)**: Intégration Firebase pour Angular
+ **[Cleave.js](https://nosir.github.io/cleave.js/)**: Une bibliothèque pour formater automatiquement les champs de formulaire.
 <!-- END_LIBRARY_SECTION -->
