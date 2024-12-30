@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[RxJS](https://rxjs.dev/)**: Une bibliothèque pour la programmation réactive utilisant des observables.
+ **[Anime.js](https://animejs.com/)**: Une bibliothèque pour animer des éléments DOM, SVG, et plus.
 <!-- END_LIBRARY_SECTION -->
