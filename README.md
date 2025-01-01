@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[AnimeJS](https://animejs.com/)**: Bibliothèque d'animation légère
+ **[xss-filters](https://github.com/yahoo/xss-filters)**: Filtres XSS pour JavaScript
 <!-- END_LIBRARY_SECTION -->
