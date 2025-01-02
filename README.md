@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[xss-filters](https://github.com/yahoo/xss-filters)**: Filtres XSS pour JavaScript
+ **[Alpine.js](https://alpinejs.dev/)**: Un framework léger pour manipuler le DOM directement dans le HTML.
 <!-- END_LIBRARY_SECTION -->
