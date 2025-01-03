@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Alpine.js](https://alpinejs.dev/)**: Un framework léger pour manipuler le DOM directement dans le HTML.
+ **[react-draggable](https://github.com/react-grid-layout/react-draggable)**: Facilement déplacer des composants dans React
 <!-- END_LIBRARY_SECTION -->
