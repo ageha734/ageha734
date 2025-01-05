@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[sanitize-html](https://github.com/apostrophecms/sanitize-html)**: Sanitisation HTML configurable
+ **[Wavesurfer.js](https://wavesurfer-js.org/)**: Bibliothèque pour afficher et interagir avec des formes d'onde audio
 <!-- END_LIBRARY_SECTION -->
