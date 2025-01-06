@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Wavesurfer.js](https://wavesurfer-js.org/)**: Bibliothèque pour afficher et interagir avec des formes d'onde audio
+ **[Nodemon](https://nodemon.io/)**: Un outil qui surveille les changements dans votre projet Node.js et redémarre automatiquement l'application.
 <!-- END_LIBRARY_SECTION -->
