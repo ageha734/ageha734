@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Nodemon](https://nodemon.io/)**: Un outil qui surveille les changements dans votre projet Node.js et redémarre automatiquement l'application.
+ **[D3.js](https://d3js.org/)**: Une bibliothèque pour créer des graphiques dynamiques et interactifs.
 <!-- END_LIBRARY_SECTION -->
