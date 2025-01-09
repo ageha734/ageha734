@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Canvas.js](https://canvasjs.com/)**: Facilite la manipulation de canevas
+ **[Rollup](https://rollupjs.org/)**: Un bundler de modules JavaScript pour des projets modernes.
 <!-- END_LIBRARY_SECTION -->
