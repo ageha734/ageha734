@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Rollup](https://rollupjs.org/)**: Un bundler de modules JavaScript pour des projets modernes.
+ **[Vega](https://vega.github.io/vega/)**: Outil de visualisation de données basé sur JSON
 <!-- END_LIBRARY_SECTION -->
