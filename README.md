@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vega](https://vega.github.io/vega/)**: Outil de visualisation de données basé sur JSON
+ **[Svelte Heroicons](https://github.com/Chartbrew/svelte-heroicons)**: Icônes Heroicons pour Svelte
 <!-- END_LIBRARY_SECTION -->
