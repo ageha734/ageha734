@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Popper.js](https://popper.js.org/)**: Une bibliothèque pour gérer les popovers, tooltips, et dropdowns.
+ **[GSAP](https://greensock.com/gsap/)**: Une bibliothèque puissante pour créer des animations.
 <!-- END_LIBRARY_SECTION -->
