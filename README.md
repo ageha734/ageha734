@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[GSAP](https://greensock.com/gsap/)**: Une bibliothèque puissante pour créer des animations.
+ **[Dragula](https://github.com/bevacqua/dragula)**: Drag and drop sans dépendances
 <!-- END_LIBRARY_SECTION -->
