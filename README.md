@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Dragula](https://github.com/bevacqua/dragula)**: Drag and drop sans dépendances
+ **[Storybook](https://storybook.js.org/)**: Un outil pour construire et tester des composants UI de manière isolée.
 <!-- END_LIBRARY_SECTION -->
