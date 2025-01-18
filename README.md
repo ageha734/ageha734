@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Resumable.js](http://www.resumablejs.com/)**: Uploader de fichiers en plusieurs parties
+ **[Backbone.js](https://backbonejs.org/)**: Une bibliothèque pour structurer les applications JavaScript en modèles MVC.
 <!-- END_LIBRARY_SECTION -->
