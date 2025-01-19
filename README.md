@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Backbone.js](https://backbonejs.org/)**: Une bibliothèque pour structurer les applications JavaScript en modèles MVC.
+ **[Parcel](https://parceljs.org/)**: Un bundler d'applications web sans configuration.
 <!-- END_LIBRARY_SECTION -->
