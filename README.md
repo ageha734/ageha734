@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Backbone.js](https://backbonejs.org/)**: Une bibliothèque pour structurer les applications JavaScript en modèles MVC.
+ **[Micromodal](https://micromodal.vercel.app/)**: Bibliothèque légère pour la gestion des modales
 <!-- END_LIBRARY_SECTION -->
