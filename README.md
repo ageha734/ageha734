@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vue.js](https://vuejs.org/)**: Un framework pour construire des interfaces utilisateur et des applications monopages.
+ **[Gatsby](https://www.gatsbyjs.com/)**: Un générateur de sites statiques basé sur React.
 <!-- END_LIBRARY_SECTION -->
