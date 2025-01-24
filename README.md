@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Gatsby](https://www.gatsbyjs.com/)**: Un générateur de sites statiques basé sur React.
+ **[Lottie](https://airbnb.io/lottie/)**: Bibliothèque pour rendre des animations Adobe After Effects
 <!-- END_LIBRARY_SECTION -->
