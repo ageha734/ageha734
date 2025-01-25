@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Lottie](https://airbnb.io/lottie/)**: Bibliothèque pour rendre des animations Adobe After Effects
+ **[Day.js](https://day.js.org/)**: Une bibliothèque légère pour manipuler les dates et heures, alternative à Moment.js.
 <!-- END_LIBRARY_SECTION -->
