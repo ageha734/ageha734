@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Day.js](https://day.js.org/)**: Une bibliothèque légère pour manipuler les dates et heures, alternative à Moment.js.
+ **[react-dnd](https://react-dnd.github.io/react-dnd/)**: Drag and drop avec React
 <!-- END_LIBRARY_SECTION -->
