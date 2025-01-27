@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[react-dnd](https://react-dnd.github.io/react-dnd/)**: Drag and drop avec React
+ **[SortableJS](https://github.com/SortableJS/Sortable)**: Bibliothèque de tri et de glisser-déposer
 <!-- END_LIBRARY_SECTION -->
