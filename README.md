@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[SortableJS](https://github.com/SortableJS/Sortable)**: Bibliothèque de tri et de glisser-déposer
+ **[Babel](https://babeljs.io/)**: Un transcompilateur JavaScript pour utiliser les fonctionnalités modernes du langage.
 <!-- END_LIBRARY_SECTION -->
