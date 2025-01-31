@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Pico.js](https://github.com/tehnokv/picojs)**: Bibliothèque JavaScript pour la détection de visages
+ **[RxJS](https://rxjs.dev/)**: Une bibliothèque pour la programmation réactive utilisant des observables.
 <!-- END_LIBRARY_SECTION -->
