@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[RxJS](https://rxjs.dev/)**: Une bibliothèque pour la programmation réactive utilisant des observables.
+ **[Tui Calendar](https://github.com/nhn/tui.calendar)**: Calendrier flexible et personnalisable
 <!-- END_LIBRARY_SECTION -->
