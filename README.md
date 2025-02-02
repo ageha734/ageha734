@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tui Calendar](https://github.com/nhn/tui.calendar)**: Calendrier flexible et personnalisable
+ **[React Big Calendar](https://github.com/jquense/react-big-calendar)**: Calendrier pour React avec événements
 <!-- END_LIBRARY_SECTION -->
