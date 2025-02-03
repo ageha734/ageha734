@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[React Big Calendar](https://github.com/jquense/react-big-calendar)**: Calendrier pour React avec événements
+ **[Mithril](https://mithril.js.org/)**: Un framework JavaScript moderne pour construire des applications web rapides.
 <!-- END_LIBRARY_SECTION -->
