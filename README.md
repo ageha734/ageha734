@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Mithril](https://mithril.js.org/)**: Un framework JavaScript moderne pour construire des applications web rapides.
+ **[Jasmine](https://jasmine.github.io/)**: Un framework de test comportemental pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
