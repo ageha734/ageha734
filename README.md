@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Jasmine](https://jasmine.github.io/)**: Un framework de test comportemental pour JavaScript.
+ **[bleach](https://bleach.readthedocs.io/en/latest/)**: Sanitisation HTML en Python
 <!-- END_LIBRARY_SECTION -->
