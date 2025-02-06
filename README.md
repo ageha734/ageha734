@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[bleach](https://bleach.readthedocs.io/en/latest/)**: Sanitisation HTML en Python
+ **[Trix](https://trix-editor.org/)**: Un éditeur de texte WYSIWYG pour les applications Web.
 <!-- END_LIBRARY_SECTION -->
