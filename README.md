@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Trix](https://trix-editor.org/)**: Un éditeur de texte WYSIWYG pour les applications Web.
+ **[Moment.js](https://momentjs.com/)**: Une bibliothèque pour manipuler et afficher les dates et heures.
 <!-- END_LIBRARY_SECTION -->
