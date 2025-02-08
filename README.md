@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Moment.js](https://momentjs.com/)**: Une bibliothèque pour manipuler et afficher les dates et heures.
+ **[Pikaday](https://pikaday.com/)**: Sélecteur de date simple et léger
 <!-- END_LIBRARY_SECTION -->
