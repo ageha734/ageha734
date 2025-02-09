@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Pikaday](https://pikaday.com/)**: Sélecteur de date simple et léger
+ **[SortableJS](https://sortablejs.github.io/Sortable/)**: Bibliothèque pour rendre des listes et des objets triables par glisser-déposer
 <!-- END_LIBRARY_SECTION -->
