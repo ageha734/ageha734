@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[SortableJS](https://sortablejs.github.io/Sortable/)**: Bibliothèque pour rendre des listes et des objets triables par glisser-déposer
+ **[npm](https://www.npmjs.com/)**: Le gestionnaire de paquets par défaut pour Node.js.
 <!-- END_LIBRARY_SECTION -->
