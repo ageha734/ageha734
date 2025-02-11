@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[npm](https://www.npmjs.com/)**: Le gestionnaire de paquets par défaut pour Node.js.
+ **[PixiJS](https://pixijs.com/)**: Une bibliothèque pour créer des graphiques 2D haute performance.
 <!-- END_LIBRARY_SECTION -->
