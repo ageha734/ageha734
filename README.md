@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PixiJS](https://pixijs.com/)**: Une bibliothèque pour créer des graphiques 2D haute performance.
+ **[Blotter.js](https://blotterjs.com/)**: Bibliothèque pour des animations de texte créatives
 <!-- END_LIBRARY_SECTION -->
