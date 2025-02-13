@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Blotter.js](https://blotterjs.com/)**: Bibliothèque pour des animations de texte créatives
+ **[Preact](https://preactjs.com/)**: Une alternative rapide et légère à React.
 <!-- END_LIBRARY_SECTION -->
