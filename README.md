@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Preact](https://preactjs.com/)**: Une alternative rapide et légère à React.
+ **[Dragula](https://github.com/bevacqua/dragula)**: Drag and drop sans dépendances
 <!-- END_LIBRARY_SECTION -->
