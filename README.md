@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Dragula](https://github.com/bevacqua/dragula)**: Drag and drop sans dépendances
+ **[PixiJS](https://pixijs.com/)**: Bibliothèque 2D rapide et flexible
 <!-- END_LIBRARY_SECTION -->
