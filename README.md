@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PixiJS](https://pixijs.com/)**: Bibliothèque 2D rapide et flexible
+ **[Barba.js](https://barba.js.org/)**: Une bibliothèque pour créer des transitions fluides entre les pages.
 <!-- END_LIBRARY_SECTION -->
