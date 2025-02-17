@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Barba.js](https://barba.js.org/)**: Une bibliothèque pour créer des transitions fluides entre les pages.
+ **[D3.js](https://d3js.org/)**: Une bibliothèque pour créer des graphiques dynamiques et interactifs.
 <!-- END_LIBRARY_SECTION -->
