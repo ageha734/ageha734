@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[D3.js](https://d3js.org/)**: Une bibliothèque pour créer des graphiques dynamiques et interactifs.
+ **[Bulma](https://bulma.io/)**: Un framework CSS moderne basé sur Flexbox.
 <!-- END_LIBRARY_SECTION -->
