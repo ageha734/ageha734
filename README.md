@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Uppy](https://uppy.io/)**: Bibliothèque de téléchargement de fichiers moderne
+ **[Mithril](https://mithril.js.org/)**: Un framework JavaScript moderne pour construire des applications web rapides.
 <!-- END_LIBRARY_SECTION -->
