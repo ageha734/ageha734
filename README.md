@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Mithril](https://mithril.js.org/)**: Un framework JavaScript moderne pour construire des applications web rapides.
+ **[vanilla-calendar](https://github.com/bananajoe/vanilla-calendar)**: Calendrier simple en vanilla JS
 <!-- END_LIBRARY_SECTION -->
