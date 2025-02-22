@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[vanilla-calendar](https://github.com/bananajoe/vanilla-calendar)**: Calendrier simple en vanilla JS
+ **[React Dropzone](https://react-dropzone.js.org/)**: Zone de dépôt pour React
 <!-- END_LIBRARY_SECTION -->
