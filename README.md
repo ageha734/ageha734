@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[React Dropzone](https://react-dropzone.js.org/)**: Zone de dépôt pour React
+ **[Sass](https://sass-lang.com/)**: Un préprocesseur CSS avec une syntaxe avancée.
 <!-- END_LIBRARY_SECTION -->
