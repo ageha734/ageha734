@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Voca](https://vocajs.com/)**: Bibliothèque pour la manipulation et l'analyse des chaînes de caractères
+ **[Ractive.js](https://ractive.js.org/)**: Un framework pour construire des interfaces utilisateur interactives.
 <!-- END_LIBRARY_SECTION -->
