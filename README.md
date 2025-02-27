@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ractive.js](https://ractive.js.org/)**: Un framework pour construire des interfaces utilisateur interactives.
+ **[Svelte Store](https://svelte.dev/tutorial/writable-stores)**: Gestion d'état réactive et intégrée
 <!-- END_LIBRARY_SECTION -->
