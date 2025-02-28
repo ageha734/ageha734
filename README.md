@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Store](https://svelte.dev/tutorial/writable-stores)**: Gestion d'état réactive et intégrée
+ **[gridstack.js](https://gridstackjs.com/)**: Drag and drop de widgets en grille
 <!-- END_LIBRARY_SECTION -->
