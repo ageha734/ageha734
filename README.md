@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[gridstack.js](https://gridstackjs.com/)**: Drag and drop de widgets en grille
+ **[Ractive.js](https://ractive.js.org/)**: Un framework pour construire des interfaces utilisateur interactives.
 <!-- END_LIBRARY_SECTION -->
