@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ractive.js](https://ractive.js.org/)**: Un framework pour construire des interfaces utilisateur interactives.
+ **[CamanJS](http://camanjs.com/)**: Une bibliothèque de manipulation d'images directement dans le navigateur.
 <!-- END_LIBRARY_SECTION -->
