@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[CamanJS](http://camanjs.com/)**: Une bibliothèque de manipulation d'images directement dans le navigateur.
+ **[Sapper](https://sapper.svelte.dev/)**: Framework de développement web basé sur Svelte
 <!-- END_LIBRARY_SECTION -->
