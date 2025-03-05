@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Fancybox](https://fancyapps.com/fancybox/3/)**: Galeries et modales élégantes
+ **[SVG.js](https://svgjs.dev/)**: Manipulation d'éléments SVG
 <!-- END_LIBRARY_SECTION -->
