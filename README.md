@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[SVG.js](https://svgjs.dev/)**: Manipulation d'éléments SVG
+ **[Day.js](https://day.js.org/)**: Library lightweight pour manipuler les dates
 <!-- END_LIBRARY_SECTION -->
