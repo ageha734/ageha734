@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[react-draggable](https://github.com/react-grid-layout/react-draggable)**: Facilement déplacer des composants dans React
+ **[Svelte Heroicons](https://github.com/Chartbrew/svelte-heroicons)**: Icônes Heroicons pour Svelte
 <!-- END_LIBRARY_SECTION -->
