@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Heroicons](https://github.com/Chartbrew/svelte-heroicons)**: Icônes Heroicons pour Svelte
+ **[Micromodal](https://micromodal.vercel.app/)**: Bibliothèque légère pour la gestion des modales
 <!-- END_LIBRARY_SECTION -->
