@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Micromodal](https://micromodal.vercel.app/)**: Bibliothèque légère pour la gestion des modales
+ **[Ngx-translate](https://github.com/ngx-translate/core)**: Internationalisation pour Angular
 <!-- END_LIBRARY_SECTION -->
