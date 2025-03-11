@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ngx-translate](https://github.com/ngx-translate/core)**: Internationalisation pour Angular
+ **[Webpack](https://webpack.js.org/)**: Un module bundler pour JavaScript et les autres ressources web.
 <!-- END_LIBRARY_SECTION -->
