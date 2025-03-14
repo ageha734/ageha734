@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Electron](https://www.electronjs.org/)**: Un framework pour créer des applications desktop avec JavaScript, HTML, et CSS.
+ **[FullCalendar](https://fullcalendar.io/)**: Calendrier interactif et responsive
 <!-- END_LIBRARY_SECTION -->
