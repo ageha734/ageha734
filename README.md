@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[FullCalendar](https://fullcalendar.io/)**: Calendrier interactif et responsive
+ **[Noise.js](https://github.com/cyrildiagne/noisejs)**: Générateur de bruit pour les fonds
 <!-- END_LIBRARY_SECTION -->
