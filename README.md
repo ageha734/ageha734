@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Noise.js](https://github.com/cyrildiagne/noisejs)**: Générateur de bruit pour les fonds
+ **[Vitest](https://vitest.dev/)**: Un framework de test ultra rapide basé sur Vite.
 <!-- END_LIBRARY_SECTION -->
