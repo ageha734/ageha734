@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vitest](https://vitest.dev/)**: Un framework de test ultra rapide basé sur Vite.
+ **[Svelte Store](https://svelte.dev/tutorial/writable-stores)**: Gestion d'état réactive et intégrée
 <!-- END_LIBRARY_SECTION -->
