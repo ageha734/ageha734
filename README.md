@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Store](https://svelte.dev/tutorial/writable-stores)**: Gestion d'état réactive et intégrée
+ **[Mousetrap](https://craig.is/killing/mice)**: Gestion simplifiée des raccourcis clavier
 <!-- END_LIBRARY_SECTION -->
