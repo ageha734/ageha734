@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Mousetrap](https://craig.is/killing/mice)**: Gestion simplifiée des raccourcis clavier
+ **[xss](https://github.com/leizongmin/js-xss)**: Filtrage des entrées XSS
 <!-- END_LIBRARY_SECTION -->
