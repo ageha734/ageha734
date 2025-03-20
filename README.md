@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[xss](https://github.com/leizongmin/js-xss)**: Filtrage des entrées XSS
+ **[Lottie](https://airbnb.io/lottie/)**: Une bibliothèque pour animer les fichiers JSON exportés depuis Adobe After Effects.
 <!-- END_LIBRARY_SECTION -->
