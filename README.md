@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[react-draggable](https://github.com/react-grid-layout/react-draggable)**: Facilement déplacer des composants dans React
+ **[Hammer.js](https://hammerjs.github.io/)**: Une bibliothèque pour gérer les événements tactiles et gestuels.
 <!-- END_LIBRARY_SECTION -->
