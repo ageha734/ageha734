@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Hammer.js](https://hammerjs.github.io/)**: Une bibliothèque pour gérer les événements tactiles et gestuels.
+ **[React Router](https://reactrouter.com/)**: Une bibliothèque pour la gestion des routes dans une application React.
 <!-- END_LIBRARY_SECTION -->
