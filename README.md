@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[React Router](https://reactrouter.com/)**: Une bibliothèque pour la gestion des routes dans une application React.
+ **[Resumable.js](http://www.resumablejs.com/)**: Uploader de fichiers en plusieurs parties
 <!-- END_LIBRARY_SECTION -->
