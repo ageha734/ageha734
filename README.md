@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Resumable.js](http://www.resumablejs.com/)**: Uploader de fichiers en plusieurs parties
+ **[Svelte Preprocess](https://github.com/sveltejs/svelte-preprocess)**: Préprocesseur CSS et autres pour Svelte
 <!-- END_LIBRARY_SECTION -->
