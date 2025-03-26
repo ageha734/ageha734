@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Preprocess](https://github.com/sveltejs/svelte-preprocess)**: Préprocesseur CSS et autres pour Svelte
+ **[FullCalendar](https://fullcalendar.io/)**: Calendrier interactif et responsive
 <!-- END_LIBRARY_SECTION -->
