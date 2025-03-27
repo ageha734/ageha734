@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[FullCalendar](https://fullcalendar.io/)**: Calendrier interactif et responsive
+ **[React Dropzone](https://react-dropzone.js.org/)**: Zone de dépôt pour React
 <!-- END_LIBRARY_SECTION -->
