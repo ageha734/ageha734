@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[React Dropzone](https://react-dropzone.js.org/)**: Zone de dépôt pour React
+ **[react-draggable](https://github.com/react-grid-layout/react-draggable)**: Facilement déplacer des composants dans React
 <!-- END_LIBRARY_SECTION -->
