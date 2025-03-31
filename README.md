@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Air Datepicker](https://t1m0n.name/air-datepicker/docs/index.html)**: Sélecteur de date moderne et léger
+ **[Styled-components](https://styled-components.com/)**: Une bibliothèque pour le CSS-in-JS dans React.
 <!-- END_LIBRARY_SECTION -->
