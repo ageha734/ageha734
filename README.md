@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Styled-components](https://styled-components.com/)**: Une bibliothèque pour le CSS-in-JS dans React.
+ **[Sinon](https://sinonjs.org/)**: Une bibliothèque pour les spies, mocks, et stubs dans les tests JavaScript.
 <!-- END_LIBRARY_SECTION -->
