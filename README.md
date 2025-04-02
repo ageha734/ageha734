@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Sinon](https://sinonjs.org/)**: Une bibliothèque pour les spies, mocks, et stubs dans les tests JavaScript.
+ **[Sapper](https://sapper.svelte.dev/)**: Framework de développement web basé sur Svelte
 <!-- END_LIBRARY_SECTION -->
