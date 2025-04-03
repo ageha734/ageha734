@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Sapper](https://sapper.svelte.dev/)**: Framework de développement web basé sur Svelte
+ **[Svelte Forms](https://github.com/leveluptuts/svelte-forms-lib)**: Gestion facile des formulaires
 <!-- END_LIBRARY_SECTION -->
