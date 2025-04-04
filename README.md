@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Forms](https://github.com/leveluptuts/svelte-forms-lib)**: Gestion facile des formulaires
+ **[Jest](https://jestjs.io/)**: Un framework de test JavaScript avec un focus sur la simplicité.
 <!-- END_LIBRARY_SECTION -->
