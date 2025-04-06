@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Granim.js](https://sarcadass.github.io/granim.js/)**: Bibliothèque pour créer des gradients animés
+ **[Waves.js](https://fian.im/Waves/)**: Effets d'onde pour des boutons
 <!-- END_LIBRARY_SECTION -->
