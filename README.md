@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Waves.js](https://fian.im/Waves/)**: Effets d'onde pour des boutons
+ **[Next.js](https://nextjs.org/)**: Un framework pour React qui permet le rendu côté serveur et la génération de sites statiques.
 <!-- END_LIBRARY_SECTION -->
