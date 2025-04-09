@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Gatsby-plugin-sanitized-html](https://www.gatsbyjs.com/plugins/gatsby-plugin-sanitized-html/)**: Sanitisation dans Gatsby
+ **[Svelte Chart](https://github.com/vitejs/svelte-chart)**: Graphiques pour Svelte
 <!-- END_LIBRARY_SECTION -->
