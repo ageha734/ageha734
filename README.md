@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Chart](https://github.com/vitejs/svelte-chart)**: Graphiques pour Svelte
+ **[Svelte Virtual List](https://github.com/sveltejs/svelte-virtual-list)**: Rendu performant de longues listes
 <!-- END_LIBRARY_SECTION -->
