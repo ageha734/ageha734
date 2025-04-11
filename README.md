@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Virtual List](https://github.com/sveltejs/svelte-virtual-list)**: Rendu performant de longues listes
+ **[Formik](https://formik.org/)**: Une bibliothèque pour gérer les formulaires dans React.
 <!-- END_LIBRARY_SECTION -->
