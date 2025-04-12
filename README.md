@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Formik](https://formik.org/)**: Une bibliothèque pour gérer les formulaires dans React.
+ **[Expo](https://expo.dev/)**: Un outil pour développer des applications React Native rapidement.
 <!-- END_LIBRARY_SECTION -->
