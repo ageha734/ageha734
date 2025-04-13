@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Expo](https://expo.dev/)**: Un outil pour développer des applications React Native rapidement.
+ **[RxJS](https://rxjs.dev/)**: Une bibliothèque pour la programmation réactive utilisant des observables.
 <!-- END_LIBRARY_SECTION -->
