@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[RxJS](https://rxjs.dev/)**: Une bibliothèque pour la programmation réactive utilisant des observables.
+ **[Tippy.js](https://atomiks.github.io/tippyjs/)**: Bibliothèque pour les infobulles et les poppers
 <!-- END_LIBRARY_SECTION -->
