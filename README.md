@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tippy.js](https://atomiks.github.io/tippyjs/)**: Bibliothèque pour les infobulles et les poppers
+ **[Sapper](https://sapper.svelte.dev/)**: Framework de développement web basé sur Svelte
 <!-- END_LIBRARY_SECTION -->
