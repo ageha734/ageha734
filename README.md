@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Framer Motion](https://www.framer.com/motion/)**: Une bibliothèque pour animer les composants React.
+ **[Babel](https://babeljs.io/)**: Un transcompilateur JavaScript pour utiliser les fonctionnalités modernes du langage.
 <!-- END_LIBRARY_SECTION -->
