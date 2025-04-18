@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Babel](https://babeljs.io/)**: Un transcompilateur JavaScript pour utiliser les fonctionnalités modernes du langage.
+ **[Swiper](https://swiperjs.com/)**: Une bibliothèque pour créer des carrousels et sliders responsives.
 <!-- END_LIBRARY_SECTION -->
