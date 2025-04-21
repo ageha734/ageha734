@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[HTML5 Sortable](https://github.com/SortableJS/Sortable)**: Sortables et drag-and-drop en HTML5
+ **[Bottleneck](https://www.npmjs.com/package/bottleneck)**: Gestion des taux de requêtes pour limiter les appels d'API
 <!-- END_LIBRARY_SECTION -->
