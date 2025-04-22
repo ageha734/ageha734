@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Bottleneck](https://www.npmjs.com/package/bottleneck)**: Gestion des taux de requêtes pour limiter les appels d'API
+ **[Jasmine](https://jasmine.github.io/)**: Un framework de test comportemental pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
