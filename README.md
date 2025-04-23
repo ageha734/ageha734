@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Jasmine](https://jasmine.github.io/)**: Un framework de test comportemental pour JavaScript.
+ **[Svelte Virtual List](https://github.com/sveltejs/svelte-virtual-list)**: Rendu performant de longues listes
 <!-- END_LIBRARY_SECTION -->
