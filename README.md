@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[svelte-i18n](https://github.com/kaisermann/svelte-i18n)**: Internationalisation pour Svelte
+ **[xss](https://github.com/leizongmin/js-xss)**: Filtrage des entrées XSS
 <!-- END_LIBRARY_SECTION -->
