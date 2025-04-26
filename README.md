@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[xss](https://github.com/leizongmin/js-xss)**: Filtrage des entrées XSS
+ **[Svelte Forms](https://github.com/leveluptuts/svelte-forms-lib)**: Gestion facile des formulaires
 <!-- END_LIBRARY_SECTION -->
