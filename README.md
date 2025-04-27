@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Forms](https://github.com/leveluptuts/svelte-forms-lib)**: Gestion facile des formulaires
+ **[Konva](https://konvajs.org/)**: API pour le dessin 2D sur le canvas
 <!-- END_LIBRARY_SECTION -->
