@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Konva](https://konvajs.org/)**: API pour le dessin 2D sur le canvas
+ **[Svelte Store](https://svelte.dev/tutorial/writable-stores)**: Gestion d'état réactive et intégrée
 <!-- END_LIBRARY_SECTION -->
