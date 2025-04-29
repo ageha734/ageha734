@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Store](https://svelte.dev/tutorial/writable-stores)**: Gestion d'état réactive et intégrée
+ **[particles.js](https://github.com/VincentGarreau/particles.js)**: Effets de particules en arrière-plan
 <!-- END_LIBRARY_SECTION -->
