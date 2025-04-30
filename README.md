@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[particles.js](https://github.com/VincentGarreau/particles.js)**: Effets de particules en arrière-plan
+ **[Svelte](https://svelte.dev/)**: Un framework pour construire des interfaces utilisateur réactives sans le coût de la bibliothèque virtuelle DOM.
 <!-- END_LIBRARY_SECTION -->
