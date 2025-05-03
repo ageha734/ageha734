@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vivus](https://maxwellito.github.io/vivus/)**: Bibliothèque pour animer les SVG au trait
+ **[dayjs](https://day.js.org/)**: Une alternative légère à Moment.js pour la manipulation de dates
 <!-- END_LIBRARY_SECTION -->
