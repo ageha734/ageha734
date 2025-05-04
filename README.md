@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[dayjs](https://day.js.org/)**: Une alternative légère à Moment.js pour la manipulation de dates
+ **[LiveServer](https://www.npmjs.com/package/live-server)**: Un serveur de développement local avec rechargement automatique.
 <!-- END_LIBRARY_SECTION -->
