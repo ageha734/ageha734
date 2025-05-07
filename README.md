@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Mustache.js](https://github.com/janl/mustache.js)**: Un moteur de template léger pour JavaScript.
+ **[Browsersync](https://browsersync.io/)**: Un outil pour synchroniser le développement entre plusieurs navigateurs.
 <!-- END_LIBRARY_SECTION -->
