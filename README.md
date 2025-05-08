@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Browsersync](https://browsersync.io/)**: Un outil pour synchroniser le développement entre plusieurs navigateurs.
+ **[React Dropzone](https://react-dropzone.js.org/)**: Zone de dépôt pour React
 <!-- END_LIBRARY_SECTION -->
