@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[React Dropzone](https://react-dropzone.js.org/)**: Zone de dépôt pour React
+ **[Microtip](https://github.com/MatteoGabriele/microtip)**: Bibliothèque pour des infobulles légères et flexibles
 <!-- END_LIBRARY_SECTION -->
