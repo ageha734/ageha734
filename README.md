@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Microtip](https://github.com/MatteoGabriele/microtip)**: Bibliothèque pour des infobulles légères et flexibles
+ **[react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)**: Drag and drop pour React
 <!-- END_LIBRARY_SECTION -->
