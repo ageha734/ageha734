@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd)**: Drag and drop pour React
+ **[Chance.js](https://chancejs.com/)**: Une bibliothèque pour générer des données aléatoires.
 <!-- END_LIBRARY_SECTION -->
