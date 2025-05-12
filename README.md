@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chance.js](https://chancejs.com/)**: Une bibliothèque pour générer des données aléatoires.
+ **[Microtip](https://github.com/MatteoGabriele/microtip)**: Bibliothèque pour des infobulles légères et flexibles
 <!-- END_LIBRARY_SECTION -->
