@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Microtip](https://github.com/MatteoGabriele/microtip)**: Bibliothèque pour des infobulles légères et flexibles
+ **[Mocha](https://mochajs.org/)**: Un framework de test pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
