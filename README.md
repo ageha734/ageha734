@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Mocha](https://mochajs.org/)**: Un framework de test pour JavaScript.
+ **[Gumshoe](https://github.com/aggro/Gumshoe.js)**: Bibliothèque pour le suivi des défilements et des sections de page
 <!-- END_LIBRARY_SECTION -->
