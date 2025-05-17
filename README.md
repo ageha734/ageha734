@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Storybook](https://storybook.js.org/)**: Un outil pour construire et tester des composants UI de manière isolée.
+ **[Micromodal](https://micromodal.vercel.app/)**: Bibliothèque légère pour la gestion des modales
 <!-- END_LIBRARY_SECTION -->
