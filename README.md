@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Backbone.js](https://backbonejs.org/)**: Une bibliothèque pour structurer les applications JavaScript en modèles MVC.
+ **[Three.js](https://threejs.org/)**: Une bibliothèque pour créer des graphiques 3D sur le web.
 <!-- END_LIBRARY_SECTION -->
