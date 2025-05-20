@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Three.js](https://threejs.org/)**: Une bibliothèque pour créer des graphiques 3D sur le web.
+ **[Waves.js](https://fian.im/Waves/)**: Effets d'onde pour des boutons
 <!-- END_LIBRARY_SECTION -->
