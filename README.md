@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Waves.js](https://fian.im/Waves/)**: Effets d'onde pour des boutons
+ **[Svelte Chart](https://github.com/vitejs/svelte-chart)**: Graphiques pour Svelte
 <!-- END_LIBRARY_SECTION -->
