@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Chart](https://github.com/vitejs/svelte-chart)**: Graphiques pour Svelte
+ **[Fabric.js](http://fabricjs.com/)**: Manipulation d'éléments canvas
 <!-- END_LIBRARY_SECTION -->
