@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Fabric.js](http://fabricjs.com/)**: Manipulation d'éléments canvas
+ **[Vue.js](https://vuejs.org/)**: Un framework pour construire des interfaces utilisateur et des applications monopages.
 <!-- END_LIBRARY_SECTION -->
