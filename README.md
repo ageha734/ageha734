@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vue.js](https://vuejs.org/)**: Un framework pour construire des interfaces utilisateur et des applications monopages.
+ **[gridstack.js](https://gridstackjs.com/)**: Drag and drop de widgets en grille
 <!-- END_LIBRARY_SECTION -->
