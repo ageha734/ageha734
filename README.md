@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[CodeMirror](https://codemirror.net/)**: Un éditeur de code dans le navigateur avec support pour diverses langages.
+ **[Tabulator](http://tabulator.info/)**: Bibliothèque pour créer des tableaux interactifs avec tri, recherche et pagination
 <!-- END_LIBRARY_SECTION -->
