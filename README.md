@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Yup](https://github.com/jquense/yup)**: Une bibliothèque pour valider des objets JavaScript.
+ **[Rough.js](https://roughjs.com/)**: Dessin à la main pour des éléments graphiques
 <!-- END_LIBRARY_SECTION -->
