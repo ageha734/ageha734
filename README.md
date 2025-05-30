@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Rough.js](https://roughjs.com/)**: Dessin à la main pour des éléments graphiques
+ **[Angular Material](https://material.angular.io/)**: Composants basés sur Material Design
 <!-- END_LIBRARY_SECTION -->
