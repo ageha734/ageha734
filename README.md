@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Material](https://material.angular.io/)**: Composants basés sur Material Design
+ **[Styled-components](https://styled-components.com/)**: Une bibliothèque pour le CSS-in-JS dans React.
 <!-- END_LIBRARY_SECTION -->
