@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Gumshoe](https://github.com/aggro/Gumshoe.js)**: Bibliothèque pour le suivi des défilements et des sections de page
+ **[React](https://reactjs.org/)**: Une bibliothèque pour construire des interfaces utilisateur interactives.
 <!-- END_LIBRARY_SECTION -->
