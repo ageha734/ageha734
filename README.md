@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[React](https://reactjs.org/)**: Une bibliothèque pour construire des interfaces utilisateur interactives.
+ **[Algolia InstantSearch](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/js/)**: Une bibliothèque pour implémenter une recherche instantanée.
 <!-- END_LIBRARY_SECTION -->
