@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Algolia InstantSearch](https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/js/)**: Une bibliothèque pour implémenter une recherche instantanée.
+ **[Underscore](https://underscorejs.org/)**: Une bibliothèque utilitaire qui fournit des fonctions de programmation fonctionnelle.
 <!-- END_LIBRARY_SECTION -->
