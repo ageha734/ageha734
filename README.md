@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Underscore](https://underscorejs.org/)**: Une bibliothèque utilitaire qui fournit des fonctions de programmation fonctionnelle.
+ **[NestJS](https://nestjs.com/)**: Un framework pour construire des applications server-side en utilisant TypeScript.
 <!-- END_LIBRARY_SECTION -->
