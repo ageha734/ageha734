@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[NestJS](https://nestjs.com/)**: Un framework pour construire des applications server-side en utilisant TypeScript.
+ **[Gulp](https://gulpjs.com/)**: Un toolkit pour l'automatisation des tâches de développement.
 <!-- END_LIBRARY_SECTION -->
