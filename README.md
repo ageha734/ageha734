@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Gulp](https://gulpjs.com/)**: Un toolkit pour l'automatisation des tâches de développement.
+ **[Voca](https://vocajs.com/)**: Bibliothèque pour la manipulation et l'analyse des chaînes de caractères
 <!-- END_LIBRARY_SECTION -->
