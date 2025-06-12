@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Voca](https://vocajs.com/)**: Bibliothèque pour la manipulation et l'analyse des chaînes de caractères
+ **[xss-clean](https://github.com/nfriedly/xss-clean)**: Middleware pour nettoyer les entrées
 <!-- END_LIBRARY_SECTION -->
