@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[xss-clean](https://github.com/nfriedly/xss-clean)**: Middleware pour nettoyer les entrées
+ **[Foundation](https://get.foundation/)**: Un framework CSS responsive pour les applications web.
 <!-- END_LIBRARY_SECTION -->
