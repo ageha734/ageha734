@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chance.js](https://chancejs.com/)**: Une bibliothèque pour générer des données aléatoires.
+ **[AG Grid](https://www.ag-grid.com/angular-data-grid/)**: Composant de grille avancé
 <!-- END_LIBRARY_SECTION -->
