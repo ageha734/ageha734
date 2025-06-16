@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[AG Grid](https://www.ag-grid.com/angular-data-grid/)**: Composant de grille avancé
+ **[Prettier](https://prettier.io/)**: Un formateur de code pour JavaScript et d'autres langages.
 <!-- END_LIBRARY_SECTION -->
