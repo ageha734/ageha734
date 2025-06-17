@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Prettier](https://prettier.io/)**: Un formateur de code pour JavaScript et d'autres langages.
+ **[Angular](https://angular.io/)**: Un framework pour construire des applications web dynamiques.
 <!-- END_LIBRARY_SECTION -->
