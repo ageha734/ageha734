@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular](https://angular.io/)**: Un framework pour construire des applications web dynamiques.
+ **[Angular Testing Library](https://testing-library.com/docs/angular-testing-library/intro/)**: Outils de test pour Angular
 <!-- END_LIBRARY_SECTION -->
