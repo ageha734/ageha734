@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Testing Library](https://testing-library.com/docs/angular-testing-library/intro/)**: Outils de test pour Angular
+ **[Angular Calendar](https://github.com/mattlewis92/angular-calendar)**: Calendrier pour Angular
 <!-- END_LIBRARY_SECTION -->
