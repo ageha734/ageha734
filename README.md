@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Calendar](https://github.com/mattlewis92/angular-calendar)**: Calendrier pour Angular
+ **[CountUp.js](https://inorganik.github.io/countUp.js/)**: Animations de compte à rebours
 <!-- END_LIBRARY_SECTION -->
