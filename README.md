@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Micromodal](https://micromodal.vercel.app/)**: Bibliothèque légère pour la gestion des modales
+ **[Isotope](https://isotope.metafizzy.co/)**: Filtrage et mise en page dynamique
 <!-- END_LIBRARY_SECTION -->
