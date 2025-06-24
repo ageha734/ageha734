@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Isotope](https://isotope.metafizzy.co/)**: Filtrage et mise en page dynamique
+ **[PicoCSS](https://picocss.com/)**: Un framework CSS minimaliste pour des interfaces légères et rapides.
 <!-- END_LIBRARY_SECTION -->
