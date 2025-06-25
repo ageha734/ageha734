@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PicoCSS](https://picocss.com/)**: Un framework CSS minimaliste pour des interfaces légères et rapides.
+ **[Idb-keyval](https://github.com/jakearchibald/idb-keyval)**: Promesses simplifiées pour stocker des paires clé-valeur dans IndexedDB
 <!-- END_LIBRARY_SECTION -->
