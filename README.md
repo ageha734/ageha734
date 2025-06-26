@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Idb-keyval](https://github.com/jakearchibald/idb-keyval)**: Promesses simplifiées pour stocker des paires clé-valeur dans IndexedDB
+ **[NativeScript](https://nativescript.org/)**: Un framework pour construire des applications mobiles natives avec JavaScript.
 <!-- END_LIBRARY_SECTION -->
