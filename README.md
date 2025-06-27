@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[NativeScript](https://nativescript.org/)**: Un framework pour construire des applications mobiles natives avec JavaScript.
+ **[Aurelia](https://aurelia.io/)**: Un framework pour créer des applications web modernes et modulaires.
 <!-- END_LIBRARY_SECTION -->
