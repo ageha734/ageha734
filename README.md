@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chocolat](https://noelboss.github.io/Chocolat/)**: Affichage d'images dans une boîte modale
+ **[Ionic](https://ionicframework.com/)**: Un framework pour construire des applications mobiles et web avec une seule base de code.
 <!-- END_LIBRARY_SECTION -->
