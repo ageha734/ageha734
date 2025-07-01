@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ionic](https://ionicframework.com/)**: Un framework pour construire des applications mobiles et web avec une seule base de code.
+ **[Glide.js](https://glidejs.com/)**: Un carrousel léger et réactif pour le web
 <!-- END_LIBRARY_SECTION -->
