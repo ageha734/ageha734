@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Glide.js](https://glidejs.com/)**: Un carrousel léger et réactif pour le web
+ **[Resumable.js](http://www.resumablejs.com/)**: Uploader de fichiers en plusieurs parties
 <!-- END_LIBRARY_SECTION -->
