@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Resumable.js](http://www.resumablejs.com/)**: Uploader de fichiers en plusieurs parties
+ **[PhotoSwipe](https://photoswipe.com/)**: Une bibliothèque pour créer des galeries d'images légères et réactives.
 <!-- END_LIBRARY_SECTION -->
