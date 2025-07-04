@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PhotoSwipe](https://photoswipe.com/)**: Une bibliothèque pour créer des galeries d'images légères et réactives.
+ **[particles.js](https://github.com/VincentGarreau/particles.js)**: Effets de particules en arrière-plan
 <!-- END_LIBRARY_SECTION -->
