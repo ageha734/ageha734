@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[particles.js](https://github.com/VincentGarreau/particles.js)**: Effets de particules en arrière-plan
+ **[npm](https://www.npmjs.com/)**: Le gestionnaire de paquets par défaut pour Node.js.
 <!-- END_LIBRARY_SECTION -->
