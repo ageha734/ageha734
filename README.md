@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[npm](https://www.npmjs.com/)**: Le gestionnaire de paquets par défaut pour Node.js.
+ **[Air Datepicker](https://t1m0n.name/air-datepicker/docs/index.html)**: Sélecteur de date moderne et léger
 <!-- END_LIBRARY_SECTION -->
