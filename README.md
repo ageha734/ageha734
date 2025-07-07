@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Air Datepicker](https://t1m0n.name/air-datepicker/docs/index.html)**: Sélecteur de date moderne et léger
+ **[Angular](https://angular.io/)**: Un framework pour construire des applications web dynamiques.
 <!-- END_LIBRARY_SECTION -->
