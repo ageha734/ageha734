@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular](https://angular.io/)**: Un framework pour construire des applications web dynamiques.
+ **[Fuse.js](https://fusejs.io/)**: Bibliothèque de recherche floue pour effectuer des recherches basées sur des algorithmes de similarité
 <!-- END_LIBRARY_SECTION -->
