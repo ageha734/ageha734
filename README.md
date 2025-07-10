@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Aurelia](https://aurelia.io/)**: Un framework pour créer des applications web modernes et modulaires.
+ **[html-sanitizer](https://github.com/adiwajshing/HtmlSanitizer)**: Sanitisation pour Node.js
 <!-- END_LIBRARY_SECTION -->
