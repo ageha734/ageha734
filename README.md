@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[html-sanitizer](https://github.com/adiwajshing/HtmlSanitizer)**: Sanitisation pour Node.js
+ **[PixiJS](https://pixijs.com/)**: Bibliothèque 2D rapide et flexible
 <!-- END_LIBRARY_SECTION -->
