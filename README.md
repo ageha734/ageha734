@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PixiJS](https://pixijs.com/)**: Bibliothèque 2D rapide et flexible
+ **[Vanta.js](https://www.vantajs.com/)**: Effets d'arrière-plan animés
 <!-- END_LIBRARY_SECTION -->
