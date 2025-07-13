@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vanta.js](https://www.vantajs.com/)**: Effets d'arrière-plan animés
+ **[Foundation](https://get.foundation/)**: Un framework CSS responsive pour les applications web.
 <!-- END_LIBRARY_SECTION -->
