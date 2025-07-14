@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Foundation](https://get.foundation/)**: Un framework CSS responsive pour les applications web.
+ **[Angular Calendar](https://github.com/mattlewis92/angular-calendar)**: Calendrier pour Angular
 <!-- END_LIBRARY_SECTION -->
