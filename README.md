@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Calendar](https://github.com/mattlewis92/angular-calendar)**: Calendrier pour Angular
+ **[react-dropzone](https://react-dropzone.js.org/)**: Zone de dépôt de fichiers pour React
 <!-- END_LIBRARY_SECTION -->
