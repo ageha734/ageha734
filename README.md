@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[react-dropzone](https://react-dropzone.js.org/)**: Zone de dépôt de fichiers pour React
+ **[PicoCSS](https://picocss.com/)**: Un framework CSS minimaliste pour des interfaces légères et rapides.
 <!-- END_LIBRARY_SECTION -->
