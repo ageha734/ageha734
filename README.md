@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PicoCSS](https://picocss.com/)**: Un framework CSS minimaliste pour des interfaces légères et rapides.
+ **[Nx](https://nx.dev/)**: Un outil pour la gestion des monorepos JavaScript et TypeScript.
 <!-- END_LIBRARY_SECTION -->
