@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Nx](https://nx.dev/)**: Un outil pour la gestion des monorepos JavaScript et TypeScript.
+ **[Wave.js](https://github.com/horenku/wave)**: Bibliothèque pour créer des animations de vagues
 <!-- END_LIBRARY_SECTION -->
