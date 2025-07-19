@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Wave.js](https://github.com/horenku/wave)**: Bibliothèque pour créer des animations de vagues
+ **[Cytoscape.js](https://js.cytoscape.org/)**: Une bibliothèque pour visualiser des graphes complexes.
 <!-- END_LIBRARY_SECTION -->
