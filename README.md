@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cytoscape.js](https://js.cytoscape.org/)**: Une bibliothèque pour visualiser des graphes complexes.
+ **[dragselect](https://github.com/NoahZinsmeister/dragselect)**: Sélection d'éléments avec glisser-déposer
 <!-- END_LIBRARY_SECTION -->
