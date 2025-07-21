@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[dragselect](https://github.com/NoahZinsmeister/dragselect)**: Sélection d'éléments avec glisser-déposer
+ **[Yup](https://github.com/jquense/yup)**: Une bibliothèque pour valider des objets JavaScript.
 <!-- END_LIBRARY_SECTION -->
