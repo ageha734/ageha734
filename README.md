@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[pnpm](https://pnpm.io/)**: Un gestionnaire de paquets rapide et efficace pour JavaScript.
+ **[Vivus](https://maxwellito.github.io/vivus/)**: Bibliothèque pour animer des SVG de manière progressive
 <!-- END_LIBRARY_SECTION -->
