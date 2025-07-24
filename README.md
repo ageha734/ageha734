@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vivus](https://maxwellito.github.io/vivus/)**: Bibliothèque pour animer des SVG de manière progressive
+ **[Svelte Notifications](https://github.com/beyonk-adventures/svelte-notifications)**: Système de notifications
 <!-- END_LIBRARY_SECTION -->
