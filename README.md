@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Notifications](https://github.com/beyonk-adventures/svelte-notifications)**: Système de notifications
+ **[Angular Fire](https://github.com/angular/angularfire)**: Intégration Firebase pour Angular
 <!-- END_LIBRARY_SECTION -->
