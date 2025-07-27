@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vivus](https://maxwellito.github.io/vivus/)**: Une bibliothèque pour animer des SVG en les dessinant.
+ **[Tailwind CSS](https://tailwindcss.com/)**: Un framework CSS utilitaire.
 <!-- END_LIBRARY_SECTION -->
