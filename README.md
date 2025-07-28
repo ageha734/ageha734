@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tailwind CSS](https://tailwindcss.com/)**: Un framework CSS utilitaire.
+ **[Chocolat](https://noelboss.github.io/Chocolat/)**: Affichage d'images dans une boîte modale
 <!-- END_LIBRARY_SECTION -->
