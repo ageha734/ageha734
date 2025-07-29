@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chocolat](https://noelboss.github.io/Chocolat/)**: Affichage d'images dans une boîte modale
+ **[Gumshoe](https://github.com/aggro/Gumshoe.js)**: Bibliothèque pour le suivi des défilements et des sections de page
 <!-- END_LIBRARY_SECTION -->
