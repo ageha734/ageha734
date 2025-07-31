@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[DOMPurify](https://github.com/cure53/DOMPurify)**: Sanitisation pour les applications web
+ **[Reveal.js](https://revealjs.com/)**: Une bibliothèque pour créer des présentations web interactives.
 <!-- END_LIBRARY_SECTION -->
