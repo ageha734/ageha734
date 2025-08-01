@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Reveal.js](https://revealjs.com/)**: Une bibliothèque pour créer des présentations web interactives.
+ **[Just-Validate](https://github.com/DevDreams/Just-Validate)**: Bibliothèque légère pour la validation des formulaires
 <!-- END_LIBRARY_SECTION -->
