@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Just-Validate](https://github.com/DevDreams/Just-Validate)**: Bibliothèque légère pour la validation des formulaires
+ **[PhotoSwipe](https://photoswipe.com/)**: Une bibliothèque pour créer des galeries d'images légères et réactives.
 <!-- END_LIBRARY_SECTION -->
