@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PhotoSwipe](https://photoswipe.com/)**: Une bibliothèque pour créer des galeries d'images légères et réactives.
+ **[Lax.js](https://alexfoxy.github.io/lax.js/)**: Bibliothèque pour ajouter des animations de défilement simples
 <!-- END_LIBRARY_SECTION -->
