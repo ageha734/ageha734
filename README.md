@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Lax.js](https://alexfoxy.github.io/lax.js/)**: Bibliothèque pour ajouter des animations de défilement simples
+ **[Rellax](https://dixonandmoe.com/rellax/)**: Bibliothèque de parallaxe légère
 <!-- END_LIBRARY_SECTION -->
