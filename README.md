@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Rellax](https://dixonandmoe.com/rellax/)**: Bibliothèque de parallaxe légère
+ **[Emotion](https://emotion.sh/)**: Une bibliothèque pour le CSS-in-JS avec des fonctionnalités avancées.
 <!-- END_LIBRARY_SECTION -->
