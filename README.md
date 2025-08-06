@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Emotion](https://emotion.sh/)**: Une bibliothèque pour le CSS-in-JS avec des fonctionnalités avancées.
+ **[Receptor](https://github.com/adamrenklint/receptor)**: Gestionnaire d'événements de type middleware
 <!-- END_LIBRARY_SECTION -->
