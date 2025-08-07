@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Receptor](https://github.com/adamrenklint/receptor)**: Gestionnaire d'événements de type middleware
+ **[Ractive.js](https://ractive.js.org/)**: Un framework pour construire des interfaces utilisateur interactives.
 <!-- END_LIBRARY_SECTION -->
