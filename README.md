@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[react-dropzone](https://react-dropzone.js.org/)**: Zone de dépôt de fichiers pour React
+ **[Electron](https://www.electronjs.org/)**: Un framework pour créer des applications desktop avec JavaScript, HTML, et CSS.
 <!-- END_LIBRARY_SECTION -->
