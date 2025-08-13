@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[dragselect](https://github.com/NoahZinsmeister/dragselect)**: Sélection d'éléments avec glisser-déposer
+ **[Dragula](https://github.com/bevacqua/dragula)**: Drag and drop sans dépendances
 <!-- END_LIBRARY_SECTION -->
