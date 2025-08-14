@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Dragula](https://github.com/bevacqua/dragula)**: Drag and drop sans dépendances
+ **[Svelte Forms](https://github.com/leveluptuts/svelte-forms-lib)**: Gestion facile des formulaires
 <!-- END_LIBRARY_SECTION -->
