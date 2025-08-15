@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Forms](https://github.com/leveluptuts/svelte-forms-lib)**: Gestion facile des formulaires
+ **[sanitize.js](https://github.com/ptb/sanitize)**: Sanitisation légère des contenus
 <!-- END_LIBRARY_SECTION -->
