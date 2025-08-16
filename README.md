@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[sanitize.js](https://github.com/ptb/sanitize)**: Sanitisation légère des contenus
+ **[npm](https://www.npmjs.com/)**: Le gestionnaire de paquets par défaut pour Node.js.
 <!-- END_LIBRARY_SECTION -->
