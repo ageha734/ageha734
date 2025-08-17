@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[npm](https://www.npmjs.com/)**: Le gestionnaire de paquets par défaut pour Node.js.
+ **[Wavesurfer.js](https://wavesurfer-js.org/)**: Bibliothèque pour afficher et interagir avec des formes d'onde audio
 <!-- END_LIBRARY_SECTION -->
