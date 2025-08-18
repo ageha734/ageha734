@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Wavesurfer.js](https://wavesurfer-js.org/)**: Bibliothèque pour afficher et interagir avec des formes d'onde audio
+ **[Wavesurfer.js](https://wavesurfer-js.org/)**: Une bibliothèque pour visualiser et manipuler les fichiers audio avec des vagues.
 <!-- END_LIBRARY_SECTION -->
