@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[bgfx](https://bkaradzic.github.io/bgfx/bgfx.html)**: Bibliothèque de rendu graphique multiplateforme
+ **[dnd-kit](https://dndkit.com/)**: Kit de glisser-déposer pour React
 <!-- END_LIBRARY_SECTION -->
