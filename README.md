@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[dnd-kit](https://dndkit.com/)**: Kit de glisser-déposer pour React
+ **[Lerna](https://lerna.js.org/)**: Un outil pour gérer les monorepos JavaScript.
 <!-- END_LIBRARY_SECTION -->
