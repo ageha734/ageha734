@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Lerna](https://lerna.js.org/)**: Un outil pour gérer les monorepos JavaScript.
+ **[Underscore](https://underscorejs.org/)**: Une bibliothèque utilitaire qui fournit des fonctions de programmation fonctionnelle.
 <!-- END_LIBRARY_SECTION -->
