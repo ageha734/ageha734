@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Underscore](https://underscorejs.org/)**: Une bibliothèque utilitaire qui fournit des fonctions de programmation fonctionnelle.
+ **[Interact.js](https://interactjs.io/)**: Manipulation des éléments dans le navigateur
 <!-- END_LIBRARY_SECTION -->
