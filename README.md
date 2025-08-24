@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Interact.js](https://interactjs.io/)**: Manipulation des éléments dans le navigateur
+ **[Tabulator](http://tabulator.info/)**: Bibliothèque pour créer des tableaux interactifs avec tri, recherche et pagination
 <!-- END_LIBRARY_SECTION -->
