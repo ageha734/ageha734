@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tabulator](http://tabulator.info/)**: Bibliothèque pour créer des tableaux interactifs avec tri, recherche et pagination
+ **[Glide.js](https://glidejs.com/)**: Carrousel responsive
 <!-- END_LIBRARY_SECTION -->
