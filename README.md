@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Glide.js](https://glidejs.com/)**: Carrousel responsive
+ **[Receptor](https://github.com/adamrenklint/receptor)**: Gestionnaire d'événements de type middleware
 <!-- END_LIBRARY_SECTION -->
