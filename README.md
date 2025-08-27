@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Receptor](https://github.com/adamrenklint/receptor)**: Gestionnaire d'événements de type middleware
+ **[Waves.js](https://haghish.github.io/waves.js/)**: Effets de vagues en arrière-plan
 <!-- END_LIBRARY_SECTION -->
