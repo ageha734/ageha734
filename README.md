@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Waves.js](https://haghish.github.io/waves.js/)**: Effets de vagues en arrière-plan
+ **[Tempus Dominus](https://tempusdominus.github.io/bootstrap-4/)**: Sélecteur de date et heure basé sur Bootstrap
 <!-- END_LIBRARY_SECTION -->
