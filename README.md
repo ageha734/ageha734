@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tempus Dominus](https://tempusdominus.github.io/bootstrap-4/)**: Sélecteur de date et heure basé sur Bootstrap
+ **[TSDoc](https://tsdoc.org/)**: Un outil pour documenter les projets TypeScript avec des commentaires JSDoc.
 <!-- END_LIBRARY_SECTION -->
