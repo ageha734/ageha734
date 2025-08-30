@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[TSDoc](https://tsdoc.org/)**: Un outil pour documenter les projets TypeScript avec des commentaires JSDoc.
+ **[Formik](https://formik.org/)**: Une bibliothèque pour gérer les formulaires dans React.
 <!-- END_LIBRARY_SECTION -->
