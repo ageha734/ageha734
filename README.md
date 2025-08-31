@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Formik](https://formik.org/)**: Une bibliothèque pour gérer les formulaires dans React.
+ **[Blotter.js](https://blotter.js.org/)**: Bibliothèque pour créer des effets de texte créatifs
 <!-- END_LIBRARY_SECTION -->
