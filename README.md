@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chocolat](https://noelboss.github.io/Chocolat/)**: Affichage d'images dans une boîte modale
+ **[Mustache.js](https://github.com/janl/mustache.js)**: Un moteur de template léger pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
