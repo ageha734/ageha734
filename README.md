@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Mustache.js](https://github.com/janl/mustache.js)**: Un moteur de template léger pour JavaScript.
+ **[jQuery UI Draggable](https://jqueryui.com/draggable/)**: Drag and drop avec jQuery UI
 <!-- END_LIBRARY_SECTION -->
