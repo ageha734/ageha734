@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[jQuery UI Draggable](https://jqueryui.com/draggable/)**: Drag and drop avec jQuery UI
+ **[Jasmine](https://jasmine.github.io/)**: Un framework de test comportemental pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
