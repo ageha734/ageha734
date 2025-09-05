@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Jasmine](https://jasmine.github.io/)**: Un framework de test comportemental pour JavaScript.
+ **[Cloudinary](https://cloudinary.com/)**: Gestion d'images et de vidéos
 <!-- END_LIBRARY_SECTION -->
