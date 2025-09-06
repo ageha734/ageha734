@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cloudinary](https://cloudinary.com/)**: Gestion d'images et de vidéos
+ **[Fabric.js](http://fabricjs.com/)**: Manipulation d'éléments canvas
 <!-- END_LIBRARY_SECTION -->
