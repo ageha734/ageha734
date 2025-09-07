@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Fabric.js](http://fabricjs.com/)**: Manipulation d'éléments canvas
+ **[Prettier](https://prettier.io/)**: Un formateur de code pour JavaScript et d'autres langages.
 <!-- END_LIBRARY_SECTION -->
