@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Prettier](https://prettier.io/)**: Un formateur de code pour JavaScript et d'autres langages.
+ **[SvelteKit](https://kit.svelte.dev/)**: Framework moderne pour les applications Svelte
 <!-- END_LIBRARY_SECTION -->
