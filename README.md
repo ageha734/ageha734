@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[SvelteKit](https://kit.svelte.dev/)**: Framework moderne pour les applications Svelte
+ **[Browsersync](https://browsersync.io/)**: Un outil pour synchroniser le développement entre plusieurs navigateurs.
 <!-- END_LIBRARY_SECTION -->
