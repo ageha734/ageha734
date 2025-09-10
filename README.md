@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Browsersync](https://browsersync.io/)**: Un outil pour synchroniser le développement entre plusieurs navigateurs.
+ **[vue-draggable](https://github.com/SortableJS/Vue.Draggable)**: Drag and drop pour Vue.js
 <!-- END_LIBRARY_SECTION -->
