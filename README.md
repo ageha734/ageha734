@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[vue-draggable](https://github.com/SortableJS/Vue.Draggable)**: Drag and drop pour Vue.js
+ **[Gatsby](https://www.gatsbyjs.com/)**: Un générateur de sites statiques basé sur React.
 <!-- END_LIBRARY_SECTION -->
