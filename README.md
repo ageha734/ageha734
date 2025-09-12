@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Gatsby](https://www.gatsbyjs.com/)**: Un générateur de sites statiques basé sur React.
+ **[Waves.js](https://haghish.github.io/waves.js/)**: Effets de vagues en arrière-plan
 <!-- END_LIBRARY_SECTION -->
