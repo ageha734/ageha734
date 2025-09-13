@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Waves.js](https://haghish.github.io/waves.js/)**: Effets de vagues en arrière-plan
+ **[Redux](https://redux.js.org/)**: Une bibliothèque pour gérer l'état de l'application JavaScript.
 <!-- END_LIBRARY_SECTION -->
