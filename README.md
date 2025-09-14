@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Redux](https://redux.js.org/)**: Une bibliothèque pour gérer l'état de l'application JavaScript.
+ **[GraphQL](https://graphql.org/)**: Un langage de requête pour les APIs.
 <!-- END_LIBRARY_SECTION -->
