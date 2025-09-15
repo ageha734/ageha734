@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[GraphQL](https://graphql.org/)**: Un langage de requête pour les APIs.
+ **[Plyr](https://plyr.io/)**: Lecteur multimédia simple et élégant
 <!-- END_LIBRARY_SECTION -->
