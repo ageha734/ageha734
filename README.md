@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Plyr](https://plyr.io/)**: Lecteur multimédia simple et élégant
+ **[Tsparticles](https://tsparticles.github.io/)**: Effets de particules modernes
 <!-- END_LIBRARY_SECTION -->
