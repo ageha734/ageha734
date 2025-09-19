@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Micromodal](https://micromodal.vercel.app/)**: Bibliothèque légère pour la gestion des modales
+ **[LiveServer](https://www.npmjs.com/package/live-server)**: Un serveur de développement local avec rechargement automatique.
 <!-- END_LIBRARY_SECTION -->
