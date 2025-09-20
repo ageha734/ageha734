@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[LiveServer](https://www.npmjs.com/package/live-server)**: Un serveur de développement local avec rechargement automatique.
+ **[Fancybox](https://fancyapps.com/fancybox/3/)**: Galeries et modales élégantes
 <!-- END_LIBRARY_SECTION -->
