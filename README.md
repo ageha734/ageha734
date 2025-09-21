@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Fancybox](https://fancyapps.com/fancybox/3/)**: Galeries et modales élégantes
+ **[FullCalendar](https://fullcalendar.io/)**: Une bibliothèque pour créer des calendriers interactifs.
 <!-- END_LIBRARY_SECTION -->
