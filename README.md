@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[react-draggable](https://github.com/react-grid-layout/react-draggable)**: Facilement déplacer des composants dans React
+ **[Jest-extended](https://github.com/jest-community/jest-extended)**: Une extension de Jest avec des assertions supplémentaires.
 <!-- END_LIBRARY_SECTION -->
