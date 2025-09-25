@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Jest-extended](https://github.com/jest-community/jest-extended)**: Une extension de Jest avec des assertions supplémentaires.
+ **[SVG.js](https://svgjs.dev/)**: Manipulation d'éléments SVG
 <!-- END_LIBRARY_SECTION -->
