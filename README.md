@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[SVG.js](https://svgjs.dev/)**: Manipulation d'éléments SVG
+ **[Vue Router](https://router.vuejs.org/)**: Une bibliothèque pour la gestion des routes dans une application Vue.js.
 <!-- END_LIBRARY_SECTION -->
