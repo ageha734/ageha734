@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vue Router](https://router.vuejs.org/)**: Une bibliothèque pour la gestion des routes dans une application Vue.js.
+ **[Interact.js](https://interactjs.io/)**: Manipulation des éléments dans le navigateur
 <!-- END_LIBRARY_SECTION -->
