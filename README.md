@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Interact.js](https://interactjs.io/)**: Manipulation des éléments dans le navigateur
+ **[Fastify](https://www.fastify.io/)**: Un framework web rapide et performant pour Node.js.
 <!-- END_LIBRARY_SECTION -->
