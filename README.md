@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Fastify](https://www.fastify.io/)**: Un framework web rapide et performant pour Node.js.
+ **[Eslint](https://eslint.org/)**: Un linter JavaScript pour identifier et signaler les problèmes de code.
 <!-- END_LIBRARY_SECTION -->
