@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Eslint](https://eslint.org/)**: Un linter JavaScript pour identifier et signaler les problèmes de code.
+ **[Svelte Forms](https://github.com/leveluptuts/svelte-forms-lib)**: Gestion facile des formulaires
 <!-- END_LIBRARY_SECTION -->
