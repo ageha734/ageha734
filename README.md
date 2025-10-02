@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PM2](https://pm2.keymetrics.io/)**: Un gestionnaire de processus pour les applications Node.js.
+ **[RxJS](https://rxjs.dev/)**: Extensions réactives pour JavaScript
 <!-- END_LIBRARY_SECTION -->
