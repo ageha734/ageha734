@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[RxJS](https://rxjs.dev/)**: Extensions réactives pour JavaScript
+ **[Filepond](https://pqina.nl/filepond/)**: Bibliothèque pour télécharger et traiter des fichiers de manière fluide
 <!-- END_LIBRARY_SECTION -->
