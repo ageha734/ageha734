@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Filepond](https://pqina.nl/filepond/)**: Bibliothèque pour télécharger et traiter des fichiers de manière fluide
+ **[React](https://reactjs.org/)**: Une bibliothèque pour construire des interfaces utilisateur interactives.
 <!-- END_LIBRARY_SECTION -->
