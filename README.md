@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[React](https://reactjs.org/)**: Une bibliothèque pour construire des interfaces utilisateur interactives.
+ **[Angular Testing Library](https://testing-library.com/docs/angular-testing-library/intro/)**: Outils de test pour Angular
 <!-- END_LIBRARY_SECTION -->
