@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Testing Library](https://testing-library.com/docs/angular-testing-library/intro/)**: Outils de test pour Angular
+ **[Canvas.js](https://canvasjs.com/)**: Facilite la manipulation de canevas
 <!-- END_LIBRARY_SECTION -->
