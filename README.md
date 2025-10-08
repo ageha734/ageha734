@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Idb-keyval](https://github.com/jakearchibald/idb-keyval)**: Promesses simplifiées pour stocker des paires clé-valeur dans IndexedDB
+ **[Vega](https://vega.github.io/vega/)**: Outil de visualisation de données basé sur JSON
 <!-- END_LIBRARY_SECTION -->
