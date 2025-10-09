@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vega](https://vega.github.io/vega/)**: Outil de visualisation de données basé sur JSON
+ **[TypeScript](https://www.typescriptlang.org/)**: Un sur-ensemble de JavaScript qui ajoute des types statiques.
 <!-- END_LIBRARY_SECTION -->
