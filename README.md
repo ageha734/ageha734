@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[TypeScript](https://www.typescriptlang.org/)**: Un sur-ensemble de JavaScript qui ajoute des types statiques.
+ **[Framer Motion](https://www.framer.com/motion/)**: Une bibliothèque pour animer les composants React.
 <!-- END_LIBRARY_SECTION -->
