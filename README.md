@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Framer Motion](https://www.framer.com/motion/)**: Une bibliothèque pour animer les composants React.
+ **[Tagify](https://yaireo.github.io/tagify/)**: Bibliothèque pour ajouter des balises dans des champs de texte
 <!-- END_LIBRARY_SECTION -->
