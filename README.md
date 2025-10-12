@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tagify](https://yaireo.github.io/tagify/)**: Bibliothèque pour ajouter des balises dans des champs de texte
+ **[Svelte Heroicons](https://github.com/Chartbrew/svelte-heroicons)**: Icônes Heroicons pour Svelte
 <!-- END_LIBRARY_SECTION -->
