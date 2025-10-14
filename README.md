@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PM2](https://pm2.keymetrics.io/)**: Un gestionnaire de processus pour les applications Node.js.
+ **[Uppy](https://uppy.io/)**: Bibliothèque de téléchargement de fichiers moderne
 <!-- END_LIBRARY_SECTION -->
