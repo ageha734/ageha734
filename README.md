@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Uppy](https://uppy.io/)**: Bibliothèque de téléchargement de fichiers moderne
+ **[Cleave.js](https://nosir.github.io/cleave.js/)**: Bibliothèque pour formater des champs de saisie au fur et à mesure de la frappe
 <!-- END_LIBRARY_SECTION -->
