@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[NgRx](https://ngrx.io/)**: Gestion d'état réactive pour Angular
+ **[PostCSS](https://postcss.org/)**: Un outil pour transformer le CSS avec des plugins JavaScript.
 <!-- END_LIBRARY_SECTION -->
