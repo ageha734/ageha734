@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PostCSS](https://postcss.org/)**: Un outil pour transformer le CSS avec des plugins JavaScript.
+ **[Backbone.js](https://backbonejs.org/)**: Une bibliothèque pour structurer les applications JavaScript en modèles MVC.
 <!-- END_LIBRARY_SECTION -->
