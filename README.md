@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Backbone.js](https://backbonejs.org/)**: Une bibliothèque pour structurer les applications JavaScript en modèles MVC.
+ **[Mustache.js](https://github.com/janl/mustache.js/)**: Moteur de template simple et sans logique
 <!-- END_LIBRARY_SECTION -->
