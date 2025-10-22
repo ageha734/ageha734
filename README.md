@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ionic](https://ionicframework.com/)**: Framework pour le développement mobile
+ **[Nightwatch](https://nightwatchjs.org/)**: Un framework de test end-to-end pour les applications web.
 <!-- END_LIBRARY_SECTION -->
