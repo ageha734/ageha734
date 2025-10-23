@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Nightwatch](https://nightwatchjs.org/)**: Un framework de test end-to-end pour les applications web.
+ **[Apollo Client](https://www.apollographql.com/docs/react/)**: Une bibliothèque pour interagir avec des API GraphQL.
 <!-- END_LIBRARY_SECTION -->
