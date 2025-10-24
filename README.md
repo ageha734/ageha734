@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Apollo Client](https://www.apollographql.com/docs/react/)**: Une bibliothèque pour interagir avec des API GraphQL.
+ **[Tus.io](https://tus.io/)**: Protocole pour upload de fichiers
 <!-- END_LIBRARY_SECTION -->
