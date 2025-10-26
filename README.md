@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Capacitor](https://capacitorjs.com/)**: Un framework pour créer des applications mobiles multiplateformes avec JavaScript.
+ **[Babel](https://babeljs.io/)**: Un transcompilateur JavaScript pour utiliser les fonctionnalités modernes du langage.
 <!-- END_LIBRARY_SECTION -->
