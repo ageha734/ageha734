@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Babel](https://babeljs.io/)**: Un transcompilateur JavaScript pour utiliser les fonctionnalités modernes du langage.
+ **[vanilla-calendar](https://github.com/bananajoe/vanilla-calendar)**: Calendrier simple en vanilla JS
 <!-- END_LIBRARY_SECTION -->
