@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[vanilla-calendar](https://github.com/bananajoe/vanilla-calendar)**: Calendrier simple en vanilla JS
+ **[Choices.js](https://joshuajohnson.co.uk/Choices/)**: Bibliothèque pour créer des listes déroulantes et des champs multi-sélection
 <!-- END_LIBRARY_SECTION -->
