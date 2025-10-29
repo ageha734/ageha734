@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Choices.js](https://joshuajohnson.co.uk/Choices/)**: Bibliothèque pour créer des listes déroulantes et des champs multi-sélection
+ **[vue-draggable](https://github.com/SortableJS/Vue.Draggable)**: Drag and drop pour Vue.js
 <!-- END_LIBRARY_SECTION -->
