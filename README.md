@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[vue-draggable](https://github.com/SortableJS/Vue.Draggable)**: Drag and drop pour Vue.js
+ **[Mocha](https://mochajs.org/)**: Un framework de test pour JavaScript.
 <!-- END_LIBRARY_SECTION -->
