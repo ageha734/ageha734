@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Gatsby](https://www.gatsbyjs.com/)**: Un générateur de sites statiques basé sur React.
+ **[Lerna](https://lerna.js.org/)**: Un outil pour gérer les monorepos JavaScript.
 <!-- END_LIBRARY_SECTION -->
