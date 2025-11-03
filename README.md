@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Gatsby](https://www.gatsbyjs.com/)**: Un générateur de sites statiques basé sur React.
+ **[Jest](https://jestjs.io/)**: Un framework de test JavaScript avec un focus sur la simplicité.
 <!-- END_LIBRARY_SECTION -->
