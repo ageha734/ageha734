@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Jest](https://jestjs.io/)**: Un framework de test JavaScript avec un focus sur la simplicité.
+ **[Popper.js](https://popper.js.org/)**: Une bibliothèque pour gérer les popovers, tooltips, et dropdowns.
 <!-- END_LIBRARY_SECTION -->
