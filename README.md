@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Popper.js](https://popper.js.org/)**: Une bibliothèque pour gérer les popovers, tooltips, et dropdowns.
+ **[ScrollReveal](https://scrollrevealjs.org/)**: Animations d'apparition lors du défilement
 <!-- END_LIBRARY_SECTION -->
