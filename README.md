@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[ScrollReveal](https://scrollrevealjs.org/)**: Animations d'apparition lors du défilement
+ **[RxJS](https://rxjs.dev/)**: Extensions réactives pour JavaScript
 <!-- END_LIBRARY_SECTION -->
