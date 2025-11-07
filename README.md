@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[RxJS](https://rxjs.dev/)**: Extensions réactives pour JavaScript
+ **[Granim.js](https://sarcadass.github.io/granim.js/)**: Bibliothèque pour créer des gradients animés
 <!-- END_LIBRARY_SECTION -->
