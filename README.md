@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Granim.js](https://sarcadass.github.io/granim.js/)**: Bibliothèque pour créer des gradients animés
+ **[jQuery](https://jquery.com/)**: Une bibliothèque pour simplifier la manipulation du DOM et les requêtes AJAX.
 <!-- END_LIBRARY_SECTION -->
