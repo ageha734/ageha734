@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[jQuery](https://jquery.com/)**: Une bibliothèque pour simplifier la manipulation du DOM et les requêtes AJAX.
+ **[jsCalendar](https://js-calendar.github.io/jsCalendar/)**: Calendrier léger et personnalisable
 <!-- END_LIBRARY_SECTION -->
