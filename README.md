@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[jsCalendar](https://js-calendar.github.io/jsCalendar/)**: Calendrier léger et personnalisable
+ **[Date Range Picker](https://www.daterangepicker.com/)**: Sélecteur de plage de dates
 <!-- END_LIBRARY_SECTION -->
