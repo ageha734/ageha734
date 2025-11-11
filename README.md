@@ -496,8 +496,8 @@ JSON         6 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <h2 align="center"><b>📊 Development metrics 📊</b></h2>
 <div align="center">
 <!--START_SECTION:lapras-card-->
-<p ><a href="https://lapras.com/public/ZGCCIAL" target="_blank" rel="noopener noreferrer"><img alt="ZGCCIAL's scores on LAPRAS are as follows: Engineering: 3.25 out of 5.0, Business: 2.85 out of 5.0, Influence: 3.34 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.25&b=2.85&i=3.34&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>  
-Last Updated on 11/10/2025, 1:58:55 AM</p>
+<p ><a href="https://lapras.com/public/ZGCCIAL" target="_blank" rel="noopener noreferrer"><img alt="ZGCCIAL's scores on LAPRAS are as follows: Engineering: 3.26 out of 5.0, Business: 2.85 out of 5.0, Influence: 3.34 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.26&b=2.85&i=3.34&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>  
+Last Updated on 11/11/2025, 1:55:30 AM</p>
 <!--END_SECTION:lapras-card-->
 </div>
 
