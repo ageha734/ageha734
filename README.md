@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Forms](https://github.com/leveluptuts/svelte-forms-lib)**: Gestion facile des formulaires
+ **[CamanJS](http://camanjs.com/)**: Une bibliothèque de manipulation d'images directement dans le navigateur.
 <!-- END_LIBRARY_SECTION -->
