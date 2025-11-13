@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[CamanJS](http://camanjs.com/)**: Une bibliothèque de manipulation d'images directement dans le navigateur.
+ **[Material-UI](https://mui.com/)**: Une bibliothèque de composants UI pour React avec le design Material.
 <!-- END_LIBRARY_SECTION -->
