@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Material-UI](https://mui.com/)**: Une bibliothèque de composants UI pour React avec le design Material.
+ **[Angular File Upload](https://github.com/valor-software/ng2-file-upload)**: Uploader de fichiers pour Angular
 <!-- END_LIBRARY_SECTION -->
