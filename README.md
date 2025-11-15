@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular File Upload](https://github.com/valor-software/ng2-file-upload)**: Uploader de fichiers pour Angular
+ **[Rollup](https://rollupjs.org/)**: Un bundler de modules JavaScript pour des projets modernes.
 <!-- END_LIBRARY_SECTION -->
