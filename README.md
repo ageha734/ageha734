@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Rollup](https://rollupjs.org/)**: Un bundler de modules JavaScript pour des projets modernes.
+ **[Date Range Picker](https://www.daterangepicker.com/)**: Sélecteur de plage de dates
 <!-- END_LIBRARY_SECTION -->
