@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Lottie](https://airbnb.io/lottie/)**: Une bibliothèque pour animer les fichiers JSON exportés depuis Adobe After Effects.
+ **[Svelte Fire](https://svelte-firebase.vercel.app/)**: Intégration Firebase
 <!-- END_LIBRARY_SECTION -->
