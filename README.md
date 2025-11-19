@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Fire](https://svelte-firebase.vercel.app/)**: Intégration Firebase
+ **[Cash](https://github.com/fabiospampinato/cash)**: Une alternative légère à jQuery
 <!-- END_LIBRARY_SECTION -->
