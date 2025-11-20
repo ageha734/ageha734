@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cash](https://github.com/fabiospampinato/cash)**: Une alternative légère à jQuery
+ **[jQuery](https://jquery.com/)**: Une bibliothèque pour simplifier la manipulation du DOM et les requêtes AJAX.
 <!-- END_LIBRARY_SECTION -->
