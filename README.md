@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Nightwatch](https://nightwatchjs.org/)**: Un framework de test end-to-end pour les applications web.
+ **[Preact](https://preactjs.com/)**: Une alternative rapide et légère à React.
 <!-- END_LIBRARY_SECTION -->
