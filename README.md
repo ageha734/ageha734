@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Preact](https://preactjs.com/)**: Une alternative rapide et légère à React.
+ **[Anime.js](https://animejs.com/)**: Une bibliothèque pour animer des éléments DOM, SVG, et plus.
 <!-- END_LIBRARY_SECTION -->
