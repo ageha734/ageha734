@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Anime.js](https://animejs.com/)**: Une bibliothèque pour animer des éléments DOM, SVG, et plus.
+ **[Electron](https://www.electronjs.org/)**: Un framework pour créer des applications desktop avec JavaScript, HTML, et CSS.
 <!-- END_LIBRARY_SECTION -->
