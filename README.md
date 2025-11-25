@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Electron](https://www.electronjs.org/)**: Un framework pour créer des applications desktop avec JavaScript, HTML, et CSS.
+ **[Sass](https://sass-lang.com/)**: Un préprocesseur CSS avec une syntaxe avancée.
 <!-- END_LIBRARY_SECTION -->
