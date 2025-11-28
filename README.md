@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Rough.js](https://roughjs.com/)**: Dessin à la main pour des éléments graphiques
+ **[Axios](https://axios-http.com/)**: Une bibliothèque pour faire des requêtes HTTP.
 <!-- END_LIBRARY_SECTION -->
