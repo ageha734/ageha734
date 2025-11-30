@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[vanilla-calendar](https://github.com/bananajoe/vanilla-calendar)**: Calendrier simple en vanilla JS
+ **[Tus.io](https://tus.io/)**: Protocole pour upload de fichiers
 <!-- END_LIBRARY_SECTION -->
