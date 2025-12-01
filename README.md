@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tus.io](https://tus.io/)**: Protocole pour upload de fichiers
+ **[Tippy.js](https://atomiks.github.io/tippyjs/)**: Une bibliothèque pour créer des tooltips dynamiques.
 <!-- END_LIBRARY_SECTION -->
