@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tippy.js](https://atomiks.github.io/tippyjs/)**: Une bibliothèque pour créer des tooltips dynamiques.
+ **[Svelte Virtual List](https://github.com/sveltejs/svelte-virtual-list)**: Rendu performant de longues listes
 <!-- END_LIBRARY_SECTION -->
