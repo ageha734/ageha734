@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Date Range Picker](https://www.daterangepicker.com/)**: Sélecteur de plage de dates
+ **[Waves.js](https://fian.im/Waves/)**: Effets d'onde pour des boutons
 <!-- END_LIBRARY_SECTION -->
