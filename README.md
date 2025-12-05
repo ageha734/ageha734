@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Waves.js](https://fian.im/Waves/)**: Effets d'onde pour des boutons
+ **[Webpack Encore](https://symfony.com/doc/current/frontend/encore/installation.html)**: Un wrapper de Webpack pour Symfony.
 <!-- END_LIBRARY_SECTION -->
