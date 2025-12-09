@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Husky](https://typicode.github.io/husky/#/)**: Un outil pour exécuter des hooks Git avant les commits et les pushes.
+ **[Shepherd.js](https://shepherdjs.dev/)**: Une bibliothèque pour créer des tours guidés interactifs sur les pages web.
 <!-- END_LIBRARY_SECTION -->
