@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Shepherd.js](https://shepherdjs.dev/)**: Une bibliothèque pour créer des tours guidés interactifs sur les pages web.
+ **[AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)**: Une bibliothèque pour animer les éléments lors du défilement de la page.
 <!-- END_LIBRARY_SECTION -->
