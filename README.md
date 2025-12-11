@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)**: Une bibliothèque pour animer les éléments lors du défilement de la page.
+ **[Popper.js](https://popper.js.org/)**: Une bibliothèque pour gérer les popovers, tooltips, et dropdowns.
 <!-- END_LIBRARY_SECTION -->
