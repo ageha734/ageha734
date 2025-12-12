@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Popper.js](https://popper.js.org/)**: Une bibliothèque pour gérer les popovers, tooltips, et dropdowns.
+ **[Hammer.js](https://hammerjs.github.io/)**: Une bibliothèque pour gérer les événements tactiles et gestuels.
 <!-- END_LIBRARY_SECTION -->
