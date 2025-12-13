@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Hammer.js](https://hammerjs.github.io/)**: Une bibliothèque pour gérer les événements tactiles et gestuels.
+ **[PixiJS](https://pixijs.com/)**: Bibliothèque 2D rapide et flexible
 <!-- END_LIBRARY_SECTION -->
