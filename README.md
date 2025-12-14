@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PixiJS](https://pixijs.com/)**: Bibliothèque 2D rapide et flexible
+ **[Gatsby-plugin-sanitized-html](https://www.gatsbyjs.com/plugins/gatsby-plugin-sanitized-html/)**: Sanitisation dans Gatsby
 <!-- END_LIBRARY_SECTION -->
