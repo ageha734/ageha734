@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Clipboard.js](https://clipboardjs.com/)**: Gestion du copier-coller
+ **[ImageKit.io](https://imagekit.io/)**: Gestion et optimisation d'images
 <!-- END_LIBRARY_SECTION -->
