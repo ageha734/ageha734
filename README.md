@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[ImageKit.io](https://imagekit.io/)**: Gestion et optimisation d'images
+ **[Day.js](https://day.js.org/)**: Une bibliothèque légère pour manipuler les dates et heures, alternative à Moment.js.
 <!-- END_LIBRARY_SECTION -->
