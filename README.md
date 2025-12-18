@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Day.js](https://day.js.org/)**: Une bibliothèque légère pour manipuler les dates et heures, alternative à Moment.js.
+ **[Tagify](https://yaireo.github.io/tagify/)**: Bibliothèque pour ajouter des balises dans des champs de texte
 <!-- END_LIBRARY_SECTION -->
