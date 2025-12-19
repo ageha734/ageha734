@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tagify](https://yaireo.github.io/tagify/)**: Bibliothèque pour ajouter des balises dans des champs de texte
+ **[React](https://reactjs.org/)**: Une bibliothèque pour construire des interfaces utilisateur interactives.
 <!-- END_LIBRARY_SECTION -->
