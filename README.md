@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[React](https://reactjs.org/)**: Une bibliothèque pour construire des interfaces utilisateur interactives.
+ **[Ember.js](https://emberjs.com/)**: Un framework pour créer des applications web ambitieuses.
 <!-- END_LIBRARY_SECTION -->
