@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ember.js](https://emberjs.com/)**: Un framework pour créer des applications web ambitieuses.
+ **[React Native](https://reactnative.dev/)**: Un framework pour construire des applications mobiles natives avec React.
 <!-- END_LIBRARY_SECTION -->
