@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[React Native](https://reactnative.dev/)**: Un framework pour construire des applications mobiles natives avec React.
+ **[Nano ID](https://github.com/ai/nanoid)**: Générateur d'ID unique et sécurisé
 <!-- END_LIBRARY_SECTION -->
