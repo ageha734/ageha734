@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Nano ID](https://github.com/ai/nanoid)**: Générateur d'ID unique et sécurisé
+ **[Day.js](https://day.js.org/)**: Library lightweight pour manipuler les dates
 <!-- END_LIBRARY_SECTION -->
