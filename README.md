@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Day.js](https://day.js.org/)**: Library lightweight pour manipuler les dates
+ **[Chocolat](https://noelboss.github.io/Chocolat/)**: Affichage d'images dans une boîte modale
 <!-- END_LIBRARY_SECTION -->
