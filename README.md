@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chocolat](https://noelboss.github.io/Chocolat/)**: Affichage d'images dans une boîte modale
+ **[Tippy.js](https://atomiks.github.io/tippyjs/)**: Bibliothèque de tooltips légers et flexibles
 <!-- END_LIBRARY_SECTION -->
