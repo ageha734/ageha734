@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular](https://angular.io/)**: Un framework pour construire des applications web dynamiques.
+ **[html-sanitizer](https://github.com/adiwajshing/HtmlSanitizer)**: Sanitisation pour Node.js
 <!-- END_LIBRARY_SECTION -->
