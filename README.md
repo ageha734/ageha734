@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Lerna](https://lerna.js.org/)**: Un outil pour gérer les monorepos JavaScript.
+ **[Ant Design](https://ant.design/)**: Une bibliothèque de composants UI pour React.
 <!-- END_LIBRARY_SECTION -->
