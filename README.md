@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ant Design](https://ant.design/)**: Une bibliothèque de composants UI pour React.
+ **[dnd-kit](https://dndkit.com/)**: Kit de glisser-déposer pour React
 <!-- END_LIBRARY_SECTION -->
