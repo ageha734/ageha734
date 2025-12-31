@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[dnd-kit](https://dndkit.com/)**: Kit de glisser-déposer pour React
+ **[Quasar](https://quasar.dev/)**: Un framework pour développer des applications Vue.js avec une approche multiplateforme.
 <!-- END_LIBRARY_SECTION -->
