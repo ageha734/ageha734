@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PhotoSwipe](https://photoswipe.com/)**: Une bibliothèque pour créer des galeries d'images légères et réactives.
+ **[Svelte Forms](https://github.com/leveluptuts/svelte-forms-lib)**: Gestion facile des formulaires
 <!-- END_LIBRARY_SECTION -->
