@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Less](https://lesscss.org/)**: Un préprocesseur CSS avec des fonctionnalités similaires à Sass.
+ **[Date Range Picker](https://www.daterangepicker.com/)**: Sélecteur de plage de dates
 <!-- END_LIBRARY_SECTION -->
