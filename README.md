@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Date Range Picker](https://www.daterangepicker.com/)**: Sélecteur de plage de dates
+ **[Pico.js](https://github.com/tehnokv/picojs)**: Bibliothèque JavaScript pour la détection de visages
 <!-- END_LIBRARY_SECTION -->
