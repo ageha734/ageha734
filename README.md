@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vue Cal](https://github.com/nathanreyes/v-calendar)**: Calendrier pour Vue.js
+ **[Trix](https://trix-editor.org/)**: Un éditeur de texte WYSIWYG pour les applications Web.
 <!-- END_LIBRARY_SECTION -->
