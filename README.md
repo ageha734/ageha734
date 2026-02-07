@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Trix](https://trix-editor.org/)**: Un éditeur de texte WYSIWYG pour les applications Web.
+ **[GSAP](https://greensock.com/gsap/)**: Une bibliothèque puissante pour créer des animations.
 <!-- END_LIBRARY_SECTION -->
