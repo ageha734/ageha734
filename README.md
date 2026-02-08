@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[GSAP](https://greensock.com/gsap/)**: Une bibliothèque puissante pour créer des animations.
+ **[Clarity](https://clarity.design/)**: Framework UI d'entreprise
 <!-- END_LIBRARY_SECTION -->
