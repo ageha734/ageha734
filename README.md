@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Clarity](https://clarity.design/)**: Framework UI d'entreprise
+ **[Blotter.js](https://blotter.js.org/)**: Bibliothèque pour créer des effets de texte créatifs
 <!-- END_LIBRARY_SECTION -->
