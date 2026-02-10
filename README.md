@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Blotter.js](https://blotter.js.org/)**: Bibliothèque pour créer des effets de texte créatifs
+ **[Chocolat](https://noelboss.github.io/Chocolat/)**: Affichage d'images dans une boîte modale
 <!-- END_LIBRARY_SECTION -->
