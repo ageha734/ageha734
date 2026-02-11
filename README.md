@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Chocolat](https://noelboss.github.io/Chocolat/)**: Affichage d'images dans une boîte modale
+ **[Grid.js](https://gridjs.io/)**: Tableau et grille de données personnalisable
 <!-- END_LIBRARY_SECTION -->
