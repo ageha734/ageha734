@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Grid.js](https://gridjs.io/)**: Tableau et grille de données personnalisable
+ **[CountUp.js](https://inorganik.github.io/countUp.js/)**: Animations de compte à rebours
 <!-- END_LIBRARY_SECTION -->
