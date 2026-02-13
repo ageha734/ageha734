@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[CountUp.js](https://inorganik.github.io/countUp.js/)**: Animations de compte à rebours
+ **[Plyr](https://plyr.io/)**: Lecteur multimédia simple et élégant
 <!-- END_LIBRARY_SECTION -->
