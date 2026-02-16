@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Karma](https://karma-runner.github.io/)**: Un test runner pour les tests unitaires dans les navigateurs.
+ **[SortableJS](https://sortablejs.github.io/Sortable/)**: Bibliothèque pour créer des listes drag-and-drop triables
 <!-- END_LIBRARY_SECTION -->
