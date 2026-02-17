@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[SortableJS](https://sortablejs.github.io/Sortable/)**: Bibliothèque pour créer des listes drag-and-drop triables
+ **[Apollo Angular](https://apollo-angular.com/)**: Intégration GraphQL pour Angular
 <!-- END_LIBRARY_SECTION -->
