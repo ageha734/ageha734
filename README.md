@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Apollo Angular](https://apollo-angular.com/)**: Intégration GraphQL pour Angular
+ **[Three.js](https://threejs.org/)**: Bibliothèque pour créer des graphiques 3D
 <!-- END_LIBRARY_SECTION -->
