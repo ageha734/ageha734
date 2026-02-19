@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Three.js](https://threejs.org/)**: Bibliothèque pour créer des graphiques 3D
+ **[ngx-drag-drop](https://github.com/angular-drag-drop/ngx-drag-drop)**: Drag and drop pour Angular
 <!-- END_LIBRARY_SECTION -->
