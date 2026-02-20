@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[ngx-drag-drop](https://github.com/angular-drag-drop/ngx-drag-drop)**: Drag and drop pour Angular
+ **[Filepond](https://pqina.nl/filepond/)**: Bibliothèque pour télécharger et traiter des fichiers de manière fluide
 <!-- END_LIBRARY_SECTION -->
