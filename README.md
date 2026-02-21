@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Filepond](https://pqina.nl/filepond/)**: Bibliothèque pour télécharger et traiter des fichiers de manière fluide
+ **[PostCSS](https://postcss.org/)**: Un outil pour transformer le CSS avec des plugins JavaScript.
 <!-- END_LIBRARY_SECTION -->
