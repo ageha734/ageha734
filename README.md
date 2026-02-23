@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Less](https://lesscss.org/)**: Un préprocesseur CSS avec des fonctionnalités similaires à Sass.
+ **[Day.js](https://day.js.org/)**: Library lightweight pour manipuler les dates
 <!-- END_LIBRARY_SECTION -->
