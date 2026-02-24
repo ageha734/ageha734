@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Day.js](https://day.js.org/)**: Library lightweight pour manipuler les dates
+ **[svelte-i18n](https://github.com/kaisermann/svelte-i18n)**: Internationalisation pour Svelte
 <!-- END_LIBRARY_SECTION -->
