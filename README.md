@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[svelte-i18n](https://github.com/kaisermann/svelte-i18n)**: Internationalisation pour Svelte
+ **[Voca](https://vocajs.com/)**: Bibliothèque pour la manipulation et l'analyse des chaînes de caractères
 <!-- END_LIBRARY_SECTION -->
