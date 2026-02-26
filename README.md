@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Voca](https://vocajs.com/)**: Bibliothèque pour la manipulation et l'analyse des chaînes de caractères
+ **[Vue FilePond](https://pqina.nl/filepond/examples/vue/)**: Uploader de fichiers pour Vue.js
 <!-- END_LIBRARY_SECTION -->
