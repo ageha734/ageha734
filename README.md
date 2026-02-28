@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Storybook](https://storybook.js.org/)**: Un outil pour construire et tester des composants UI de manière isolée.
+ **[Formik](https://formik.org/)**: Une bibliothèque pour gérer les formulaires dans React.
 <!-- END_LIBRARY_SECTION -->
