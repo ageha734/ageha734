@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Formik](https://formik.org/)**: Une bibliothèque pour gérer les formulaires dans React.
+ **[jQuery UI Draggable](https://jqueryui.com/draggable/)**: Drag and drop avec jQuery UI
 <!-- END_LIBRARY_SECTION -->
