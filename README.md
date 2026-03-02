@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[jQuery UI Draggable](https://jqueryui.com/draggable/)**: Drag and drop avec jQuery UI
+ **[Jest-extended](https://github.com/jest-community/jest-extended)**: Une extension de Jest avec des assertions supplémentaires.
 <!-- END_LIBRARY_SECTION -->
