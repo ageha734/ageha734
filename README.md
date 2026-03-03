@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Jest-extended](https://github.com/jest-community/jest-extended)**: Une extension de Jest avec des assertions supplémentaires.
+ **[jsCalendar](https://js-calendar.github.io/jsCalendar/)**: Calendrier léger et personnalisable
 <!-- END_LIBRARY_SECTION -->
