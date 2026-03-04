@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[jsCalendar](https://js-calendar.github.io/jsCalendar/)**: Calendrier léger et personnalisable
+ **[Filepond](https://pqina.nl/filepond/)**: Bibliothèque pour télécharger et traiter des fichiers de manière fluide
 <!-- END_LIBRARY_SECTION -->
