@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Filepond](https://pqina.nl/filepond/)**: Bibliothèque pour télécharger et traiter des fichiers de manière fluide
+ **[CodeMirror](https://codemirror.net/)**: Un éditeur de code dans le navigateur avec support pour diverses langages.
 <!-- END_LIBRARY_SECTION -->
