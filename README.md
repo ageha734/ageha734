@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[CodeMirror](https://codemirror.net/)**: Un éditeur de code dans le navigateur avec support pour diverses langages.
+ **[xss-filters](https://github.com/yahoo/xss-filters)**: Filtres XSS pour JavaScript
 <!-- END_LIBRARY_SECTION -->
