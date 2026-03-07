@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[xss-filters](https://github.com/yahoo/xss-filters)**: Filtres XSS pour JavaScript
+ **[Konva](https://konvajs.org/)**: Une bibliothèque pour manipuler des éléments graphiques sur des canevas HTML5.
 <!-- END_LIBRARY_SECTION -->
