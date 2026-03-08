@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Konva](https://konvajs.org/)**: Une bibliothèque pour manipuler des éléments graphiques sur des canevas HTML5.
+ **[Uppy](https://uppy.io/)**: Bibliothèque de téléchargement de fichiers moderne
 <!-- END_LIBRARY_SECTION -->
