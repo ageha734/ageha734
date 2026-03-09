@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Uppy](https://uppy.io/)**: Bibliothèque de téléchargement de fichiers moderne
+ **[jQuery UI Draggable](https://jqueryui.com/draggable/)**: Drag and drop avec jQuery UI
 <!-- END_LIBRARY_SECTION -->
