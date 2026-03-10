@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[jQuery UI Draggable](https://jqueryui.com/draggable/)**: Drag and drop avec jQuery UI
+ **[Babel](https://babeljs.io/)**: Un transcompilateur JavaScript pour utiliser les fonctionnalités modernes du langage.
 <!-- END_LIBRARY_SECTION -->
