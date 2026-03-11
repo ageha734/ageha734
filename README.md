@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Babel](https://babeljs.io/)**: Un transcompilateur JavaScript pour utiliser les fonctionnalités modernes du langage.
+ **[Emotion](https://emotion.sh/)**: Une bibliothèque pour le CSS-in-JS avec des fonctionnalités avancées.
 <!-- END_LIBRARY_SECTION -->
