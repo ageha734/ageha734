@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Emotion](https://emotion.sh/)**: Une bibliothèque pour le CSS-in-JS avec des fonctionnalités avancées.
+ **[React Router](https://reactrouter.com/)**: Une bibliothèque pour la gestion des routes dans une application React.
 <!-- END_LIBRARY_SECTION -->
