@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Axios](https://axios-http.com/)**: Une bibliothèque pour faire des requêtes HTTP.
+ **[Husky](https://typicode.github.io/husky/#/)**: Un outil pour exécuter des hooks Git avant les commits et les pushes.
 <!-- END_LIBRARY_SECTION -->
