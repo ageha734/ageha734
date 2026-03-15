@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Husky](https://typicode.github.io/husky/#/)**: Un outil pour exécuter des hooks Git avant les commits et les pushes.
+ **[PM2](https://pm2.keymetrics.io/)**: Un gestionnaire de processus pour les applications Node.js.
 <!-- END_LIBRARY_SECTION -->
