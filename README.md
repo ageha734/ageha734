@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[PM2](https://pm2.keymetrics.io/)**: Un gestionnaire de processus pour les applications Node.js.
+ **[Cleave.js](https://nosir.github.io/cleave.js/)**: Bibliothèque pour formater des champs de saisie au fur et à mesure de la frappe
 <!-- END_LIBRARY_SECTION -->
