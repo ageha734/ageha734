@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cleave.js](https://nosir.github.io/cleave.js/)**: Bibliothèque pour formater des champs de saisie au fur et à mesure de la frappe
+ **[React Query](https://tanstack.com/query/latest)**: Une bibliothèque pour la gestion des états de données asynchrones dans React.
 <!-- END_LIBRARY_SECTION -->
