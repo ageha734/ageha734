@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[React Query](https://tanstack.com/query/latest)**: Une bibliothèque pour la gestion des états de données asynchrones dans React.
+ **[Vue Router](https://router.vuejs.org/)**: Une bibliothèque pour la gestion des routes dans une application Vue.js.
 <!-- END_LIBRARY_SECTION -->
