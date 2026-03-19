@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vue Router](https://router.vuejs.org/)**: Une bibliothèque pour la gestion des routes dans une application Vue.js.
+ **[Zdog](https://zzz.dog/)**: Une bibliothèque pour créer des graphiques 3D simples et animés avec SVG et Canvas.
 <!-- END_LIBRARY_SECTION -->
