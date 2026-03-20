@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Zdog](https://zzz.dog/)**: Une bibliothèque pour créer des graphiques 3D simples et animés avec SVG et Canvas.
+ **[Day.js](https://day.js.org/)**: Bibliothèque légère pour la manipulation de dates
 <!-- END_LIBRARY_SECTION -->
