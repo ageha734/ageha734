@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Day.js](https://day.js.org/)**: Bibliothèque légère pour la manipulation de dates
+ **[Svelte Preprocess](https://github.com/sveltejs/svelte-preprocess)**: Préprocesseur CSS et autres pour Svelte
 <!-- END_LIBRARY_SECTION -->
