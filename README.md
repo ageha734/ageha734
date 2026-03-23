@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Koa](https://koajs.com/)**: Un framework web pour Node.js conçu pour être un moteur de middleware plus moderne.
+ **[CountUp.js](https://inorganik.github.io/countUp.js/)**: Animations de compte à rebours
 <!-- END_LIBRARY_SECTION -->
