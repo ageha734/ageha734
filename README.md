@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[CountUp.js](https://inorganik.github.io/countUp.js/)**: Animations de compte à rebours
+ **[Popper.js](https://popper.js.org/)**: Une bibliothèque pour gérer les popovers, tooltips, et dropdowns.
 <!-- END_LIBRARY_SECTION -->
