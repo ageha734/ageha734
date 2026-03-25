@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Popper.js](https://popper.js.org/)**: Une bibliothèque pour gérer les popovers, tooltips, et dropdowns.
+ **[Day.js](https://day.js.org/)**: Bibliothèque légère pour la manipulation de dates
 <!-- END_LIBRARY_SECTION -->
