@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Day.js](https://day.js.org/)**: Bibliothèque légère pour la manipulation de dates
+ **[Cleave.js](https://nosir.github.io/cleave.js/)**: Une bibliothèque pour formater automatiquement les champs de formulaire.
 <!-- END_LIBRARY_SECTION -->
