@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Storybook](https://storybook.js.org/)**: Un outil pour construire et tester des composants UI de manière isolée.
+ **[Svelte Fire](https://svelte-firebase.vercel.app/)**: Intégration Firebase
 <!-- END_LIBRARY_SECTION -->
