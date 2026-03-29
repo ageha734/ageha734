@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Svelte Fire](https://svelte-firebase.vercel.app/)**: Intégration Firebase
+ **[Vivus](https://maxwellito.github.io/vivus/)**: Une bibliothèque pour animer des SVG en les dessinant.
 <!-- END_LIBRARY_SECTION -->
