@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vivus](https://maxwellito.github.io/vivus/)**: Une bibliothèque pour animer des SVG en les dessinant.
+ **[jsCalendar](https://js-calendar.github.io/jsCalendar/)**: Calendrier léger et personnalisable
 <!-- END_LIBRARY_SECTION -->
