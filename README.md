@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vue.Draggable.Next](https://github.com/SortableJS/Vue.Draggable.Next)**: Drag and drop pour Vue 3
+ **[Electron](https://www.electronjs.org/)**: Un framework pour créer des applications desktop avec JavaScript, HTML, et CSS.
 <!-- END_LIBRARY_SECTION -->
