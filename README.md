@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Electron](https://www.electronjs.org/)**: Un framework pour créer des applications desktop avec JavaScript, HTML, et CSS.
+ **[Routify](https://routify.dev/)**: Routage dynamique pour Svelte
 <!-- END_LIBRARY_SECTION -->
