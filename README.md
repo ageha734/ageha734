@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Routify](https://routify.dev/)**: Routage dynamique pour Svelte
+ **[Clarity](https://clarity.design/)**: Framework UI d'entreprise
 <!-- END_LIBRARY_SECTION -->
