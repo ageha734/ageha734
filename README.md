@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Clarity](https://clarity.design/)**: Framework UI d'entreprise
+ **[Tsparticles](https://tsparticles.github.io/)**: Effets de particules modernes
 <!-- END_LIBRARY_SECTION -->
