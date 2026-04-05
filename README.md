@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Tsparticles](https://tsparticles.github.io/)**: Effets de particules modernes
+ **[Calendar.js](https://github.com/kciter/calendar.js)**: Générateur de calendriers simples
 <!-- END_LIBRARY_SECTION -->
