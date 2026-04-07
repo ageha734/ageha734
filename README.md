@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Storybook](https://storybook.js.org/)**: Un outil pour construire et tester des composants UI de manière isolée.
+ **[Anime.js](https://animejs.com/)**: Une bibliothèque pour animer des éléments DOM, SVG, et plus.
 <!-- END_LIBRARY_SECTION -->
