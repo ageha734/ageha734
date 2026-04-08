@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Anime.js](https://animejs.com/)**: Une bibliothèque pour animer des éléments DOM, SVG, et plus.
+ **[Clipboard.js](https://clipboardjs.com/)**: Gestion du copier-coller
 <!-- END_LIBRARY_SECTION -->
