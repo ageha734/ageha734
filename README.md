@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Clipboard.js](https://clipboardjs.com/)**: Gestion du copier-coller
+ **[Wave.js](https://github.com/horenku/wave)**: Bibliothèque pour créer des animations de vagues
 <!-- END_LIBRARY_SECTION -->
