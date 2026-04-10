@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Wave.js](https://github.com/horenku/wave)**: Bibliothèque pour créer des animations de vagues
+ **[Nightwatch](https://nightwatchjs.org/)**: Un framework de test end-to-end pour les applications web.
 <!-- END_LIBRARY_SECTION -->
