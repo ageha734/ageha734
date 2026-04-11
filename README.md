@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Nightwatch](https://nightwatchjs.org/)**: Un framework de test end-to-end pour les applications web.
+ **[Filestack](https://www.filestack.com/)**: Upload, transformation et gestion des fichiers
 <!-- END_LIBRARY_SECTION -->
