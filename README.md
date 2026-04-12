@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Filestack](https://www.filestack.com/)**: Upload, transformation et gestion des fichiers
+ **[Cytoscape.js](https://js.cytoscape.org/)**: Une bibliothèque pour visualiser des graphes complexes.
 <!-- END_LIBRARY_SECTION -->
