@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Cytoscape.js](https://js.cytoscape.org/)**: Une bibliothèque pour visualiser des graphes complexes.
+ **[FilePond](https://pqina.nl/filepond/)**: Bibliothèque d'upload de fichiers
 <!-- END_LIBRARY_SECTION -->
