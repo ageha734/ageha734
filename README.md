@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[FilePond](https://pqina.nl/filepond/)**: Bibliothèque d'upload de fichiers
+ **[Ionic](https://ionicframework.com/)**: Framework pour le développement mobile
 <!-- END_LIBRARY_SECTION -->
