@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Ionic](https://ionicframework.com/)**: Framework pour le développement mobile
+ **[Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)**: Un serveur de développement pour Webpack avec rechargement à chaud.
 <!-- END_LIBRARY_SECTION -->
