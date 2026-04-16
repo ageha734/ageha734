@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)**: Un serveur de développement pour Webpack avec rechargement à chaud.
+ **[Jest-extended](https://github.com/jest-community/jest-extended)**: Une extension de Jest avec des assertions supplémentaires.
 <!-- END_LIBRARY_SECTION -->
