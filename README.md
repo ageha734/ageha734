@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Jest-extended](https://github.com/jest-community/jest-extended)**: Une extension de Jest avec des assertions supplémentaires.
+ **[Isotope](https://isotope.metafizzy.co/)**: Filtrage et mise en page dynamique
 <!-- END_LIBRARY_SECTION -->
