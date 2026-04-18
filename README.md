@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Isotope](https://isotope.metafizzy.co/)**: Filtrage et mise en page dynamique
+ **[Interact.js](https://interactjs.io/)**: Manipulation des éléments dans le navigateur
 <!-- END_LIBRARY_SECTION -->
