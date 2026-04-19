@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Interact.js](https://interactjs.io/)**: Manipulation des éléments dans le navigateur
+ **[Angular Fire](https://github.com/angular/angularfire)**: Intégration Firebase pour Angular
 <!-- END_LIBRARY_SECTION -->
