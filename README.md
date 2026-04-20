@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Angular Fire](https://github.com/angular/angularfire)**: Intégration Firebase pour Angular
+ **[Vivus](https://maxwellito.github.io/vivus/)**: Bibliothèque pour animer les SVG au trait
 <!-- END_LIBRARY_SECTION -->
