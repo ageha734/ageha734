@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vivus](https://maxwellito.github.io/vivus/)**: Bibliothèque pour animer les SVG au trait
+ **[bgfx](https://bkaradzic.github.io/bgfx/bgfx.html)**: Bibliothèque de rendu graphique multiplateforme
 <!-- END_LIBRARY_SECTION -->
