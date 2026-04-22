@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[bgfx](https://bkaradzic.github.io/bgfx/bgfx.html)**: Bibliothèque de rendu graphique multiplateforme
+ **[Gumshoe](https://github.com/aggro/Gumshoe.js)**: Bibliothèque pour le suivi des défilements et des sections de page
 <!-- END_LIBRARY_SECTION -->
