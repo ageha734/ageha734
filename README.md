@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Gumshoe](https://github.com/aggro/Gumshoe.js)**: Bibliothèque pour le suivi des défilements et des sections de page
+ **[Waves.js](https://haghish.github.io/waves.js/)**: Effets de vagues en arrière-plan
 <!-- END_LIBRARY_SECTION -->
