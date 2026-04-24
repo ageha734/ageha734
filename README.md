@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Waves.js](https://haghish.github.io/waves.js/)**: Effets de vagues en arrière-plan
+ **[Mustache.js](https://github.com/janl/mustache.js/)**: Moteur de template simple et sans logique
 <!-- END_LIBRARY_SECTION -->
