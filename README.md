@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Mustache.js](https://github.com/janl/mustache.js/)**: Moteur de template simple et sans logique
+ **[Barba.js](https://barba.js.org/)**: Une bibliothèque pour créer des transitions fluides entre les pages.
 <!-- END_LIBRARY_SECTION -->
