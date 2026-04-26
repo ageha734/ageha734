@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Barba.js](https://barba.js.org/)**: Une bibliothèque pour créer des transitions fluides entre les pages.
+ **[Rough.js](https://roughjs.com/)**: Générateur de graphiques dessinés à la main pour le web
 <!-- END_LIBRARY_SECTION -->
