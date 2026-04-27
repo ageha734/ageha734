@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Rough.js](https://roughjs.com/)**: Générateur de graphiques dessinés à la main pour le web
+ **[Date Range Picker](https://www.daterangepicker.com/)**: Sélecteur de plage de dates
 <!-- END_LIBRARY_SECTION -->
