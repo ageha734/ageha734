@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Date Range Picker](https://www.daterangepicker.com/)**: Sélecteur de plage de dates
+ **[Yup](https://github.com/jquense/yup)**: Une bibliothèque pour valider des objets JavaScript.
 <!-- END_LIBRARY_SECTION -->
