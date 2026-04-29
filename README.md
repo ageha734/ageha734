@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Yup](https://github.com/jquense/yup)**: Une bibliothèque pour valider des objets JavaScript.
+ **[Routify](https://routify.dev/)**: Routage dynamique pour Svelte
 <!-- END_LIBRARY_SECTION -->
