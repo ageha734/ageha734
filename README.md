@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Lottie](https://airbnb.io/lottie/)**: Une bibliothèque pour animer les fichiers JSON exportés depuis Adobe After Effects.
+ **[DOMPurify](https://github.com/cure53/DOMPurify)**: Sanitisation pour les applications web
 <!-- END_LIBRARY_SECTION -->
