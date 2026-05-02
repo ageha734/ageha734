@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[DOMPurify](https://github.com/cure53/DOMPurify)**: Sanitisation pour les applications web
+ **[AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)**: Une bibliothèque pour animer les éléments lors du défilement de la page.
 <!-- END_LIBRARY_SECTION -->
