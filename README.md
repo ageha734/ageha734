@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)**: Une bibliothèque pour animer les éléments lors du défilement de la page.
+ **[Quasar](https://quasar.dev/)**: Un framework pour développer des applications Vue.js avec une approche multiplateforme.
 <!-- END_LIBRARY_SECTION -->
