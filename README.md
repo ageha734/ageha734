@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Quasar](https://quasar.dev/)**: Un framework pour développer des applications Vue.js avec une approche multiplateforme.
+ **[Rough.js](https://roughjs.com/)**: Bibliothèque pour dessiner des graphiques et des illustrations à la main
 <!-- END_LIBRARY_SECTION -->
