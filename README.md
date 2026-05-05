@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Rough.js](https://roughjs.com/)**: Bibliothèque pour dessiner des graphiques et des illustrations à la main
+ **[FullCalendar](https://fullcalendar.io/)**: Une bibliothèque pour créer des calendriers interactifs.
 <!-- END_LIBRARY_SECTION -->
