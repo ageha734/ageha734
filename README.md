@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[FullCalendar](https://fullcalendar.io/)**: Une bibliothèque pour créer des calendriers interactifs.
+ **[Browserify](http://browserify.org/)**: Un outil pour empaqueter les modules Node.js pour le navigateur.
 <!-- END_LIBRARY_SECTION -->
