@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Browserify](http://browserify.org/)**: Un outil pour empaqueter les modules Node.js pour le navigateur.
+ **[HTML5 Sortable](https://github.com/SortableJS/Sortable)**: Sortables et drag-and-drop en HTML5
 <!-- END_LIBRARY_SECTION -->
