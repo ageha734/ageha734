@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[HTML5 Sortable](https://github.com/SortableJS/Sortable)**: Sortables et drag-and-drop en HTML5
+ **[Vivus](https://maxwellito.github.io/vivus/)**: Une bibliothèque pour animer des SVG en les dessinant.
 <!-- END_LIBRARY_SECTION -->
