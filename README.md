@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[Vivus](https://maxwellito.github.io/vivus/)**: Une bibliothèque pour animer des SVG en les dessinant.
+ **[Webpack Encore](https://symfony.com/doc/current/frontend/encore/installation.html)**: Un wrapper de Webpack pour Symfony.
 <!-- END_LIBRARY_SECTION -->
