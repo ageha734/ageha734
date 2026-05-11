@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[RxJS](https://rxjs.dev/)**: Une bibliothèque pour la programmation réactive utilisant des observables.
+ **[Rollup](https://rollupjs.org/)**: Un bundler de modules JavaScript pour des projets modernes.
 <!-- END_LIBRARY_SECTION -->
