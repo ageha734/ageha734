@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[jQuery](https://jquery.com/)**: Une bibliothèque pour simplifier la manipulation du DOM et les requêtes AJAX.
+ **[jQuery File Upload](https://blueimp.github.io/jQuery-File-Upload/)**: Uploader de fichiers avec jQuery
 <!-- END_LIBRARY_SECTION -->
