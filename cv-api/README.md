@@ -5,11 +5,13 @@
 以下の4シートを作成し、1行目をヘッダーにする。
 
 ### certifications
+
 | year | month | name_en | name_ja |
 |------|-------|---------|---------|
 | 2022 | 3 | AWS Certified Solutions Architect - Associate | AWS ソリューションアーキテクトアソシエイト |
 
 ### work_experience
+
 | company_en | company_ja | start | end | role_en | role_ja | description_en | description_ja |
 |---|---|---|---|---|---|---|---|
 | Example Corp | 株式会社エグザンプル | 2022-04 | 2024-03 | Backend Engineer | バックエンドエンジニア | ... | ... |
@@ -17,14 +19,16 @@
 > `end` は現職の場合は空欄にする（null として扱われる）
 
 ### skills
+
 | category | name | badge_url | icon_url |
 |---|---|---|---|
-| advanced | Go | https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white | |
-| advanced | Kubernetes | | https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original-wordmark.svg |
+| advanced | Go | `https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white` | |
+| advanced | Kubernetes | | `https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original-wordmark.svg` |
 
 > `badge_url` か `icon_url` のどちらか一方を指定。両方指定した場合は `badge_url` が優先される。
 
 ### projects
+
 | name | url | description_en | description_ja | stars_badge | forks_badge | issues_badge | prs_badge |
 |---|---|---|---|---|---|---|---|
 
@@ -58,6 +62,7 @@ openssl rand -hex 32
 ```
 
 この値を設定する。
+
 - GAS の Script Properties `HMAC_SECRET` に設定
 - GitHub Repository の Secrets `GAS_HMAC_SECRET` に設定
 

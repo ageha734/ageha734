@@ -8,5 +8,9 @@
     // Allow missing alt text on images with badges
     "MD045": false,
     // Allow long lines (badge URLs, HTML, SVG data URIs cannot be wrapped)
-    "MD013": false
+    "MD013": false,
+    // Allow trailing spaces (Mustache template conditions leave blank lines with spaces)
+    "MD009": false,
+    // Allow fenced code blocks (wakatime section uses fenced blocks)
+    "MD046": false
 }
