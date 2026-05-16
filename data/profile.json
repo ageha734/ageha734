@@ -1,8 +1,10 @@
 {
     "metadata": {
         "username": "ageha734",
-        "role_en": "Full Stack Engineer (Cloud Infrastructure)",
-        "role_ja": "フルスタックエンジニア（クラウドインフラ専門）",
+        "role_en": "Cloud Infrastructure Engineer",
+        "role_ja": "クラウドインフラエンジニア",
+        "keywords_en": "Cloud Infrastructure Engineer, GitHub Stats, GitHub Profile, Go, TypeScript, Kubernetes, Terraform, GCP, AWS",
+        "keywords_ja": "クラウドインフラエンジニア, GitHub Stats, GitHub Profile, Go, TypeScript, Kubernetes, Terraform, GCP, AWS",
         "lapras_share_id": "ZGCCIAL",
         "wakatime_user_id": "e81d490c-17bb-4b85-8611-87004287614f"
     },

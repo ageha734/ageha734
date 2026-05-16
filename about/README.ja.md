@@ -29,9 +29,9 @@
 
 ### 座右の銘
 
-* All art is quite useless.
-* Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
-* Done is better than perfect.
+* すべての芸術は、まったく無用である。
+* 完璧とは、付け加えるものが何もなくなったときではなく、取り除くものが何もなくなったときに達成される。
+* 完璧を目指すより、まず終わらせよ。
 
 ## 性格・強み
 

@@ -64,20 +64,20 @@ function initTyping() {
 
     function tick() {
         const phrase = phrases[phraseIndex]
-        if (!deleting) {
+        if (deleting) {
+            el.textContent = phrase.slice(0, charIndex - 1)
+            charIndex--
+            if (charIndex === 0) {
+                deleting = false
+                phraseIndex = (phraseIndex + 1) % phrases.length
+            }
+        } else {
             el.textContent = phrase.slice(0, charIndex + 1)
             charIndex++
             if (charIndex === phrase.length) {
                 deleting = true
                 setTimeout(tick, pauseMs)
                 return
-            }
-        } else {
-            el.textContent = phrase.slice(0, charIndex - 1)
-            charIndex--
-            if (charIndex === 0) {
-                deleting = false
-                phraseIndex = (phraseIndex + 1) % phrases.length
             }
         }
         setTimeout(tick, deleting ? deleteSpeed : typeSpeed)

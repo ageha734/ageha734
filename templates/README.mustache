@@ -4,17 +4,6 @@
     English | <a href="./README.ja.md">日本語</a>
 </p>
 
-<h2 align="left"><b>$ whoami</b></h2>
-<div align="left">
-    <ul>
-        {{#bio.en}}
-        <li>
-            <p>{{icon}} {{label}}: </br>{{text}}</p>
-        </li>
-        {{/bio.en}}
-    </ul>
-</div>
-
 <h3 align="left"><b>🔍 Where to find me</b></h3>
 <div align="center">
     <a href="{{links.twitter}}" target="_blank">
@@ -24,7 +13,7 @@
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" style="margin-right: 18px" alt="Linkedin" />
     </a>
     <a href="{{links.facebook}}" target="_blank">
-        <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="28" style="margin-right: 18px" alt="Facebook" />
+        <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="28" style="margin-right: 18px" alt="Fecebook" />
     </a>
     <a href="{{links.youtube}}" target="_blank">
         <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="28" style="margin-right: 18px" alt="Youtube" />
@@ -33,7 +22,11 @@
         <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" height="28" style="margin-right: 18px" alt="Medium" />
     </a>
     <a href="https://github.com/devxb/gitanimals">
-        <img src="https://render.gitanimals.org/farms/{{metadata.username}}" width="600" height="300" />
+        <img
+          src="https://render.gitanimals.org/farms/{{metadata.username}}"
+          width="600"
+          height="300"
+        />
     </a>
 </div>
 
@@ -108,9 +101,9 @@
                 <td><p>{{topics_en}}</p></td>
                 <td></td>
                 <td>
-                    {{#followers_badge}}<p>Please give me thumbs up 💚 → <a href="{{url}}"><img src="{{{followers_badge}}}" height="20" alt="{{platform}} followers" /></a></p>{{/followers_badge}}
-                    {{#likes_badge}}<p>Please give me thumbs up 💚 → <a href="{{url}}"><img src="{{{likes_badge}}}" height="20" alt="{{platform}} likes" /></a></p>{{/likes_badge}}
-                    {{#badge}}{{^followers_badge}}{{^likes_badge}}<p>Written on {{platform}}.</p>{{/likes_badge}}{{/followers_badge}}{{/badge}}
+                    {{#followers_badge}}<p>Please give me thumbs up 💚 → </p><a href="{{url}}"><img src="{{{followers_badge}}}" height="20" alt="{{platform}} followers" /></a>{{/followers_badge}}
+                    {{#likes_badge}}<p>Please give me thumbs up 💚 → </p><a href="{{url}}"><img src="{{{likes_badge}}}" height="20" alt="{{platform}} likes" /></a>{{/likes_badge}}
+                    {{#badge}}{{^followers_badge}}{{^likes_badge}}<p>Written on hatenablog.</p>{{/likes_badge}}{{/followers_badge}}{{/badge}}
                 </td>
             </tr>
             {{/articles}}
@@ -134,3 +127,40 @@
 <!--START_SECTION:lapras-card-->
 <!--END_SECTION:lapras-card-->
 </div>
+
+---
+
+<div align="center">
+    <img
+        src="https://github.com/{{metadata.username}}/{{metadata.username}}/workflows/README%20build/badge.svg"
+        height="28"
+        style="margin-right: 18px"
+        alt="Build README"
+    />
+    <img
+        src="https://img.shields.io/github/stars/{{metadata.username}}/{{metadata.username}}?style=flat-square&labelColor=343b41"
+        height="28"
+        style="margin-right: 18px"
+        alt="Stars"
+    />
+    <img
+        src="https://img.shields.io/github/forks/{{metadata.username}}/{{metadata.username}}?style=flat-square&labelColor=343b41"
+        height="28"
+        style="margin-right: 18px"
+        alt="Forks"
+    />
+    <img
+        src="https://komarev.com/ghpvc/?username={{metadata.username}}"
+        height="28"
+        style="margin-right: 18px"
+        alt="Profile Views"
+    />
+    <a href="https://wakatime.com/@{{metadata.wakatime_user_id}}">
+        <img
+            src="https://wakatime.com/badge/user/{{metadata.wakatime_user_id}}.svg?style=plastic"
+            height="28"
+            style="margin-right: 18px"
+            alt="Total time coded since Sep 9 2024"
+        />
+    </a>
+</dev>

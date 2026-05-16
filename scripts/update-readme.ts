@@ -10,7 +10,15 @@ const PARTIALS_DIR = path.join(TEMPLATES_DIR, 'partials')
 type Lang = 'en' | 'ja'
 
 interface Profile {
-    metadata: Record<string, string>
+    metadata: {
+        username: string
+        role_en: string
+        role_ja: string
+        keywords_en: string
+        keywords_ja: string
+        lapras_share_id: string
+        wakatime_user_id: string
+    }
     bio: { en: BioItem[]; ja: BioItem[] }
     links: Record<string, string>
     skills: Record<string, SkillItem[]>
