@@ -4,3 +4,6 @@ packages:
 minimumReleaseAge: 20160
 trustPolicy: no-downgrade
 strictDepBuilds: true
+
+registries:
+  default: https://npm.flatt.tech
