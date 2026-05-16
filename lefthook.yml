@@ -1,31 +1,19 @@
 pre-commit:
   piped: true
   commands:
-    check:
+    biome:
       glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
-      run: |
-        pnpx biome check --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
+      run: docker compose -f compose.ci.yaml run --rm --no-deps biome check --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
       stage_fixed: true
     markdownlint:
       glob: "*.md"
-      run: |
-        npx markdownlint-cli2 --fix {staged_files} || true
+      run: docker compose -f compose.ci.yaml run --rm --no-deps markdownlint --fix {staged_files} || true
       stage_fixed: true
+    textlint:
+      glob: "*.ja.md"
+      run: docker compose -f compose.ci.yaml run --rm --no-deps textlint {staged_files} || true
     gitleaks:
-      run: gitleaks protect --staged --config .gitleaks.toml --no-banner
-
-prepare-commit-msg:
-  commands:
-    commitizen:
-      interactive: true
-      run: |
-        exec < /dev/tty && pnpx cz --hook || true
-
-commit-msg:
-  commands:
-    commitlint:
-      run: |
-        pnpx commitlint --edit {1}
+      run: docker compose -f compose.ci.yaml run --rm --no-deps gitleaks protect --staged --config .gitleaks.toml --no-banner
 
 pre-push:
   commands:
@@ -39,5 +27,5 @@ pre-push:
 post-merge:
   commands:
     pnpm:
-      glob: "{package.json,package-lock.json}"
+      glob: "{package.json,pnpm-lock.yaml}"
       run: pnpm install --frozen-lockfile

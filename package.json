@@ -7,7 +7,7 @@
         "pnpm": ">=10.33.0"
     },
     "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319",
-    "author": "ageha734 <info@ageha734.jp>",
+    "author": "ageha734 <contact@ageha734.jp>",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ageha734/ageha734.git"
@@ -15,15 +15,12 @@
     "homepage": "https://github.com/ageha734/ageha734#readme",
     "scripts": {
         "prepare": "lefthook install",
-        "check": "biome check --write",
         "generate": "tsx scripts/update-readme.ts && tsx scripts/generate-portfolio.ts",
         "sync:gas": "tsx scripts/sync-from-gas.ts",
         "sync:blog": "tsx scripts/sync-blog-posts.ts",
         "validate:profile": "tsx scripts/validate-profile.ts",
         "validate:templates": "tsx scripts/validate-templates.ts",
-        "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
-        "lint:text": "textlint README.ja.md about/README.ja.md",
-        "lint:secrets": "gitleaks detect --config .gitleaks.toml --no-banner",
+        "lint:text": "docker compose -f compose.ci.yaml run --rm textlint",
         "dev:portfolio": "pnpm dlx serve docs -p 3000"
     },
     "dependencies": {
@@ -33,28 +30,10 @@
         "rss-parser": "3.13.0"
     },
     "devDependencies": {
-        "@biomejs/biome": "1.9.2",
-        "@commitlint/cli": "19.8.0",
-        "@commitlint/config-conventional": "19.8.0",
         "@types/mustache": "4.2.5",
         "@types/node": "22.15.21",
-        "commitizen": "4.3.1",
-        "cz-conventional-changelog-ja": "0.0.2",
         "lefthook": "1.11.13",
-        "markdownlint-cli2": "0.18.1",
-        "textlint": "14.6.0",
-        "textlint-filter-rule-comments": "1.2.2",
-        "textlint-filter-rule-node-types": "1.1.0",
-        "textlint-rule-preset-ja-technical-writing": "10.1.0",
         "tsx": "4.19.4",
         "typescript": "5.8.3"
-    },
-    "commitlint": {
-        "extends": ["@commitlint/config-conventional"]
-    },
-    "config": {
-        "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog-ja"
-        }
     }
 }

@@ -30,7 +30,8 @@
 ### Motto
 
 - All art is quite useless.
-- Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+- Perfection is achieved not when there is nothing more to add,
+  but when there is nothing left to take away.
 - Done is better than perfect.
 
 ## Personality and Traits

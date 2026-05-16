@@ -1,0 +1,43 @@
+name: Push
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  biome:
+    name: Biome
+    uses: ./.github/workflows/_reusable-biome.yml
+
+  markdownlint:
+    name: Markdownlint
+    uses: ./.github/workflows/_reusable-markdownlint.yml
+
+  redocly:
+    name: Redocly
+    uses: ./.github/workflows/_reusable-redocly.yml
+
+  typos:
+    name: Typos
+    uses: ./.github/workflows/_reusable-typos.yml
+
+  textlint:
+    name: Textlint
+    uses: ./.github/workflows/_reusable-textlint.yml
+
+  actionlint:
+    name: Actionlint
+    uses: ./.github/workflows/_reusable-actionlint.yml
+
+  security:
+    name: Security
+    uses: ./.github/workflows/_reusable-security.yml
+
+  validate:
+    name: Validate
+    uses: ./.github/workflows/_reusable-validate.yml
+
+  cv-api-test:
+    name: CV API Test
+    uses: ./.github/workflows/_reusable-cv-api-test.yml

@@ -1,0 +1,15 @@
+name: Unit Tests
+
+on:
+  push:
+    paths:
+      - "cv-api/**"
+  pull_request:
+    paths:
+      - "cv-api/**"
+  workflow_dispatch:
+
+jobs:
+  cv-api-test:
+    name: CV API Test
+    uses: ./.github/workflows/_reusable-cv-api-test.yml

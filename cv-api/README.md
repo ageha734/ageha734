@@ -2,7 +2,7 @@
 
 ## 1. Google スプレッドシートを準備する
 
-以下の4シートを作成し、1行目をヘッダーにする：
+以下の4シートを作成し、1行目をヘッダーにする。
 
 ### certifications
 | year | month | name_en | name_ja |
@@ -41,7 +41,7 @@
 
 ## 3. スクリプトプロパティを設定する
 
-**プロジェクト設定 > スクリプト プロパティ** で以下を追加：
+**プロジェクト設定 > スクリプト プロパティ** で以下を追加する。
 
 | キー | 値 |
 |---|---|
@@ -57,7 +57,7 @@
 openssl rand -hex 32
 ```
 
-この値を：
+この値を設定する。
 - GAS の Script Properties `HMAC_SECRET` に設定
 - GitHub Repository の Secrets `GAS_HMAC_SECRET` に設定
 
@@ -75,7 +75,7 @@ openssl rand -hex 32
 
 ## 6. GitHub Secrets を設定する
 
-リポジトリの **Settings > Secrets and variables > Actions** で：
+リポジトリの **Settings > Secrets and variables > Actions** で設定する。
 
 | Secret 名 | 値 |
 |---|---|

@@ -1,13 +1,6 @@
-packages:
-  - "cv-api"
-
 minimumReleaseAge: 20160
 trustPolicy: off
 strictDepBuilds: true
-onlyBuiltDependencies:
-  - "@biomejs/biome"
-  - esbuild
-  - lefthook
 
 registries:
   default: https://npm.flatt.tech

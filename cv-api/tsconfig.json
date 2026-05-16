@@ -1,12 +1,12 @@
 {
     "compilerOptions": {
-        "target": "ES2019",
         "lib": ["ES2019"],
         "module": "None",
-        "strict": true,
+        "noImplicitReturns": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "noImplicitReturns": true,
+        "strict": true,
+        "target": "ES2019",
         "types": ["google-apps-script"]
     },
     "include": ["*.ts"]

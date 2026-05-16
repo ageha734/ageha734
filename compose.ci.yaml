@@ -1,0 +1,49 @@
+services:
+  gitleaks:
+    image: zricethezav/gitleaks:v8.30.0@sha256:691af3c7c5a48b16f187ce3446d5f194838f91238f27270ed36eef6359a574d9
+    container_name: gitleaks
+    volumes:
+      - ./:/src
+    working_dir: /src
+    command: ["dir", "--config", ".gitleaks.toml", "-v", "--redact", "."]
+
+  redocly:
+    image: redocly/cli:1.28.0@sha256:6e596652bffd3d7168f89d3ebbbf0e0c3cc7b95a0b9a15df97083c7bb6e776e8
+    container_name: redocly-cli
+    volumes:
+      - ./:/workspace
+    working_dir: /workspace
+    entrypoint: ["redocly"]
+    command: ["lint", "docs/openapi/openapi.yaml"]
+
+  markdownlint:
+    image: davidanson/markdownlint-cli2:v0.18.1@sha256:bb8f4c0f70c13b94b6c75b6e7abda68e80f8428abecd5d80f42e7e6db80a71fb
+    container_name: markdownlint
+    volumes:
+      - ./:/workdir
+    working_dir: /workdir
+    command: ["**/*.md", "#node_modules", "#cv-api/node_modules"]
+
+  biome:
+    image: ghcr.io/biomejs/biome:1.9.2@sha256:4281d8b08cdddfd488124c01e36aa0c3c4ae8f1b64858f2b26db221e338fe899
+    container_name: biome
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: ["check", "."]
+
+  textlint:
+    build:
+      context: .docker/textlint
+    volumes:
+      - ./:/work
+    working_dir: /work
+    command: ["**/*.md"]
+
+  osv-scanner:
+    image: ghcr.io/google/osv-scanner:v2.0.3@sha256:b7f5e30a4e1b4e5f4f9ddff3ddb6c68e0a74edc31d3f4e4c9bbd9d98dc7d7d5
+    container_name: osv-scanner
+    volumes:
+      - ./:/src
+    working_dir: /src
+    command: ["--lockfile", "pnpm-lock.yaml"]
