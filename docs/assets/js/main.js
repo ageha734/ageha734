@@ -11,7 +11,7 @@ function initReveal() {
                 }
             }
         },
-        { threshold: 0.12 }
+        {threshold: 0.12}
     )
 
     for (const el of document.querySelectorAll('.reveal, .reveal-stagger')) {
@@ -96,12 +96,15 @@ function initActiveNav() {
             for (const entry of entries) {
                 if (entry.isIntersecting) {
                     for (const a of navLinks) {
-                        a.classList.toggle('active', a.getAttribute('href') === `#${entry.target.id}`)
+                        a.classList.toggle(
+                            'active',
+                            a.getAttribute('href') === `#${entry.target.id}`
+                        )
                     }
                 }
             }
         },
-        { threshold: 0.4 }
+        {threshold: 0.4}
     )
 
     for (const s of sections) observer.observe(s)

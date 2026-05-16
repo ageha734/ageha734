@@ -3,9 +3,10 @@ import path from 'node:path'
 import Mustache from 'mustache'
 
 const ROOT = path.join(__dirname, '..')
-const profile = JSON.parse(
-    fs.readFileSync(path.join(ROOT, 'data/profile.json'), 'utf8')
-) as Record<string, unknown>
+const profile = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/profile.json'), 'utf8')) as Record<
+    string,
+    unknown
+>
 
 const partials: Record<string, string> = {}
 for (const f of fs.readdirSync(path.join(ROOT, 'templates/partials'))) {

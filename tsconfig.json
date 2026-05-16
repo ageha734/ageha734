@@ -2,9 +2,7 @@
     "compilerOptions": {
         "esModuleInterop": true,
         "exactOptionalPropertyTypes": true,
-        "lib": [
-            "ES2022"
-        ],
+        "lib": ["ES2022"],
         "module": "CommonJS",
         "moduleResolution": "Node10",
         "noImplicitOverride": true,
@@ -16,12 +14,6 @@
         "strict": true,
         "target": "ES2022"
     },
-    "exclude": [
-        "node_modules",
-        "dist",
-        "cv-api"
-    ],
-    "include": [
-        "scripts/**/*.ts"
-    ]
+    "exclude": ["node_modules", "dist", "cv-api"],
+    "include": ["scripts/**/*.ts"]
 }

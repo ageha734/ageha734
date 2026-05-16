@@ -19,7 +19,7 @@ interface Profile {
         lapras_share_id: string
         wakatime_user_id: string
     }
-    bio: { en: BioItem[]; ja: BioItem[] }
+    bio: {en: BioItem[]; ja: BioItem[]}
     links: Record<string, string>
     skills: Record<string, SkillItem[]>
     projects: ProjectItem[]
@@ -29,18 +29,52 @@ interface Profile {
     work_experience?: WorkItem[]
 }
 
-interface BioItem { icon: string; label: string; text: string }
-interface SkillItem { name: string; badge?: string; icon?: string }
+interface BioItem {
+    icon: string
+    label: string
+    text: string
+}
+interface SkillItem {
+    name: string
+    badge?: string
+    icon?: string
+}
 interface ProjectItem {
-    name: string; url: string
-    description_en: string; description_ja: string
-    stars_badge: string; forks_badge: string; issues_badge: string; prs_badge: string
+    name: string
+    url: string
+    description_en: string
+    description_ja: string
+    stars_badge: string
+    forks_badge: string
+    issues_badge: string
+    prs_badge: string
     description?: string
 }
-interface ArticleItem { platform: string; url: string }
-interface CertItem { year: number; month: number; name_en: string; name_ja: string }
-interface CommunityItem { name: string; logo: string; url: string; description_en: string; description_ja: string }
-interface WorkItem { company_en: string; company_ja: string; start: string; end: string | null; role_en: string; role_ja: string }
+interface ArticleItem {
+    platform: string
+    url: string
+}
+interface CertItem {
+    year: number
+    month: number
+    name_en: string
+    name_ja: string
+}
+interface CommunityItem {
+    name: string
+    logo: string
+    url: string
+    description_en: string
+    description_ja: string
+}
+interface WorkItem {
+    company_en: string
+    company_ja: string
+    start: string
+    end: string | null
+    role_en: string
+    role_ja: string
+}
 
 function loadProfile(): Profile {
     return JSON.parse(fs.readFileSync(DATA_FILE, 'utf8')) as Profile
@@ -62,15 +96,17 @@ function escapeRegex(str: string): string {
 
 function preserveSections(existing: string, rendered: string): string {
     const sections = [
-        { start: '<!--START_SECTION:waka-->', end: '<!--END_SECTION:waka-->' },
-        { start: '<!--START_SECTION:lapras-card-->', end: '<!--END_SECTION:lapras-card-->' },
+        {start: '<!--START_SECTION:waka-->', end: '<!--END_SECTION:waka-->'},
+        {start: '<!--START_SECTION:lapras-card-->', end: '<!--END_SECTION:lapras-card-->'}
     ]
 
     let result = rendered
-    for (const { start, end } of sections) {
+    for (const {start, end} of sections) {
         const escapedStart = escapeRegex(start)
         const escapedEnd = escapeRegex(end)
-        const existingMatch = new RegExp(String.raw`${escapedStart}([\s\S]*?)${escapedEnd}`).exec(existing)
+        const existingMatch = new RegExp(String.raw`${escapedStart}([\s\S]*?)${escapedEnd}`).exec(
+            existing
+        )
         if (existingMatch?.[1] !== undefined) {
             result = result.replace(
                 new RegExp(String.raw`${escapedStart}[\s\S]*?${escapedEnd}`),
@@ -86,7 +122,7 @@ function buildViewData(profile: Profile, lang: Lang): Record<string, unknown> {
 
     const projects: ProjectItem[] = profile.projects.map(p => ({
         ...p,
-        description: isJa ? p.description_ja : p.description_en,
+        description: isJa ? p.description_ja : p.description_en
     }))
 
     return {
@@ -105,11 +141,16 @@ function buildViewData(profile: Profile, lang: Lang): Record<string, unknown> {
         support_title: isJa ? 'サポート' : 'Support Me',
         projects_title: isJa ? 'オープンソースプロジェクト' : 'Open source projects',
         col_projects: isJa ? 'プロジェクト' : 'Projects',
-        col_abstract: isJa ? '要旨' : 'Abstract',
+        col_abstract: isJa ? '要旨' : 'Abstract'
     }
 }
 
-function generateReadme(templateFile: string, outputFile: string, profile: Profile, lang: Lang): void {
+function generateReadme(
+    templateFile: string,
+    outputFile: string,
+    profile: Profile,
+    lang: Lang
+): void {
     const template = fs.readFileSync(path.join(TEMPLATES_DIR, templateFile), 'utf8')
     const partials = loadPartials()
     const view = buildViewData(profile, lang)

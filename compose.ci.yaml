@@ -17,7 +17,7 @@ services:
     command: ["lint", "docs/openapi/openapi.yaml"]
 
   markdownlint:
-    image: davidanson/markdownlint-cli2:v0.18.1@sha256:bb8f4c0f70c13b94b6c75b6e7abda68e80f8428abecd5d80f42e7e6db80a71fb
+    image: davidanson/markdownlint-cli2:v0.18.1@sha256:173cb697a255a8a985f2c6a83b4f7a8b3c98f4fb382c71c45f1c52e4d4fed63a
     container_name: markdownlint
     volumes:
       - ./:/workdir
@@ -41,7 +41,7 @@ services:
     command: ["**/*.md"]
 
   osv-scanner:
-    image: ghcr.io/google/osv-scanner:v2.0.3@sha256:b7f5e30a4e1b4e5f4f9ddff3ddb6c68e0a74edc31d3f4e4c9bbd9d98dc7d7d5
+    image: ghcr.io/google/osv-scanner:v2.0.3@sha256:3c56279b527c0a79b0b06c207efea1145ad8062e6c7d1358ccb10034430fcd00
     container_name: osv-scanner
     volumes:
       - ./:/src
