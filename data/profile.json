@@ -6,6 +6,20 @@
         "lapras_share_id": "ZGCCIAL",
         "wakatime_user_id": "e81d490c-17bb-4b85-8611-87004287614f"
     },
+    "mottos": [
+        {
+            "en": "All art is quite useless.",
+            "ja": "すべての芸術は、まったく無用である。"
+        },
+        {
+            "en": "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
+            "ja": "完璧とは、付け加えるものが何もなくなったときではなく、取り除くものが何もなくなったときに達成される。"
+        },
+        {
+            "en": "Done is better than perfect.",
+            "ja": "完璧を目指すより、まず終わらせよ。"
+        }
+    ],
     "bio": {
         "en": [
             {
@@ -116,6 +130,16 @@
             "forks_badge": "https://img.shields.io/github/forks/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41",
             "issues_badge": "https://img.shields.io/github/issues/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41",
             "prs_badge": "https://img.shields.io/github/issues-pr/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41"
+        },
+        {
+            "name": "PresenterPro",
+            "url": "https://gitea.com/takenoko/PresenterPro",
+            "description_en": "PresenterPro supports presenters in the offline presentation of material created with existing presentation tools.",
+            "description_ja": "PresenterProは、既存のプレゼンテーションツールで作成した資料をオフラインでプレゼンテーションする際のプレゼンターをサポートします。",
+            "stars_badge": "https://img.shields.io/gitea/stars/takenoko/PresenterPro?style=flat-square&labelColor=343b41",
+            "forks_badge": "https://img.shields.io/gitea/forks/takenoko/PresenterPro?style=flat-square&labelColor=343b41",
+            "issues_badge": "https://img.shields.io/gitea/issues/takenoko/PresenterPro?style=flat-square&labelColor=343b41",
+            "prs_badge": "https://img.shields.io/gitea/issues-pr/takenoko/PresenterPro?style=flat-square&labelColor=343b41"
         },
         {
             "name": "EchoSleep",

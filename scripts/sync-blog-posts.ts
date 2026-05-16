@@ -1,22 +1,45 @@
-const fs = require('node:fs')
-const path = require('node:path')
+import fs from 'node:fs'
+import path from 'node:path'
+import fetch from 'node-fetch'
 
 const ROOT = path.join(__dirname, '..')
-const QIITA_USER = process.env.QIITA_USERNAME || 'ageha734'
-const ZENN_USER = process.env.ZENN_USERNAME || 'ageha734'
+const QIITA_USER = process.env['QIITA_USERNAME'] ?? 'ageha734'
+const ZENN_USER = process.env['ZENN_USERNAME'] ?? 'ageha734'
 
 const RECENT_POSTS_START = '<!--START_SECTION:recent-posts-->'
 const RECENT_POSTS_END = '<!--END_SECTION:recent-posts-->'
 
-async function fetchQiitaPosts(username) {
-    const fetch = (await import('node-fetch')).default
+interface Post {
+    platform: string
+    title: string
+    url: string
+    date: string
+}
+
+interface QiitaItem {
+    title: string
+    url: string
+    created_at: string
+}
+
+interface ZennArticle {
+    title: string
+    path: string
+    published_at: string | null
+}
+
+interface ZennResponse {
+    articles?: ZennArticle[]
+}
+
+async function fetchQiitaPosts(username: string): Promise<Post[]> {
     try {
         const res = await fetch(
             `https://qiita.com/api/v2/users/${username}/items?per_page=3&page=1`,
             { headers: { 'User-Agent': 'ageha734-readme-bot/1.0' } }
         )
         if (!res.ok) return []
-        const items = await res.json()
+        const items = (await res.json()) as QiitaItem[]
         return items.map(item => ({
             platform: 'Qiita',
             title: item.title,
@@ -28,50 +51,45 @@ async function fetchQiitaPosts(username) {
     }
 }
 
-async function fetchZennPosts(username) {
-    const fetch = (await import('node-fetch')).default
+async function fetchZennPosts(username: string): Promise<Post[]> {
     try {
         const res = await fetch(
             `https://zenn.dev/api/articles?username=${username}&order=latest&count=3`,
             { headers: { 'User-Agent': 'ageha734-readme-bot/1.0' } }
         )
         if (!res.ok) return []
-        const data = await res.json()
-        return (data.articles || []).map(a => ({
+        const data = (await res.json()) as ZennResponse
+        return (data.articles ?? []).map(a => ({
             platform: 'Zenn',
             title: a.title,
             url: `https://zenn.dev${a.path}`,
-            date: a.published_at?.slice(0, 10) || '',
+            date: a.published_at?.slice(0, 10) ?? '',
         }))
     } catch {
         return []
     }
 }
 
-function buildRecentPostsSection(posts) {
-    if (!posts.length) return ''
-
+function buildRecentPostsSection(posts: Post[]): string {
+    if (posts.length === 0) return ''
     const rows = posts
         .map(p => `| ${p.platform} | [${p.title}](${p.url}) | ${p.date} |`)
         .join('\n')
-
     return `\n| Platform | Article | Date |\n|---|---|---|\n${rows}\n`
 }
 
-function updateSection(content, sectionContent) {
-    const pattern = new RegExp(
-        `${RECENT_POSTS_START.replace(/<!--/g, '<!--').replace(/-->/g, '-->')}[\\s\\S]*?${RECENT_POSTS_END}`,
-        'g'
-    )
+function updateSection(content: string, sectionContent: string): string {
+    const escaped = RECENT_POSTS_START.replaceAll(/[.*+?^${}()|[\]\\]/g, String.raw`\$&`)
+    const escapedEnd = RECENT_POSTS_END.replaceAll(/[.*+?^${}()|[\]\\]/g, String.raw`\$&`)
+    const pattern = new RegExp(`${escaped}[\\s\\S]*?${escapedEnd}`, 'g')
     const replacement = `${RECENT_POSTS_START}${sectionContent}${RECENT_POSTS_END}`
-
     if (pattern.test(content)) {
-        return content.replace(pattern, replacement)
+        return content.replaceAll(pattern, replacement)
     }
     return content
 }
 
-async function main() {
+async function main(): Promise<void> {
     const [qiita, zenn] = await Promise.all([
         fetchQiitaPosts(QIITA_USER),
         fetchZennPosts(ZENN_USER),
@@ -81,7 +99,7 @@ async function main() {
         .sort((a, b) => b.date.localeCompare(a.date))
         .slice(0, 5)
 
-    if (!allPosts.length) {
+    if (allPosts.length === 0) {
         console.log('No posts fetched, skipping update.')
         return
     }
@@ -102,7 +120,7 @@ async function main() {
     }
 }
 
-main().catch(e => {
+main().catch((e: unknown) => {
     console.error(e)
     process.exit(1)
 })

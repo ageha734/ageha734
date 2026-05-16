@@ -1,24 +1,45 @@
 {
     "$schema": "https://biomejs.dev/schemas/1.9.2/schema.json",
-    "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
-    "files": { "ignoreUnknown": false, "ignore": [] },
+    "files": {
+        "ignore": [],
+        "ignoreUnknown": false
+    },
     "formatter": {
+        "attributePosition": "auto",
+        "bracketSpacing": true,
         "enabled": true,
-        "useEditorconfig": true,
         "formatWithErrors": false,
+        "ignore": [
+            "**/dist/",
+            "**/lib/",
+            "**/node_modules/"
+        ],
         "indentStyle": "space",
         "indentWidth": 4,
         "lineEnding": "lf",
         "lineWidth": 100,
-        "attributePosition": "auto",
-        "bracketSpacing": true,
-        "ignore": ["**/dist/", "**/lib/", "**/node_modules/"]
+        "useEditorconfig": true
     },
-    "organizeImports": { "enabled": true },
+    "javascript": {
+        "formatter": {
+            "arrowParentheses": "asNeeded",
+            "attributePosition": "auto",
+            "bracketSameLine": false,
+            "bracketSpacing": false,
+            "jsxQuoteStyle": "double",
+            "quoteProperties": "asNeeded",
+            "quoteStyle": "single",
+            "semicolons": "asNeeded",
+            "trailingCommas": "none"
+        }
+    },
     "linter": {
         "enabled": true,
+        "ignore": [
+            "**/dist/",
+            "**/node_modules/"
+        ],
         "rules": {
-            "recommended": false,
             "complexity": {
                 "noExtraBooleanCast": "error",
                 "noMultipleSpacesInRegularExpressionLiterals": "error",
@@ -46,6 +67,7 @@
                 "useIsNan": "error",
                 "useYield": "error"
             },
+            "recommended": false,
             "style": {
                 "noArguments": "error",
                 "noCommaOperator": "error",
@@ -82,20 +104,14 @@
                 "noUnsafeNegation": "error",
                 "useValidTypeof": "error"
             }
-        },
-        "ignore": ["**/dist/", "**/node_modules/"]
-    },
-    "javascript": {
-        "formatter": {
-            "jsxQuoteStyle": "double",
-            "quoteProperties": "asNeeded",
-            "trailingCommas": "none",
-            "semicolons": "asNeeded",
-            "arrowParentheses": "asNeeded",
-            "bracketSameLine": false,
-            "quoteStyle": "single",
-            "attributePosition": "auto",
-            "bracketSpacing": false
         }
+    },
+    "organizeImports": {
+        "enabled": true
+    },
+    "vcs": {
+        "clientKind": "git",
+        "enabled": true,
+        "useIgnoreFile": true
     }
 }

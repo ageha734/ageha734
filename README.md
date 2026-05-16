@@ -1,5 +1,5 @@
 <meta name="description" content="GitHub profile in blue color">
-<meta name="keywords" content="Full Stack Developer, GitHub Stats, GitHub Profile, JavaScript, TypeScript, React, Nodejs, HTML5, CSS3, PHP, MySQL, MongoDB"/>
+<meta name="keywords" content="Support Engineer, GitHub Stats, GitHub Profile"/>
 
 <div align="center">
     <img
@@ -7,31 +7,13 @@
         width=100%
     />
     <img
-        src="https://readme-typing-svg.herokuapp.com/?color=1BF7B3&size=35&center=true&weight=700&size=40&pause=1500&&vCenter=true&width=1000&lines=Hi,+I'm+Ageha;Welcome+to+my+page!;I'm+a+Full+Stack+Engineer;With+a+primary+focus+on+Cloud+Infrastructure+from;Be+Welcome!+😁"
+        src="https://readme-typing-svg.herokuapp.com/?color=1BF7B3&size=35&center=true&weight=700&size=40&pause=1500&&vCenter=true&width=1000&lines=Hi,+I'm+ageha734;Welcome+to+my+page!;Be+Welcome!+😁"
     />
 </div>
 
 <p align="right">
     English | <a href="./README.ja.md">日本語</a>
 </p>
-
-<h2 align="left"><b>$ whoami</b></h2>
-<div align="left">
-    <ul>
-        <li>
-            <p>💼 I'm currently working on: </br>Designing large-scale systems using microservices architecture and optimizing Kubernetes clusters</p>
-        </li>
-        <li>
-            <p>🌱 I'm currently learning: </br>Serverless architecture, AI containerization, and FinOps practices</p>
-        </li>
-        <li>
-            <p>💬 Ask me about: </br>Cloud architecture, microservices design, Kubernetes optimization, building MLOps pipelines</p>
-        </li>
-        <li>
-            <p>🎢 Fun fact: </br>Whenever I'm solving complex infrastructure problems, I always draw diagrams on a whiteboard. There's an erasable whiteboard permanently stationed at my desk!</p>
-        </li>
-    </ul>
-</div>
 
 <h3 align="left"><b>🔍 Where to find me</b></h3>
 <div align="center">
@@ -496,7 +478,7 @@ JSON         6 mins          ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
 <h2 align="center"><b>📊 Development metrics 📊</b></h2>
 <div align="center">
 <!--START_SECTION:lapras-card-->
-<p ><a href="https://lapras.com/public/ZGCCIAL" target="_blank" rel="noopener noreferrer"><img alt="ZGCCIAL's scores on LAPRAS are as follows: Engineering: 3.31 out of 5.0, Business: 2.85 out of 5.0, Influence: 3.34 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.31&b=2.85&i=3.34&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>  
+<p ><a href="https://lapras.com/public/ZGCCIAL" target="_blank" rel="noopener noreferrer"><img alt="ZGCCIAL's scores on LAPRAS are as follows: Engineering: 3.31 out of 5.0, Business: 2.85 out of 5.0, Influence: 3.34 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.31&b=2.85&i=3.34&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=en" width="400" ></a>
 Last Updated on 5/16/2026, 12:56:02 AM</p>
 <!--END_SECTION:lapras-card-->
 </div>

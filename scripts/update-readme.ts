@@ -1,19 +1,45 @@
-const fs = require('node:fs')
-const path = require('node:path')
-const Mustache = require('mustache')
+import fs from 'node:fs'
+import path from 'node:path'
+import Mustache from 'mustache'
 
 const ROOT = path.join(__dirname, '..')
 const DATA_FILE = path.join(ROOT, 'data', 'profile.json')
 const TEMPLATES_DIR = path.join(ROOT, 'templates')
 const PARTIALS_DIR = path.join(TEMPLATES_DIR, 'partials')
 
-function loadProfile() {
-    const raw = fs.readFileSync(DATA_FILE, 'utf8')
-    return JSON.parse(raw)
+type Lang = 'en' | 'ja'
+
+interface Profile {
+    metadata: Record<string, string>
+    bio: { en: BioItem[]; ja: BioItem[] }
+    links: Record<string, string>
+    skills: Record<string, SkillItem[]>
+    projects: ProjectItem[]
+    articles: ArticleItem[]
+    certifications: CertItem[]
+    community?: CommunityItem[]
+    work_experience?: WorkItem[]
 }
 
-function loadPartials() {
-    const partials = {}
+interface BioItem { icon: string; label: string; text: string }
+interface SkillItem { name: string; badge?: string; icon?: string }
+interface ProjectItem {
+    name: string; url: string
+    description_en: string; description_ja: string
+    stars_badge: string; forks_badge: string; issues_badge: string; prs_badge: string
+    description?: string
+}
+interface ArticleItem { platform: string; url: string }
+interface CertItem { year: number; month: number; name_en: string; name_ja: string }
+interface CommunityItem { name: string; logo: string; url: string; description_en: string; description_ja: string }
+interface WorkItem { company_en: string; company_ja: string; start: string; end: string | null; role_en: string; role_ja: string }
+
+function loadProfile(): Profile {
+    return JSON.parse(fs.readFileSync(DATA_FILE, 'utf8')) as Profile
+}
+
+function loadPartials(): Record<string, string> {
+    const partials: Record<string, string> = {}
     for (const file of fs.readdirSync(PARTIALS_DIR)) {
         if (!file.endsWith('.mustache')) continue
         const name = path.basename(file, '.mustache')
@@ -22,7 +48,11 @@ function loadPartials() {
     return partials
 }
 
-function preserveSections(existing, rendered) {
+function escapeRegex(str: string): string {
+    return str.replaceAll(/[.*+?^${}()|[\]\\]/g, String.raw`\$&`)
+}
+
+function preserveSections(existing: string, rendered: string): string {
     const sections = [
         { start: '<!--START_SECTION:waka-->', end: '<!--END_SECTION:waka-->' },
         { start: '<!--START_SECTION:lapras-card-->', end: '<!--END_SECTION:lapras-card-->' },
@@ -32,10 +62,8 @@ function preserveSections(existing, rendered) {
     for (const { start, end } of sections) {
         const escapedStart = escapeRegex(start)
         const escapedEnd = escapeRegex(end)
-        const existingMatch = existing.match(
-            new RegExp(String.raw`${escapedStart}([\s\S]*?)${escapedEnd}`)
-        )
-        if (existingMatch) {
+        const existingMatch = new RegExp(String.raw`${escapedStart}([\s\S]*?)${escapedEnd}`).exec(existing)
+        if (existingMatch?.[1] !== undefined) {
             result = result.replace(
                 new RegExp(String.raw`${escapedStart}[\s\S]*?${escapedEnd}`),
                 `${start}${existingMatch[1]}${end}`
@@ -45,14 +73,10 @@ function preserveSections(existing, rendered) {
     return result
 }
 
-function escapeRegex(str) {
-    return str.replace(/[.*+?^${}()|[\]\\]/g, String.raw`\$&`)
-}
-
-function buildViewData(profile, lang) {
+function buildViewData(profile: Profile, lang: Lang): Record<string, unknown> {
     const isJa = lang === 'ja'
 
-    const projects = profile.projects.map(p => ({
+    const projects: ProjectItem[] = profile.projects.map(p => ({
         ...p,
         description: isJa ? p.description_ja : p.description_en,
     }))
@@ -77,7 +101,7 @@ function buildViewData(profile, lang) {
     }
 }
 
-function generateReadme(templateFile, outputFile, profile, lang) {
+function generateReadme(templateFile: string, outputFile: string, profile: Profile, lang: Lang): void {
     const template = fs.readFileSync(path.join(TEMPLATES_DIR, templateFile), 'utf8')
     const partials = loadPartials()
     const view = buildViewData(profile, lang)
@@ -93,13 +117,7 @@ function generateReadme(templateFile, outputFile, profile, lang) {
     console.log(`Generated: ${path.relative(ROOT, outputFile)}`)
 }
 
-function main() {
-    const profile = loadProfile()
-
-    generateReadme('README.mustache', path.join(ROOT, 'README.md'), profile, 'en')
-    generateReadme('README.ja.mustache', path.join(ROOT, 'README.ja.md'), profile, 'ja')
-
-    console.log('README generation complete.')
-}
-
-main()
+const profile = loadProfile()
+generateReadme('README.mustache', path.join(ROOT, 'README.md'), profile, 'en')
+generateReadme('README.ja.mustache', path.join(ROOT, 'README.ja.md'), profile, 'ja')
+console.log('README generation complete.')

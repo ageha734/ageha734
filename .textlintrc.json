@@ -2,16 +2,33 @@
     "rules": {
         "preset-ja-technical-writing": {
             "sentence-length": {
-                "max": 150
+                "max": 100
+            },
+            "max-kanji-continuous-len": {
+                "max": 6
             },
             "no-exclamation-question-mark": false,
-            "ja-no-mixed-period": false
+            "ja-no-mixed-period": {
+                "periodMark": "。"
+            },
+            "no-double-negative-ja": true,
+            "no-dropping-the-ra": true,
+            "no-redundant-expression": true,
+            "ja-no-weak-phrase": true,
+            "ja-no-successive-word": true,
+            "ja-unnatural-alphabet": true,
+            "no-mix-dearu-desumasu": {
+                "preferInHeader": "ですます",
+                "preferInBody": "ですます",
+                "preferInList": "ですます",
+                "strict": false
+            }
         }
     },
     "filters": {
         "comments": true,
         "node-types": {
-            "nodeTypes": ["CodeBlock", "Code", "Html"]
+            "nodeTypes": ["CodeBlock", "Code", "Html", "BlockQuote"]
         }
     }
 }

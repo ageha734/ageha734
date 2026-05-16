@@ -6,5 +6,7 @@
     // Allow multiple blank lines
     "MD012": false,
     // Allow missing alt text on images with badges
-    "MD045": false
+    "MD045": false,
+    // Allow long lines (badge URLs, HTML, SVG data URIs cannot be wrapped)
+    "MD013": false
 }

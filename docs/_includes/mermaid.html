@@ -1,0 +1,13 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.12.0/mermaid.min.js" integrity="sha512-5TKaYvhenABhlGIKSxAWLFJBZCSQw7HTV7aL1dJcBokM/+3PNtfgJFlv8E6Us/B1VMlQ4u8sPzjudL9TEQ06ww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    mermaid.initialize({
+        startOnLoad: false,
+        theme: 'default'
+    });
+    // 1passwordのextensionがDOMを操作するため、遅延処理を入れる
+    setTimeout(() => {
+        mermaid.run({
+            querySelector: 'code.language-mermaid',
+        });
+    }, 300);
+</script>

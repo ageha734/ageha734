@@ -1,5 +1,5 @@
 <meta name="description" content="GitHub profile in blue color">
-<meta name="keywords" content="Full Stack Developer, GitHub Stats, GitHub Profile, JavaScript, TypeScript, React, Nodejs, HTML5, CSS3, PHP, MySQL, MongoDB"/>
+<meta name="keywords" content="Support Engineer, GitHub Stats, GitHub Profile"/>
 
 <div align="center">
     <img
@@ -7,31 +7,13 @@
         width=100%
     />
     <img
-        src="https://readme-typing-svg.herokuapp.com/?color=1BF7B3&size=35&center=true&weight=700&size=40&pause=1500&&vCenter=true&width=1000&lines=こんにちは、アゲハです。;ようこそ、私のページへ！;私はフルスタックであるが、クラウドが専門分野です。;仲良くしてください!+😁"
+        src="https://readme-typing-svg.herokuapp.com/?color=1BF7B3&size=35&center=true&weight=700&size=40&pause=1500&&vCenter=true&width=1000&lines=こんにちは、ageha734です。;ようこそ、私のページへ！;仲良くしてください!+😁"
     />
 </div>
 
 <p align="right">
     <a href="./README.md">English</a> | 日本語
 </p>
-
-<h2 align="left"><b>$ whoami</b></h2>
-<div align="left">
-    <ul>
-        <li>
-            <p>💼 現在取り組んでいること</br>マイクロサービスアーキテクチャを用いた大規模システムの設計とKubernetesクラスタの最適化。</p>
-        </li>
-        <li>
-            <p>🌱 現在学んでいるのは</br>サーバーレスアーキテクチャ、AIコンテナ化、FinOpsの実践</p>
-        </li>
-        <li>
-            <p>💬 私の専門分野: </br>クラウドアーキテクチャ、マイクロサービス設計、Kubernetes最適化</p>
-        </li>
-        <li>
-            <p>🎢 面白い事実：</br>複雑なインフラ問題を解決するときは、いつもホワイトボードに図を描く。私のデスクには消せるホワイトボードが常備されている！</p>
-        </li>
-    </ul>
-</div>
 
 <h3 align="left"><b>🔍 リンク集</b></h3>
 <div align="center">

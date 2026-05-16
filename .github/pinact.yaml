@@ -1,3 +1,0 @@
-ignore:
-  # lowlighter/metrics does not publish commit-hash tags; use semver tag directly
-  - uses: "lowlighter/metrics"

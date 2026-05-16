@@ -11,9 +11,8 @@ pre-commit:
       run: |
         npx markdownlint-cli2 --fix {staged_files} || true
       stage_fixed: true
-    secretlint:
-      run: |
-        pnpx secretlint {staged_files}
+    gitleaks:
+      run: gitleaks protect --staged --config .gitleaks.toml --no-banner
 
 prepare-commit-msg:
   commands:
@@ -30,26 +29,15 @@ commit-msg:
 
 pre-push:
   commands:
+    validate-profile:
+      glob: "data/profile.json"
+      run: pnpm validate:profile
     validate-templates:
       glob: "{templates/**,data/**}"
-      run: |
-        node -e "
-          const fs = require('node:fs');
-          const path = require('node:path');
-          const Mustache = require('mustache');
-          const profile = JSON.parse(fs.readFileSync('data/profile.json', 'utf8'));
-          const tmpl = fs.readFileSync('templates/README.mustache', 'utf8');
-          const partials = {};
-          for (const f of fs.readdirSync('templates/partials')) {
-            partials[path.basename(f, '.mustache')] = fs.readFileSync('templates/partials/' + f, 'utf8');
-          }
-          Mustache.render(tmpl, profile, partials);
-          console.log('Template validation passed.');
-        " || (echo 'Template validation failed!' && exit 1)
+      run: pnpm validate:templates
 
 post-merge:
   commands:
     pnpm:
       glob: "{package.json,package-lock.json}"
-      run: |
-        pnpm install
+      run: pnpm install --frozen-lockfile

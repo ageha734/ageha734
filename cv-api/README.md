@@ -92,10 +92,10 @@ GAS_API_URL=https://script.google.com/macros/s/YOUR_ID/exec
 GAS_HMAC_SECRET=your_secret_here
 
 # 署名付き URL を生成して確認
-node scripts/generate-hmac.js certifications
+tsx scripts/generate-hmac.ts certifications
 
 # profile.json を手動同期
-node scripts/sync-from-gas.js
+tsx scripts/sync-from-gas.ts
 ```
 
 ---
@@ -103,4 +103,5 @@ node scripts/sync-from-gas.js
 ## API ドキュメント
 
 - [Swagger UI](https://mypages.ageha734.jp/api/) — インタラクティブな API リファレンス
-- [シーケンス図](https://mypages.ageha734.jp/api/sequence.md) — 認証フロー図解
+- [定期同期フロー](../docs/sequence/sync.md) — GitHub Actions 同期フロー
+- [HMAC 認証フロー](../docs/sequence/hmac-auth.md) — 署名・検証の仕組み

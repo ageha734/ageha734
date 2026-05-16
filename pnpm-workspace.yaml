@@ -1,3 +1,6 @@
+packages:
+  - "cv-api"
+
 minimumReleaseAge: 20160
 trustPolicy: no-downgrade
 strictDepBuilds: true
