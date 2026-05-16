@@ -1,4 +1,4 @@
-name: LAPRAS Card
+name: LAPRAS Card EN
 
 on:
   workflow_dispatch:
