@@ -17,19 +17,19 @@
 
 <h3 align="left"><b>🔍 Where to find me</b></h3>
 <div align="center">
-    <a href="https:&#x2F;&#x2F;x.com&#x2F;ageha734" target="_blank">
+    <a href="https://x.com/ageha734" target="_blank">
         <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=X&logoColor=white" height="28" style="margin-right: 18px" alt="X" />
     </a>
-    <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;ageha734" target="_blank">
+    <a href="https://www.linkedin.com/in/ageha734" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" style="margin-right: 18px" alt="Linkedin" />
     </a>
-    <a href="https:&#x2F;&#x2F;www.facebook.com&#x2F;ageha734" target="_blank">
+    <a href="https://www.facebook.com/ageha734" target="_blank">
         <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="28" style="margin-right: 18px" alt="Facebook" />
     </a>
-    <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;@ageha734" target="_blank">
+    <a href="https://www.youtube.com/@ageha734" target="_blank">
         <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="28" style="margin-right: 18px" alt="Youtube" />
     </a>
-    <a href="https:&#x2F;&#x2F;medium.com&#x2F;@ageha734" target="_blank">
+    <a href="https://medium.com/@ageha734" target="_blank">
         <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" height="28" style="margin-right: 18px" alt="Medium" />
     </a>
     <a href="https://github.com/devxb/gitanimals">
@@ -45,10 +45,10 @@
 <div align="left">
     <ul>
         <li>
-            <a href="https:&#x2F;&#x2F;mypages.ageha734.jp">Personal Portfolio</a>
+            <a href="https://mypages.ageha734.jp">Personal Portfolio</a>
         </li>
         <li>
-            <a href="https:&#x2F;&#x2F;www.ageha734.jp">Business Page (Sole Proprietor)</a>
+            <a href="https://www.ageha734.jp">Business Page (Sole Proprietor)</a>
         </li>
         <li>
             <a href="./about">About me</a>
@@ -162,7 +162,7 @@
 
 <h3 align="left"><b>🫶 Support Me</b></h3>
 <div align="left">
-    <a href="https:&#x2F;&#x2F;paypal.me&#x2F;ageha734" target="_blank">
+    <a href="https://paypal.me/ageha734" target="_blank">
         <img
             src="https://img.shields.io/badge/PayPal-00457C?style=badge&logo=paypal&logoColor=white"
             height="60"
@@ -170,7 +170,7 @@
             alt="PayPal"
         />
     </a>
-    <a href="https:&#x2F;&#x2F;github.com&#x2F;sponsors&#x2F;ageha734" target="_blank">
+    <a href="https://github.com/sponsors/ageha734" target="_blank">
         <img
             src="https://ageha734.github.io/badges/badge_sponsors.svg"
             height="60"
@@ -239,10 +239,10 @@
         </thead>
         <tbody>
             <tr>
-                <td><img src="https:&#x2F;&#x2F;media.connpass.com&#x2F;thumbs&#x2F;6b&#x2F;ba&#x2F;6bba049fdfcf1d7f1f00a9061e2eca2c.png" width="120" height="120" alt="E - Ripple Logo" /></td>
+                <td><img src="https://media.connpass.com/thumbs/6b/ba/6bba049fdfcf1d7f1f00a9061e2eca2c.png" width="120" height="120" alt="E - Ripple Logo" /></td>
                 <td><p>E - Ripple</p></td>
                 <td><p>Create a place where student engineers in the Kansai region can meet.</p></td>
-                <td><p>show <a href="https:&#x2F;&#x2F;kansai-eng-net.connpass.com&#x2F;">HomePage</a></p></td>
+                <td><p>show <a href="https://kansai-eng-net.connpass.com/">HomePage</a></p></td>
             </tr>
         </tbody>
     </table>
@@ -263,7 +263,7 @@
         </thead>
         <tbody>
             <tr>
-                <td><a href="https:&#x2F;&#x2F;github.com&#x2F;impostor-syndromes&#x2F;README.pet"><b>README.pet</b></a></td>
+                <td><a href="https://github.com/impostor-syndromes/README.pet"><b>README.pet</b></a></td>
                 <td><p>Raise a pet on your Github profile screen! Today&#39;s commit will be your pet&#39;s food!</p></td>
                 <td><img src="https://img.shields.io/github/stars/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Stars" /></td>
                 <td><img src="https://img.shields.io/github/forks/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Forks" /></td>
@@ -271,7 +271,7 @@
                 <td><img src="https://img.shields.io/github/issues-pr/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
             </tr>
             <tr>
-                <td><a href="https:&#x2F;&#x2F;gitea.com&#x2F;takenoko&#x2F;PresenterPro"><b>PresenterPro</b></a></td>
+                <td><a href="https://gitea.com/takenoko/PresenterPro"><b>PresenterPro</b></a></td>
                 <td><p>PresenterPro supports presenters in the offline presentation of material created with existing presentation tools.</p></td>
                 <td><img src="https://img.shields.io/gitea/stars/takenoko/PresenterPro?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Stars" /></td>
                 <td><img src="https://img.shields.io/gitea/forks/takenoko/PresenterPro?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Forks" /></td>
@@ -279,7 +279,7 @@
                 <td><img src="https://img.shields.io/gitea/issues-pr/takenoko/PresenterPro?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
             </tr>
             <tr>
-                <td><a href="https:&#x2F;&#x2F;github.com&#x2F;hizuki-mimuro&#x2F;EchoSleep"><b>EchoSleep</b></a></td>
+                <td><a href="https://github.com/hizuki-mimuro/EchoSleep"><b>EchoSleep</b></a></td>
                 <td><p>It supports all during sleep, waking and before sleep, and aims to improve quality of life through sleep.</p></td>
                 <td><img src="https://img.shields.io/github/stars/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Stars" /></td>
                 <td><img src="https://img.shields.io/github/forks/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Forks" /></td>
@@ -304,8 +304,8 @@
         <tbody>
             <tr>
                 <td>
-                    <a href="http:&#x2F;&#x2F;qiita.com&#x2F;ageha734"><img src="https://qiita-badge.apiapi.app/s/ageha734/posts.svg" height="20" alt="Qiita Posts" /></a>
-                    <a href="http:&#x2F;&#x2F;qiita.com&#x2F;ageha734"><img src="https://qiita-badge.apiapi.app/s/ageha734/contributions.svg" height="20" alt="Qiita Contributions" /></a>
+                    <a href="http://qiita.com/ageha734"><img src="https://qiita-badge.apiapi.app/s/ageha734/posts.svg" height="20" alt="Qiita Posts" /></a>
+                    <a href="http://qiita.com/ageha734"><img src="https://qiita-badge.apiapi.app/s/ageha734/contributions.svg" height="20" alt="Qiita Contributions" /></a>
                     
                     
                     
@@ -313,7 +313,7 @@
                 <td><p>Go, Terraform, Kubernetes, Google Cloud, GitHub Action, DevOps, etc.</p></td>
                 <td></td>
                 <td>
-                    <p>Please give me thumbs up 💚 → </p><a href="http:&#x2F;&#x2F;qiita.com&#x2F;ageha734"><img src="https://qiita-badge.apiapi.app/s/ageha734/followers.svg" height="20" alt="Qiita followers" /></a>
+                    <p>Please give me thumbs up 💚 → </p><a href="http://qiita.com/ageha734"><img src="https://qiita-badge.apiapi.app/s/ageha734/followers.svg" height="20" alt="Qiita followers" /></a>
                     
                     
                 </td>
@@ -322,15 +322,15 @@
                 <td>
                     
                     
-                    <a href="https:&#x2F;&#x2F;zenn.dev&#x2F;ageha734/articles"><img src="https://zenn.badge.nikaera.com/s/ageha734/articles?style=plastic" height="20" alt="Zenn articles" /></a>
-                    <a href="https:&#x2F;&#x2F;zenn.dev&#x2F;ageha734/books"><img src="https://zenn.badge.nikaera.com/s/ageha734/books?style=plastic" height="20" alt="Zenn books" /></a>
+                    <a href="https://zenn.dev/ageha734/articles"><img src="https://zenn.badge.nikaera.com/s/ageha734/articles?style=plastic" height="20" alt="Zenn articles" /></a>
+                    <a href="https://zenn.dev/ageha734/books"><img src="https://zenn.badge.nikaera.com/s/ageha734/books?style=plastic" height="20" alt="Zenn books" /></a>
                     
                 </td>
                 <td><p>Next.js, React, Yamada UI, Panda CSS, Swift, SwiftUI, Skip, etc.</p></td>
                 <td></td>
                 <td>
                     
-                    <p>Please give me thumbs up 💚 → </p><a href="https:&#x2F;&#x2F;zenn.dev&#x2F;ageha734"><img src="https://zenn.badge.nikaera.com/s/ageha734/likes?style=plastic" height="20" alt="Zenn likes" /></a>
+                    <p>Please give me thumbs up 💚 → </p><a href="https://zenn.dev/ageha734"><img src="https://zenn.badge.nikaera.com/s/ageha734/likes?style=plastic" height="20" alt="Zenn likes" /></a>
                     
                 </td>
             </tr>
@@ -340,7 +340,7 @@
                     
                     
                     
-                    <a href="https:&#x2F;&#x2F;ageha734.hatenadiary.jp&#x2F;"><img src="https://img.shields.io/badge/Personal_Tech_Blog-0-f19db5.svg?&style=flat" height="20" alt="Hatena Blog" /></a>
+                    <a href="https://ageha734.hatenadiary.jp/"><img src="https://img.shields.io/badge/Personal_Tech_Blog-0-f19db5.svg?&style=flat" height="20" alt="Hatena Blog" /></a>
                 </td>
                 <td><p>Go, Python, Docker, IoT, Raspberry Pi, Deep Learning, etc.</p></td>
                 <td></td>

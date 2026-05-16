@@ -6,19 +6,19 @@
 
 <h3 align="left"><b>🔍 リンク集</b></h3>
 <div align="center">
-    <a href="{{links.twitter}}" target="_blank">
+    <a href="{{{links.twitter}}}" target="_blank">
         <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=X&logoColor=white" height="28" style="margin-right: 18px" alt="X" />
     </a>
-    <a href="{{links.linkedin}}" target="_blank">
+    <a href="{{{links.linkedin}}}" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" style="margin-right: 18px" alt="Linkedin" />
     </a>
-    <a href="{{links.facebook}}" target="_blank">
+    <a href="{{{links.facebook}}}" target="_blank">
         <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="28" style="margin-right: 18px" alt="Facebook" />
     </a>
-    <a href="{{links.youtube}}" target="_blank">
+    <a href="{{{links.youtube}}}" target="_blank">
         <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="28" style="margin-right: 18px" alt="Youtube" />
     </a>
-    <a href="{{links.medium}}" target="_blank">
+    <a href="{{{links.medium}}}" target="_blank">
         <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" height="28" style="margin-right: 18px" alt="Medium" />
     </a>
 </div>
@@ -27,10 +27,10 @@
 <div align="left">
     <ul>
         <li>
-            <a href="{{links.portfolio}}">個人ポートフォリオ</a>
+            <a href="{{{links.portfolio}}}">個人ポートフォリオ</a>
         </li>
         <li>
-            <a href="{{links.business}}">ビジネスページ（個人事業主）</a>
+            <a href="{{{links.business}}}">ビジネスページ（個人事業主）</a>
         </li>
         <li>
             <a href="./about">私について</a>
@@ -58,10 +58,10 @@
         <tbody>
             {{#community}}
             <tr>
-                <td><img src="{{logo}}" width="120" height="120" alt="{{name}} Logo" /></td>
+                <td><img src="{{{logo}}}" width="120" height="120" alt="{{name}} Logo" /></td>
                 <td><p>{{name}}</p></td>
                 <td><p>{{description_ja}}</p></td>
-                <td><a href="{{url}}">ホームページ</a></td>
+                <td><a href="{{{url}}}">ホームページ</a></td>
             </tr>
             {{/community}}
         </tbody>
@@ -84,16 +84,16 @@
             {{#articles}}
             <tr>
                 <td>
-                    {{#posts_badge}}<a href="{{url}}"><img src="{{{posts_badge}}}" height="20" alt="{{platform}} Posts" /></a>{{/posts_badge}}
-                    {{#contributions_badge}}<a href="{{url}}"><img src="{{{contributions_badge}}}" height="20" alt="{{platform}} Contributions" /></a>{{/contributions_badge}}
-                    {{#articles_badge}}<a href="{{url}}/articles"><img src="{{{articles_badge}}}" height="20" alt="{{platform}} articles" /></a>{{/articles_badge}}
-                    {{#books_badge}}<a href="{{url}}/books"><img src="{{{books_badge}}}" height="20" alt="{{platform}} books" /></a>{{/books_badge}}
-                    {{#badge}}<a href="{{url}}"><img src="{{{badge}}}" height="20" alt="{{platform}}" /></a>{{/badge}}
+                    {{#posts_badge}}<a href="{{{url}}}"><img src="{{{posts_badge}}}" height="20" alt="{{platform}} Posts" /></a>{{/posts_badge}}
+                    {{#contributions_badge}}<a href="{{{url}}}"><img src="{{{contributions_badge}}}" height="20" alt="{{platform}} Contributions" /></a>{{/contributions_badge}}
+                    {{#articles_badge}}<a href="{{{url}}}/articles"><img src="{{{articles_badge}}}" height="20" alt="{{platform}} articles" /></a>{{/articles_badge}}
+                    {{#books_badge}}<a href="{{{url}}}/books"><img src="{{{books_badge}}}" height="20" alt="{{platform}} books" /></a>{{/books_badge}}
+                    {{#badge}}<a href="{{{url}}}"><img src="{{{badge}}}" height="20" alt="{{platform}}" /></a>{{/badge}}
                 </td>
                 <td><p>{{topics_ja}}</p></td>
                 <td>
-                    {{#followers_badge}}<p>フォローしてください 💚 → <a href="{{url}}"><img src="{{{followers_badge}}}" height="20" alt="{{platform}} followers" /></a></p>{{/followers_badge}}
-                    {{#likes_badge}}<p>いいねしてください 💚 → <a href="{{url}}"><img src="{{{likes_badge}}}" height="20" alt="{{platform}} likes" /></a></p>{{/likes_badge}}
+                    {{#followers_badge}}<p>フォローしてください 💚 → <a href="{{{url}}}"><img src="{{{followers_badge}}}" height="20" alt="{{platform}} followers" /></a></p>{{/followers_badge}}
+                    {{#likes_badge}}<p>いいねしてください 💚 → <a href="{{{url}}}"><img src="{{{likes_badge}}}" height="20" alt="{{platform}} likes" /></a></p>{{/likes_badge}}
                     {{#badge}}{{^followers_badge}}{{^likes_badge}}<p>はてなブログ</p>{{/likes_badge}}{{/followers_badge}}{{/badge}}
                 </td>
             </tr>
