@@ -1,259 +1,377 @@
 openapi: 3.1.0
 info:
-  title: ageha734 Profile API (GAS)
+  title: CV Data API
   description: |
-    Google Apps Script Web App that exposes profile data from Google Sheets.
-    Used by GitHub Actions to keep `data/profile.json` in sync automatically.
+    API that provides CV profile data stored in Google Sheets.</br>
+    GitHub Actions calls this API daily to keep `data/profile.json` up to date.
 
     ## Authentication
 
-    Every request must include two query parameters:
+    Every request must include the following query parameters:
 
-    | Parameter   | Description                              |
-    |-------------|------------------------------------------|
-    | `timestamp` | Unix time in seconds (UTC)               |
+    | Parameter   | Description                               |
+    |-------------|-------------------------------------------|
+    | `timestamp` | Unix time in seconds (UTC)                |
     | `signature` | HMAC-SHA256 hex of `"<timestamp>:<path>"` |
 
-    The shared secret (`GAS_HMAC_SECRET`) must match the value stored in GAS
-    Script Properties under the key `HMAC_SECRET`.
+    The client and server share a secret key. Requests with a timestamp
+    older than **5 minutes** are rejected to prevent replay attacks.
 
-    Requests with a timestamp older than **5 minutes** are rejected.
+    ## Error handling
+
+    All errors return a JSON body with `ok: false`. Authentication is
+    validated before any data is accessed.
   version: 1.0.0
   contact:
     name: ageha734
-    url: https://mypages.ageha734.jp
+    url: https://github.com/ageha734/ageha734
+  license:
+    name: All Rights Reserved
+    url: https://github.com/ageha734/ageha734/blob/master/LICENSE
+
+security: []
 
 servers:
-  - url: https://script.google.com/macros/s/{deployment_id}/exec
-    description: GAS Web App
-    variables:
-      deployment_id:
-        default: YOUR_DEPLOYMENT_ID
-        description: Deployment ID obtained after publishing the GAS Web App
+  - url: https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec
 
 paths:
-  /?path=certifications:
+  /:
     get:
-      summary: Get certifications
-      operationId: getCertifications
+      summary: Fetch CV data by category
+      description: |
+        Returns profile data for the specified category.
+        Authentication (timestamp + HMAC-SHA256 signature) is required.
+      operationId: getCvData
       parameters:
-        - $ref: '#/components/parameters/path'
-        - $ref: '#/components/parameters/timestamp'
-        - $ref: '#/components/parameters/signature'
+        - $ref: '#/components/parameters/PathParam'
+        - $ref: '#/components/parameters/TimestampParam'
+        - $ref: '#/components/parameters/SignatureParam'
       responses:
         '200':
-          description: List of certifications
+          description: Data fetched successfully
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/CertificationsResponse'
+                $ref: '#/components/schemas/CvDataResponse'
+              examples:
+                certifications:
+                  summary: Certifications response
+                  value:
+                    ok: true
+                    path: certifications
+                    data:
+                      - year: 2023
+                        month: 4
+                        name_en: "Network Specialist Examination (IPA)"
+                        name_ja: "IPA ネットワークスペシャリスト試験"
+                projects:
+                  summary: Projects response
+                  value:
+                    ok: true
+                    path: projects
+                    data:
+                      - name: "example-project"
+                        url: "https://github.com/example-org/example-project"
+                        description_en: "A sample OSS project description in English."
+                        description_ja: "サンプルのOSSプロジェクトの説明文です。"
+                        stars_badge: "https://img.shields.io/github/stars/example-org/example-project?style=flat-square&labelColor=343b41"
+                        forks_badge: "https://img.shields.io/github/forks/example-org/example-project?style=flat-square&labelColor=343b41"
+                        issues_badge: "https://img.shields.io/github/issues/example-org/example-project?style=flat-square&labelColor=343b41"
+                        prs_badge: "https://img.shields.io/github/issues-pr/example-org/example-project?style=flat-square&labelColor=343b41"
+        '400':
+          $ref: '#/components/responses/BadRequest'
         '401':
           $ref: '#/components/responses/Unauthorized'
-
-  /?path=work_experience:
-    get:
-      summary: Get work experience
-      operationId: getWorkExperience
-      parameters:
-        - $ref: '#/components/parameters/path'
-        - $ref: '#/components/parameters/timestamp'
-        - $ref: '#/components/parameters/signature'
-      responses:
-        '200':
-          description: List of work experience entries
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/WorkExperienceResponse'
-        '401':
-          $ref: '#/components/responses/Unauthorized'
-
-  /?path=skills:
-    get:
-      summary: Get skills
-      operationId: getSkills
-      parameters:
-        - $ref: '#/components/parameters/path'
-        - $ref: '#/components/parameters/timestamp'
-        - $ref: '#/components/parameters/signature'
-      responses:
-        '200':
-          description: Skills grouped by category
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/SkillsResponse'
-        '401':
-          $ref: '#/components/responses/Unauthorized'
-
-  /?path=projects:
-    get:
-      summary: Get OSS projects
-      operationId: getProjects
-      parameters:
-        - $ref: '#/components/parameters/path'
-        - $ref: '#/components/parameters/timestamp'
-        - $ref: '#/components/parameters/signature'
-      responses:
-        '200':
-          description: List of OSS projects
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ProjectsResponse'
-        '401':
-          $ref: '#/components/responses/Unauthorized'
+        '500':
+          $ref: '#/components/responses/InternalServerError'
 
 components:
   parameters:
-    path:
+    PathParam:
       name: path
       in: query
       required: true
+      description: Data category to retrieve
       schema:
         type: string
-        enum: [certifications, work_experience, skills, projects]
-    timestamp:
+        enum:
+          - certifications
+          - work_experience
+          - skills
+          - projects
+
+    TimestampParam:
       name: timestamp
       in: query
       required: true
       description: Unix timestamp in seconds (UTC). Must be within 5 minutes of server time.
       schema:
         type: string
+        pattern: '^\d{10}$'
         example: "1716000000"
-    signature:
+
+    SignatureParam:
       name: signature
       in: query
       required: true
-      description: HMAC-SHA256 hex of the string `"<timestamp>:<path>"`
+      description: HMAC-SHA256 hex digest of `"<timestamp>:<path>"`
       schema:
         type: string
-        example: "a1b2c3d4..."
+        pattern: '^[0-9a-f]{64}$'
+        example: "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2"
 
   responses:
+    BadRequest:
+      description: Invalid request parameters
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+          example:
+            ok: false
+            error: "Invalid path. Use: certifications, work_experience, skills, projects"
+            code: 400
+
     Unauthorized:
       description: Authentication failed
       content:
         application/json:
           schema:
             $ref: '#/components/schemas/ErrorResponse'
+          examples:
+            timestamp_expired:
+              summary: Timestamp expired
+              value:
+                ok: false
+                error: "Timestamp expired or invalid (tolerance: 5 min)"
+                code: 401
+            signature_mismatch:
+              summary: Signature mismatch
+              value:
+                ok: false
+                error: "Signature mismatch"
+                code: 401
+
+    InternalServerError:
+      description: Server-side error (e.g. spreadsheet not configured)
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+          example:
+            ok: false
+            error: "SPREADSHEET_ID not set"
+            code: 500
 
   schemas:
     ErrorResponse:
       type: object
+      required:
+        - ok
+        - error
+        - code
       properties:
         ok:
           type: boolean
-          example: false
+          enum: [false]
         error:
           type: string
-          example: Signature mismatch
+          example: "Signature mismatch"
         code:
           type: integer
-          example: 401
+          enum: [400, 401, 500]
 
-    CertificationsResponse:
+    CvDataResponse:
       type: object
+      required:
+        - ok
+        - path
+        - data
       properties:
         ok:
           type: boolean
+          enum: [true]
         path:
           type: string
+          enum:
+            - certifications
+            - work_experience
+            - skills
+            - projects
         data:
-          type: array
-          items:
-            type: object
-            properties:
-              year:
-                type: integer
-              month:
-                type: integer
-              name_en:
-                type: string
-              name_ja:
-                type: string
+          oneOf:
+            - type: array
+              items:
+                $ref: '#/components/schemas/Certification'
+            - type: array
+              items:
+                $ref: '#/components/schemas/WorkExperience'
+            - type: array
+              items:
+                $ref: '#/components/schemas/Skill'
+            - type: array
+              items:
+                $ref: '#/components/schemas/Project'
 
-    WorkExperienceResponse:
+    Certification:
       type: object
+      required:
+        - year
+        - month
+        - name_en
+        - name_ja
       properties:
-        ok:
-          type: boolean
-        path:
+        year:
+          type: integer
+          minimum: 1900
+          maximum: 9999
+          example: 2023
+        month:
+          type: integer
+          minimum: 1
+          maximum: 12
+          example: 4
+        name_en:
           type: string
-        data:
-          type: array
-          items:
-            type: object
-            properties:
-              company_en:
-                type: string
-              company_ja:
-                type: string
-              start:
-                type: string
-                description: YYYY-MM format
-              end:
-                type: string
-                nullable: true
-                description: YYYY-MM format, null if current
-              role_en:
-                type: string
-              role_ja:
-                type: string
-              description_en:
-                type: string
-              description_ja:
-                type: string
+          minLength: 1
+          example: "Network Specialist Examination (IPA)"
+        name_ja:
+          type: string
+          minLength: 1
+          example: "IPA ネットワークスペシャリスト試験"
 
-    SkillsResponse:
+    WorkExperience:
       type: object
+      required:
+        - company_en
+        - company_ja
+        - start
+        - role_en
+        - role_ja
+        - description_en
+        - description_ja
       properties:
-        ok:
-          type: boolean
-        path:
+        company_en:
           type: string
-        data:
-          type: array
-          items:
-            type: object
-            properties:
-              category:
-                type: string
-                enum: [tools, advanced, intermediate, beginner]
-              name:
-                type: string
-              badge_url:
-                type: string
-                nullable: true
-              icon_url:
-                type: string
-                nullable: true
+          minLength: 1
+          example: "Example Corp"
+        company_ja:
+          type: string
+          minLength: 1
+          example: "株式会社エグザンプル"
+        start:
+          type: string
+          pattern: '^\d{4}-(0[1-9]|1[0-2])$'
+          description: Start month in YYYY-MM format
+          example: "2021-04"
+        end:
+          type:
+            - string
+            - "null"
+          pattern: '^\d{4}-(0[1-9]|1[0-2])$'
+          description: End month in YYYY-MM format, null if currently employed
+          example: "2024-03"
+        role_en:
+          type: string
+          minLength: 1
+          example: "Software Engineer"
+        role_ja:
+          type: string
+          minLength: 1
+          example: "ソフトウェアエンジニア"
+        description_en:
+          type: string
+          minLength: 1
+          example: "Developed and maintained backend services and internal tooling."
+        description_ja:
+          type: string
+          minLength: 1
+          example: "バックエンドサービスおよび社内ツールの開発・保守を担当した。"
 
-    ProjectsResponse:
+    Skill:
       type: object
+      required:
+        - category
+        - name
       properties:
-        ok:
-          type: boolean
-        path:
+        category:
           type: string
-        data:
-          type: array
-          items:
-            type: object
-            properties:
-              name:
-                type: string
-              url:
-                type: string
-              description_en:
-                type: string
-              description_ja:
-                type: string
-              stars_badge:
-                type: string
-              forks_badge:
-                type: string
-              issues_badge:
-                type: string
-              prs_badge:
-                type: string
+          enum:
+            - tools
+            - advanced
+            - intermediate
+            - beginner
+        name:
+          type: string
+          minLength: 1
+          example: "Go"
+        badge:
+          type:
+            - string
+            - "null"
+          format: uri
+          pattern: '^https?://.+'
+          description: Shields.io badge URL
+          example: "https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white"
+        icon:
+          type:
+            - string
+            - "null"
+          format: uri
+          pattern: '^https?://.+'
+          description: devicons / simpleicons CDN URL
+          example: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-original-wordmark.svg"
+
+    Project:
+      type: object
+      required:
+        - name
+        - url
+        - description_en
+        - description_ja
+      properties:
+        name:
+          type: string
+          minLength: 1
+          example: "example-project"
+        url:
+          type: string
+          format: uri
+          pattern: '^https?://.+'
+          example: "https://github.com/example-org/example-project"
+        description_en:
+          type: string
+          minLength: 1
+          example: "A sample OSS project description in English."
+        description_ja:
+          type: string
+          minLength: 1
+          example: "サンプルのOSSプロジェクトの説明文です。"
+        stars_badge:
+          type:
+            - string
+            - "null"
+          format: uri
+          pattern: '^https?://.+'
+          example: "https://img.shields.io/github/stars/example-org/example-project?style=flat-square&labelColor=343b41"
+        forks_badge:
+          type:
+            - string
+            - "null"
+          format: uri
+          pattern: '^https?://.+'
+          example: "https://img.shields.io/github/forks/example-org/example-project?style=flat-square&labelColor=343b41"
+        issues_badge:
+          type:
+            - string
+            - "null"
+          format: uri
+          pattern: '^https?://.+'
+          example: "https://img.shields.io/github/issues/example-org/example-project?style=flat-square&labelColor=343b41"
+        prs_badge:
+          type:
+            - string
+            - "null"
+          format: uri
+          pattern: '^https?://.+'
+          example: "https://img.shields.io/github/issues-pr/example-org/example-project?style=flat-square&labelColor=343b41"
