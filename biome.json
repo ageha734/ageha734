@@ -9,11 +9,7 @@
         "bracketSpacing": true,
         "enabled": true,
         "formatWithErrors": false,
-        "ignore": [
-            "**/dist/",
-            "**/lib/",
-            "**/node_modules/"
-        ],
+        "ignore": ["**/dist/", "**/lib/", "**/node_modules/"],
         "indentStyle": "space",
         "indentWidth": 4,
         "lineEnding": "lf",
@@ -21,6 +17,14 @@
         "useEditorconfig": true
     },
     "javascript": {
+        "globals": [
+            "GoogleAppsScript",
+            "PropertiesService",
+            "SpreadsheetApp",
+            "ContentService",
+            "Utilities",
+            "Logger"
+        ],
         "formatter": {
             "arrowParentheses": "asNeeded",
             "attributePosition": "auto",
@@ -35,10 +39,7 @@
     },
     "linter": {
         "enabled": true,
-        "ignore": [
-            "**/dist/",
-            "**/node_modules/"
-        ],
+        "ignore": ["**/dist/", "**/node_modules/"],
         "rules": {
             "complexity": {
                 "noExtraBooleanCast": "error",
@@ -106,6 +107,31 @@
             }
         }
     },
+    "overrides": [
+        {
+            "include": ["cv-api/Code.ts"],
+            "linter": {
+                "rules": {
+                    "correctness": {
+                        "noUnusedVariables": "off"
+                    },
+                    "suspicious": {
+                        "noConsole": "off"
+                    }
+                }
+            }
+        },
+        {
+            "include": ["scripts/**", "cv-api/local/**"],
+            "linter": {
+                "rules": {
+                    "suspicious": {
+                        "noConsole": "off"
+                    }
+                }
+            }
+        }
+    ],
     "organizeImports": {
         "enabled": true
     },

@@ -36,7 +36,7 @@ async function fetchQiitaPosts(username: string): Promise<Post[]> {
     try {
         const res = await fetch(
             `https://qiita.com/api/v2/users/${username}/items?per_page=3&page=1`,
-            { headers: { 'User-Agent': 'ageha734-readme-bot/1.0' } }
+            {headers: {'User-Agent': 'ageha734-readme-bot/1.0'}}
         )
         if (!res.ok) return []
         const items = (await res.json()) as QiitaItem[]
@@ -44,7 +44,7 @@ async function fetchQiitaPosts(username: string): Promise<Post[]> {
             platform: 'Qiita',
             title: item.title,
             url: item.url,
-            date: item.created_at.slice(0, 10),
+            date: item.created_at.slice(0, 10)
         }))
     } catch {
         return []
@@ -55,7 +55,7 @@ async function fetchZennPosts(username: string): Promise<Post[]> {
     try {
         const res = await fetch(
             `https://zenn.dev/api/articles?username=${username}&order=latest&count=3`,
-            { headers: { 'User-Agent': 'ageha734-readme-bot/1.0' } }
+            {headers: {'User-Agent': 'ageha734-readme-bot/1.0'}}
         )
         if (!res.ok) return []
         const data = (await res.json()) as ZennResponse
@@ -63,7 +63,7 @@ async function fetchZennPosts(username: string): Promise<Post[]> {
             platform: 'Zenn',
             title: a.title,
             url: `https://zenn.dev${a.path}`,
-            date: a.published_at?.slice(0, 10) ?? '',
+            date: a.published_at?.slice(0, 10) ?? ''
         }))
     } catch {
         return []
@@ -72,16 +72,14 @@ async function fetchZennPosts(username: string): Promise<Post[]> {
 
 function buildRecentPostsSection(posts: Post[]): string {
     if (posts.length === 0) return ''
-    const rows = posts
-        .map(p => `| ${p.platform} | [${p.title}](${p.url}) | ${p.date} |`)
-        .join('\n')
+    const rows = posts.map(p => `| ${p.platform} | [${p.title}](${p.url}) | ${p.date} |`).join('\n')
     return `\n| Platform | Article | Date |\n|---|---|---|\n${rows}\n`
 }
 
 function updateSection(content: string, sectionContent: string): string {
     const escaped = RECENT_POSTS_START.replaceAll(/[.*+?^${}()|[\]\\]/g, String.raw`\$&`)
     const escapedEnd = RECENT_POSTS_END.replaceAll(/[.*+?^${}()|[\]\\]/g, String.raw`\$&`)
-    const pattern = new RegExp(`${escaped}[\\s\\S]*?${escapedEnd}`, 'g')
+    const pattern = new RegExp(String.raw`${escaped}[\s\S]*?${escapedEnd}`, 'g')
     const replacement = `${RECENT_POSTS_START}${sectionContent}${RECENT_POSTS_END}`
     if (pattern.test(content)) {
         return content.replaceAll(pattern, replacement)
@@ -92,12 +90,10 @@ function updateSection(content: string, sectionContent: string): string {
 async function main(): Promise<void> {
     const [qiita, zenn] = await Promise.all([
         fetchQiitaPosts(QIITA_USER),
-        fetchZennPosts(ZENN_USER),
+        fetchZennPosts(ZENN_USER)
     ])
 
-    const allPosts = [...qiita, ...zenn]
-        .sort((a, b) => b.date.localeCompare(a.date))
-        .slice(0, 5)
+    const allPosts = [...qiita, ...zenn].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 5)
 
     if (allPosts.length === 0) {
         console.log('No posts fetched, skipping update.')
@@ -111,11 +107,11 @@ async function main(): Promise<void> {
         if (!fs.existsSync(filePath)) continue
         const content = fs.readFileSync(filePath, 'utf8')
         const updated = updateSection(content, sectionContent)
-        if (updated !== content) {
+        if (updated === content) {
+            console.log(`No section markers found in ${file}, skipping.`)
+        } else {
             fs.writeFileSync(filePath, updated, 'utf8')
             console.log(`Updated ${file} with ${allPosts.length} recent posts.`)
-        } else {
-            console.log(`No section markers found in ${file}, skipping.`)
         }
     }
 }

@@ -48,7 +48,7 @@ function doGet(e: DoGetEvent): GoogleAppsScript.Content.TextOutput {
         }
 
         const data = getSheetData(path)
-        return jsonResponse({ ok: true, path, data })
+        return jsonResponse({ok: true, path, data})
     } catch (err) {
         return errorResponse(500, err instanceof Error ? err.message : String(err))
     }
@@ -60,7 +60,7 @@ function verifyHmac(timestamp: string, path: string, signature: string): string 
     }
 
     const now = Math.floor(Date.now() / 1000)
-    const ts = parseInt(timestamp, 10)
+    const ts = Number.parseInt(timestamp, 10)
 
     if (Number.isNaN(ts) || Math.abs(now - ts) > TIMESTAMP_TOLERANCE_SEC) {
         return 'Timestamp expired or invalid (tolerance: 5 min)'
@@ -86,9 +86,7 @@ function computeHmacSha256(secret: string, message: string): string {
         secret,
         Utilities.Charset.UTF_8
     )
-    return signatureBytes
-        .map((b: number) => `0${(b & 0xff).toString(16)}`.slice(-2))
-        .join('')
+    return signatureBytes.map((b: number) => `0${(b & 0xff).toString(16)}`.slice(-2)).join('')
 }
 
 function safeEquals(a: string, b: string): boolean {
@@ -111,26 +109,31 @@ function getSheetData(sheetName: string): SheetRow[] {
     const rows = sheet.getDataRange().getValues() as unknown[][]
     if (rows.length < 2) return []
 
-    const headers = (rows[0] as unknown[]).map(h => String(h).trim())
+    const headers = rows[0].map(h => {
+        if (typeof h === 'string') return h.trim()
+        if (typeof h === 'number' || typeof h === 'boolean') return String(h).trim()
+        return ''
+    })
     return rows
         .slice(1)
-        .filter(row => (row as unknown[]).some(cell => cell !== ''))
+        .filter(row => row.some(cell => cell !== ''))
         .map(row => {
             const obj: SheetRow = {}
             headers.forEach((h, i) => {
-                obj[h] = (row as unknown[])[i] === '' ? null : (row as unknown[])[i]
+                obj[h] = row[i] === '' ? null : row[i]
             })
             return obj
         })
 }
 
 function jsonResponse(payload: SuccessPayload): GoogleAppsScript.Content.TextOutput {
-    return ContentService.createTextOutput(JSON.stringify(payload))
-        .setMimeType(ContentService.MimeType.JSON)
+    return ContentService.createTextOutput(JSON.stringify(payload)).setMimeType(
+        ContentService.MimeType.JSON
+    )
 }
 
 function errorResponse(code: number, message: string): GoogleAppsScript.Content.TextOutput {
-    const payload: ErrorPayload = { ok: false, error: message, code }
-    return ContentService.createTextOutput(JSON.stringify(payload))
-        .setMimeType(ContentService.MimeType.JSON)
+    return ContentService.createTextOutput(
+        JSON.stringify({ok: false, error: message, code} satisfies ErrorPayload)
+    ).setMimeType(ContentService.MimeType.JSON)
 }

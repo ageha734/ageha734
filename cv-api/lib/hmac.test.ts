@@ -1,5 +1,5 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
-import { safeEquals, verifyTimestamp, buildMessage, TIMESTAMP_TOLERANCE_SEC } from '../lib/hmac'
+import {afterEach, beforeEach, describe, expect, it, vi} from 'vitest'
+import {TIMESTAMP_TOLERANCE_SEC, buildMessage, safeEquals, verifyTimestamp} from '../lib/hmac'
 
 describe('safeEquals', () => {
     it('returns true for identical strings', () => {

@@ -15,7 +15,7 @@ export function safeEquals(a: string, b: string): boolean {
 export function verifyTimestamp(timestamp: string): string | null {
     if (!timestamp) return 'Missing timestamp'
     const now = Math.floor(Date.now() / 1000)
-    const ts = parseInt(timestamp, 10)
+    const ts = Number.parseInt(timestamp, 10)
     if (Number.isNaN(ts) || Math.abs(now - ts) > TIMESTAMP_TOLERANCE_SEC) {
         return 'Timestamp expired or invalid (tolerance: 5 min)'
     }

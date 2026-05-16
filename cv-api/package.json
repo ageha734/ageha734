@@ -9,7 +9,10 @@
     "private": true,
     "scripts": {
         "dev": "tsx local/server.ts",
-        "test": "vitest run"
+        "test": "vitest run",
+        "test:unit": "vitest run lib",
+        "test:integration": "vitest run __tests__/integration",
+        "test:e2e": "vitest run __tests__/e2e"
     },
     "type": "commonjs"
 }
