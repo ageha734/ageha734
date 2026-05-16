@@ -13,7 +13,7 @@
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" style="margin-right: 18px" alt="Linkedin" />
     </a>
     <a href="{{links.facebook}}" target="_blank">
-        <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="28" style="margin-right: 18px" alt="Fecebook" />
+        <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="28" style="margin-right: 18px" alt="Facebook" />
     </a>
     <a href="{{links.youtube}}" target="_blank">
         <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="28" style="margin-right: 18px" alt="Youtube" />
@@ -38,89 +38,11 @@
     </ul>
 </div>
 
-<h3 align="left"><b>👨‍💻 スキル</b></h3>
-<div align="left">
-    <h4>愛用ツール: </h4>
-    <div>
-        {{#skills.tools}}
-        {{#badge}}<img src="{{{badge}}}" height="18" style="margin-right: 18px" alt="{{name}}">{{/badge}}
-        {{/skills.tools}}
-    </div>
-    <h4>上級: </h4>
-    <div>
-        {{#skills.advanced}}
-        {{#badge}}<img src="{{{badge}}}" height="18" alt="{{name}}" style="margin-right: 18px">{{/badge}}
-        {{#icon}}<img src="{{{icon}}}" height="18" alt="{{name}}" style="margin-right: 18px">{{/icon}}
-        {{/skills.advanced}}
-    </div>
-    <h4>中級: </h4>
-    <div>
-        {{#skills.intermediate}}
-        {{#badge}}<img src="{{{badge}}}" height="18" alt="{{name}}" style="margin-right: 18px">{{/badge}}
-        {{#icon}}<img src="{{{icon}}}" height="18" alt="{{name}}" style="margin-right: 18px">{{/icon}}
-        {{/skills.intermediate}}
-    </div>
-    <h4>初心者: </h4>
-    <div>
-        {{#skills.beginner}}
-        {{#badge}}<img src="{{{badge}}}" height="18" alt="{{name}}" style="margin-right: 18px">{{/badge}}
-        {{#icon}}<img src="{{{icon}}}" height="18" alt="{{name}}" style="margin-right: 18px">{{/icon}}
-        {{/skills.beginner}}
-    </div>
-    <h4>ステータス: </h4>
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-        <img
-            src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username={{metadata.username}}&theme=react"
-            width="48%" height="auto"
-            alt="GitHub top-langs Card"
-        />
-        <img
-            src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username={{metadata.username}}&theme=react"
-            width="48%" height="auto"
-            alt="GitHub top-langs Card"
-        />
-    </div>
-</div>
+{{> skills}}
 
-<h3 align="left"><b>✨ GitHubの活動</b></h3>
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-    <img
-        src="https://github-profile-trophy.vercel.app/?username={{metadata.username}}&theme=onedark&column=-1"
-        width="120%" height="auto"
-        alt="GitHub trophy"
-    />
-</div>
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 20px;">
-<img
-    src="https://streak-stats.demolab.com/?user={{metadata.username}}&theme=react&langs_count=10&layout=compact&title_color=007acc&icon_color=ff4500&text_color=ff4500&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook&hide_border=true&border_radius=15&date_format=M+j%5B%2C+Y%5D&mode=daily&disable_animations=false&hide_total_contributions=false&hide_current_streak=false&hide_longest_streak=false&locale=en"
-    width="40%" height="auto"
-    alt="GitHub streak Card"
-/>
-<img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={{metadata.username}}&theme=react&langs_count=10&layout=compact&title_color=007acc&icon_color=007acc&text_color=007acc&bg_color=00000000&border_radius=15&border_color=00000000&hide=jupyter%20notebook"
-    width="55%" height="auto"
-    alt="GitHub profile-summary Card"
-/>
-</div>
+{{> stats}}
 
-<h3 align="left"><b>🫶 サポート</b></h3>
-<div align="left">
-    <a href="{{links.paypal}}" target="_blank">
-        <img src="https://img.shields.io/badge/PayPal-00457C?style=badge&logo=paypal&logoColor=white" height=60" style="margin-right: 18px" alt="PayPal" />
-    </a>
-    <a href="{{links.sponsors}}" target="_blank">
-        <img src="https://{{metadata.username}}.github.io/badges/badge_sponsors.svg" height="60" style="margin-right: 18px" alt="Sponsors" />
-    </a>
-</div>
-
-<div align="center">
-    <a href="#">
-        <img
-            src="https://capsule-render.vercel.app/api?type=waving&color=04e4e6&height=120&section=footer"
-            width=100%
-        />
-    </a>
-</div>
+{{> footer}}
 
 <h2 align="center"><b>💚 コミュニティ 💚</b></h2>
 <div align="center">
@@ -139,40 +61,14 @@
                 <td><img src="{{logo}}" width="120" height="120" alt="{{name}} Logo" /></td>
                 <td><p>{{name}}</p></td>
                 <td><p>{{description_ja}}</p></td>
-                <td><a href="{{url}}" >ホームページ</a></td>
+                <td><a href="{{url}}">ホームページ</a></td>
             </tr>
             {{/community}}
         </tbody>
     </table>
 </div>
 
-<h2 align="center"><b>🌱 オープンソースプロジェクト 🌱</b></h2>
-<div align="center">
-    <table>
-        <thead align="center">
-            <tr border: none;>
-                <td><p>🎁 プロジェクト</p></td>
-                <td><p>🌱 要旨</p></td>
-                <td><p>⭐ Stars</p></td>
-                <td><p>📚 Forks</p></td>
-                <td><p>🛎 Issues</p></td>
-                <td><p>📬 Pull requests</p></td>
-            </tr>
-        </thead>
-        <tbody>
-            {{#projects}}
-            <tr>
-                <td><a href="{{url}}"><b>{{name}}</b></a></td>
-                <td><p>{{description_ja}}</p></td>
-                <td><img src="{{{stars_badge}}}" height="28" style="margin-right: 18px" alt="Stars" /></td>
-                <td><img src="{{{forks_badge}}}" height="28" style="margin-right: 18px" alt="Forks" /></td>
-                <td><img src="{{{issues_badge}}}" height="28" style="margin-right: 18px" alt="Issues" /></td>
-                <td><img src="{{{prs_badge}}}" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
-            </tr>
-            {{/projects}}
-        </tbody>
-    </table>
-</div>
+{{> projects}}
 
 <h2 align="center"><b>✍ 執筆記事 ✍</b></h2>
 <div align="center">
@@ -222,15 +118,3 @@
 <!--START_SECTION:lapras-card-->
 <!--END_SECTION:lapras-card-->
 </div>
-
----
-
-<div align="center">
-    <img src="https://github.com/{{metadata.username}}/{{metadata.username}}/workflows/README%20build/badge.svg" height="28" style="margin-right: 18px" alt="Build README" />
-    <img src="https://img.shields.io/github/stars/{{metadata.username}}/{{metadata.username}}?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Stars" />
-    <img src="https://img.shields.io/github/forks/{{metadata.username}}/{{metadata.username}}?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Forks" />
-    <img src="https://komarev.com/ghpvc/?username={{metadata.username}}" height="28" style="margin-right: 18px" alt="Profile Views" />
-    <a href="https://wakatime.com/@{{metadata.wakatime_user_id}}">
-        <img src="https://wakatime.com/badge/user/{{metadata.wakatime_user_id}}.svg?style=plastic" height="28" style="margin-right: 18px" alt="Total time coded since Sep 9 2024" />
-    </a>
-</dev>

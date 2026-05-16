@@ -94,7 +94,7 @@ function buildViewData(profile: Profile, lang: Lang): Record<string, unknown> {
         projects,
         typing_lines: isJa
             ? 'こんにちは、アゲハです。;ようこそ、私のページへ！;私はフルスタックであるが、クラウドが専門分野です。;仲良くしてください!+😁'
-            : "Hi,+I'm+Ageha;Welcome+to+my+page!;I'm+a+Full+Stack+Engineer;With+a+primary+focus+on+Cloud+Infrastructure;Be+Welcome!+😁",
+            : "Hi,+I'm+ageha734;Welcome+to+my+page!;I'm+a+Full+Stack+Engineer;With+a+primary+focus+on+Cloud+Infrastructure;Be+Welcome!+😁",
         skills_title: isJa ? 'スキル' : 'Things I code with',
         tools_label: isJa ? '愛用ツール: ' : 'Like Tools: ',
         advanced_label: isJa ? '上級: ' : 'Advanced: ',
