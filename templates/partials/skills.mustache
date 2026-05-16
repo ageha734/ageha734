@@ -1,0 +1,43 @@
+<h3 align="left"><b>👨‍💻 {{skills_title}}</b></h3>
+<div align="left">
+    <h4>{{tools_label}}</h4>
+    <div>
+        {{#skills.tools}}
+        {{#badge}}<img src="{{{badge}}}" height="18" style="margin-right: 18px" alt="{{name}}">{{/badge}}
+        {{/skills.tools}}
+    </div>
+    <h4>{{advanced_label}}</h4>
+    <div>
+        {{#skills.advanced}}
+        {{#badge}}<img src="{{{badge}}}" height="18" alt="{{name}}" style="margin-right: 18px">{{/badge}}
+        {{#icon}}<img src="{{{icon}}}" height="18" alt="{{name}}" style="margin-right: 18px">{{/icon}}
+        {{/skills.advanced}}
+    </div>
+    <h4>{{intermediate_label}}</h4>
+    <div>
+        {{#skills.intermediate}}
+        {{#badge}}<img src="{{{badge}}}" height="18" alt="{{name}}" style="margin-right: 18px">{{/badge}}
+        {{#icon}}<img src="{{{icon}}}" height="18" alt="{{name}}" style="margin-right: 18px">{{/icon}}
+        {{/skills.intermediate}}
+    </div>
+    <h4>{{beginner_label}}</h4>
+    <div>
+        {{#skills.beginner}}
+        {{#badge}}<img src="{{{badge}}}" height="18" alt="{{name}}" style="margin-right: 18px">{{/badge}}
+        {{#icon}}<img src="{{{icon}}}" height="18" alt="{{name}}" style="margin-right: 18px">{{/icon}}
+        {{/skills.beginner}}
+    </div>
+    <h4>{{pg_stats_label}}</h4>
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+        <img
+            src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username={{metadata.username}}&theme=react"
+            width="48%" height="auto"
+            alt="GitHub top-langs Card"
+        />
+        <img
+            src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username={{metadata.username}}&theme=react"
+            width="48%" height="auto"
+            alt="GitHub top-langs Card"
+        />
+    </div>
+</div>

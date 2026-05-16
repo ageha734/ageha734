@@ -1,6 +1,6 @@
 {
     "$schema": "https://biomejs.dev/schemas/1.9.2/schema.json",
-    "vcs": { "enabled": false, "clientKind": "git", "useIgnoreFile": false },
+    "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
     "files": { "ignoreUnknown": false, "ignore": [] },
     "formatter": {
         "enabled": true,
@@ -64,7 +64,7 @@
                 "noCatchAssign": "error",
                 "noClassAssign": "error",
                 "noCompareNegZero": "error",
-                "noConsole": "error",
+                "noConsole": "warn",
                 "noControlCharactersInRegex": "error",
                 "noDebugger": "error",
                 "noDoubleEquals": "error",
@@ -83,7 +83,7 @@
                 "useValidTypeof": "error"
             }
         },
-        "ignore": ["**/dist/", "**/*.js", "**/node_modules/", "**/jest.config.js"]
+        "ignore": ["**/dist/", "**/node_modules/"]
     },
     "javascript": {
         "formatter": {

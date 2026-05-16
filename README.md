@@ -88,13 +88,13 @@
 <div align="left">
     <ul>
         <li>
-            Look at my work experience.　<a href="./about/work_experience_en.md">[en]</a> / <a href="./about/work_experience.md">[ja]</a>
+            <a href="https://mypages.ageha734.jp">Personal Portfolio</a>
         </li>
         <li>
-            Look at my resume. <a href="./about/resume_en.md">[en]</a> / <a href="./about/resume.md">[ja]</a>
+            <a href="https://www.ageha734.jp">Business Page (Sole Proprietor)</a>
         </li>
         <li>
-             <a href="./about">About me.</a>
+            <a href="./about">About me</a>
         </li>
     </ul>
 </div>
@@ -537,13 +537,3 @@ Last Updated on 5/16/2026, 12:56:02 AM</p>
         />
     </a>
 </dev>
-
-<div align="center">
- <!-- START_AGENDA_SECTION -->
-Aucun agenda disponible pour ce jour.
-<!-- END_AGENDA_SECTION -->
-</div>
-
-<!-- START_LIBRARY_SECTION -->
- **[date-fns](https://date-fns.org/)**: Utilitaires de manipulation de dates fonctionnels et légers
-<!-- END_LIBRARY_SECTION -->

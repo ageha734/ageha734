@@ -1,0 +1,175 @@
+{
+    "metadata": {
+        "username": "ageha734",
+        "role_en": "Full Stack Engineer (Cloud Infrastructure)",
+        "role_ja": "フルスタックエンジニア（クラウドインフラ専門）",
+        "lapras_share_id": "ZGCCIAL",
+        "wakatime_user_id": "e81d490c-17bb-4b85-8611-87004287614f"
+    },
+    "bio": {
+        "en": [
+            {
+                "icon": "💼",
+                "label": "I'm currently working on",
+                "text": "Designing large-scale systems using microservices architecture and optimizing Kubernetes clusters"
+            },
+            {
+                "icon": "🌱",
+                "label": "I'm currently learning",
+                "text": "Serverless architecture, AI containerization, and FinOps practices"
+            },
+            {
+                "icon": "💬",
+                "label": "Ask me about",
+                "text": "Cloud architecture, microservices design, Kubernetes optimization, building MLOps pipelines"
+            },
+            {
+                "icon": "🎢",
+                "label": "Fun fact",
+                "text": "Whenever I'm solving complex infrastructure problems, I always draw diagrams on a whiteboard. There's an erasable whiteboard permanently stationed at my desk!"
+            }
+        ],
+        "ja": [
+            {
+                "icon": "💼",
+                "label": "現在取り組んでいること",
+                "text": "マイクロサービスアーキテクチャを用いた大規模システムの設計とKubernetesクラスタの最適化。"
+            },
+            {
+                "icon": "🌱",
+                "label": "現在学んでいること",
+                "text": "サーバーレスアーキテクチャ、AIコンテナ化、FinOpsの実践"
+            },
+            {
+                "icon": "💬",
+                "label": "専門分野",
+                "text": "クラウドアーキテクチャ、マイクロサービス設計、Kubernetes最適化"
+            },
+            {
+                "icon": "🎢",
+                "label": "面白い事実",
+                "text": "複雑なインフラ問題を解決するときは、いつもホワイトボードに図を描く。私のデスクには消せるホワイトボードが常備されている！"
+            }
+        ]
+    },
+    "links": {
+        "twitter": "https://x.com/ageha734",
+        "linkedin": "https://www.linkedin.com/in/ageha734",
+        "facebook": "https://www.facebook.com/ageha734",
+        "youtube": "https://www.youtube.com/@ageha734",
+        "medium": "https://medium.com/@ageha734",
+        "qiita": "http://qiita.com/ageha734",
+        "zenn": "https://zenn.dev/ageha734",
+        "hatena": "https://ageha734.hatenadiary.jp/",
+        "lapras": "https://lapras.com/public/ZGCCIAL",
+        "paypal": "https://paypal.me/ageha734",
+        "sponsors": "https://github.com/sponsors/ageha734",
+        "portfolio": "https://mypages.ageha734.jp",
+        "business": "https://www.ageha734.jp"
+    },
+    "skills": {
+        "tools": [
+            { "name": "Vim", "badge": "https://img.shields.io/badge/Vim-019733?logo=vim&logoColor=white" },
+            { "name": "Shell", "badge": "https://img.shields.io/badge/Shell-4EAA25?logo=gnu-bash&logoColor=white" },
+            { "name": "GitHub Actions", "badge": "https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white" },
+            { "name": "ArgoCD", "badge": "https://img.shields.io/badge/ArgoCD-EF7B4D?logo=argo&logoColor=white" }
+        ],
+        "advanced": [
+            { "name": "Go", "badge": "https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" },
+            { "name": "Terraform", "badge": "https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white" },
+            { "name": "GCP", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" },
+            { "name": "AWS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
+            { "name": "Kubernetes", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original-wordmark.svg" },
+            { "name": "Docker", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" },
+            { "name": "GitHub", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" },
+            { "name": "PostgreSQL", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" }
+        ],
+        "intermediate": [
+            { "name": "TypeScript", "badge": "https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" },
+            { "name": "Next.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg" },
+            { "name": "React", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" },
+            { "name": "NestJs", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original-wordmark.svg" },
+            { "name": "Swift", "badge": "https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white" },
+            { "name": "Python", "badge": "https://img.shields.io/badge/Python-306998?logo=python&logoColor=white" },
+            { "name": "Firebase", "icon": "https://cdn.simpleicons.org/firebase/FFCA28" },
+            { "name": "MySQL", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" },
+            { "name": "Redis", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original-wordmark.svg" },
+            { "name": "Rust", "badge": "https://img.shields.io/badge/Rust-B7410E?logo=rust&logoColor=white" }
+        ],
+        "beginner": [
+            { "name": "Vue.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" },
+            { "name": "NuxtJs", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original-wordmark.svg" },
+            { "name": "Tailwind CSS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
+            { "name": "FastAPI", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original-wordmark.svg" },
+            { "name": "MongoDB", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" },
+            { "name": "C++", "badge": "https://img.shields.io/badge/C%2B%2B-F34B7F?logo=c%2B%2B&logoColor=white" },
+            { "name": "Unity", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original-wordmark.svg" }
+        ]
+    },
+    "projects": [
+        {
+            "name": "README.pet",
+            "url": "https://github.com/impostor-syndromes/README.pet",
+            "description_en": "Raise a pet on your Github profile screen! Today's commit will be your pet's food!",
+            "description_ja": "Githubのプロフィール画面でペットを育てよう！今日のコミットがペットの餌になります！",
+            "stars_badge": "https://img.shields.io/github/stars/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41",
+            "forks_badge": "https://img.shields.io/github/forks/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41",
+            "issues_badge": "https://img.shields.io/github/issues/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41",
+            "prs_badge": "https://img.shields.io/github/issues-pr/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41"
+        },
+        {
+            "name": "EchoSleep",
+            "url": "https://github.com/hizuki-mimuro/EchoSleep",
+            "description_en": "It supports all during sleep, waking and before sleep, and aims to improve quality of life through sleep.",
+            "description_ja": "睡眠中、起床時、睡眠前のすべてをサポートし、睡眠を通じて生活の質の向上を目指す。",
+            "stars_badge": "https://img.shields.io/github/stars/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41",
+            "forks_badge": "https://img.shields.io/github/forks/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41",
+            "issues_badge": "https://img.shields.io/github/issues/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41",
+            "prs_badge": "https://img.shields.io/github/issues-pr/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41"
+        }
+    ],
+    "community": [
+        {
+            "name": "E - Ripple",
+            "logo": "https://media.connpass.com/thumbs/6b/ba/6bba049fdfcf1d7f1f00a9061e2eca2c.png",
+            "description_en": "Create a place where student engineers in the Kansai region can meet.",
+            "description_ja": "関西の学生エンジニアが集う場を作る。",
+            "url": "https://kansai-eng-net.connpass.com/"
+        }
+    ],
+    "articles": [
+        {
+            "platform": "Qiita",
+            "url": "http://qiita.com/ageha734",
+            "topics_en": "Go, Terraform, Kubernetes, Google Cloud, GitHub Action, DevOps, etc.",
+            "topics_ja": "Go, Terraform, Kubernetes, Google Cloud, GitHub Action, DevOps など",
+            "posts_badge": "https://qiita-badge.apiapi.app/s/ageha734/posts.svg",
+            "contributions_badge": "https://qiita-badge.apiapi.app/s/ageha734/contributions.svg",
+            "followers_badge": "https://qiita-badge.apiapi.app/s/ageha734/followers.svg"
+        },
+        {
+            "platform": "Zenn",
+            "url": "https://zenn.dev/ageha734",
+            "topics_en": "Next.js, React, Yamada UI, Panda CSS, Swift, SwiftUI, Skip, etc.",
+            "topics_ja": "Next.js, React, Yamada UI, Panda CSS, Swift, SwiftUI, Skip など",
+            "articles_badge": "https://zenn.badge.nikaera.com/s/ageha734/articles?style=plastic",
+            "books_badge": "https://zenn.badge.nikaera.com/s/ageha734/books?style=plastic",
+            "likes_badge": "https://zenn.badge.nikaera.com/s/ageha734/likes?style=plastic"
+        },
+        {
+            "platform": "Hatena Blog",
+            "url": "https://ageha734.hatenadiary.jp/",
+            "topics_en": "Go, Python, Docker, IoT, Raspberry Pi, Deep Learning, etc.",
+            "topics_ja": "Go, Python, Docker, IoT, Raspberry Pi, Deep Learning など",
+            "badge": "https://img.shields.io/badge/Personal_Tech_Blog-0-f19db5.svg?&style=flat"
+        }
+    ],
+    "certifications": [
+        { "year": 2020, "month": 10, "name_en": "TOEIC 870", "name_ja": "TOEIC 870" },
+        { "year": 2022, "month": 3, "name_en": "AWS Certified Solutions Architect - Associate", "name_ja": "AWS ソリューションアーキテクトアソシエイト" },
+        { "year": 2022, "month": 10, "name_en": "Applied Information Technology Engineer (IPA)", "name_ja": "IPA 応用情報技術者試験" },
+        { "year": 2023, "month": 1, "name_en": "Japan Statistical Society Certificate Grade Pre-1", "name_ja": "JSSC 統計検定準１級" },
+        { "year": 2023, "month": 4, "name_en": "Network Specialist Examination (IPA)", "name_ja": "IPA ネットワークスペシャリスト試験" },
+        { "year": 2023, "month": 10, "name_en": "Database Specialist Examination (IPA)", "name_ja": "IPA データベーススペシャリスト試験" }
+    ]
+}

@@ -4,25 +4,52 @@ pre-commit:
     check:
       glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
       run: |
-        npx biome check --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
+        pnpx biome check --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
       stage_fixed: true
+    markdownlint:
+      glob: "*.md"
+      run: |
+        npx markdownlint-cli2 --fix {staged_files} || true
+      stage_fixed: true
+    secretlint:
+      run: |
+        pnpx secretlint {staged_files}
 
 prepare-commit-msg:
   commands:
     commitizen:
       interactive: true
       run: |
-        exec < /dev/tty && npx cz --hook || true
+        exec < /dev/tty && pnpx cz --hook || true
 
 commit-msg:
   commands:
     commitlint:
       run: |
-        npx commitlint --edit {1}
+        pnpx commitlint --edit {1}
+
+pre-push:
+  commands:
+    validate-templates:
+      glob: "{templates/**,data/**}"
+      run: |
+        node -e "
+          const fs = require('node:fs');
+          const path = require('node:path');
+          const Mustache = require('mustache');
+          const profile = JSON.parse(fs.readFileSync('data/profile.json', 'utf8'));
+          const tmpl = fs.readFileSync('templates/README.mustache', 'utf8');
+          const partials = {};
+          for (const f of fs.readdirSync('templates/partials')) {
+            partials[path.basename(f, '.mustache')] = fs.readFileSync('templates/partials/' + f, 'utf8');
+          }
+          Mustache.render(tmpl, profile, partials);
+          console.log('Template validation passed.');
+        " || (echo 'Template validation failed!' && exit 1)
 
 post-merge:
   commands:
     pnpm:
       glob: "{package.json,package-lock.json}"
       run: |
-        npm install
+        pnpm install

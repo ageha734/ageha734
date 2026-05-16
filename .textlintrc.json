@@ -1,0 +1,17 @@
+{
+    "rules": {
+        "preset-ja-technical-writing": {
+            "sentence-length": {
+                "max": 150
+            },
+            "no-exclamation-question-mark": false,
+            "ja-no-mixed-period": false
+        }
+    },
+    "filters": {
+        "comments": true,
+        "node-types": {
+            "nodeTypes": ["CodeBlock", "Code", "Html"]
+        }
+    }
+}

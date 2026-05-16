@@ -1,0 +1,27 @@
+<h2 align="center"><b>🌱 {{projects_title}} 🌱</b></h2>
+<div align="center">
+    <table>
+        <thead align="center">
+            <tr border: none;>
+                <td><p>🎁 {{col_projects}}</p></td>
+                <td><p>🌱 {{col_abstract}}</p></td>
+                <td><p>⭐ Stars</p></td>
+                <td><p>📚 Forks</p></td>
+                <td><p>🛎 Issues</p></td>
+                <td><p>📬 Pull requests</p></td>
+            </tr>
+        </thead>
+        <tbody>
+            {{#projects}}
+            <tr>
+                <td><a href="{{url}}"><b>{{name}}</b></a></td>
+                <td><p>{{description}}</p></td>
+                <td><img src="{{{stars_badge}}}" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="{{{forks_badge}}}" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="{{{issues_badge}}}" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="{{{prs_badge}}}" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            {{/projects}}
+        </tbody>
+    </table>
+</div>

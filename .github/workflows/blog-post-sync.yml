@@ -1,0 +1,44 @@
+name: Sync Latest Blog Posts
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+
+      - uses: pnpm/action-setup@f40ffcd9367d9f12939873eb1018b921a783ffaa # v4.1.0
+        with:
+          version: "10"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: "20"
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Fetch latest articles and update README
+        run: node scripts/sync-blog-posts.js
+        env:
+          QIITA_USERNAME: ageha734
+          ZENN_USERNAME: ageha734
+
+      - name: Commit changes if any
+        uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5 # v9.1.4
+        with:
+          author_name: "GitHub Actions"
+          author_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          message: "chore: sync latest blog posts"
+          add: "README.md README.ja.md"

@@ -1,0 +1,259 @@
+openapi: 3.1.0
+info:
+  title: ageha734 Profile API (GAS)
+  description: |
+    Google Apps Script Web App that exposes profile data from Google Sheets.
+    Used by GitHub Actions to keep `data/profile.json` in sync automatically.
+
+    ## Authentication
+
+    Every request must include two query parameters:
+
+    | Parameter   | Description                              |
+    |-------------|------------------------------------------|
+    | `timestamp` | Unix time in seconds (UTC)               |
+    | `signature` | HMAC-SHA256 hex of `"<timestamp>:<path>"` |
+
+    The shared secret (`GAS_HMAC_SECRET`) must match the value stored in GAS
+    Script Properties under the key `HMAC_SECRET`.
+
+    Requests with a timestamp older than **5 minutes** are rejected.
+  version: 1.0.0
+  contact:
+    name: ageha734
+    url: https://mypages.ageha734.jp
+
+servers:
+  - url: https://script.google.com/macros/s/{deployment_id}/exec
+    description: GAS Web App
+    variables:
+      deployment_id:
+        default: YOUR_DEPLOYMENT_ID
+        description: Deployment ID obtained after publishing the GAS Web App
+
+paths:
+  /?path=certifications:
+    get:
+      summary: Get certifications
+      operationId: getCertifications
+      parameters:
+        - $ref: '#/components/parameters/path'
+        - $ref: '#/components/parameters/timestamp'
+        - $ref: '#/components/parameters/signature'
+      responses:
+        '200':
+          description: List of certifications
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CertificationsResponse'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+
+  /?path=work_experience:
+    get:
+      summary: Get work experience
+      operationId: getWorkExperience
+      parameters:
+        - $ref: '#/components/parameters/path'
+        - $ref: '#/components/parameters/timestamp'
+        - $ref: '#/components/parameters/signature'
+      responses:
+        '200':
+          description: List of work experience entries
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WorkExperienceResponse'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+
+  /?path=skills:
+    get:
+      summary: Get skills
+      operationId: getSkills
+      parameters:
+        - $ref: '#/components/parameters/path'
+        - $ref: '#/components/parameters/timestamp'
+        - $ref: '#/components/parameters/signature'
+      responses:
+        '200':
+          description: Skills grouped by category
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SkillsResponse'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+
+  /?path=projects:
+    get:
+      summary: Get OSS projects
+      operationId: getProjects
+      parameters:
+        - $ref: '#/components/parameters/path'
+        - $ref: '#/components/parameters/timestamp'
+        - $ref: '#/components/parameters/signature'
+      responses:
+        '200':
+          description: List of OSS projects
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProjectsResponse'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+
+components:
+  parameters:
+    path:
+      name: path
+      in: query
+      required: true
+      schema:
+        type: string
+        enum: [certifications, work_experience, skills, projects]
+    timestamp:
+      name: timestamp
+      in: query
+      required: true
+      description: Unix timestamp in seconds (UTC). Must be within 5 minutes of server time.
+      schema:
+        type: string
+        example: "1716000000"
+    signature:
+      name: signature
+      in: query
+      required: true
+      description: HMAC-SHA256 hex of the string `"<timestamp>:<path>"`
+      schema:
+        type: string
+        example: "a1b2c3d4..."
+
+  responses:
+    Unauthorized:
+      description: Authentication failed
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ErrorResponse'
+
+  schemas:
+    ErrorResponse:
+      type: object
+      properties:
+        ok:
+          type: boolean
+          example: false
+        error:
+          type: string
+          example: Signature mismatch
+        code:
+          type: integer
+          example: 401
+
+    CertificationsResponse:
+      type: object
+      properties:
+        ok:
+          type: boolean
+        path:
+          type: string
+        data:
+          type: array
+          items:
+            type: object
+            properties:
+              year:
+                type: integer
+              month:
+                type: integer
+              name_en:
+                type: string
+              name_ja:
+                type: string
+
+    WorkExperienceResponse:
+      type: object
+      properties:
+        ok:
+          type: boolean
+        path:
+          type: string
+        data:
+          type: array
+          items:
+            type: object
+            properties:
+              company_en:
+                type: string
+              company_ja:
+                type: string
+              start:
+                type: string
+                description: YYYY-MM format
+              end:
+                type: string
+                nullable: true
+                description: YYYY-MM format, null if current
+              role_en:
+                type: string
+              role_ja:
+                type: string
+              description_en:
+                type: string
+              description_ja:
+                type: string
+
+    SkillsResponse:
+      type: object
+      properties:
+        ok:
+          type: boolean
+        path:
+          type: string
+        data:
+          type: array
+          items:
+            type: object
+            properties:
+              category:
+                type: string
+                enum: [tools, advanced, intermediate, beginner]
+              name:
+                type: string
+              badge_url:
+                type: string
+                nullable: true
+              icon_url:
+                type: string
+                nullable: true
+
+    ProjectsResponse:
+      type: object
+      properties:
+        ok:
+          type: boolean
+        path:
+          type: string
+        data:
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                type: string
+              url:
+                type: string
+              description_en:
+                type: string
+              description_ja:
+                type: string
+              stars_badge:
+                type: string
+              forks_badge:
+                type: string
+              issues_badge:
+                type: string
+              prs_badge:
+                type: string

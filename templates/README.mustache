@@ -1,0 +1,136 @@
+{{> header}}
+
+<p align="right">
+    English | <a href="./README.ja.md">日本語</a>
+</p>
+
+<h2 align="left"><b>$ whoami</b></h2>
+<div align="left">
+    <ul>
+        {{#bio.en}}
+        <li>
+            <p>{{icon}} {{label}}: </br>{{text}}</p>
+        </li>
+        {{/bio.en}}
+    </ul>
+</div>
+
+<h3 align="left"><b>🔍 Where to find me</b></h3>
+<div align="center">
+    <a href="{{links.twitter}}" target="_blank">
+        <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=X&logoColor=white" height="28" style="margin-right: 18px" alt="X" />
+    </a>
+    <a href="{{links.linkedin}}" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" style="margin-right: 18px" alt="Linkedin" />
+    </a>
+    <a href="{{links.facebook}}" target="_blank">
+        <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="28" style="margin-right: 18px" alt="Facebook" />
+    </a>
+    <a href="{{links.youtube}}" target="_blank">
+        <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="28" style="margin-right: 18px" alt="Youtube" />
+    </a>
+    <a href="{{links.medium}}" target="_blank">
+        <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" height="28" style="margin-right: 18px" alt="Medium" />
+    </a>
+    <a href="https://github.com/devxb/gitanimals">
+        <img src="https://render.gitanimals.org/farms/{{metadata.username}}" width="600" height="300" />
+    </a>
+</div>
+
+<h3 align="left"><b>🔭 Work</b></h3>
+<div align="left">
+    <ul>
+        <li>
+            <a href="{{links.portfolio}}">Personal Portfolio</a>
+        </li>
+        <li>
+            <a href="{{links.business}}">Business Page (Sole Proprietor)</a>
+        </li>
+        <li>
+            <a href="./about">About me</a>
+        </li>
+    </ul>
+</div>
+
+{{> skills}}
+
+{{> stats}}
+
+{{> footer}}
+
+<h2 align="center"><b>💚 Community 💚</b></h2>
+<div align="center">
+    <table>
+        <thead align="center">
+            <tr border: none;>
+                <td><p>🖼️ Logo</p></td>
+                <td><p>🎁 Projects</p></td>
+                <td><p>🌱 Abstract</p></td>
+                <td><p>📗 Note</p></td>
+            </tr>
+        </thead>
+        <tbody>
+            {{#community}}
+            <tr>
+                <td><img src="{{logo}}" width="120" height="120" alt="{{name}} Logo" /></td>
+                <td><p>{{name}}</p></td>
+                <td><p>{{description_en}}</p></td>
+                <td><p>show <a href="{{url}}">HomePage</a></p></td>
+            </tr>
+            {{/community}}
+        </tbody>
+    </table>
+</div>
+
+{{> projects}}
+
+<h2 align="center"><b>✍ Authored article ✍</b></h2>
+<div align="center">
+    <table>
+        <thead align="center">
+            <tr border: none;>
+                <td><p>📝 Personal</p></td>
+                <td><p>💡 Topics</p></td>
+                <td><p>🌎 Lang (default: `In Japanese`)</p></td>
+                <td><p>📗 Note</p></td>
+            </tr>
+        </thead>
+        <tbody>
+            {{#articles}}
+            <tr>
+                <td>
+                    {{#posts_badge}}<a href="{{url}}"><img src="{{{posts_badge}}}" height="20" alt="{{platform}} Posts" /></a>{{/posts_badge}}
+                    {{#contributions_badge}}<a href="{{url}}"><img src="{{{contributions_badge}}}" height="20" alt="{{platform}} Contributions" /></a>{{/contributions_badge}}
+                    {{#articles_badge}}<a href="{{url}}/articles"><img src="{{{articles_badge}}}" height="20" alt="{{platform}} articles" /></a>{{/articles_badge}}
+                    {{#books_badge}}<a href="{{url}}/books"><img src="{{{books_badge}}}" height="20" alt="{{platform}} books" /></a>{{/books_badge}}
+                    {{#badge}}<a href="{{url}}"><img src="{{{badge}}}" height="20" alt="{{platform}}" /></a>{{/badge}}
+                </td>
+                <td><p>{{topics_en}}</p></td>
+                <td></td>
+                <td>
+                    {{#followers_badge}}<p>Please give me thumbs up 💚 → <a href="{{url}}"><img src="{{{followers_badge}}}" height="20" alt="{{platform}} followers" /></a></p>{{/followers_badge}}
+                    {{#likes_badge}}<p>Please give me thumbs up 💚 → <a href="{{url}}"><img src="{{{likes_badge}}}" height="20" alt="{{platform}} likes" /></a></p>{{/likes_badge}}
+                    {{#badge}}{{^followers_badge}}{{^likes_badge}}<p>Written on {{platform}}.</p>{{/likes_badge}}{{/followers_badge}}{{/badge}}
+                </td>
+            </tr>
+            {{/articles}}
+        </tbody>
+    </table>
+</div>
+
+<h2 align="center"><b>🧑🏼‍💻 My activity 🧑🏼‍💻</b></h2>
+<div align="center">
+    <img src="https://github.com/{{metadata.username}}/{{metadata.username}}/blob/output/github-contribution-grid-snake-dark.svg">
+</div>
+
+<h2 align="center"><b>🖥️ Weekly Coding Stats 🖥️</b></h2>
+<div align="center">
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+</div>
+
+<h2 align="center"><b>📊 Development metrics 📊</b></h2>
+<div align="center">
+<!--START_SECTION:lapras-card-->
+<!--END_SECTION:lapras-card-->
+</div>

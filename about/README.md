@@ -16,13 +16,13 @@
 
 <ul>
     <li>
-            <a href="https://github.com/ageha734">Link to Github</a>
+        <a href="https://github.com/ageha734">GitHub</a>
     </li>
     <li>
-        <a href="./work_experience_en.md">Work experience</a>
+        <a href="https://mypages.ageha734.jp">Personal Portfolio</a>
     </li>
     <li>
-        <a href="./resume_en.md">Resume</a>
+        <a href="https://www.ageha734.jp">Business Page (Sole Proprietor)</a>
     </li>
 </ul>
 
@@ -35,26 +35,20 @@
 <h2>Technical Interests</h2>
 
 <ul>
-    <li>Architecture</li>
-    <li>Jetpack Compose (Android)</li>
-    <li>Cross-platform development (like KMM)</li>
-    <li>Go and its related technologies
+    <li>Cloud Infrastructure &amp; Architecture
         <ul>
-            <li>Microservice architecture</li>
+            <li>Kubernetes, GCP, AWS</li>
+            <li>FinOps practices</li>
         </ul>
     </li>
-</ul>
-
-<h3>Want to Try Someday</h3>
-
-<ul>
-    <li>Understanding Low-level concepts
+    <li>Microservice architecture</li>
+    <li>Cross-platform development (KMM, Skip)</li>
+    <li>MLOps pipelines</li>
+    <li>Low-level computing
         <ul>
             <li>Building an operating system from scratch</li>
         </ul>
     </li>
-    <li>Specializing in a specific field</li>
-    <li>Understanding database management system</li>
 </ul>
 
 <h2>Thoughts</h2>

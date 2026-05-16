@@ -1,0 +1,98 @@
+/* Fade-in-up for scroll-triggered reveals */
+.reveal {
+    opacity: 0;
+    transform: translateY(32px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Stagger children */
+.reveal-stagger > * {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.reveal-stagger.visible > *:nth-child(1) { transition-delay: 0.05s; }
+.reveal-stagger.visible > *:nth-child(2) { transition-delay: 0.10s; }
+.reveal-stagger.visible > *:nth-child(3) { transition-delay: 0.15s; }
+.reveal-stagger.visible > *:nth-child(4) { transition-delay: 0.20s; }
+.reveal-stagger.visible > *:nth-child(5) { transition-delay: 0.25s; }
+.reveal-stagger.visible > *:nth-child(6) { transition-delay: 0.30s; }
+.reveal-stagger.visible > * { opacity: 1; transform: translateY(0); }
+
+/* Typing cursor blink */
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.cursor {
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    background: var(--color-accent);
+    margin-left: 2px;
+    vertical-align: text-bottom;
+    animation: blink 1s step-end infinite;
+}
+
+/* Gradient text shimmer */
+@keyframes shimmer {
+    0% { background-position: -200% center; }
+    100% { background-position: 200% center; }
+}
+
+.gradient-text {
+    background: linear-gradient(
+        90deg,
+        var(--color-accent),
+        var(--color-accent-green),
+        var(--color-accent),
+        var(--color-accent-green)
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 4s linear infinite;
+}
+
+/* Floating animation for hero badge */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+
+.float {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Pulse glow for accent elements */
+@keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 8px rgba(4, 228, 230, 0.3); }
+    50% { box-shadow: 0 0 24px rgba(4, 228, 230, 0.6); }
+}
+
+.pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Skill bar fill animation */
+@keyframes fill-bar {
+    from { width: 0; }
+    to { width: var(--fill); }
+}
+
+.skill-bar-inner {
+    animation: fill-bar 1s ease forwards;
+    animation-play-state: paused;
+}
+
+.skill-bar-inner.animate {
+    animation-play-state: running;
+}

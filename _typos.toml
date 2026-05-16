@@ -1,0 +1,5 @@
+[default.extend-words]
+ageha = "ageha"
+
+[files]
+extend-exclude = ["node_modules", "package-lock.json", "profile-summary-card-output"]

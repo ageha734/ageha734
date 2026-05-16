@@ -81,13 +81,13 @@
 <div align="left">
     <ul>
         <li>
-            <a href="./about/work_experience.md">職務経歴書</a>
+            <a href="https://mypages.ageha734.jp">個人ポートフォリオ</a>
         </li>
         <li>
-            <a href="./about/resume.md">履歴書</a>
+            <a href="https://www.ageha734.jp">ビジネスページ（個人事業主）</a>
         </li>
         <li>
-             <a href="./about/README.ja.md">私についての補足情報</a>
+            <a href="./about">私について</a>
         </li>
     </ul>
 </div>
@@ -521,17 +521,3 @@ Last Updated on 9/26/2024, 1:38:20 AM</p>
         />
     </a>
 </dev>
-
-<div align="center">
- <!-- START_AGENDA_SECTION -->
-<h3>Agenda du Jeudi 26 septembre
- 🗓️</h3><div align="center">9h - 12h30 : Optimisation backend : Amélioration des performances des routes API (Node.js).
-</div><div align="center">13h30 - 17h : Améliorations UI frontend : Optimisation de l'interface utilisateur (Svelte).
-</div>
-
-<!-- END_AGENDA_SECTION -->
-</div>
-
-<!-- START_LIBRARY_SECTION -->
- **[Select2](https://select2.org/)**: Une bibliothèque pour améliorer les menus déroulants HTML.
-<!-- END_LIBRARY_SECTION -->

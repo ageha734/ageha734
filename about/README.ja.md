@@ -1,43 +1,40 @@
 <p align="right">
-    English | <a href="./README.ja.md">日本語</a>
+    <a href="./README.md">English</a> | 日本語
 </p>
 
 ## About Me
 
-* [Link to Github](https://github.com/ageha734)
-* [Work experience](./work_experience_en.md)
+* [GitHub](https://github.com/ageha734)
+* [個人ポートフォリオ](https://mypages.ageha734.jp)
+* [ビジネスページ（個人事業主）](https://www.ageha734.jp)
 
-### Skills To Develop
+### 磨きたいスキル
 
-* English skills
+* 英語力
 
-## Technical Interests
+## 技術的興味
 
-* Architecture
-* Jetpack Compose (Android)
-* Cross-platform development (like KMM)
-* Go and its related technologies
-  * Microservice architecture
+* クラウドインフラ & アーキテクチャ
+  * Kubernetes、GCP、AWS
+  * FinOps の実践
+* マイクロサービスアーキテクチャ
+* クロスプラットフォーム開発（KMM、Skip）
+* MLOps パイプライン
+* 低レベルコンピューティング
+  * OS を一から構築する
 
-### Want to Try Someday
+## 考えていること
 
-* Understanding Low-level concepts
-  * Building an operating system from scratch
-* Specializing in a specific field
-* Understanding database management system
+* 常に新しいことに挑戦し続けたい
 
-## Thoughts
-
-* I wanna keep trying new things
-
-### Motto
+### 座右の銘
 
 * All art is quite useless.
 * Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
 * Done is better than perfect.
 
-## Personality and Traits
+## 性格・強み
 
 ### CliftonStrengths 34
 
-![](./clifton-strengths.png)
+![CliftonStrengths 34](./clifton-strengths.png)

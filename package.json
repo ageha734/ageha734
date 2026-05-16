@@ -2,39 +2,47 @@
     "private": true,
     "name": "ageha734",
     "description": "A dynamic README.md for your GitHub Profile, using Actions, Javascript and Mustache.",
-    "version": "1.0.0",
-    "keywords": ["readme.md", "github", "actions", "dynamic", "javascript"],
     "engines": {
-        "node": "20"
+        "node": ">=22.0.0",
+        "pnpm": ">=10.33.0"
     },
-    "license": "ISC",
+    "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319",
     "author": "ageha734 <info@ageha734.jp>",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/ageha734/ageha734.git"
     },
-    "bugs": {
-        "url": "https://github.com/ageha734/ageha734/issues"
-    },
     "homepage": "https://github.com/ageha734/ageha734#readme",
-    "main": "index.js",
     "scripts": {
         "prepare": "lefthook install",
-        "check": "biome check --write"
+        "check": "biome check --write",
+        "generate": "node scripts/update-readme.js",
+        "lint:md": "markdownlint-cli2 \"**/*.md\" \"#node_modules\"",
+        "lint:text": "textlint README.ja.md about/README.ja.md",
+        "lint:secrets": "secretlint \"**/*\"",
+        "validate:templates": "node -e \"const m=require('mustache');const fs=require('node:fs');const t=fs.readFileSync('templates/README.mustache','utf8');console.log('Template OK:',t.length,'chars')\"",
+        "dev:portfolio": "pnpx serve docs -p 3000"
     },
     "dependencies": {
         "dotenv": "16.4.5",
         "mustache": "4.2.0",
         "node-fetch": "3.3.2",
-        "puppeteer": "23.4.0"
+        "rss-parser": "3.13.0"
     },
     "devDependencies": {
         "@biomejs/biome": "1.9.2",
-        "@commitlint/cli": "19.5.0",
-        "@commitlint/config-conventional": "19.5.0",
-        "commitizen": "4.3.0",
+        "@commitlint/cli": "19.8.0",
+        "@commitlint/config-conventional": "19.8.0",
+        "@secretlint/secretlint-rule-preset-recommend": "9.0.0",
+        "commitizen": "4.3.1",
         "cz-conventional-changelog-ja": "0.0.2",
-        "lefthook": "1.7.16"
+        "lefthook": "1.11.13",
+        "markdownlint-cli2": "0.18.1",
+        "secretlint": "9.0.0",
+        "textlint": "14.6.0",
+        "textlint-filter-rule-comments": "1.2.2",
+        "textlint-filter-rule-node-types": "1.1.0",
+        "textlint-rule-preset-ja-technical-writing": "10.1.0"
     },
     "commitlint": {
         "extends": ["@commitlint/config-conventional"]

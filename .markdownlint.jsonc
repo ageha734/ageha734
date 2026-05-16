@@ -1,0 +1,10 @@
+{
+    // Allow inline HTML
+    "MD033": false,
+    // Allow first line to not be a heading
+    "MD041": false,
+    // Allow multiple blank lines
+    "MD012": false,
+    // Allow missing alt text on images with badges
+    "MD045": false
+}
