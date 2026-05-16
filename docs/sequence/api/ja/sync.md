@@ -1,4 +1,11 @@
-# 職務経歴書データ取得フロー
+---
+title: データ取得フロー
+---
+
+<p align="right">
+  <a href="../../index.md">← 一覧に戻る</a>
+  ｜ 日本語 ｜ <a href="../en/sync.md">English</a>
+</p>
 
 ## API仕様書
 

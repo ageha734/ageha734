@@ -1,4 +1,11 @@
-# Periodic Sync Flow
+---
+title: Periodic Sync Flow
+---
+
+<p align="right">
+  <a href="../../index.md">← Back to index</a>
+  ｜ <a href="../ja/sync.md">日本語</a> ｜ English
+</p>
 
 ## API specifications
 

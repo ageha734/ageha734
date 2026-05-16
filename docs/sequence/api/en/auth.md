@@ -1,4 +1,11 @@
-# Authentication Flow
+---
+title: Authentication Flow
+---
+
+<p align="right">
+  <a href="../../index.md">← Back to index</a>
+  ｜ <a href="../ja/auth.md">日本語</a> ｜ English
+</p>
 
 Each request is signed and verified so that only authorized clients can retrieve data.
 By including a timestamp in the signature, the system also prevents replay attacks.
