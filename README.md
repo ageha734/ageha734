@@ -545,5 +545,5 @@ Aucun agenda disponible pour ce jour.
 </div>
 
 <!-- START_LIBRARY_SECTION -->
- **[jQuery File Upload](https://blueimp.github.io/jQuery-File-Upload/)**: Uploader de fichiers avec jQuery
+ **[date-fns](https://date-fns.org/)**: Utilitaires de manipulation de dates fonctionnels et légers
 <!-- END_LIBRARY_SECTION -->
