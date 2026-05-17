@@ -7,7 +7,7 @@ import http from 'node:http'
 import {afterAll, beforeAll, describe, expect, it} from 'vitest'
 
 const HMAC_KEY = process.env['TEST_HMAC_KEY'] ?? 'integration-test-secret'
-const PORT = 13001
+const PORT = Number.parseInt(process.env['PORT'] ?? '3000', 10)
 
 function sign(path: string, timestamp: string): string {
     return crypto
