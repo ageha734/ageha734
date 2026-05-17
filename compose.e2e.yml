@@ -14,8 +14,10 @@ services:
 
   sync:
     build:
-      context: .
-      dockerfile: mocks/sync/Dockerfile
+      context: ./mocks/sync
+      dockerfile: Dockerfile
+    ports:
+      - "14000:14000"
     environment:
       GAS_API_URL: http://cv-api:3000
       GAS_HMAC_SECRET: e2e-test-secret
@@ -24,7 +26,7 @@ services:
       cv-api:
         condition: service_healthy
     healthcheck:
-      test: ["CMD", "wget", "-qO-", "http://localhost:4000/health"]
+      test: ["CMD", "wget", "-qO-", "http://localhost:14000/health"]
       interval: 2s
       timeout: 5s
       retries: 10
@@ -55,5 +57,5 @@ services:
     environment:
       GAS_HMAC_SECRET: e2e-test-secret
       GAS_API_URL: http://cv-api:3000
-      SYNC_SERVER_URL: http://sync:4000
+      SYNC_SERVER_URL: http://sync:14000
       PORTFOLIO_URL: http://portfolio:8080

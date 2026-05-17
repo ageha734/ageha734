@@ -3,7 +3,7 @@ import {expect, test as setup} from '@playwright/test'
 
 const GAS_URL = process.env['GAS_API_URL'] ?? 'http://localhost:3000'
 const HMAC_KEY = process.env['GAS_HMAC_SECRET'] ?? 'e2e-test-secret'
-const SYNC_URL = process.env['SYNC_SERVER_URL'] ?? 'http://localhost:4000'
+const SYNC_URL = process.env['SYNC_SERVER_URL'] ?? 'http://localhost:14000'
 
 function sign(p: string, timestamp: string): string {
     return crypto.createHmac('sha256', HMAC_KEY).update(`${timestamp}:${p}`, 'utf8').digest('hex')

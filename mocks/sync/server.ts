@@ -1,7 +1,7 @@
 import {spawn} from 'node:child_process'
 import {createServer} from 'node:http'
 
-const PORT = 4000
+const PORT = Number(process.env['PORT'] ?? 14000)
 
 type StepStatus = 'idle' | 'running' | 'success' | 'failure'
 
@@ -41,7 +41,7 @@ function runStep(step: Step): void {
 
 createServer((req, res) => {
     const send = (code: number, body: unknown) => {
-        res.writeHead(code, {'Content-Type': 'application/json'})
+        res.writeHead(code, {'Content-Type': 'application/json', Connection: 'close'})
         res.end(JSON.stringify(body))
     }
 
