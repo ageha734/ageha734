@@ -1,59 +1,9 @@
-import {
-    ALLOWED_PATHS,
-    type AllowedPath,
-    buildMessage,
-    safeEquals,
-    verifyTimestamp
-} from './lib/hmac'
-import {type SheetRow, parseRows} from './lib/sheet'
+import {handleDoGet} from './presentation/doGet'
+import type {DoGetEvent} from './presentation/doGet'
 
-interface DoGetEvent {
-    parameter: {
-        path?: string
-        timestamp?: string
-        signature?: string
-    }
-}
-
-interface SuccessPayload {
-    ok: true
-    path: string
-    data: SheetRow[]
-}
-
-interface ErrorPayload {
-    ok: false
-    error: string
-    code: number
-}
-
-function doGet(e: DoGetEvent): GoogleAppsScript.Content.TextOutput {
-    try {
-        const path = (e.parameter.path ?? '').toLowerCase() as AllowedPath
-        const timestamp = e.parameter.timestamp ?? ''
-        const signature = e.parameter.signature ?? ''
-
-        if (!(ALLOWED_PATHS as readonly string[]).includes(path)) {
-            return errorResponse(400, `Invalid path. Use: ${ALLOWED_PATHS.join(', ')}`)
-        }
-
-        const tsError = verifyTimestamp(timestamp)
-        if (tsError) return errorResponse(401, tsError)
-
-        const secret = PropertiesService.getScriptProperties().getProperty('HMAC_SECRET')
-        if (!secret) return errorResponse(500, 'Server misconfiguration: HMAC_SECRET not set')
-
-        const expected = computeHmacSha256(secret, buildMessage(timestamp, path))
-        if (!safeEquals(expected, signature)) return errorResponse(401, 'Signature mismatch')
-
-        const data = getSheetData(path)
-        return jsonResponse({ok: true, path, data})
-    } catch (err) {
-        return errorResponse(500, err instanceof Error ? err.message : String(err))
-    }
-}
-
-function computeHmacSha256(secret: string, message: string): string {
+function computeHmac(message: string): string {
+    const secret = PropertiesService.getScriptProperties().getProperty('HMAC_SECRET')
+    if (!secret) throw new Error('Server misconfiguration: HMAC_SECRET not set')
     const signatureBytes = Utilities.computeHmacSha256Signature(
         message,
         secret,
@@ -62,29 +12,16 @@ function computeHmacSha256(secret: string, message: string): string {
     return signatureBytes.map((b: number) => `0${(b & 0xff).toString(16)}`.slice(-2)).join('')
 }
 
-function getSheetData(sheetName: string): SheetRow[] {
+function fetchRows(path: string): unknown[][] {
     const ssId = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID')
     if (!ssId) throw new Error('SPREADSHEET_ID not set')
-
     const ss = SpreadsheetApp.openById(ssId)
-    const sheet = ss.getSheetByName(sheetName)
-    if (!sheet) throw new Error(`Sheet not found: ${sheetName}`)
-
-    const rows = sheet.getDataRange().getValues() as unknown[][]
-    return parseRows(rows)
+    const sheet = ss.getSheetByName(path)
+    if (!sheet) throw new Error(`Sheet not found: ${path}`)
+    return sheet.getDataRange().getValues() as unknown[][]
 }
 
-function jsonResponse(payload: SuccessPayload): GoogleAppsScript.Content.TextOutput {
-    return ContentService.createTextOutput(JSON.stringify(payload)).setMimeType(
-        ContentService.MimeType.JSON
-    )
+function doGet(e: DoGetEvent): GoogleAppsScript.Content.TextOutput {
+    return handleDoGet(e, computeHmac, fetchRows)
 }
-
-function errorResponse(code: number, message: string): GoogleAppsScript.Content.TextOutput {
-    return ContentService.createTextOutput(
-        JSON.stringify({ok: false, error: message, code} satisfies ErrorPayload)
-    ).setMimeType(ContentService.MimeType.JSON)
-}
-// GAS はバンドル後の IIFE スコープ内の関数を認識しないため globalThis に明示的に登録する
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 ;(globalThis as any).doGet = doGet
