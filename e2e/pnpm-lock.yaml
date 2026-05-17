@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  playwright@<1.55.1: '>=1.55.1'
+
 importers:
 
   .:
@@ -451,13 +454,13 @@ packages:
     resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==, tarball: https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz}
     engines: {node: '>=12'}
 
-  playwright-core@1.52.0:
-    resolution: {integrity: sha512-l2osTgLXSMeuLZOML9qYODUQoPPnUsKsb5/P6LJ2e6uPKXUdPK5WYhN4z03G+YNbWmGDY4YENauNu4ZKczreHg==, tarball: https://registry.npmjs.org/playwright-core/-/playwright-core-1.52.0.tgz}
+  playwright-core@1.59.1:
+    resolution: {integrity: sha512-HBV/RJg81z5BiiZ9yPzIiClYV/QMsDCKUyogwH9p3MCP6IYjUFu/MActgYAvK0oWyV9NlwM3GLBjADyWgydVyg==, tarball: https://registry.npmjs.org/playwright-core/-/playwright-core-1.59.1.tgz}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.52.0:
-    resolution: {integrity: sha512-JAwMNMBlxJ2oD1kce4KPtMkDeKGHQstdpFPcPH3maElAXon/QZeTvtsfXmTMRyO9TslfoYOXkSsvao2nE1ilTw==, tarball: https://registry.npmjs.org/playwright/-/playwright-1.52.0.tgz}
+  playwright@1.59.1:
+    resolution: {integrity: sha512-C8oWjPR3F81yljW9o5OxcWzfh6avkVwDD2VYdwIGqTkl+OGFISgypqzfu7dOe4QNLL2aqcWBmI3PMtLIK233lw==, tarball: https://registry.npmjs.org/playwright/-/playwright-1.59.1.tgz}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -670,7 +673,7 @@ snapshots:
 
   '@playwright/test@1.52.0':
     dependencies:
-      playwright: 1.52.0
+      playwright: 1.59.1
 
   '@rollup/rollup-android-arm-eabi@4.60.2':
     optional: true
@@ -882,11 +885,11 @@ snapshots:
 
   picomatch@4.0.4: {}
 
-  playwright-core@1.52.0: {}
+  playwright-core@1.59.1: {}
 
-  playwright@1.52.0:
+  playwright@1.59.1:
     dependencies:
-      playwright-core: 1.52.0
+      playwright-core: 1.59.1
     optionalDependencies:
       fsevents: 2.3.2
 
