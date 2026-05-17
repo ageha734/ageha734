@@ -27,14 +27,35 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Set up clasp credentials
+        working-directory: cv-api
+        run: echo '${{ secrets.CLASP_CREDENTIALS }}' > ~/.clasprc.json
+
+      - name: Write .clasp.json
+        working-directory: cv-api
+        run: |
+          echo '{"scriptId":"${{ secrets.GAS_SCRIPT_ID }}","rootDir":"."}' > .clasp.json
+
+      - name: Resolve GAS deployment URL
+        working-directory: cv-api
+        run: |
+          DEPLOYMENT_ID=$(pnpx @google/clasp deployments 2>/dev/null \
+            | grep -oP '(?<=- )[A-Za-z0-9_-]+(?= @)' \
+            | tail -1)
+          if [ -z "$DEPLOYMENT_ID" ]; then
+            echo "No deployment found — skipping sync"
+            echo "GAS_API_URL=" >> "$GITHUB_ENV"
+          else
+            echo "GAS_API_URL=https://script.google.com/macros/s/${DEPLOYMENT_ID}/exec" >> "$GITHUB_ENV"
+          fi
+
       - name: Fetch data from GAS API and update profile.json
         run: pnpm tsx scripts/sync-from-gas.ts
         env:
-          GAS_API_URL: ${{ secrets.GAS_API_URL }}
           GAS_HMAC_SECRET: ${{ secrets.GAS_HMAC_SECRET }}
 
       - name: Regenerate README from updated profile
-        run: node scripts/update-readme.js
+        run: pnpm tsx scripts/update-readme.ts
 
       - name: Commit changes if any
         uses: EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321 # v10.0.0
