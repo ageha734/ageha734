@@ -85,3 +85,6 @@ function errorResponse(code: number, message: string): GoogleAppsScript.Content.
         JSON.stringify({ok: false, error: message, code} satisfies ErrorPayload)
     ).setMimeType(ContentService.MimeType.JSON)
 }
+// GAS はバンドル後の IIFE スコープ内の関数を認識しないため globalThis に明示的に登録する
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+;(globalThis as any).doGet = doGet
