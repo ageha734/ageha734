@@ -115,6 +115,7 @@ jobs:
       portfolio-url: https://mypages.ageha734.jp/
     secrets:
       GAS_HMAC_SECRET: ${{ secrets.GAS_HMAC_SECRET }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   rollback:
     name: Rollback on E2E failure

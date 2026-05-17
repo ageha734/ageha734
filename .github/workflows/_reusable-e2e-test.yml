@@ -14,9 +14,12 @@ on:
     secrets:
       GAS_HMAC_SECRET:
         required: true
+      GH_TOKEN:
+        required: false
 
 permissions:
   contents: read
+  actions: write
 
 jobs:
   e2e-test:
@@ -40,6 +43,8 @@ jobs:
           GAS_API_URL: ${{ inputs.gas-api-url }}
           GAS_HMAC_SECRET: ${{ secrets.GAS_HMAC_SECRET }}
           PORTFOLIO_URL: ${{ inputs.portfolio-url }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
 
       - name: Upload Playwright report
         if: failure()
