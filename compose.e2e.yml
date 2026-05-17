@@ -1,0 +1,48 @@
+services:
+  portfolio:
+    image: node@sha256:968df39aedcea65eeb078fb336ed7191baf48f972b4479711397108be0966920
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        corepack enable
+        corepack prepare pnpm@10.33.0 --activate
+        pnpm install --frozen-lockfile
+        npx serve docs -p 8080 --no-clipboard
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:8080"]
+      interval: 2s
+      timeout: 5s
+      retries: 10
+
+  cv-api:
+    build:
+      context: ./cv-api
+      dockerfile: Dockerfile
+    environment:
+      HMAC_SECRET: e2e-test-secret
+      PORT: 3000
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000"]
+      interval: 2s
+      timeout: 5s
+      retries: 10
+
+  e2e:
+    build:
+      context: ./e2e
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    depends_on:
+      cv-api:
+        condition: service_healthy
+      portfolio:
+        condition: service_healthy
+    environment:
+      GAS_API_URL: http://cv-api:3000
+      GAS_HMAC_SECRET: e2e-test-secret
+      PORTFOLIO_URL: http://portfolio:8080
