@@ -18,7 +18,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - "14000:14000"
-      - "21:21"
+      - "2121:2121"
       - "40000-40010:40000-40010"
     environment:
       GAS_API_URL: http://cv-api:3000

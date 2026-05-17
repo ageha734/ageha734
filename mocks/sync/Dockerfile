@@ -4,6 +4,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
+        ca-certificates=20230311+deb12u1 \
         curl=7.88.1-10+deb12u14 \
         vsftpd=3.0.3-13+b2 \
     && curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
@@ -17,6 +18,8 @@ COPY vsftpd.conf /etc/vsftpd.conf
 
 WORKDIR /workspace
 
-EXPOSE 21 40000-40010 14000
+COPY server.ts ./
+
+EXPOSE 2121 40000-40010 14000
 
 CMD ["sh", "-c", "vsftpd /etc/vsftpd.conf & tsx server.ts"]
