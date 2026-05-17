@@ -14,8 +14,8 @@ function makeRow(len: number, values: Record<number, unknown> = {}): unknown[] {
     return row
 }
 
-// row 0-6: ヘッダー行（空）
-const emptyRows = Array.from({length: 34}, () => Array<unknown>(12).fill(''))
+// row 0-6: ヘッダー行（空）。projects は row 33-34 の2行1組なので length=35 必要
+const emptyRows = Array.from({length: 35}, () => Array<unknown>(12).fill(''))
 
 // work_experience & certifications: row 7-8
 // row7: col2=期間, col3=社名, col6=雇用形態, col7=役職, col9=取得年月, col10=資格名
