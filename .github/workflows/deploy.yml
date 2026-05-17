@@ -54,6 +54,9 @@ jobs:
           PREV_VERSION=$(echo "$DEPLOYMENTS" | grep -oP '(?<=@)\d+' | sort -n | tail -1 || echo "")
           echo "previous-version=${PREV_VERSION}" >> "$GITHUB_OUTPUT"
 
+      - name: Build
+        run: pnpm build
+
       - name: Push to GAS
         run: pnpx @google/clasp push --force
 

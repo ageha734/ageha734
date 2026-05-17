@@ -10,8 +10,8 @@ const GAS_URL_RAW = process.env['GAS_API_URL']
 const SECRET_RAW = process.env['GAS_HMAC_SECRET']
 
 if (!GAS_URL_RAW || !SECRET_RAW) {
-    console.error('GAS_API_URL and GAS_HMAC_SECRET are required')
-    process.exit(1)
+    console.warn('GAS_API_URL or GAS_HMAC_SECRET is not set — skipping sync')
+    process.exit(0)
 }
 
 const GAS_URL: string = GAS_URL_RAW

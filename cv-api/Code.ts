@@ -1,23 +1,18 @@
-// GAS entrypoint — clasp push transpiles this to JavaScript
-// Pure logic lives in lib/ and is independently testable
-
-const ALLOWED_PATHS = ['certifications', 'work_experience', 'skills', 'projects'] as const
-type AllowedPath = (typeof ALLOWED_PATHS)[number]
-
-const TIMESTAMP_TOLERANCE_SEC = 300
-
-interface RequestParams {
-    path?: string
-    timestamp?: string
-    signature?: string
-}
+import {
+    ALLOWED_PATHS,
+    type AllowedPath,
+    buildMessage,
+    safeEquals,
+    verifyTimestamp
+} from './lib/hmac'
+import {type SheetRow, parseRows} from './lib/sheet'
 
 interface DoGetEvent {
-    parameter: RequestParams
-}
-
-interface SheetRow {
-    [key: string]: unknown
+    parameter: {
+        path?: string
+        timestamp?: string
+        signature?: string
+    }
 }
 
 interface SuccessPayload {
@@ -42,42 +37,20 @@ function doGet(e: DoGetEvent): GoogleAppsScript.Content.TextOutput {
             return errorResponse(400, `Invalid path. Use: ${ALLOWED_PATHS.join(', ')}`)
         }
 
-        const authError = verifyHmac(timestamp, path, signature)
-        if (authError) {
-            return errorResponse(401, authError)
-        }
+        const tsError = verifyTimestamp(timestamp)
+        if (tsError) return errorResponse(401, tsError)
+
+        const secret = PropertiesService.getScriptProperties().getProperty('HMAC_SECRET')
+        if (!secret) return errorResponse(500, 'Server misconfiguration: HMAC_SECRET not set')
+
+        const expected = computeHmacSha256(secret, buildMessage(timestamp, path))
+        if (!safeEquals(expected, signature)) return errorResponse(401, 'Signature mismatch')
 
         const data = getSheetData(path)
         return jsonResponse({ok: true, path, data})
     } catch (err) {
         return errorResponse(500, err instanceof Error ? err.message : String(err))
     }
-}
-
-function verifyHmac(timestamp: string, path: string, signature: string): string | null {
-    if (!timestamp || !signature) {
-        return 'Missing timestamp or signature'
-    }
-
-    const now = Math.floor(Date.now() / 1000)
-    const ts = Number.parseInt(timestamp, 10)
-
-    if (Number.isNaN(ts) || Math.abs(now - ts) > TIMESTAMP_TOLERANCE_SEC) {
-        return 'Timestamp expired or invalid (tolerance: 5 min)'
-    }
-
-    const secret = PropertiesService.getScriptProperties().getProperty('HMAC_SECRET')
-    if (!secret) {
-        return 'Server misconfiguration: HMAC_SECRET not set'
-    }
-
-    const message = `${timestamp}:${path}`
-    const expected = computeHmacSha256(secret, message)
-
-    if (!safeEquals(expected, signature)) {
-        return 'Signature mismatch'
-    }
-    return null
 }
 
 function computeHmacSha256(secret: string, message: string): string {
@@ -89,15 +62,6 @@ function computeHmacSha256(secret: string, message: string): string {
     return signatureBytes.map((b: number) => `0${(b & 0xff).toString(16)}`.slice(-2)).join('')
 }
 
-function safeEquals(a: string, b: string): boolean {
-    if (a.length !== b.length) return false
-    let diff = 0
-    for (let i = 0; i < a.length; i++) {
-        diff |= (a.codePointAt(i) ?? 0) ^ (b.codePointAt(i) ?? 0)
-    }
-    return diff === 0
-}
-
 function getSheetData(sheetName: string): SheetRow[] {
     const ssId = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID')
     if (!ssId) throw new Error('SPREADSHEET_ID not set')
@@ -107,23 +71,7 @@ function getSheetData(sheetName: string): SheetRow[] {
     if (!sheet) throw new Error(`Sheet not found: ${sheetName}`)
 
     const rows = sheet.getDataRange().getValues() as unknown[][]
-    if (rows.length < 2) return []
-
-    const headers = rows[0].map(h => {
-        if (typeof h === 'string') return h.trim()
-        if (typeof h === 'number' || typeof h === 'boolean') return String(h).trim()
-        return ''
-    })
-    return rows
-        .slice(1)
-        .filter(row => row.some(cell => cell !== ''))
-        .map(row => {
-            const obj: SheetRow = {}
-            headers.forEach((h, i) => {
-                obj[h] = row[i] === '' ? null : row[i]
-            })
-            return obj
-        })
+    return parseRows(rows)
 }
 
 function jsonResponse(payload: SuccessPayload): GoogleAppsScript.Content.TextOutput {

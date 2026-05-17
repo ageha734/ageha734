@@ -2,12 +2,14 @@
     "devDependencies": {
         "@types/google-apps-script": "1.0.100",
         "@types/node": "22.7.9",
+        "esbuild": "0.25.4",
         "gas-local": "1.2.0",
         "tsx": "4.19.4",
         "vitest": "3.1.4"
     },
     "private": true,
     "scripts": {
+        "build": "esbuild Code.ts --bundle --platform=node --target=es2019 --outfile=dist/Code.js --tsconfig=tsconfig.build.json",
         "dev": "tsx local/server.ts",
         "test": "vitest run",
         "test:unit": "vitest run lib",
