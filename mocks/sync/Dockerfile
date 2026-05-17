@@ -10,6 +10,7 @@ RUN apt-get update && \
     && curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
     apt-get install -y --no-install-recommends nodejs=22.* && \
     npm install -g tsx@4.19.4 && \
+    mkdir -p /var/run/vsftpd/empty && \
     useradd -m -d /workspace -s /bin/bash syncuser && \
     echo "syncuser:syncpass" | chpasswd && \
     rm -rf /var/lib/apt/lists/*
@@ -17,6 +18,7 @@ RUN apt-get update && \
 COPY vsftpd.conf /etc/vsftpd.conf
 
 WORKDIR /workspace
+USER syncuser
 
 COPY server.ts ./
 

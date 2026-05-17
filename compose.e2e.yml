@@ -16,6 +16,8 @@ services:
     build:
       context: ./mocks/sync
       dockerfile: Dockerfile
+    cap_add:
+      - NET_BIND_SERVICE
     ports:
       - "14000:14000"
       - "2121:2121"
