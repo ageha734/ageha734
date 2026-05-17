@@ -1,5 +1,9 @@
 import type {AllowedPath} from '../hmac/HmacSigner'
 
+/**
+ * スプレッドシート1行分をキーバリューマップとして表す型。
+ * キーはヘッダー名または構造化パーサーが定義するフィールド名。
+ */
 export interface SheetRow {
     [key: string]: unknown
 }
@@ -12,6 +16,15 @@ export interface SheetRow {
  * - row 33,35,37...: プロジェクト本体行、次行(col2)が終了時期
  */
 
+/**
+ * 行配列の指定列から文字列値を安全に取得する。
+ * `null`・空値・非プリミティブ型は空文字列を返す。
+ * 改行はスペースに置換し、前後の空白を除去する。
+ *
+ * @param row - スプレッドシートの1行データ
+ * @param col - 取得する列インデックス（0始まり）
+ * @returns 正規化済みの文字列。値が無効な場合は空文字列
+ */
 function cell(row: unknown[], col: number): string {
     const v = row[col]
     if (v == null || v === '') return ''
@@ -22,6 +35,9 @@ function cell(row: unknown[], col: number): string {
 /**
  * 社歴行（row 7-13）を `work_experience` 形式にパースする。
  * 期間フォーマット: "2023年9月\n〜2024年3月" または "2023年9月\n〜現在"
+ *
+ * @param rows - スプレッドシートの全行データ
+ * @returns 社歴エントリの配列
  */
 function parseWorkExperience(rows: unknown[][]): SheetRow[] {
     const result: SheetRow[] = []
@@ -52,6 +68,9 @@ function parseWorkExperience(rows: unknown[][]): SheetRow[] {
 /**
  * 資格列（row 7-12, col9-10）を `certifications` 形式にパースする。
  * 日付フォーマット: "2019年10月"
+ *
+ * @param rows - スプレッドシートの全行データ
+ * @returns 資格エントリの配列
  */
 function parseCertifications(rows: unknown[][]): SheetRow[] {
     const result: SheetRow[] = []
@@ -75,6 +94,11 @@ function parseCertifications(rows: unknown[][]): SheetRow[] {
 /**
  * 1セルのスキルテキスト（例: "Go(Golang)(4)Python(4)..."）を個別エントリに分解する。
  * パターンにマッチしない場合は文字境界で分割してフォールバックする。
+ *
+ * @param category - スキルカテゴリ名（例: `言語`）
+ * @param grade - 習熟度グレード（`A` | `B` | `C` | `D`）
+ * @param text - セルに格納された連結スキルテキスト
+ * @returns 個別スキルエントリの配列
  */
 function parseSkillEntries(category: string, grade: string, text: string): SheetRow[] {
     const pattern = /([^(]+)\(([^)]+)\)\((\d+)\)/g
@@ -104,6 +128,9 @@ function parseSkillEntries(category: string, grade: string, text: string): Sheet
 /**
  * スキルマップ行（row 21-27）を `skills` 形式にパースする。
  * 各行はカテゴリ単位で A/B/C/D 評価列に複数スキルが連結されている。
+ *
+ * @param rows - スプレッドシートの全行データ
+ * @returns スキルエントリの配列
  */
 function parseSkills(rows: unknown[][]): SheetRow[] {
     const result: SheetRow[] = []
@@ -130,6 +157,9 @@ function parseSkills(rows: unknown[][]): SheetRow[] {
 /**
  * プロジェクト行（row 33以降、2行1組）を `projects` 形式にパースする。
  * 本体行の次行 col2 が終了時期。"現在" の場合は null。
+ *
+ * @param rows - スプレッドシートの全行データ
+ * @returns プロジェクトエントリの配列
  */
 function parseProjects(rows: unknown[][]): SheetRow[] {
     const result: SheetRow[] = []
@@ -160,6 +190,10 @@ function parseProjects(rows: unknown[][]): SheetRow[] {
 
 /**
  * パスに応じてスキルシートの raw 行データを構造化された `SheetRow[]` に変換する。
+ *
+ * @param path - データ種別を示すパス（`AllowedPath` のいずれか）
+ * @param rows - スプレッドシートの全行データ
+ * @returns パスに対応したパーサーで変換されたエントリ配列
  */
 export function parseByPath(path: AllowedPath, rows: unknown[][]): SheetRow[] {
     switch (path) {
@@ -177,6 +211,10 @@ export function parseByPath(path: AllowedPath, rows: unknown[][]): SheetRow[] {
 /**
  * 汎用的なヘッダー行ベースのパーサー。
  * 1行目をヘッダーとして扱い、残行をオブジェクト配列に変換する。
+ * 全セルが空の行はスキップする。空セルは `null` に変換される。
+ *
+ * @param rows - 先頭行がヘッダーの2次元配列
+ * @returns ヘッダーをキーとするオブジェクトの配列。行数が1以下の場合は空配列
  */
 export function parseRows(rows: unknown[][]): SheetRow[] {
     if (rows.length < 2) return []
