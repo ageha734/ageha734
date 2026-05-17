@@ -23,6 +23,10 @@ export function createServer(secret: string): http.Server {
             res.end(JSON.stringify(body))
         }
 
+        if (url.pathname === '/health') {
+            return send(200, {ok: true})
+        }
+
         if (!isAllowedPath(rawPath)) {
             return send(400, {
                 ok: false,

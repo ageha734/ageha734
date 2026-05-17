@@ -2,9 +2,9 @@ FROM mcr.microsoft.com/playwright@sha256:a021500a801bab0611049217ffad6b9697d8272
 
 RUN corepack enable && corepack prepare pnpm@10.33.0 --activate
 
-WORKDIR /workspace
+WORKDIR /app
 
-COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY e2e/package.json e2e/pnpm-lock.yaml e2e/pnpm-workspace.yaml ./
 RUN pnpm install --frozen-lockfile
 
 COPY . .
