@@ -39,19 +39,17 @@ export function createServer(secret: string): http.Server {
     })
 }
 
-if (require.main === module) {
-    const SECRET = process.env['HMAC_SECRET'] ?? 'local-dev-secret'
-    const PORT = Number.parseInt(process.env['PORT'] ?? '3001', 10)
-    const server = createServer(SECRET)
-    server.listen(PORT, () => {
-        console.log(`cv-api local server running at http://localhost:${PORT}`)
-        const ts = Math.floor(Date.now() / 1000)
-        const sig = crypto
-            .createHmac('sha256', SECRET)
-            .update(`${ts}:certifications`, 'utf8')
-            .digest('hex')
-        console.log(
-            `  curl "http://localhost:${PORT}?path=certifications&timestamp=${ts}&signature=${sig}"`
-        )
-    })
-}
+const hmacKey = process.env['HMAC_SECRET'] ?? 'local-dev-secret'
+const port = Number.parseInt(process.env['PORT'] ?? '3001', 10)
+const server = createServer(hmacKey)
+server.listen(port, () => {
+    console.log(`cv-api local server running at http://localhost:${port}`)
+    const ts = Math.floor(Date.now() / 1000)
+    const sig = crypto
+        .createHmac('sha256', hmacKey)
+        .update(`${ts}:certifications`, 'utf8')
+        .digest('hex')
+    console.log(
+        `  curl "http://localhost:${port}?path=certifications&timestamp=${ts}&signature=${sig}"`
+    )
+})

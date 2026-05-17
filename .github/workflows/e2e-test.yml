@@ -4,13 +4,20 @@ on:
   push:
     paths:
       - "cv-api/**"
+      - "e2e/**"
+      - "compose.e2e.yml"
   pull_request:
     paths:
       - "cv-api/**"
+      - "e2e/**"
+      - "compose.e2e.yml"
   workflow_dispatch:
 
 jobs:
-  cv-api-e2e-test:
-    name: CV API E2E Test
+  e2e-test:
+    name: E2E Tests
     uses: ./.github/workflows/_reusable-e2e-test.yml
-    secrets: inherit
+    with:
+      gas-api-url: ""
+    secrets:
+      GAS_HMAC_SECRET: ${{ secrets.GAS_HMAC_SECRET }}
