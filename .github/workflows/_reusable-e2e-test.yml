@@ -2,15 +2,11 @@ name: CV API E2E Test (reusable)
 
 on:
   workflow_call:
-    inputs:
-      test-hmac-secret:
-        description: "HMAC secret for E2E test"
-        type: string
-        required: false
-        default: "e2e-test-secret"
     secrets:
-      TEST_HMAC_SECRET:
-        required: false
+      GAS_API_URL:
+        required: true
+      GAS_HMAC_SECRET:
+        required: true
 
 permissions:
   contents: read
@@ -33,7 +29,8 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      - name: Run E2E scenario tests
+      - name: Run E2E scenario tests against deployed GAS
         run: pnpm test:e2e
         env:
-          TEST_HMAC_SECRET: ${{ secrets.TEST_HMAC_SECRET || inputs.test-hmac-secret }}
+          GAS_API_URL: ${{ secrets.GAS_API_URL }}
+          GAS_HMAC_SECRET: ${{ secrets.GAS_HMAC_SECRET }}
