@@ -99,13 +99,14 @@ jobs:
         working-directory: cv-api
         run: pnpx @google/clasp push --force
 
-      - name: Resolve deployment URL
+      - name: Deploy to GAS
         id: get-url
         working-directory: cv-api
         run: |
           DEPLOYMENT_ID=$(pnpx @google/clasp deployments 2>/dev/null \
             | grep -oP '(?<=- )[A-Za-z0-9_-]+(?= @)' \
             | tail -1)
+          pnpx @google/clasp deploy --deploymentId "$DEPLOYMENT_ID" --description "deploy from CI"
           echo "gas-api-url=https://script.google.com/macros/s/${DEPLOYMENT_ID}/exec" >> "$GITHUB_OUTPUT"
 
   e2e-test-after-deploy:
