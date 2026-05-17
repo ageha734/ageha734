@@ -1,10 +1,16 @@
-name: CV API E2E Test (reusable)
+name: E2E Test (reusable)
 
 on:
   workflow_call:
-    secrets:
-      GAS_API_URL:
+    inputs:
+      gas-api-url:
         required: true
+        type: string
+      portfolio-url:
+        required: false
+        type: string
+        default: ""
+    secrets:
       GAS_HMAC_SECRET:
         required: true
 
@@ -13,11 +19,10 @@ permissions:
 
 jobs:
   e2e-test:
-    name: E2E Tests (cv-api)
+    name: E2E Tests (Playwright)
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: cv-api
+    container:
+      image: mcr.microsoft.com/playwright@sha256:a021500a801bab0611049217ffad6b9697d827205c15babb86a53bc1a61c02d5
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
@@ -29,8 +34,17 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      - name: Run E2E scenario tests against deployed GAS
-        run: pnpm test:e2e
+      - name: Run Playwright E2E tests
+        run: pnpm --filter e2e exec playwright test
         env:
-          GAS_API_URL: ${{ secrets.GAS_API_URL }}
+          GAS_API_URL: ${{ inputs.gas-api-url }}
           GAS_HMAC_SECRET: ${{ secrets.GAS_HMAC_SECRET }}
+          PORTFOLIO_URL: ${{ inputs.portfolio-url }}
+
+      - name: Upload Playwright report
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: playwright-report
+          path: e2e/playwright-report/
+          retention-days: 7
