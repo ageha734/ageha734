@@ -18,6 +18,8 @@ services:
       dockerfile: Dockerfile
     ports:
       - "14000:14000"
+      - "21:21"
+      - "40000-40010:40000-40010"
     environment:
       GAS_API_URL: http://cv-api:3000
       GAS_HMAC_SECRET: e2e-test-secret
