@@ -96,5 +96,6 @@ const template = fs.readFileSync(path.join(ROOT, 'templates/portfolio.html.musta
 const view = buildView(profile)
 const html = Mustache.render(template, view)
 
+fs.mkdirSync(path.join(ROOT, 'docs'), {recursive: true})
 fs.writeFileSync(path.join(ROOT, 'docs/index.html'), html, 'utf8')
 console.log('Generated: docs/index.html')

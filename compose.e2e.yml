@@ -47,6 +47,21 @@ services:
       timeout: 5s
       retries: 10
 
+  setup:
+    image: alpine@sha256:5b10f432ef3da1b8d4c7eb6c487f2f5a8f096bc91145e68878dd4a5019afde11
+    depends_on:
+      sync:
+        condition: service_healthy
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: |
+      apk update && apk add --no-cache curl
+      curl -T /workspace/scripts/sync-from-gas.ts "ftp://syncuser:syncpass@localhost:2121/scripts/sync-from-gas.ts" --ftp-create-dirs
+      curl -T /workspace/scripts/generate-portfolio.ts "ftp://syncuser:syncpass@localhost:2121/scripts/generate-portfolio.ts" --ftp-create-dirs
+      curl -T /workspace/data/profile.json "ftp://syncuser:syncpass@localhost:2121/data/profile.json" --ftp-create-dirs
+      curl -T /workspace/templates/portfolio.html.mustache "ftp://syncuser:syncpass@localhost:2121/templates/portfolio.html.mustache" --ftp-create-dirs
+
   e2e:
     build:
       context: ./e2e
@@ -54,6 +69,8 @@ services:
     depends_on:
       cv-api:
         condition: service_healthy
+      setup:
+        condition: service_completed_successfully
       sync:
         condition: service_healthy
       portfolio:

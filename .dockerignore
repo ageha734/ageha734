@@ -1,0 +1,9 @@
+/.git
+/.github
+/.pnpm-store
+/node_modules
+**/dist
+**/.DS_STORE
+.env
+.textlint-cache
+.secretlint-cache
