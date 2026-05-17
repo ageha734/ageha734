@@ -21,7 +21,9 @@
         "validate:profile": "tsx scripts/validate-profile.ts",
         "validate:templates": "tsx scripts/validate-templates.ts",
         "lint:text": "docker compose -f compose.ci.yaml run --rm textlint",
-        "dev:portfolio": "pnpm dlx serve docs -p 3000"
+        "dev:portfolio": "pnpm dlx serve docs -p 3000",
+        "lockgen:cv-api": "docker run --rm $(docker build -q -f cv-api/Dockerfile cv-api) sh -lc 'cat /app/pnpm-lock.yaml' > cv-api/pnpm-lock.yaml",
+        "lockgen:e2e": "docker run --rm $(docker build -q -f e2e/Dockerfile e2e) sh -lc 'cat /app/pnpm-lock.yaml' > e2e/pnpm-lock.yaml"
     },
     "dependencies": {
         "mustache": "4.2.0"

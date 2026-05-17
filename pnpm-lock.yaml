@@ -52,14 +52,11 @@ importers:
   e2e:
     devDependencies:
       '@playwright/test':
-        specifier: 1.52.0
-        version: 1.52.0
+        specifier: 1.55.1
+        version: 1.55.1
       '@types/node':
         specifier: 22.7.9
         version: 22.7.9
-      vitest:
-        specifier: 3.1.4
-        version: 3.1.4(@types/debug@4.1.13)(@types/node@22.7.9)(jiti@2.6.1)(tsx@4.19.4)
 
 packages:
 
@@ -216,8 +213,8 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==, tarball: https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz}
 
-  '@playwright/test@1.52.0':
-    resolution: {integrity: sha512-uh6W7sb55hl7D6vsAeA+V2p5JnlAqzhqFyF0VcJkKZXkgnFcVG9PziERRHQfPLfNGx1C292a4JqbWzhR8L4R1g==, tarball: https://registry.npmjs.org/@playwright/test/-/test-1.52.0.tgz}
+  '@playwright/test@1.55.1':
+    resolution: {integrity: sha512-IVAh/nOJaw6W9g+RJVlIQJ6gSiER+ae6mKQ5CX1bERzQgbC1VSeBlwdvczT7pxb0GWiyrxH4TGKbMfDb4Sq/ig==, tarball: https://registry.npmjs.org/@playwright/test/-/test-1.55.1.tgz}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -575,13 +572,13 @@ packages:
     resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==, tarball: https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz}
     engines: {node: '>=12'}
 
-  playwright-core@1.52.0:
-    resolution: {integrity: sha512-l2osTgLXSMeuLZOML9qYODUQoPPnUsKsb5/P6LJ2e6uPKXUdPK5WYhN4z03G+YNbWmGDY4YENauNu4ZKczreHg==, tarball: https://registry.npmjs.org/playwright-core/-/playwright-core-1.52.0.tgz}
+  playwright-core@1.55.1:
+    resolution: {integrity: sha512-Z6Mh9mkwX+zxSlHqdr5AOcJnfp+xUWLCt9uKV18fhzA8eyxUd8NUWzAjxUh55RZKSYwDGX0cfaySdhZJGMoJ+w==, tarball: https://registry.npmjs.org/playwright-core/-/playwright-core-1.55.1.tgz}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.52.0:
-    resolution: {integrity: sha512-JAwMNMBlxJ2oD1kce4KPtMkDeKGHQstdpFPcPH3maElAXon/QZeTvtsfXmTMRyO9TslfoYOXkSsvao2nE1ilTw==, tarball: https://registry.npmjs.org/playwright/-/playwright-1.52.0.tgz}
+  playwright@1.55.1:
+    resolution: {integrity: sha512-cJW4Xd/G3v5ovXtJJ52MAOclqeac9S/aGGgRzLabuF8TnIb6xHvMzKIa6JmrRzUkeXJgfL1MhukP0NK6l39h3A==, tarball: https://registry.npmjs.org/playwright/-/playwright-1.55.1.tgz}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -805,9 +802,9 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
-  '@playwright/test@1.52.0':
+  '@playwright/test@1.55.1':
     dependencies:
-      playwright: 1.52.0
+      playwright: 1.55.1
 
   '@rollup/rollup-android-arm-eabi@4.60.2':
     optional: true
@@ -1092,11 +1089,11 @@ snapshots:
 
   picomatch@4.0.4: {}
 
-  playwright-core@1.52.0: {}
+  playwright-core@1.55.1: {}
 
-  playwright@1.52.0:
+  playwright@1.55.1:
     dependencies:
-      playwright-core: 1.52.0
+      playwright-core: 1.55.1
     optionalDependencies:
       fsevents: 2.3.2
 
