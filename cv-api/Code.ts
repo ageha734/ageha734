@@ -12,12 +12,12 @@ function computeHmac(message: string): string {
     return signatureBytes.map((b: number) => `0${(b & 0xff).toString(16)}`.slice(-2)).join('')
 }
 
-function fetchRows(path: string): unknown[][] {
+function fetchRows(_path: string): unknown[][] {
     const ssId = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID')
     if (!ssId) throw new Error('SPREADSHEET_ID not set')
     const ss = SpreadsheetApp.openById(ssId)
-    const sheet = ss.getSheetByName(path)
-    if (!sheet) throw new Error(`Sheet not found: ${path}`)
+    const sheet = ss.getSheetByName('スキルシート')
+    if (!sheet) throw new Error('Sheet not found: スキルシート')
     return sheet.getDataRange().getValues() as unknown[][]
 }
 
