@@ -1,0 +1,15 @@
+name: Integration Tests
+
+on:
+  push:
+    paths:
+      - "cv-api/**"
+  pull_request:
+    paths:
+      - "cv-api/**"
+  workflow_dispatch:
+
+jobs:
+  cv-api-integration-test:
+    name: CV API Integration Test
+    uses: ./.github/workflows/_reusable-cv-api-integration-test.yml

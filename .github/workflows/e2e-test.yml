@@ -1,0 +1,16 @@
+name: E2E Tests
+
+on:
+  push:
+    paths:
+      - "cv-api/**"
+  pull_request:
+    paths:
+      - "cv-api/**"
+  workflow_dispatch:
+
+jobs:
+  cv-api-e2e-test:
+    name: CV API E2E Test
+    uses: ./.github/workflows/_reusable-e2e-test.yml
+    secrets: inherit

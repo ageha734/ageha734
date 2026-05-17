@@ -11,5 +11,5 @@ on:
 
 jobs:
   cv-api-test:
-    name: CV API Test
-    uses: ./.github/workflows/_reusable-cv-api-test.yml
+    name: CV API Unit Test
+    uses: ./.github/workflows/_reusable-cv-api-unit-test.yml
