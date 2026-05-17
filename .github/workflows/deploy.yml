@@ -20,6 +20,14 @@ jobs:
     name: Integration Tests
     uses: ./.github/workflows/_reusable-cv-api-integration-test.yml
 
+  e2e-test:
+    name: E2E Tests
+    uses: ./.github/workflows/_reusable-e2e-test.yml
+    with:
+      gas-api-url: ""
+    secrets:
+      GAS_HMAC_SECRET: ${{ secrets.GAS_HMAC_SECRET }}
+
   build:
     name: Build
     needs: [unit-test, integration-test]
@@ -98,7 +106,7 @@ jobs:
             | tail -1)
           echo "gas-api-url=https://script.google.com/macros/s/${DEPLOYMENT_ID}/exec" >> "$GITHUB_OUTPUT"
 
-  e2e-test:
+  e2e-test-after-deploy:
     name: E2E Tests
     needs: deploy
     uses: ./.github/workflows/_reusable-e2e-test.yml
