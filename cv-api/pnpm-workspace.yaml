@@ -1,0 +1,6 @@
+minimumReleaseAge: 20160
+trustPolicy: off
+strictDepBuilds: true
+
+registries:
+  default: https://npm.flatt.tech

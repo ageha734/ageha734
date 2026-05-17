@@ -1,4 +1,13 @@
 {
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "esbuild Code.ts --bundle --platform=neutral --format=iife --target=es2019 --outfile=dist/Code.js --tsconfig=tsconfig.build.json",
+        "dev": "tsx integration/server.ts",
+        "test": "vitest run",
+        "test:integration": "vitest run integration",
+        "test:unit": "vitest run infrastructure domain presentation"
+    },
     "devDependencies": {
         "@types/google-apps-script": "1.0.100",
         "@types/node": "22.7.9",
@@ -6,15 +15,5 @@
         "gas-local": "1.2.0",
         "tsx": "4.19.4",
         "vitest": "3.1.4"
-    },
-    "private": true,
-    "scripts": {
-        "build": "esbuild Code.ts --bundle --platform=neutral --format=iife --target=es2019 --outfile=dist/Code.js --tsconfig=tsconfig.build.json",
-        "dev": "tsx local/server.ts",
-        "test": "vitest run",
-        "test:unit": "vitest run lib",
-        "test:integration": "vitest run __tests__/integration",
-        "test:e2e": "vitest run __tests__/e2e"
-    },
-    "type": "module"
+    }
 }

@@ -9,5 +9,5 @@
         "target": "ES2019",
         "types": ["google-apps-script"]
     },
-    "include": ["*.ts"]
+    "include": ["Code.ts"]
 }

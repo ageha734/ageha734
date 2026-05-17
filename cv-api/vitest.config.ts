@@ -2,7 +2,12 @@ import {defineConfig} from 'vitest/config'
 
 export default defineConfig({
     test: {
-        include: ['lib/**/*.test.ts', '__tests__/**/*.test.ts'],
+        include: [
+            'infrastructure/**/*.test.ts',
+            'domain/**/*.test.ts',
+            'presentation/**/*.test.ts',
+            'integration/**/*.test.ts'
+        ],
         globals: true
     }
 })
