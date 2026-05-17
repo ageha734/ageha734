@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/playwright@sha256:a021500a801bab0611049217ffad6b9697d827205c15babb86a53bc1a61c02d5
+FROM mcr.microsoft.com/playwright@sha256:2f29369043d81d6d69a815ceb80760f55e85f5020371ad06a4d996f18503ad1c
 
 RUN corepack enable && corepack prepare pnpm@10.33.0 --activate
 

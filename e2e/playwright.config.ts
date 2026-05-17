@@ -17,7 +17,7 @@ export default defineConfig({
         },
         {
             name: 'chromium',
-            use: {channel: 'chrome'},
+            use: {browserName: 'chromium'},
             dependencies: ['setup']
         }
     ],

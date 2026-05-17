@@ -25,7 +25,7 @@ services:
     environment:
       GAS_API_URL: http://cv-api:3000
       GAS_HMAC_SECRET: e2e-test-secret
-      SYNC_STEPS: sync-from-gas:npx tsx /workspace/scripts/sync-from-gas.ts,generate-portfolio:npx tsx /workspace/scripts/generate-portfolio.ts
+      SYNC_STEPS: sync-from-gas:npx tsx /workspace/scripts/sync-from-gas.ts,generate-portfolio:sh -c 'npm install --prefix /workspace --omit=dev --ignore-scripts && npx tsx /workspace/scripts/generate-portfolio.ts'
     depends_on:
       cv-api:
         condition: service_healthy
@@ -37,6 +37,7 @@ services:
 
   setup:
     image: alpine@sha256:5b10f432ef3da1b8d4c7eb6c487f2f5a8f096bc91145e68878dd4a5019afde11
+    profiles: [setup]
     depends_on:
       sync:
         condition: service_healthy
@@ -50,13 +51,11 @@ services:
         curl -T /workspace/scripts/sync-from-gas.ts "ftp://syncuser:syncpass@sync:2121/scripts/sync-from-gas.ts" --ftp-create-dirs &&
         curl -T /workspace/scripts/generate-portfolio.ts "ftp://syncuser:syncpass@sync:2121/scripts/generate-portfolio.ts" --ftp-create-dirs &&
         curl -T /workspace/data/profile.json "ftp://syncuser:syncpass@sync:2121/data/profile.json" --ftp-create-dirs &&
-        curl -T /workspace/templates/portfolio.html.mustache "ftp://syncuser:syncpass@sync:2121/templates/portfolio.html.mustache" --ftp-create-dirs
+        curl -T /workspace/templates/portfolio.html.mustache "ftp://syncuser:syncpass@sync:2121/templates/portfolio.html.mustache" --ftp-create-dirs &&
+        curl -T /workspace/package.json "ftp://syncuser:syncpass@sync:2121/package.json"
 
   portfolio:
     image: node@sha256:968df39aedcea65eeb078fb336ed7191baf48f972b4479711397108be0966920
-    depends_on:
-      setup:
-        condition: service_completed_successfully
     working_dir: /app
     volumes:
       - ./docs:/app/docs
@@ -74,8 +73,6 @@ services:
     depends_on:
       cv-api:
         condition: service_healthy
-      setup:
-        condition: service_completed_successfully
       sync:
         condition: service_healthy
       portfolio:

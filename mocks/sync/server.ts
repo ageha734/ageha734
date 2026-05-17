@@ -30,9 +30,7 @@ function runStep(step: Step): void {
     step.status = 'running'
     step.logs = []
 
-    const [cmd, ...args] = step.command.split(' ')
-    if (!cmd) return
-    const child = spawn(cmd, args, {env: process.env, shell: false})
+    const child = spawn(step.command, {env: process.env, shell: true})
 
     child.stdout.on('data', (d: Buffer) => step.logs.push(d.toString()))
     child.stderr.on('data', (d: Buffer) => step.logs.push(d.toString()))
