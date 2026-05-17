@@ -122,8 +122,8 @@ jobs:
 
   rollback:
     name: Rollback on E2E failure
-    needs: [deploy, e2e-test]
-    if: failure() && needs.e2e-test.result == 'failure' && needs.deploy.outputs.previous-version != ''
+    needs: [deploy, e2e-test-after-deploy]
+    if: failure() && needs.e2e-test-after-deploy.result == 'failure' && needs.deploy.outputs.previous-version != ''
     runs-on: ubuntu-latest
     steps:
       - uses: pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093 # v6.0.8
