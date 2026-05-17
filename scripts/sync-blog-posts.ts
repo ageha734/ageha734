@@ -1,6 +1,5 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import fetch from 'node-fetch'
 
 const ROOT = path.join(__dirname, '..')
 const QIITA_USER = process.env['QIITA_USERNAME'] ?? 'ageha734'

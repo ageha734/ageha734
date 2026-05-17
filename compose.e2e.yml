@@ -30,7 +30,7 @@ services:
       cv-api:
         condition: service_healthy
     healthcheck:
-      test: ["CMD", "wget", "-qO-", "http://localhost:14000/health"]
+      test: ["CMD", "curl", "-fsS", "http://localhost:14000/health"]
       interval: 2s
       timeout: 5s
       retries: 10

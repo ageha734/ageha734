@@ -18,10 +18,9 @@ RUN apt-get update && \
 COPY vsftpd.conf /etc/vsftpd.conf
 
 WORKDIR /workspace
-USER syncuser
 
 COPY server.ts ./
 
 EXPOSE 2121 40000-40010 14000
 
-CMD ["sh", "-c", "vsftpd /etc/vsftpd.conf & tsx server.ts"]
+CMD ["sh", "-c", "vsftpd /etc/vsftpd.conf & su -s /bin/bash syncuser -c 'tsx server.ts'"]

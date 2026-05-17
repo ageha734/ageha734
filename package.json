@@ -24,10 +24,7 @@
         "dev:portfolio": "pnpm dlx serve docs -p 3000"
     },
     "dependencies": {
-        "dotenv": "16.4.5",
-        "mustache": "4.2.0",
-        "node-fetch": "3.3.2",
-        "rss-parser": "3.13.0"
+        "mustache": "4.2.0"
     },
     "devDependencies": {
         "@types/mustache": "4.2.5",

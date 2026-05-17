@@ -1,7 +1,6 @@
 import crypto from 'node:crypto'
 import fs from 'node:fs'
 import path from 'node:path'
-import fetch from 'node-fetch'
 
 const ROOT = path.join(__dirname, '..')
 const PROFILE_PATH = path.join(ROOT, 'data', 'profile.json')
