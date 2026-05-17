@@ -1,6 +1,8 @@
 minimumReleaseAge: 20160
 trustPolicy: off
 strictDepBuilds: true
+onlyBuiltDependencies:
+  - esbuild
 
 registries:
   default: https://npm.flatt.tech
