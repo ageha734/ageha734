@@ -43,3 +43,28 @@ jobs:
           author_email: "41898282+github-actions[bot]@users.noreply.github.com"
           message: "chore: regenerate README and portfolio from profile.json"
           add: "README.md README.ja.md docs/index.html"
+
+      - name: Update LAPRAS Card (EN)
+        uses: kawamataryo/lapras-card-readme@97beea07675cba3eded93eaeb71744413d7f8e8b # v1.3.0
+        with:
+          SHARE_ID: "ZGCCIAL"
+          ICON_FIRST: "#030E21"
+          ICON_SECOND: "#1688BF"
+          BACKGROUND_FIRST: "#020E27"
+          BACKGROUND_SECOND: "#0E5593"
+          LANG: "en"
+          CARD_WIDTH: "400"
+          UPDATE_TIME: "true"
+
+      - name: Update LAPRAS Card (JA)
+        uses: kawamataryo/lapras-card-readme@97beea07675cba3eded93eaeb71744413d7f8e8b # v1.3.0
+        with:
+          SHARE_ID: "ZGCCIAL"
+          ICON_FIRST: "#030E21"
+          ICON_SECOND: "#1688BF"
+          BACKGROUND_FIRST: "#020E27"
+          BACKGROUND_SECOND: "#0E5593"
+          LANG: "ja"
+          CARD_WIDTH: "400"
+          UPDATE_TIME: "true"
+          README_FILE: "README.ja.md"
