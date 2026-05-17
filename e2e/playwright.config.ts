@@ -9,7 +9,6 @@ export default defineConfig({
         screenshot: 'only-on-failure',
         trace: 'on-first-retry'
     },
-    snapshotDir: './snapshots',
     projects: [
         {
             name: 'setup',

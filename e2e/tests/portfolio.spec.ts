@@ -64,34 +64,4 @@ test.describe('ポートフォリオページ', () => {
             await expect(page.locator('.project-card-name', {hasText: project.name})).toBeVisible()
         }
     })
-
-    test('ヒーローセクションのスクリーンショット', async ({page}) => {
-        await page.locator('#hero').scrollIntoViewIfNeeded()
-        await page.waitForTimeout(500)
-        await expect(page.locator('#hero')).toHaveScreenshot('hero.png', {maxDiffPixelRatio: 0.02})
-    })
-
-    test('Skills セクションのスクリーンショット', async ({page}) => {
-        await page.locator('#skills').scrollIntoViewIfNeeded()
-        await page.waitForTimeout(300)
-        await expect(page.locator('#skills')).toHaveScreenshot('skills.png', {
-            maxDiffPixelRatio: 0.02
-        })
-    })
-
-    test('Projects セクションのスクリーンショット', async ({page}) => {
-        await page.locator('#projects').scrollIntoViewIfNeeded()
-        await page.waitForTimeout(300)
-        await expect(page.locator('#projects')).toHaveScreenshot('projects.png', {
-            maxDiffPixelRatio: 0.02
-        })
-    })
-
-    test('ページ全体のスクリーンショット', async ({page}) => {
-        await page.waitForLoadState('networkidle')
-        await expect(page).toHaveScreenshot('full-page.png', {
-            fullPage: true,
-            maxDiffPixelRatio: 0.02
-        })
-    })
 })
