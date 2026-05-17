@@ -5,11 +5,19 @@ on:
     paths:
       - "cv-api/**"
       - "e2e/**"
+      - "mocks/**"
+      - "scripts/**"
+      - "data/**"
+      - "templates/**"
       - "compose.e2e.yml"
   pull_request:
     paths:
       - "cv-api/**"
       - "e2e/**"
+      - "mocks/**"
+      - "scripts/**"
+      - "data/**"
+      - "templates/**"
       - "compose.e2e.yml"
   workflow_dispatch:
 
