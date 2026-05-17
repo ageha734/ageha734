@@ -1,52 +1,61 @@
-import {execSync} from 'node:child_process'
 import crypto from 'node:crypto'
-import path from 'node:path'
 import {expect, test as setup} from '@playwright/test'
 
-/**
- * E2E セットアップ
- * 1. GAS API からデータを取得して profile.json を更新
- * 2. generate-portfolio.ts を実行して docs/index.html を再生成
- *
- * ローカル: GAS_API_URL 未設定 → http://localhost:3000 (Docker cv-api)
- * deploy後: GAS_API_URL 設定済み → 実際の GAS エンドポイント
- */
-
 const GAS_URL = process.env['GAS_API_URL'] ?? 'http://localhost:3000'
-const SECRET = process.env['GAS_HMAC_SECRET'] ?? 'e2e-test-secret'
-const ROOT = path.resolve(new URL('../../..', import.meta.url).pathname)
+const HMAC_KEY = process.env['GAS_HMAC_SECRET'] ?? 'e2e-test-secret'
+const SYNC_URL = process.env['SYNC_SERVER_URL'] ?? 'http://localhost:4000'
 
 function sign(p: string, timestamp: string): string {
-    return crypto.createHmac('sha256', SECRET).update(`${timestamp}:${p}`, 'utf8').digest('hex')
+    return crypto.createHmac('sha256', HMAC_KEY).update(`${timestamp}:${p}`, 'utf8').digest('hex')
 }
 
 function now(): string {
     return String(Math.floor(Date.now() / 1000))
 }
 
-setup('GAS API からデータを取得して portfolio を生成する', async () => {
-    // GAS API の疎通確認
+setup('GAS API の疎通確認', async () => {
     const ts = now()
     const res = await fetch(
         `${GAS_URL}?path=certifications&timestamp=${ts}&signature=${sign('certifications', ts)}`,
         {headers: {'User-Agent': 'ageha734-e2e/1.0'}}
     )
     expect(res.status).toBe(200)
+})
 
-    // sync-from-gas → profile.json 更新
-    execSync('pnpm tsx scripts/sync-from-gas.ts', {
-        cwd: ROOT,
-        env: {
-            ...process.env,
-            GAS_API_URL: GAS_URL,
-            GAS_HMAC_SECRET: SECRET
-        },
-        stdio: 'inherit'
-    })
+setup('sync-from-gas を実行して profile.json を更新する', async () => {
+    const res = await fetch(`${SYNC_URL}/run/sync-from-gas`, {method: 'POST'})
+    expect(res.status).toBe(202)
 
-    // generate-portfolio → docs/index.html 再生成
-    execSync('pnpm tsx scripts/generate-portfolio.ts', {
-        cwd: ROOT,
-        stdio: 'inherit'
-    })
+    await expect
+        .poll(
+            async () => {
+                const r = await fetch(`${SYNC_URL}/logs/sync-from-gas`)
+                return (await r.json()) as {status: string}
+            },
+            {timeout: 60_000, intervals: [2000]}
+        )
+        .toMatchObject({status: 'success'})
+})
+
+setup('generate-portfolio を実行して docs/index.html を生成する', async () => {
+    const res = await fetch(`${SYNC_URL}/run/generate-portfolio`, {method: 'POST'})
+    expect(res.status).toBe(202)
+
+    await expect
+        .poll(
+            async () => {
+                const r = await fetch(`${SYNC_URL}/logs/generate-portfolio`)
+                return (await r.json()) as {status: string}
+            },
+            {timeout: 60_000, intervals: [2000]}
+        )
+        .toMatchObject({status: 'success'})
+})
+
+setup('全ステップの STATUS が success であることを確認する', async () => {
+    const res = await fetch(`${SYNC_URL}/status`)
+    const body = (await res.json()) as {steps: Record<string, {status: string}>}
+    for (const [name, step] of Object.entries(body.steps)) {
+        expect(step.status, `step "${name}" failed`).toBe('success')
+    }
 })
