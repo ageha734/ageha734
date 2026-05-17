@@ -1,19 +1,22 @@
-import path from 'node:path'
 import {expect, test} from '@playwright/test'
 
-/**
- * ポートフォリオページ E2E テスト
- *
- * セットアップ (api.setup.ts) で profile.json が更新・HTML が再生成された後に実行される
- * DOM 検証 + スクリーンショット比較でページが正しく反映されているかを確認する
- */
+const SYNC_URL = process.env['SYNC_SERVER_URL'] ?? 'http://localhost:14000'
+
+interface Profile {
+    skills: {advanced: {name: string}[]}
+    projects: {name: string}[]
+}
+
+async function fetchProfile(): Promise<Profile> {
+    const res = await fetch(`${SYNC_URL}/raw?file=data/profile.json`)
+    const body = (await res.json()) as {ok: boolean; content: Profile}
+    return body.content
+}
 
 test.describe('ポートフォリオページ', () => {
     test.beforeEach(async ({page}) => {
         await page.goto('/')
     })
-
-    // ─── ページ基本構造 ───────────────────────────────────────
 
     test('ページが正常に表示される', async ({page}) => {
         await expect(page).toHaveTitle(/ageha734/)
@@ -27,20 +30,15 @@ test.describe('ポートフォリオページ', () => {
         }
     })
 
-    // ─── Skills セクション ───────────────────────────────────
-
     test('Skills セクションにスキルタグが表示されている', async ({page}) => {
         await page.locator('#skills').scrollIntoViewIfNeeded()
         const skillTags = page.locator('.skill-tag')
         await expect(skillTags.first()).toBeVisible()
-        const count = await skillTags.count()
-        expect(count).toBeGreaterThan(0)
+        expect(await skillTags.count()).toBeGreaterThan(0)
     })
 
     test('Advanced スキルが profile.json の値と一致する', async ({page}) => {
-        const profilePath = path.resolve(__dirname, '../../data/profile.json')
-        // eslint-disable-next-line @typescript-eslint/no-require-imports
-        const profile = require(profilePath) as {skills: {advanced: {name: string}[]}}
+        const profile = await fetchProfile()
         const advancedSkills = profile.skills.advanced.map(s => s.name)
 
         await page.locator('#skills').scrollIntoViewIfNeeded()
@@ -51,20 +49,15 @@ test.describe('ポートフォリオページ', () => {
         }
     })
 
-    // ─── Projects セクション ─────────────────────────────────
-
     test('Projects セクションにプロジェクトカードが表示されている', async ({page}) => {
         await page.locator('#projects').scrollIntoViewIfNeeded()
         const cards = page.locator('.project-card')
         await expect(cards.first()).toBeVisible()
-        const count = await cards.count()
-        expect(count).toBeGreaterThan(0)
+        expect(await cards.count()).toBeGreaterThan(0)
     })
 
     test('プロジェクト名が profile.json の値と一致する', async ({page}) => {
-        const profilePath = path.resolve(__dirname, '../../data/profile.json')
-        // eslint-disable-next-line @typescript-eslint/no-require-imports
-        const profile = require(profilePath) as {projects: {name: string}[]}
+        const profile = await fetchProfile()
 
         await page.locator('#projects').scrollIntoViewIfNeeded()
         for (const project of profile.projects) {
@@ -72,14 +65,10 @@ test.describe('ポートフォリオページ', () => {
         }
     })
 
-    // ─── スクリーンショット比較 ───────────────────────────────
-
     test('ヒーローセクションのスクリーンショット', async ({page}) => {
         await page.locator('#hero').scrollIntoViewIfNeeded()
-        await page.waitForTimeout(500) // アニメーション待ち
-        await expect(page.locator('#hero')).toHaveScreenshot('hero.png', {
-            maxDiffPixelRatio: 0.02
-        })
+        await page.waitForTimeout(500)
+        await expect(page.locator('#hero')).toHaveScreenshot('hero.png', {maxDiffPixelRatio: 0.02})
     })
 
     test('Skills セクションのスクリーンショット', async ({page}) => {
