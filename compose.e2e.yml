@@ -98,5 +98,6 @@ services:
       GAS_API_URL: http://cv-api:3000
       SYNC_SERVER_URL: http://sync:14000
       PORTFOLIO_URL: http://portfolio:8080
+      GITHUB_PAGES_URL: ${GITHUB_PAGES_URL:-}
       GH_TOKEN: ${GH_TOKEN:-}
       GITHUB_REPOSITORY: ${GITHUB_REPOSITORY:-}
