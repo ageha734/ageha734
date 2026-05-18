@@ -53,69 +53,111 @@
 <div align="left">
     <h4>愛用ツール: </h4>
     <div>
-        <img src="https://img.shields.io/badge/Vim-019733?logo=vim&logoColor=white" height="18" style="margin-right: 18px" alt="Vim">
-        <img src="https://img.shields.io/badge/Shell-4EAA25?logo=gnu-bash&logoColor=white" height="18" style="margin-right: 18px" alt="Shell">
-        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white" height="18" style="margin-right: 18px" alt="GitHub Actions">
-        <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?logo=argo&logoColor=white" height="18" style="margin-right: 18px" alt="ArgoCD">
     </div>
     <h4>上級: </h4>
     <div>
-        <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" height="18" alt="Go" style="margin-right: 18px">
-        
-        <img src="https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white" height="18" alt="Terraform" style="margin-right: 18px">
         
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="18" alt="GCP" style="margin-right: 18px">
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="18" alt="AWS" style="margin-right: 18px">
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original-wordmark.svg" height="18" alt="Kubernetes" style="margin-right: 18px">
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" height="18" alt="Docker" style="margin-right: 18px">
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" height="18" alt="GitHub" style="margin-right: 18px">
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" height="18" alt="PostgreSQL" style="margin-right: 18px">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </div>
     <h4>中級: </h4>
     <div>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" height="18" alt="TypeScript" style="margin-right: 18px">
         
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg" height="18" alt="Next.js" style="margin-right: 18px">
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" height="18" alt="React" style="margin-right: 18px">
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original-wordmark.svg" height="18" alt="NestJs" style="margin-right: 18px">
-        <img src="https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white" height="18" alt="Swift" style="margin-right: 18px">
-        
-        <img src="https://img.shields.io/badge/Python-306998?logo=python&logoColor=white" height="18" alt="Python" style="margin-right: 18px">
         
         
-        <img src="https://cdn.simpleicons.org/firebase/FFCA28" height="18" alt="Firebase" style="margin-right: 18px">
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" height="18" alt="MySQL" style="margin-right: 18px">
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original-wordmark.svg" height="18" alt="Redis" style="margin-right: 18px">
-        <img src="https://img.shields.io/badge/Rust-B7410E?logo=rust&logoColor=white" height="18" alt="Rust" style="margin-right: 18px">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
     </div>
     <h4>初心者: </h4>
     <div>
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" height="18" alt="Vue.js" style="margin-right: 18px">
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original-wordmark.svg" height="18" alt="NuxtJs" style="margin-right: 18px">
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" height="18" alt="Tailwind CSS" style="margin-right: 18px">
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original-wordmark.svg" height="18" alt="FastAPI" style="margin-right: 18px">
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" height="18" alt="MongoDB" style="margin-right: 18px">
-        <img src="https://img.shields.io/badge/C%2B%2B-F34B7F?logo=c%2B%2B&logoColor=white" height="18" alt="C++" style="margin-right: 18px">
-        
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original-wordmark.svg" height="18" alt="Unity" style="margin-right: 18px">
     </div>
     <h4>ステータス: </h4>
     <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
@@ -256,28 +298,84 @@
         </thead>
         <tbody>
             <tr>
-                <td><a href="https://github.com/impostor-syndromes/README.pet"><b>README.pet</b></a></td>
-                <td><p>Githubのプロフィール画面でペットを育てよう！今日のコミットがペットの餌になります！</p></td>
-                <td><img src="https://img.shields.io/github/stars/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Stars" /></td>
-                <td><img src="https://img.shields.io/github/forks/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Forks" /></td>
-                <td><img src="https://img.shields.io/github/issues/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Issues" /></td>
-                <td><img src="https://img.shields.io/github/issues-pr/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+                <td><a href=""><b>片親お助け カレンダー構築</b></a></td>
+                <td><p>片親向けの生活支援カレンダーアプリの開発を担当。Flutterを用いたクロスプラットフォーム対応のアプリ実装、およびEchoによるバックエンドAPIの設計・実装を実施。また、PostgreSQLでのデータベース構築をはじめ、Google Cloud上でのインフラ環境整備まで一貫して担当。</p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
             </tr>
             <tr>
-                <td><a href="https://gitea.com/takenoko/PresenterPro"><b>PresenterPro</b></a></td>
-                <td><p>PresenterProは、既存のプレゼンテーションツールで作成した資料をオフラインでプレゼンテーションする際のプレゼンターをサポートします。</p></td>
-                <td><img src="https://img.shields.io/gitea/stars/takenoko/PresenterPro?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Stars" /></td>
-                <td><img src="https://img.shields.io/gitea/forks/takenoko/PresenterPro?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Forks" /></td>
-                <td><img src="https://img.shields.io/gitea/issues/takenoko/PresenterPro?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Issues" /></td>
-                <td><img src="https://img.shields.io/gitea/issues-pr/takenoko/PresenterPro?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+                <td><a href=""><b>レベニュー マネジメント AIシステム基盤構築</b></a></td>
+                <td><p>ホテル向け収益最適化システムのクラウドインフラ設計を担当。AngularおよびFastAPIを用いたWebアプリケーション開発と、AWS上での本番環境構築を実施。MySQLによるデータベース設計に加え、システムの冗長化やアーキテクチャの最適化を通じた可用性の向上を一貫して担当。</p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
             </tr>
             <tr>
-                <td><a href="https://github.com/hizuki-mimuro/EchoSleep"><b>EchoSleep</b></a></td>
-                <td><p>睡眠中、起床時、睡眠前のすべてをサポートし、睡眠を通じて生活の質の向上を目指す。</p></td>
-                <td><img src="https://img.shields.io/github/stars/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Stars" /></td>
-                <td><img src="https://img.shields.io/github/forks/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Forks" /></td>
-                <td><img src="https://img.shields.io/github/issues/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Issues" /></td>
-                <td><img src="https://img.shields.io/github/issues-pr/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+                <td><a href=""><b>オンラインギフト システム構築</b></a></td>
+                <td><p>親孝行をテーマとしたギフトプラットフォームの開発を担当。マイクロサービスアーキテクチャを採用し、KubernetesによるコンテナオーケストレーションおよびTerraformを用いたIaCを実現。バックエンドではEchoとCloud Spannerを活用し、スケーラビリティを考慮した設計・実装を一貫して実施。</p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            <tr>
+                <td><a href=""><b>プラットフォーム 基盤システム構築</b></a></td>
+                <td><p>社内共通基盤となるマイクロサービス環境の構築を担当。EKSクラスタの構築、およびTerraformを用いたIaCを実施。また、MySQLのレプリケーション構成の設計やバックアップ体制の整備など、高可用性とデータ保護を担保したデータベース基盤の構築までを一貫して担当。</p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            <tr>
+                <td><a href=""><b>オンプレからクラウド 移行作業</b></a></td>
+                <td><p>サポートエンジニアとして、金融や医療業界をはじめとする顧客のクラウド移行プロジェクトに参画し、技術支援を実施。</p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            <tr>
+                <td><a href=""><b>電力会社支援 システム構築</b></a></td>
+                <td><p>電力使用量の可視化・分析システムにおけるインフラ基盤の構築を担当。AWSを用いた高可用なアーキテクチャの設計、およびTerraformによるIaCと構成管理を実施。また、災害復旧を考慮したマルチリージョンでの冗長構成を実現。</p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            <tr>
+                <td><a href=""><b>採用エントリー 自動評価 AIシステム構築</b></a></td>
+                <td><p>応募者の書類を自動評価するAIシステムの開発を担当。NLPを活用した評価ロジックの実装から、Streamlitを用いたWeb UIの構築までを一貫して実施。また、Google Cloud上でのMLOpsの設計・構築も主導。</p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            <tr>
+                <td><a href=""><b>社内システム</b></a></td>
+                <td><p>社内業務効率化のためのワークフローシステム開発を担当。Kintoneをベースとしたカスタマイズ構築に加え、GASを用いた自動化機能の実装を推進。アナログな承認フローの完全電子化を実現し、業務の大幅な効率化に貢献。</p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            <tr>
+                <td><a href=""><b>予約サイト構築</b></a></td>
+                <td><p>観光地特化型の予約サイト開発を担当。DjangoとPostgreSQLを用いたバックエンド開発、およびGoogle Cloud上でのインフラ構築を実施。データ整合性が求められる予約システムの設計から実装までを一貫して主導。</p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            <tr>
+                <td><a href=""><b>認可基盤</b></a></td>
+                <td><p>認可基盤のサーバーサイド開発および運用保守を担当。Go、TiDB、Redisを用いたバックエンド実装に加え、Datadogによる監視基盤の設計・強化、デベロッパーサイトの構築を行いグループ全体に横断的に展開していていき推進を行い、作業効率向上。また脆弱性対応といったセキュリティ強化などを一貫して担当。</p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
             </tr>
         </tbody>
     </table>

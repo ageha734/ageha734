@@ -60,69 +60,111 @@
 <div align="left">
     <h4>Like Tools: </h4>
     <div>
-        <img src="https://img.shields.io/badge/Vim-019733?logo=vim&logoColor=white" height="18" style="margin-right: 18px" alt="Vim">
-        <img src="https://img.shields.io/badge/Shell-4EAA25?logo=gnu-bash&logoColor=white" height="18" style="margin-right: 18px" alt="Shell">
-        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white" height="18" style="margin-right: 18px" alt="GitHub Actions">
-        <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?logo=argo&logoColor=white" height="18" style="margin-right: 18px" alt="ArgoCD">
     </div>
     <h4>Advanced: </h4>
     <div>
-        <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" height="18" alt="Go" style="margin-right: 18px">
-        
-        <img src="https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white" height="18" alt="Terraform" style="margin-right: 18px">
         
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="18" alt="GCP" style="margin-right: 18px">
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="18" alt="AWS" style="margin-right: 18px">
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original-wordmark.svg" height="18" alt="Kubernetes" style="margin-right: 18px">
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" height="18" alt="Docker" style="margin-right: 18px">
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" height="18" alt="GitHub" style="margin-right: 18px">
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" height="18" alt="PostgreSQL" style="margin-right: 18px">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     </div>
     <h4>Intermediate: </h4>
     <div>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" height="18" alt="TypeScript" style="margin-right: 18px">
         
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg" height="18" alt="Next.js" style="margin-right: 18px">
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" height="18" alt="React" style="margin-right: 18px">
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original-wordmark.svg" height="18" alt="NestJs" style="margin-right: 18px">
-        <img src="https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white" height="18" alt="Swift" style="margin-right: 18px">
-        
-        <img src="https://img.shields.io/badge/Python-306998?logo=python&logoColor=white" height="18" alt="Python" style="margin-right: 18px">
         
         
-        <img src="https://cdn.simpleicons.org/firebase/FFCA28" height="18" alt="Firebase" style="margin-right: 18px">
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" height="18" alt="MySQL" style="margin-right: 18px">
         
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original-wordmark.svg" height="18" alt="Redis" style="margin-right: 18px">
-        <img src="https://img.shields.io/badge/Rust-B7410E?logo=rust&logoColor=white" height="18" alt="Rust" style="margin-right: 18px">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
     </div>
     <h4>Beginner: </h4>
     <div>
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg" height="18" alt="Vue.js" style="margin-right: 18px">
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original-wordmark.svg" height="18" alt="NuxtJs" style="margin-right: 18px">
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" height="18" alt="Tailwind CSS" style="margin-right: 18px">
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original-wordmark.svg" height="18" alt="FastAPI" style="margin-right: 18px">
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" height="18" alt="MongoDB" style="margin-right: 18px">
-        <img src="https://img.shields.io/badge/C%2B%2B-F34B7F?logo=c%2B%2B&logoColor=white" height="18" alt="C++" style="margin-right: 18px">
-        
-        
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original-wordmark.svg" height="18" alt="Unity" style="margin-right: 18px">
     </div>
     <h4>PG Stats: </h4>
     <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
@@ -263,28 +305,84 @@
         </thead>
         <tbody>
             <tr>
-                <td><a href="https://github.com/impostor-syndromes/README.pet"><b>README.pet</b></a></td>
-                <td><p>Raise a pet on your Github profile screen! Today&#39;s commit will be your pet&#39;s food!</p></td>
-                <td><img src="https://img.shields.io/github/stars/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Stars" /></td>
-                <td><img src="https://img.shields.io/github/forks/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Forks" /></td>
-                <td><img src="https://img.shields.io/github/issues/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Issues" /></td>
-                <td><img src="https://img.shields.io/github/issues-pr/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+                <td><a href=""><b>片親お助け カレンダー構築</b></a></td>
+                <td><p></p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
             </tr>
             <tr>
-                <td><a href="https://gitea.com/takenoko/PresenterPro"><b>PresenterPro</b></a></td>
-                <td><p>PresenterPro supports presenters in the offline presentation of material created with existing presentation tools.</p></td>
-                <td><img src="https://img.shields.io/gitea/stars/takenoko/PresenterPro?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Stars" /></td>
-                <td><img src="https://img.shields.io/gitea/forks/takenoko/PresenterPro?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Forks" /></td>
-                <td><img src="https://img.shields.io/gitea/issues/takenoko/PresenterPro?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Issues" /></td>
-                <td><img src="https://img.shields.io/gitea/issues-pr/takenoko/PresenterPro?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+                <td><a href=""><b>レベニュー マネジメント AIシステム基盤構築</b></a></td>
+                <td><p></p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
             </tr>
             <tr>
-                <td><a href="https://github.com/hizuki-mimuro/EchoSleep"><b>EchoSleep</b></a></td>
-                <td><p>It supports all during sleep, waking and before sleep, and aims to improve quality of life through sleep.</p></td>
-                <td><img src="https://img.shields.io/github/stars/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Stars" /></td>
-                <td><img src="https://img.shields.io/github/forks/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Forks" /></td>
-                <td><img src="https://img.shields.io/github/issues/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Issues" /></td>
-                <td><img src="https://img.shields.io/github/issues-pr/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+                <td><a href=""><b>オンラインギフト システム構築</b></a></td>
+                <td><p></p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            <tr>
+                <td><a href=""><b>プラットフォーム 基盤システム構築</b></a></td>
+                <td><p></p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            <tr>
+                <td><a href=""><b>オンプレからクラウド 移行作業</b></a></td>
+                <td><p></p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            <tr>
+                <td><a href=""><b>電力会社支援 システム構築</b></a></td>
+                <td><p></p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            <tr>
+                <td><a href=""><b>採用エントリー 自動評価 AIシステム構築</b></a></td>
+                <td><p></p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            <tr>
+                <td><a href=""><b>社内システム</b></a></td>
+                <td><p></p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            <tr>
+                <td><a href=""><b>予約サイト構築</b></a></td>
+                <td><p></p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
+            </tr>
+            <tr>
+                <td><a href=""><b>認可基盤</b></a></td>
+                <td><p></p></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Stars" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Forks" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Issues" /></td>
+                <td><img src="" height="28" style="margin-right: 18px" alt="Pull Requests" /></td>
             </tr>
         </tbody>
     </table>

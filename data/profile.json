@@ -84,158 +84,443 @@
         "business": "https://www.ageha734.jp"
     },
     "skills": {
-        "tools": [
-            {
-                "name": "Vim",
-                "badge": "https://img.shields.io/badge/Vim-019733?logo=vim&logoColor=white"
-            },
-            {
-                "name": "Shell",
-                "badge": "https://img.shields.io/badge/Shell-4EAA25?logo=gnu-bash&logoColor=white"
-            },
-            {
-                "name": "GitHub Actions",
-                "badge": "https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white"
-            },
-            {
-                "name": "ArgoCD",
-                "badge": "https://img.shields.io/badge/ArgoCD-EF7B4D?logo=argo&logoColor=white"
-            }
-        ],
         "advanced": [
             {
-                "name": "Go",
-                "badge": "https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white"
+                "name": "Go(Golang)",
+                "years": 4,
+                "category": "言語"
+            },
+            {
+                "name": "Python",
+                "years": 4,
+                "category": "言語"
             },
             {
                 "name": "Terraform",
-                "badge": "https://img.shields.io/badge/Terraform-623CE4?logo=terraform&logoColor=white"
+                "years": 3,
+                "category": "言語"
             },
             {
-                "name": "GCP",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+                "name": "Echo",
+                "years": 4,
+                "category": "フレームラーク ライブラリ"
+            },
+            {
+                "name": "Django",
+                "years": 4,
+                "category": "フレームラーク ライブラリ"
+            },
+            {
+                "name": "MySQL",
+                "years": 5,
+                "category": "DB"
+            },
+            {
+                "name": "Redis",
+                "years": 3,
+                "category": "DB"
+            },
+            {
+                "name": "TiDB",
+                "years": 2,
+                "category": "DB"
+            },
+            {
+                "name": "Ubuntu",
+                "years": 5,
+                "category": "OS"
+            },
+            {
+                "name": "Debian",
+                "years": 5,
+                "category": "OS"
+            },
+            {
+                "name": "Amazon Linux",
+                "years": 3,
+                "category": "OS"
+            },
+            {
+                "name": "Alibaba Cloud",
+                "years": 2,
+                "category": "クラウド 仮想化"
             },
             {
                 "name": "AWS",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                "years": 4,
+                "category": "クラウド 仮想化"
             },
             {
-                "name": "Kubernetes",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original-wordmark.svg"
+                "name": "Azure",
+                "years": 2,
+                "category": "クラウド 仮想化"
+            },
+            {
+                "name": "Cloudflare",
+                "years": 3,
+                "category": "クラウド 仮想化"
             },
             {
                 "name": "Docker",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg"
+                "years": 5,
+                "category": "クラウド 仮想化"
             },
             {
-                "name": "GitHub",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+                "name": "Google Cloud",
+                "years": 4,
+                "category": "クラウド 仮想化"
             },
             {
-                "name": "PostgreSQL",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"
+                "name": "Oracle Cloud",
+                "years": 3,
+                "category": "クラウド 仮想化"
+            },
+            {
+                "name": "Sakura Cloud",
+                "years": 2,
+                "category": "クラウド 仮想化"
+            },
+            {
+                "name": "GitHub Actions",
+                "years": 4,
+                "category": "クラウド 仮想化"
+            },
+            {
+                "name": "NAVER Cloud Platform",
+                "years": 2,
+                "category": "クラウド 仮想化"
+            },
+            {
+                "name": "Docker Compose",
+                "years": 4,
+                "category": "クラウド 仮想化"
+            },
+            {
+                "name": "Datadog",
+                "years": 2,
+                "category": "その他"
+            },
+            {
+                "name": "Prometheus",
+                "years": 4,
+                "category": "その他"
+            },
+            {
+                "name": "OpenTelemetry",
+                "years": 3,
+                "category": "その他"
+            },
+            {
+                "name": "Grafana",
+                "years": 4,
+                "category": "その他"
+            },
+            {
+                "name": "Sentry",
+                "years": 2,
+                "category": "その他"
             }
         ],
         "intermediate": [
             {
                 "name": "TypeScript",
-                "badge": "https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white"
+                "years": 3,
+                "category": "言語"
             },
             {
-                "name": "Next.js",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg"
-            },
-            {
-                "name": "React",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
-            },
-            {
-                "name": "NestJs",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original-wordmark.svg"
-            },
-            {
-                "name": "Swift",
-                "badge": "https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white"
-            },
-            {
-                "name": "Python",
-                "badge": "https://img.shields.io/badge/Python-306998?logo=python&logoColor=white"
-            },
-            { "name": "Firebase", "icon": "https://cdn.simpleicons.org/firebase/FFCA28" },
-            {
-                "name": "MySQL",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
-            },
-            {
-                "name": "Redis",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original-wordmark.svg"
+                "name": "JavaScript",
+                "years": 5,
+                "category": "言語"
             },
             {
                 "name": "Rust",
-                "badge": "https://img.shields.io/badge/Rust-B7410E?logo=rust&logoColor=white"
-            }
-        ],
-        "beginner": [
-            {
-                "name": "Vue.js",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg"
+                "years": 2,
+                "category": "言語"
             },
             {
-                "name": "NuxtJs",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original-wordmark.svg"
-            },
-            {
-                "name": "Tailwind CSS",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                "name": "Gin",
+                "years": 3,
+                "category": "フレームラーク ライブラリ"
             },
             {
                 "name": "FastAPI",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original-wordmark.svg"
+                "years": 3,
+                "category": "フレームラーク ライブラリ"
             },
             {
-                "name": "MongoDB",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
+                "name": "Express",
+                "years": 3,
+                "category": "フレームラーク ライブラリ"
             },
             {
-                "name": "C++",
-                "badge": "https://img.shields.io/badge/C%2B%2B-F34B7F?logo=c%2B%2B&logoColor=white"
+                "name": "Helm",
+                "years": 2,
+                "category": "フレームラーク ライブラリ"
             },
             {
-                "name": "Unity",
-                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original-wordmark.svg"
+                "name": "Kustomize",
+                "years": 2,
+                "category": "フレームラーク ライブラリ"
+            },
+            {
+                "name": "PostgreSQL",
+                "years": 3,
+                "category": "DB"
+            },
+            {
+                "name": "Proxmox VE",
+                "years": 2,
+                "category": "OS"
+            },
+            {
+                "name": "Hyper-V",
+                "years": 3,
+                "category": "クラウド 仮想化"
+            },
+            {
+                "name": "IBM Cloud",
+                "years": 2,
+                "category": "クラウド 仮想化"
+            },
+            {
+                "name": "Kubernetes",
+                "years": 3,
+                "category": "クラウド 仮想化"
+            },
+            {
+                "name": "KVM",
+                "years": 3,
+                "category": "クラウド 仮想化"
+            },
+            {
+                "name": "OpenShift",
+                "years": 3,
+                "category": "クラウド 仮想化"
+            },
+            {
+                "name": "OpenStack",
+                "years": 2,
+                "category": "クラウド 仮想化"
+            },
+            {
+                "name": "VMware",
+                "years": 2,
+                "category": "クラウド 仮想化"
+            },
+            {
+                "name": "ArgoCD",
+                "years": 3,
+                "category": "クラウド 仮想化"
+            },
+            {
+                "name": "Cisco",
+                "years": 3,
+                "category": "ネットワーク"
+            },
+            {
+                "name": "Fotigate",
+                "years": 2,
+                "category": "ネットワーク"
+            },
+            {
+                "name": "Postman",
+                "years": 3,
+                "category": "その他"
+            }
+        ],
+        "basic": [
+            {
+                "name": "Java",
+                "years": 5,
+                "category": "言語"
+            },
+            {
+                "name": "Next.js",
+                "years": 3,
+                "category": "フレームラーク ライブラリ"
+            },
+            {
+                "name": "Nest.js",
+                "years": 2,
+                "category": "フレームラーク ライブラリ"
+            },
+            {
+                "name": "React Native",
+                "years": 2,
+                "category": "フレームラーク ライブラリ"
+            },
+            {
+                "name": "Remix",
+                "years": 3,
+                "category": "フレームラーク ライブラリ"
+            },
+            {
+                "name": "CentOS",
+                "years": 3,
+                "category": "OS"
+            },
+            {
+                "name": "Locust",
+                "years": 1,
+                "category": "その他"
+            },
+            {
+                "name": "OWASP ZAP",
+                "years": 1,
+                "category": "その他"
             }
         ]
     },
     "projects": [
         {
-            "name": "README.pet",
-            "url": "https://github.com/impostor-syndromes/README.pet",
-            "description_en": "Raise a pet on your Github profile screen! Today's commit will be your pet's food!",
-            "description_ja": "Githubのプロフィール画面でペットを育てよう！今日のコミットがペットの餌になります！",
-            "stars_badge": "https://img.shields.io/github/stars/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41",
-            "forks_badge": "https://img.shields.io/github/forks/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41",
-            "issues_badge": "https://img.shields.io/github/issues/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41",
-            "prs_badge": "https://img.shields.io/github/issues-pr/impostor-syndromes/README.pet?style=flat-square&labelColor=343b41"
+            "no": 1,
+            "name": "片親お助け カレンダー構築",
+            "start": "",
+            "end": "",
+            "industry": "IT・通信",
+            "role_ja": "ソフトウェア エンジニア",
+            "role_en": "",
+            "scale": "2",
+            "title_ja": "片親お助け カレンダー構築",
+            "title_en": "",
+            "description_ja": "片親向けの生活支援カレンダーアプリの開発を担当。Flutterを用いたクロスプラットフォーム対応のアプリ実装、およびEchoによるバックエンドAPIの設計・実装を実施。また、PostgreSQLでのデータベース構築をはじめ、Google Cloud上でのインフラ環境整備まで一貫して担当。",
+            "description_en": "",
+            "tech_stack": "Flutter / Echo / Google SQL / Google Cloud"
         },
         {
-            "name": "PresenterPro",
-            "url": "https://gitea.com/takenoko/PresenterPro",
-            "description_en": "PresenterPro supports presenters in the offline presentation of material created with existing presentation tools.",
-            "description_ja": "PresenterProは、既存のプレゼンテーションツールで作成した資料をオフラインでプレゼンテーションする際のプレゼンターをサポートします。",
-            "stars_badge": "https://img.shields.io/gitea/stars/takenoko/PresenterPro?style=flat-square&labelColor=343b41",
-            "forks_badge": "https://img.shields.io/gitea/forks/takenoko/PresenterPro?style=flat-square&labelColor=343b41",
-            "issues_badge": "https://img.shields.io/gitea/issues/takenoko/PresenterPro?style=flat-square&labelColor=343b41",
-            "prs_badge": "https://img.shields.io/gitea/issues-pr/takenoko/PresenterPro?style=flat-square&labelColor=343b41"
+            "no": 2,
+            "name": "レベニュー マネジメント AIシステム基盤構築",
+            "start": "",
+            "end": "",
+            "industry": "ホテル",
+            "role_ja": "クラウド エンジニア",
+            "role_en": "",
+            "scale": "2",
+            "title_ja": "レベニュー マネジメント AIシステム基盤構築",
+            "title_en": "",
+            "description_ja": "ホテル向け収益最適化システムのクラウドインフラ設計を担当。AngularおよびFastAPIを用いたWebアプリケーション開発と、AWS上での本番環境構築を実施。MySQLによるデータベース設計に加え、システムの冗長化やアーキテクチャの最適化を通じた可用性の向上を一貫して担当。",
+            "description_en": "",
+            "tech_stack": "Angular / FastAPI / MySQL / AWS"
         },
         {
-            "name": "EchoSleep",
-            "url": "https://github.com/hizuki-mimuro/EchoSleep",
-            "description_en": "It supports all during sleep, waking and before sleep, and aims to improve quality of life through sleep.",
-            "description_ja": "睡眠中、起床時、睡眠前のすべてをサポートし、睡眠を通じて生活の質の向上を目指す。",
-            "stars_badge": "https://img.shields.io/github/stars/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41",
-            "forks_badge": "https://img.shields.io/github/forks/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41",
-            "issues_badge": "https://img.shields.io/github/issues/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41",
-            "prs_badge": "https://img.shields.io/github/issues-pr/hizuki-mimuro/EchoSleep?style=flat-square&labelColor=343b41"
+            "no": 3,
+            "name": "オンラインギフト システム構築",
+            "start": "",
+            "end": "",
+            "industry": "IT・通信",
+            "role_ja": "ソフトウェア エンジニア",
+            "role_en": "",
+            "scale": "6",
+            "title_ja": "オンラインギフト システム構築",
+            "title_en": "",
+            "description_ja": "親孝行をテーマとしたギフトプラットフォームの開発を担当。マイクロサービスアーキテクチャを採用し、KubernetesによるコンテナオーケストレーションおよびTerraformを用いたIaCを実現。バックエンドではEchoとCloud Spannerを活用し、スケーラビリティを考慮した設計・実装を一貫して実施。",
+            "description_en": "",
+            "tech_stack": "Echo / AWS / Google Cloud / TiDB / Terraform / Kubernetes"
+        },
+        {
+            "no": 4,
+            "name": "プラットフォーム 基盤システム構築",
+            "start": "",
+            "end": "",
+            "industry": "IT・通信",
+            "role_ja": "クラウド エンジニア",
+            "role_en": "",
+            "scale": "5",
+            "title_ja": "プラットフォーム 基盤システム構築",
+            "title_en": "",
+            "description_ja": "社内共通基盤となるマイクロサービス環境の構築を担当。EKSクラスタの構築、およびTerraformを用いたIaCを実施。また、MySQLのレプリケーション構成の設計やバックアップ体制の整備など、高可用性とデータ保護を担保したデータベース基盤の構築までを一貫して担当。",
+            "description_en": "",
+            "tech_stack": "AWS / MySQL / Terraform / Kubernetes"
+        },
+        {
+            "no": 5,
+            "name": "オンプレからクラウド 移行作業",
+            "start": "",
+            "end": "",
+            "industry": "金融・医療",
+            "role_ja": "クラウド エンジニア",
+            "role_en": "",
+            "scale": "5",
+            "title_ja": "オンプレからクラウド 移行作業",
+            "title_en": "",
+            "description_ja": "サポートエンジニアとして、金融や医療業界をはじめとする顧客のクラウド移行プロジェクトに参画し、技術支援を実施。",
+            "description_en": "",
+            "tech_stack": "AWS / Terraform"
+        },
+        {
+            "no": 6,
+            "name": "電力会社支援 システム構築",
+            "start": "",
+            "end": "",
+            "industry": "インフラ",
+            "role_ja": "クラウド エンジニア",
+            "role_en": "",
+            "scale": "6",
+            "title_ja": "電力会社支援 システム構築",
+            "title_en": "",
+            "description_ja": "電力使用量の可視化・分析システムにおけるインフラ基盤の構築を担当。AWSを用いた高可用なアーキテクチャの設計、およびTerraformによるIaCと構成管理を実施。また、災害復旧を考慮したマルチリージョンでの冗長構成を実現。",
+            "description_en": "",
+            "tech_stack": "AWS / Terraform"
+        },
+        {
+            "no": 7,
+            "name": "採用エントリー 自動評価 AIシステム構築",
+            "start": "",
+            "end": "",
+            "industry": "人材",
+            "role_ja": "ソフトウェア エンジニア",
+            "role_en": "",
+            "scale": "1",
+            "title_ja": "採用エントリー 自動評価 AIシステム構築",
+            "title_en": "",
+            "description_ja": "応募者の書類を自動評価するAIシステムの開発を担当。NLPを活用した評価ロジックの実装から、Streamlitを用いたWeb UIの構築までを一貫して実施。また、Google Cloud上でのMLOpsの設計・構築も主導。",
+            "description_en": "",
+            "tech_stack": "Streamlit / Google Cloud"
+        },
+        {
+            "no": 8,
+            "name": "社内システム",
+            "start": "",
+            "end": "",
+            "industry": "IT・通信",
+            "role_ja": "クラウド エンジニア",
+            "role_en": "",
+            "scale": "2",
+            "title_ja": "社内システム",
+            "title_en": "",
+            "description_ja": "社内業務効率化のためのワークフローシステム開発を担当。Kintoneをベースとしたカスタマイズ構築に加え、GASを用いた自動化機能の実装を推進。アナログな承認フローの完全電子化を実現し、業務の大幅な効率化に貢献。",
+            "description_en": "",
+            "tech_stack": "Kintone / Google Apps Script"
+        },
+        {
+            "no": 9,
+            "name": "予約サイト構築",
+            "start": "",
+            "end": "",
+            "industry": "旅行",
+            "role_ja": "ソフトウェア エンジニア",
+            "role_en": "",
+            "scale": "4",
+            "title_ja": "予約サイト構築",
+            "title_en": "",
+            "description_ja": "観光地特化型の予約サイト開発を担当。DjangoとPostgreSQLを用いたバックエンド開発、およびGoogle Cloud上でのインフラ構築を実施。データ整合性が求められる予約システムの設計から実装までを一貫して主導。",
+            "description_en": "",
+            "tech_stack": "Django / PostgreSQL / Google Cloud"
+        },
+        {
+            "no": 10,
+            "name": "認可基盤",
+            "start": "",
+            "end": null,
+            "industry": "IT・通信",
+            "role_ja": "サーバーサイド エンジニア",
+            "role_en": "",
+            "scale": "-",
+            "title_ja": "認可基盤",
+            "title_en": "",
+            "description_ja": "認可基盤のサーバーサイド開発および運用保守を担当。Go、TiDB、Redisを用いたバックエンド実装に加え、Datadogによる監視基盤の設計・強化、デベロッパーサイトの構築を行いグループ全体に横断的に展開していていき推進を行い、作業効率向上。また脆弱性対応といったセキュリティ強化などを一貫して担当。",
+            "description_en": "",
+            "tech_stack": "Go / Google Cloud / AWS / Terraform / Kubernetes / ArgoCD / Datadog"
         }
     ],
     "community": [
@@ -274,37 +559,77 @@
             "badge": "https://img.shields.io/badge/Personal_Tech_Blog-0-f19db5.svg?&style=flat"
         }
     ],
-    "certifications": [
-        { "year": 2020, "month": 10, "name_en": "TOEIC 870", "name_ja": "TOEIC 870" },
+    "certifications": [],
+    "work_experience": [
         {
-            "year": 2022,
-            "month": 3,
-            "name_en": "AWS Certified Solutions Architect - Associate",
-            "name_ja": "AWS ソリューションアーキテクトアソシエイト"
+            "company_en": "",
+            "company_ja": "10pct.株式会社",
+            "start": "2023年9月",
+            "end": "2024年3月",
+            "role_en": "",
+            "role_ja": "クラウド エンジニア",
+            "description_en": "",
+            "description_ja": ""
         },
         {
-            "year": 2022,
-            "month": 10,
-            "name_en": "Applied Information Technology Engineer (IPA)",
-            "name_ja": "IPA 応用情報技術者試験"
+            "company_en": "",
+            "company_ja": "株式会社Piety",
+            "start": "2023年9月",
+            "end": "2024年3月",
+            "role_en": "",
+            "role_ja": "ソフトウェア エンジニア",
+            "description_en": "",
+            "description_ja": ""
         },
         {
-            "year": 2023,
-            "month": 1,
-            "name_en": "Japan Statistical Society Certificate Grade Pre-1",
-            "name_ja": "JSSC 統計検定準１級"
+            "company_en": "",
+            "company_ja": "スキルシステムズ株式会社",
+            "start": "2024年2月",
+            "end": "2024年7月",
+            "role_en": "",
+            "role_ja": "クラウド エンジニア",
+            "description_en": "",
+            "description_ja": ""
         },
         {
-            "year": 2023,
-            "month": 4,
-            "name_en": "Network Specialist Examination (IPA)",
-            "name_ja": "IPA ネットワークスペシャリスト試験"
+            "company_en": "",
+            "company_ja": "株式会社Grid Solutions",
+            "start": "2024年4月",
+            "end": "2024年10月",
+            "role_en": "",
+            "role_ja": "クラウド エンジニア",
+            "description_en": "",
+            "description_ja": ""
         },
         {
-            "year": 2023,
-            "month": 10,
-            "name_en": "Database Specialist Examination (IPA)",
-            "name_ja": "IPA データベーススペシャリスト試験"
+            "company_en": "",
+            "company_ja": "株式会社はてなベース",
+            "start": "2024年4月",
+            "end": "2024年11月",
+            "role_en": "",
+            "role_ja": "ソフトウェア エンジニア",
+            "description_en": "",
+            "description_ja": ""
+        },
+        {
+            "company_en": "",
+            "company_ja": "Ｋ．Ｓ．ロジャース株式会社",
+            "start": "2024年4月",
+            "end": null,
+            "role_en": "",
+            "role_ja": "クラウド エンジニア",
+            "description_en": "",
+            "description_ja": ""
+        },
+        {
+            "company_en": "",
+            "company_ja": "合同会社DMM.com",
+            "start": "2025年4月",
+            "end": null,
+            "role_en": "",
+            "role_ja": "サーバーサイド エンジニア",
+            "description_en": "",
+            "description_ja": ""
         }
     ]
 }
