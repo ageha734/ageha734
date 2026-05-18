@@ -36,8 +36,24 @@ jobs:
           GAS_HMAC_SECRET: ${{ secrets.GAS_HMAC_SECRET }}
           PORTFOLIO_URL: ${{ inputs.portfolio-url }}
 
-      - name: Run E2E tests
-        run: docker compose -f compose.e2e.yml up --no-recreate --abort-on-container-exit --exit-code-from e2e e2e
+      - name: Run setup project (sync + generate)
+        run: docker compose -f compose.e2e.yml run --rm e2e pnpm exec playwright test --project=setup
+        env:
+          GAS_API_URL: ${{ inputs.gas-api-url }}
+          GAS_HMAC_SECRET: ${{ secrets.GAS_HMAC_SECRET }}
+          PORTFOLIO_URL: ${{ inputs.portfolio-url }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+
+      - name: Sync generated docs back to host
+        run: docker compose -f compose.e2e.yml --profile setup run --rm repo
+        env:
+          GAS_API_URL: ${{ inputs.gas-api-url }}
+          GAS_HMAC_SECRET: ${{ secrets.GAS_HMAC_SECRET }}
+          PORTFOLIO_URL: ${{ inputs.portfolio-url }}
+
+      - name: Run chromium project
+        run: docker compose -f compose.e2e.yml run --rm e2e pnpm exec playwright test --project=chromium --no-deps
         env:
           GAS_API_URL: ${{ inputs.gas-api-url }}
           GAS_HMAC_SECRET: ${{ secrets.GAS_HMAC_SECRET }}

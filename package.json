@@ -24,7 +24,7 @@
         "dev:portfolio": "pnpm dlx serve docs -p 3000",
         "lockgen:cv-api": "docker run --rm $(docker build -q -f cv-api/Dockerfile cv-api) sh -lc 'cat /app/pnpm-lock.yaml' > cv-api/pnpm-lock.yaml",
         "lockgen:e2e": "docker run --rm $(docker build -q -f e2e/Dockerfile e2e) sh -lc 'cat /app/pnpm-lock.yaml' > e2e/pnpm-lock.yaml",
-        "e2e": "docker compose -f compose.e2e.yml down && docker compose -f compose.e2e.yml up --build -d cv-api sync portfolio && docker compose -f compose.e2e.yml --profile setup run --rm setup && docker compose -f compose.e2e.yml up --no-recreate --abort-on-container-exit --exit-code-from e2e e2e"
+        "e2e": "docker compose -f compose.e2e.yml down && docker compose -f compose.e2e.yml up --build -d cv-api sync portfolio && docker compose -f compose.e2e.yml --profile setup run --rm setup && docker compose -f compose.e2e.yml run --rm e2e pnpm exec playwright test --project=setup && docker compose -f compose.e2e.yml --profile setup run --rm repo && docker compose -f compose.e2e.yml run --rm e2e pnpm exec playwright test --project=chromium --no-deps"
     },
     "dependencies": {
         "mustache": "4.2.0"

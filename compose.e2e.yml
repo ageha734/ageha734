@@ -54,6 +54,22 @@ services:
         curl -T /workspace/templates/portfolio.html.mustache "ftp://syncuser:syncpass@sync:2121/templates/portfolio.html.mustache" --ftp-create-dirs &&
         curl -T /workspace/package.json "ftp://syncuser:syncpass@sync:2121/package.json"
 
+  repo:
+    image: alpine@sha256:5b10f432ef3da1b8d4c7eb6c487f2f5a8f096bc91145e68878dd4a5019afde11
+    profiles: [setup]
+    depends_on:
+      sync:
+        condition: service_healthy
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    entrypoint: [sh, -c]
+    command:
+      - |
+        apk add --no-cache curl=8.19.0-r0 &&
+        mkdir -p /workspace/docs &&
+        curl --fail --retry 10 --retry-delay 2 "ftp://syncuser:syncpass@sync:2121/docs/index.html" -o /workspace/docs/index.html
+
   portfolio:
     image: node@sha256:968df39aedcea65eeb078fb336ed7191baf48f972b4479711397108be0966920
     working_dir: /app
