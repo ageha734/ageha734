@@ -89,13 +89,12 @@ jobs:
           path: .
 
       - name: Verify GAS artifact checksum
-        working-directory: cv-api
         run: |
-          test -f dist/function.js
-          test -f dist/function.js.sha256
-          test -f dist/appsscript.json
-          EXPECTED_HASH=$(tr -d '\r\n[:space:]' < dist/function.js.sha256)
-          ACTUAL_HASH=$(sha256sum dist/function.js | awk '{print $1}')
+          test -f function.js
+          test -f function.js.sha256
+          test -f appsscript.json
+          EXPECTED_HASH=$(tr -d '\r\n[:space:]' < function.js.sha256)
+          ACTUAL_HASH=$(sha256sum function.js | awk '{print $1}')
           test "$EXPECTED_HASH" = "$ACTUAL_HASH"
 
       - name: Set up clasp credentials
@@ -103,7 +102,7 @@ jobs:
 
       - name: Write .clasp.json
         run: |
-          echo '{"scriptId":"${{ secrets.GAS_SCRIPT_ID }}","rootDir":"cv-api/dist"}' > .clasp.json
+          echo '{"scriptId":"${{ secrets.GAS_SCRIPT_ID }}","rootDir":"."}' > .clasp.json
 
       - name: Get current deployment version
         id: get-version
@@ -154,7 +153,7 @@ jobs:
 
       - name: Write .clasp.json
         run: |
-          echo '{"scriptId":"${{ secrets.GAS_SCRIPT_ID }}","rootDir":"cv-api/dist"}' > .clasp.json
+          echo '{"scriptId":"${{ secrets.GAS_SCRIPT_ID }}","rootDir":"."}' > .clasp.json
 
       - name: Rollback to previous version
         run: |
