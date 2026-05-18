@@ -4,3 +4,4 @@
 .env
 .textlint-cache
 .secretlint-cache
+.pnpm-store
