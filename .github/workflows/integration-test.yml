@@ -7,7 +7,6 @@ on:
   pull_request:
     paths:
       - "cv-api/**"
-  workflow_dispatch:
 
 jobs:
   cv-api-integration-test:

@@ -19,7 +19,6 @@ on:
       - "data/**"
       - "templates/**"
       - "compose.e2e.yml"
-  workflow_dispatch:
 
 permissions:
   contents: read
