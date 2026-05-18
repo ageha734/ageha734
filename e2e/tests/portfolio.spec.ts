@@ -3,8 +3,8 @@ import {expect, test} from '@playwright/test'
 const SYNC_URL = process.env['SYNC_SERVER_URL'] ?? 'http://localhost:14000'
 
 interface Profile {
-    skills: {advanced: {name: string}[]}
-    projects: {name: string}[]
+    skills: Record<string, {name: string}[]>
+    projects: {name: string; title_ja?: string}[]
 }
 
 async function fetchProfile(): Promise<Profile> {
