@@ -109,7 +109,7 @@
     },
     "overrides": [
         {
-            "include": ["cv-api/Code.ts"],
+            "include": ["cv-api/function.ts"],
             "linter": {
                 "rules": {
                     "correctness": {

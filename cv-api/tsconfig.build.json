@@ -4,5 +4,5 @@
         "noUnusedParameters": false
     },
     "extends": "./tsconfig.json",
-    "include": ["Code.ts", "presentation/**/*.ts", "domain/**/*.ts", "infrastructure/**/*.ts"]
+    "include": ["function.ts", "presentation/**/*.ts", "domain/**/*.ts", "infrastructure/**/*.ts"]
 }
