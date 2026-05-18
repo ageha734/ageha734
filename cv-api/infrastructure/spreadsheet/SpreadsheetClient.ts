@@ -101,21 +101,26 @@ function parseCertifications(rows: unknown[][]): SheetRow[] {
  * @returns 個別スキルエントリの配列
  */
 function parseSkillEntries(category: string, grade: string, text: string): SheetRow[] {
-    const pattern = /([^(]+)\(([^)]+)\)\((\d+)\)/g
+    // Supports both "Go(Golang)(4)" and "Echo(4)" formats.
+    const pattern = /([^(]+?)(?:\(([^)]+)\))?\((\d+)\)/g
     const result: SheetRow[] = []
     let match: RegExpExecArray | null
     pattern.lastIndex = 0
     while ((match = pattern.exec(text)) !== null) {
+        const rawName = match[1].trim()
+        const detail = (match[2] ?? '').trim()
+        const years = Number(match[3])
         result.push({
             category,
-            name: `${match[1].trim()}(${match[2].trim()})`,
-            years: Number(match[3]),
+            name: detail ? `${rawName}(${detail})` : rawName,
+            years,
             grade
         })
     }
     if (result.length === 0) {
+        // Keep fallback conservative to avoid character-by-character corruption.
         const fallbacks = text
-            .split(/(?=[A-Za-z぀-ヿ一-鿿])/)
+            .split(/[/、,]/)
             .map(s => s.trim())
             .filter(Boolean)
         for (const name of fallbacks) {
