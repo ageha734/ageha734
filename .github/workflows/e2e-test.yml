@@ -21,6 +21,10 @@ on:
       - "compose.e2e.yml"
   workflow_dispatch:
 
+permissions:
+  contents: read
+  actions: write
+
 jobs:
   e2e-test:
     name: E2E Tests
