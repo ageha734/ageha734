@@ -43,18 +43,22 @@ interface WorkRow {
 interface SkillRow {
     category: unknown
     name: unknown
-    badge_url: unknown
-    icon_url: unknown
+    years: unknown
+    grade: unknown
 }
 interface ProjectRow {
-    name: unknown
-    url: unknown
-    description_en: unknown
+    no: unknown
+    start: unknown
+    end: unknown
+    industry: unknown
+    role_ja: unknown
+    role_en: unknown
+    scale: unknown
+    title_ja: unknown
+    title_en: unknown
     description_ja: unknown
-    stars_badge: unknown
-    forks_badge: unknown
-    issues_badge: unknown
-    prs_badge: unknown
+    description_en: unknown
+    tech_stack: unknown
 }
 
 function str(v: unknown): string {
@@ -103,29 +107,42 @@ function normalizeWorkExperience(rows: RawRow[]) {
     }))
 }
 
+const GRADE_MAP: Record<string, string> = {
+    A: 'advanced',
+    B: 'intermediate',
+    C: 'basic',
+    D: 'knowledge'
+}
+
 function normalizeSkills(rows: RawRow[]) {
-    const categories: Record<string, {name: string; badge?: string; icon?: string}[]> = {}
+    const groups: Record<string, {name: string; years: number | null; category: string}[]> = {}
     for (const r of rows as unknown as SkillRow[]) {
-        const cat = str(r.category) || 'other'
-        categories[cat] ??= []
-        const entry: {name: string; badge?: string; icon?: string} = {name: str(r.name)}
-        if (r.badge_url) entry.badge = str(r.badge_url)
-        if (r.icon_url) entry.icon = str(r.icon_url)
-        categories[cat]?.push(entry)
+        const gradeKey = GRADE_MAP[str(r.grade)] ?? 'other'
+        groups[gradeKey] ??= []
+        groups[gradeKey]?.push({
+            name: str(r.name),
+            years: r.years != null && r.years !== '' ? Number(r.years) : null,
+            category: str(r.category)
+        })
     }
-    return categories
+    return groups
 }
 
 function normalizeProjects(rows: RawRow[]) {
     return (rows as unknown as ProjectRow[]).map(r => ({
-        name: str(r.name),
-        url: str(r.url),
-        description_en: str(r.description_en),
+        no: Number(r.no),
+        name: str(r.title_ja),
+        start: str(r.start),
+        end: r.end == null ? null : str(r.end),
+        industry: str(r.industry),
+        role_ja: str(r.role_ja),
+        role_en: str(r.role_en),
+        scale: str(r.scale),
+        title_ja: str(r.title_ja),
+        title_en: str(r.title_en),
         description_ja: str(r.description_ja),
-        stars_badge: str(r.stars_badge),
-        forks_badge: str(r.forks_badge),
-        issues_badge: str(r.issues_badge),
-        prs_badge: str(r.prs_badge)
+        description_en: str(r.description_en),
+        tech_stack: str(r.tech_stack)
     }))
 }
 
