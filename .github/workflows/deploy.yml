@@ -50,6 +50,9 @@ jobs:
       - name: Build
         run: pnpm build
 
+      - name: Prepare GAS deploy files
+        run: cp appsscript.json dist/appsscript.json
+
       - name: Create artifact checksum
         run: (cd dist && sha256sum Code.js | awk '{print $1}' > Code.js.sha256)
 
@@ -60,7 +63,7 @@ jobs:
           path: |
             cv-api/dist/Code.js
             cv-api/dist/Code.js.sha256
-            cv-api/appsscript.json
+            cv-api/dist/appsscript.json
           retention-days: 1
 
   deploy:
@@ -88,19 +91,11 @@ jobs:
       - name: Verify GAS artifact checksum
         working-directory: cv-api
         run: |
-          CODE_PATH=""
-          HASH_PATH=""
-
-          if [ -f Code.js ]; then CODE_PATH="Code.js"; fi
-          if [ -f dist/Code.js ]; then CODE_PATH="dist/Code.js"; fi
-          if [ -f Code.js.sha256 ]; then HASH_PATH="Code.js.sha256"; fi
-          if [ -f dist/Code.js.sha256 ]; then HASH_PATH="dist/Code.js.sha256"; fi
-
-          test -n "$CODE_PATH"
-          test -n "$HASH_PATH"
-
-          EXPECTED_HASH=$(tr -d '\r\n[:space:]' < "$HASH_PATH")
-          ACTUAL_HASH=$(sha256sum "$CODE_PATH" | awk '{print $1}')
+          test -f dist/Code.js
+          test -f dist/Code.js.sha256
+          test -f dist/appsscript.json
+          EXPECTED_HASH=$(tr -d '\r\n[:space:]' < dist/Code.js.sha256)
+          ACTUAL_HASH=$(sha256sum dist/Code.js | awk '{print $1}')
           test "$EXPECTED_HASH" = "$ACTUAL_HASH"
 
       - name: Set up clasp credentials
@@ -108,7 +103,7 @@ jobs:
 
       - name: Write .clasp.json
         run: |
-          echo '{"scriptId":"${{ secrets.GAS_SCRIPT_ID }}","rootDir":"cv-api"}' > cv-api/.clasp.json
+          echo '{"scriptId":"${{ secrets.GAS_SCRIPT_ID }}","rootDir":"cv-api/dist"}' > cv-api/.clasp.json
 
       - name: Get current deployment version
         id: get-version
