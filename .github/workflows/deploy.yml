@@ -51,7 +51,7 @@ jobs:
         run: pnpm build
 
       - name: Create artifact checksum
-        run: (cd dist && sha256sum Code.js > Code.js.sha256)
+        run: (cd dist && sha256sum Code.js | awk '{print $1}' > Code.js.sha256)
 
       - name: Upload build artifact
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
@@ -88,9 +88,20 @@ jobs:
       - name: Verify GAS artifact checksum
         working-directory: cv-api
         run: |
-          test -f Code.js
-          test -f Code.js.sha256
-          sha256sum -c Code.js.sha256
+          CODE_PATH=""
+          HASH_PATH=""
+
+          if [ -f Code.js ]; then CODE_PATH="Code.js"; fi
+          if [ -f dist/Code.js ]; then CODE_PATH="dist/Code.js"; fi
+          if [ -f Code.js.sha256 ]; then HASH_PATH="Code.js.sha256"; fi
+          if [ -f dist/Code.js.sha256 ]; then HASH_PATH="dist/Code.js.sha256"; fi
+
+          test -n "$CODE_PATH"
+          test -n "$HASH_PATH"
+
+          EXPECTED_HASH=$(tr -d '\r\n[:space:]' < "$HASH_PATH")
+          ACTUAL_HASH=$(sha256sum "$CODE_PATH" | awk '{print $1}')
+          test "$EXPECTED_HASH" = "$ACTUAL_HASH"
 
       - name: Set up clasp credentials
         run: echo '${{ secrets.CLASP_CREDENTIALS }}' > ~/.clasprc.json
